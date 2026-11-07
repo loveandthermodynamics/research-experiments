@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-07",
+  "kind": "offline_characterization_replay",
+  "tests": 3,
+  "passed": 3,
+  "runtime_seconds": 0.008,
+  "historical_rows_match": true,
+  "interpretation": "Defects reproduced; not scientific acceptance. No provider calls; in-memory test configuration and socket/DNS guards.",
+  "environment": {
+    "python": "3.12.10",
+    "django": "5.2.5",
+    "djangorestframework": "3.16.1",
+    "numpy": "2.4.3",
+    "scipy": "1.17.1"
+  },
+  "probes": [
+    {
+      "http_status": 200,
+      "learned_state_unchanged": true,
+      "message_feedback": "negative",
+      "message_score": 0.2,
+      "probe": "late_manual_correction",
+      "resolve_calls": 0,
+      "retained_prediction_actual": 0.9
+    },
+    {
+      "beta": -1.0000000000000002,
+      "compliant": true,
+      "first_mean_fitness": 100.0,
+      "last_mean_fitness": 12.5,
+      "n_epochs": 8,
+      "p_value": 2.4999999999999995e-60,
+      "probe": "life_l6_fitness_decline",
+      "r_squared": 1.0,
+      "size_or_cost_observations": 0,
+      "status": "compliant",
+      "supplied_fields": [
+        "epoch_number",
+        "mean_fitness"
+      ],
+      "t1": 100.00000000000004
+    },
+    {
+      "current_responder": "B",
+      "evaluation_calls": 0,
+      "prediction_owner": "A",
+      "prediction_still_pending": true,
+      "probe": "alternating_agent_resolution",
+      "returned_none": true
+    }
+  ],
+  "raw_replay_log_sha256": "aa21205756cc6613422ef3fc6830927545043700ad91b7612ab99316334ab069",
+  "raw_log_published": false
+}

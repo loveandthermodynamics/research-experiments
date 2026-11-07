@@ -1,0 +1,165 @@
+{
+  "parameters": {
+    "fuel_packets": 12,
+    "thermal": 0.4,
+    "active_energy": 4.0,
+    "fuel_energy": 7.0,
+    "contact_energy": 0.5,
+    "active_binding": 0.8,
+    "contact_rate": 0.5,
+    "repair_rate": 0.08,
+    "contagion_rate": 0.3,
+    "permeability": 3,
+    "damage_good": 0.002,
+    "damage_bad": 0.002,
+    "environment_rate": 0.2,
+    "correlated_shock_rate": 0.15
+  },
+  "comparison": [
+    {
+      "responses": [
+        1,
+        1,
+        1
+      ],
+      "horizon": 30.0,
+      "initial_total_available_free_energy": 96.30236950034072,
+      "initial_active_available_free_energy": 12.302369379812763,
+      "active_exergy_time_integral": 67.95114969798409,
+      "active_site_time_integral": 19.684361019143356,
+      "fuel_consumed_net": 0.03530836851817476,
+      "total_free_energy_dissipated": 12.545719434228886,
+      "final_active_sites": 0.0332631547896098,
+      "final_active_exergy": 0.09608378081055431,
+      "final_unused_fuel": 11.964691631481825,
+      "average_bonds": 0.9874057771733897,
+      "average_largest_contact_component": 1.9141659738173644,
+      "maximum_local_detailed_balance_log_error": 2.6645352591003757e-14,
+      "net_fuel_balance_quadrature_error": 2.339526350425558e-10,
+      "initial_zero_contacts": true,
+      "no_ecological_reward": true,
+      "state_count": 1664,
+      "label": "One shared vulnerability"
+    },
+    {
+      "responses": [
+        1,
+        1,
+        -1
+      ],
+      "horizon": 30.0,
+      "initial_total_available_free_energy": 96.30236950034072,
+      "initial_active_available_free_energy": 12.302369379812763,
+      "active_exergy_time_integral": 92.5610735015207,
+      "active_site_time_integral": 27.991065681212277,
+      "fuel_consumed_net": 2.2418969355144895,
+      "total_free_energy_dissipated": 29.75461888639174,
+      "final_active_sites": 0.12396607624261387,
+      "final_active_exergy": 0.33691982313311447,
+      "final_unused_fuel": 9.75810306448551,
+      "average_bonds": 1.031770021170896,
+      "average_largest_contact_component": 1.9519818011150318,
+      "maximum_local_detailed_balance_log_error": 2.6645352591003757e-14,
+      "net_fuel_balance_quadrature_error": 2.5837335382306037e-08,
+      "initial_zero_contacts": true,
+      "no_ecological_reward": true,
+      "state_count": 1664,
+      "label": "Two vulnerabilities"
+    },
+    {
+      "responses": [
+        1,
+        0,
+        -1
+      ],
+      "horizon": 30.0,
+      "initial_total_available_free_energy": 96.30236950034072,
+      "initial_active_available_free_energy": 12.302369379812763,
+      "active_exergy_time_integral": 102.64670319898516,
+      "active_site_time_integral": 31.28659698917829,
+      "fuel_consumed_net": 3.2388626704243055,
+      "total_free_energy_dissipated": 37.12051050699889,
+      "final_active_sites": 0.14933703076349208,
+      "final_active_exergy": 0.3938394809091307,
+      "final_unused_fuel": 8.761137329575694,
+      "average_bonds": 1.0420844330727659,
+      "average_largest_contact_component": 1.9623044334980415,
+      "maximum_local_detailed_balance_log_error": 2.6645352591003757e-14,
+      "net_fuel_balance_quadrature_error": 4.031811240423622e-08,
+      "initial_zero_contacts": true,
+      "no_ecological_reward": true,
+      "state_count": 1664,
+      "label": "Three vulnerabilities"
+    }
+  ],
+  "quadrature_refinement": [
+    {
+      "label": "One shared vulnerability",
+      "quad_481_vs_1921_absolute_difference": 0.0031556904552729748
+    },
+    {
+      "label": "Two vulnerabilities",
+      "quad_481_vs_1921_absolute_difference": 0.0032832131818452126
+    },
+    {
+      "label": "Three vulnerabilities",
+      "quad_481_vs_1921_absolute_difference": 0.0034150202870080193
+    }
+  ],
+  "active_availability_gain_three_vs_one": 0.5105955330440919,
+  "active_function_gain_three_vs_one": 0.5894138986148227,
+  "adverse_telegraph_gate_case": [
+    {
+      "responses": [
+        1,
+        1,
+        1
+      ],
+      "horizon": 30.0,
+      "initial_total_available_free_energy": 96.30236950034072,
+      "initial_active_available_free_energy": 12.302369379812763,
+      "active_exergy_time_integral": 45.513455449125445,
+      "active_site_time_integral": 14.179199023257482,
+      "fuel_consumed_net": 0.6616078655247968,
+      "total_free_energy_dissipated": 17.863268961182058,
+      "final_active_sites": 0.021900322052626944,
+      "final_active_exergy": 0.052699086530278376,
+      "final_unused_fuel": 11.338392134475203,
+      "average_bonds": 0.8496934556824959,
+      "average_largest_contact_component": 1.8056402989119344,
+      "maximum_local_detailed_balance_log_error": 2.6645352591003757e-14,
+      "net_fuel_balance_quadrature_error": 3.290536987332615e-07,
+      "initial_zero_contacts": true,
+      "no_ecological_reward": true,
+      "state_count": 1664,
+      "label": "One shared vulnerability"
+    },
+    {
+      "responses": [
+        1,
+        1,
+        -1
+      ],
+      "horizon": 30.0,
+      "initial_total_available_free_energy": 96.30236950034072,
+      "initial_active_available_free_energy": 12.302369379812763,
+      "active_exergy_time_integral": 43.65864908866228,
+      "active_site_time_integral": 13.80544630026484,
+      "fuel_consumed_net": 1.371883195281539,
+      "total_free_energy_dissipated": 23.492003642851486,
+      "final_active_sites": 0.014087196172894483,
+      "final_active_exergy": 0.025134095369103805,
+      "final_unused_fuel": 10.628116804718461,
+      "average_bonds": 0.7735527246333499,
+      "average_largest_contact_component": 1.7496313292135155,
+      "maximum_local_detailed_balance_log_error": 2.6645352591003757e-14,
+      "net_fuel_balance_quadrature_error": 2.722143235267538e-07,
+      "initial_zero_contacts": true,
+      "no_ecological_reward": true,
+      "state_count": 1664,
+      "label": "Two vulnerabilities"
+    }
+  ],
+  "checks_passed": true,
+  "scope": "Actual common-reference nonequilibrium available free energy within the coarse model; not a universal maximization principle."
+}

@@ -1,0 +1,56 @@
+{
+  "checks": {
+    "antisymmetric_jacobian_exact_at_fixed_point": true,
+    "closed_fuel_standard_energy_ledger": true,
+    "copy_and_passive_loss_count_balances": true,
+    "four_net_channels_reconstructed": true,
+    "positive_determinant_identity": "2*u*(ell*u + k*(M - 2*u))*(2*S*ell*m*u*(1 - m) + delta)",
+    "symmetric_antisymmetric_decoupling": true,
+    "symmetric_fixed_point_polynomial": true,
+    "three_material_inventories_conserved": true,
+    "zero_affinity_copy_channels_have_thermal_fixed_point_and_zero_net_currents": true
+  },
+  "example": {
+    "A_equals_B": 1.0,
+    "D": 0.11721137575856089,
+    "M": 2.0,
+    "S": 2.0,
+    "antisymmetric_determinant": 0.025656976450105545,
+    "antisymmetric_eigenvalues": {
+      "imaginary_magnitudes": 0.08264651873771005,
+      "real": -0.13720980063626245
+    },
+    "antisymmetric_trace": -0.2744196012725249,
+    "chemical_power_per_normalized_volume": 1.882207548335856,
+    "delta": 0.1,
+    "ell": 0.01831563888873418,
+    "eta": 0.00024787521766663585,
+    "fuel_chemical_potential_gap": 10.0,
+    "k": 1.0,
+    "mutation": 0.02,
+    "net_copy_current_each_family": 0.0941103774167928,
+    "symmetric_eigenvalue": -1.9005574754636345,
+    "template_standard_energy": 6.0,
+    "thermal_only_each_template": 0.004933048742715502,
+    "theta": 1.0,
+    "total_net_copy_current": 0.1882207548335856,
+    "x_equals_y": 0.9413943121207196
+  },
+  "note_sha256": "a46f9cdaac0b9214ec14f9648e21afdcdda33198bcdad9f47f936de1e0c51e1b",
+  "scope": "Symbolic ideal-concentration algebra and stoichiometry only; no simulation",
+  "source_sha256": "c8926ecbe76ee5f2fc937918bcddea1a3e7ee8d24766e7ac57706d723ee50a47",
+  "theorem_domain": {
+    "claim": "Local asymptotic stability of the symmetric physical fixed point",
+    "mutation_interval": [
+      0,
+      0.5
+    ],
+    "not_claimed": [
+      "global attraction",
+      "spatial formation",
+      "finite-population lineage persistence",
+      "universal diversity optimum"
+    ],
+    "positive": "M,S,k,ell,delta,eta"
+  }
+}

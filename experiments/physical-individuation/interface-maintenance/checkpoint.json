@@ -1,0 +1,3189 @@
+{
+  "full_goal_achieved": false,
+  "original_objective": "execute until biodiversity a s individuationunitology defense proven",
+  "baseline_confirmatory_runs": 256,
+  "response_confirmatory_runs": 256,
+  "copy_ablation_runs": 64,
+  "faster_copy_response_runs": 256,
+  "maintenance_continuation_runs": 256,
+  "all_confirmatory_or_declared_control_runs": 1088,
+  "pilot_runs_included_in_audit_totals": 84,
+  "all_independently_replayed_trajectories": 1172,
+  "all_independently_replayed_events": 1357468,
+  "all_environmental_gate_events": 5324,
+  "independent_audits": [
+    {
+      "audit_file": "verification.json",
+      "audit_sha256": "40dbed279fc539e7c5722f662a0647391a4fdbeae07fb31c92151465c752e4ee",
+      "trajectory_records": 292,
+      "events": 410441,
+      "gate_events": 0,
+      "checks_passed": true
+    },
+    {
+      "audit_file": "environment-verification.json",
+      "audit_sha256": "e125ab04d997daf52fa89af375ab30102441f8e145e4ee7cce4bd208fab9ee0b",
+      "trajectory_records": 304,
+      "events": 398091,
+      "gate_events": 3020,
+      "checks_passed": true
+    },
+    {
+      "audit_file": "copy-ablation-verification.json",
+      "audit_sha256": "5ff30669c958bc1e677fc66aae39f95595a0f510025625cf77209d7cdfa79494",
+      "trajectory_records": 64,
+      "events": 92973,
+      "gate_events": 0,
+      "checks_passed": true
+    },
+    {
+      "audit_file": "rate-test-verification.json",
+      "audit_sha256": "870cd38b2f66c469a1255a1c9a957befa4d9e6476bb6db1fc6af4ee972c4e58c",
+      "trajectory_records": 256,
+      "events": 242480,
+      "gate_events": 2304,
+      "checks_passed": true
+    },
+    {
+      "audit_file": "maintenance-verification.json",
+      "audit_sha256": "cb8a9ef6653de0df6d4d182cd3e1e5490d677b87a72a0b74569437eff0e39cb3",
+      "trajectory_records": 256,
+      "events": 213483,
+      "gate_events": 0,
+      "checks_passed": true
+    }
+  ],
+  "maintenance_preparation_audit": {
+    "checks_passed": true,
+    "verifier_sha256": "1fc935496315f2e33f4e472ad39a4a20cd99a55cacfa694158b9eaf66ee468de",
+    "preparation_records_replayed": 64,
+    "preparation_prefix_events_replayed": 19651,
+    "continuations_with_identical_prepared_physical_state": 256,
+    "all_original_full_arm_seeds_included": true,
+    "state_dependent_filtering": false,
+    "branch_time": 20.0,
+    "continuation_horizon": 80.0,
+    "physical_state_reset": false,
+    "bookkeeping_reset_only": [
+      "time",
+      "cumulative_heat",
+      "external_work",
+      "event_count"
+    ],
+    "initial_R_range": [
+      5,
+      22
+    ],
+    "initial_L_range": [
+      8,
+      20
+    ],
+    "readouts_recomputed_independently": [
+      "final_L",
+      "final_R",
+      "first_episode_duration",
+      "integral_L",
+      "integral_R",
+      "integral_R0",
+      "integral_R1",
+      "net_fuel_consumed",
+      "net_heat_to_bath",
+      "paid_L_births",
+      "paid_R_births",
+      "passive_L_deaths",
+      "passive_R_deaths",
+      "reverse_L_production",
+      "reverse_R_copies"
+    ],
+    "paired_contrasts_recomputed": 55,
+    "all_source_protocol_trajectory_hashes_match": true,
+    "scope": "Post-formation ongoing production versus legacy protection; no claim of closed-loop benefit, membrane, aging or collective individuality follows from verification alone."
+  },
+  "counting_scope": "Unique complete saved trajectory records, including paired arms and continuations; not statistically independent replicates. The 64 maintenance prefixes and their replayed events are already parts of baseline trajectories and are not added again.",
+  "baseline_groups": [
+    {
+      "case": "selected",
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 677.7652088742773,
+          "monte_carlo_standard_error": 17.927180586837355,
+          "approximate_95_percent_normal_interval": [
+            642.627934924076,
+            712.9024828244785
+          ]
+        },
+        "integral_L": {
+          "n": 64,
+          "mean": 825.7199850862398,
+          "monte_carlo_standard_error": 18.078280498753674,
+          "approximate_95_percent_normal_interval": [
+            790.2865553086826,
+            861.153414863797
+          ]
+        },
+        "final_R": {
+          "n": 64,
+          "mean": 0.125,
+          "monte_carlo_standard_error": 0.041666666666666664,
+          "approximate_95_percent_normal_interval": [
+            0.043333333333333335,
+            0.20666666666666667
+          ]
+        },
+        "final_L": {
+          "n": 64,
+          "mean": 0.84375,
+          "monte_carlo_standard_error": 0.14298884058466252,
+          "approximate_95_percent_normal_interval": [
+            0.5634918724540614,
+            1.1240081275459386
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 64,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 64,
+          "mean": 0.125,
+          "monte_carlo_standard_error": 0.041666666666666664,
+          "approximate_95_percent_normal_interval": [
+            0.043333333333333335,
+            0.20666666666666667
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 64,
+          "mean": 0.84375,
+          "monte_carlo_standard_error": 0.14298884058466252,
+          "approximate_95_percent_normal_interval": [
+            0.5634918724540614,
+            1.1240081275459386
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 93.59969329220951,
+          "monte_carlo_standard_error": 2.088824616924675,
+          "approximate_95_percent_normal_interval": [
+            89.50559704303714,
+            97.69378954138188
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 58.890625,
+          "monte_carlo_standard_error": 0.5778299869335298,
+          "approximate_95_percent_normal_interval": [
+            57.758078225610284,
+            60.023171774389716
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 64,
+          "mean": 763.125,
+          "monte_carlo_standard_error": 6.783372089511374,
+          "approximate_95_percent_normal_interval": [
+            749.8295907045577,
+            776.4204092954423
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 64,
+          "mean": 1.0808928535314046,
+          "monte_carlo_standard_error": 0.023737863360807583,
+          "approximate_95_percent_normal_interval": [
+            1.0343666413442218,
+            1.1274190657185874
+          ]
+        }
+      }
+    },
+    {
+      "case": "selected",
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 202.59867258743023,
+          "monte_carlo_standard_error": 10.239112300963248,
+          "approximate_95_percent_normal_interval": [
+            182.53001247754227,
+            222.6673326973182
+          ]
+        },
+        "integral_L": {
+          "n": 64,
+          "mean": 553.1666285645615,
+          "monte_carlo_standard_error": 19.046167253711566,
+          "approximate_95_percent_normal_interval": [
+            515.8361407472869,
+            590.4971163818361
+          ]
+        },
+        "final_R": {
+          "n": 64,
+          "mean": 0.015625,
+          "monte_carlo_standard_error": 0.015625,
+          "approximate_95_percent_normal_interval": [
+            -0.015,
+            0.04625
+          ]
+        },
+        "final_L": {
+          "n": 64,
+          "mean": 0.234375,
+          "monte_carlo_standard_error": 0.053369535239372906,
+          "approximate_95_percent_normal_interval": [
+            0.1297707109308291,
+            0.3389792890691709
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 64,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 64,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 64,
+          "mean": 0.234375,
+          "monte_carlo_standard_error": 0.053369535239372906,
+          "approximate_95_percent_normal_interval": [
+            0.1297707109308291,
+            0.3389792890691709
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 45.103430383656814,
+          "monte_carlo_standard_error": 2.2386067556218983,
+          "approximate_95_percent_normal_interval": [
+            40.715761142637895,
+            49.49109962467573
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 38.109375,
+          "monte_carlo_standard_error": 1.2541829194287828,
+          "approximate_95_percent_normal_interval": [
+            35.651176477919584,
+            40.567573522080416
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 64,
+          "mean": 519.3125,
+          "monte_carlo_standard_error": 14.930674371989397,
+          "approximate_95_percent_normal_interval": [
+            490.04837823090077,
+            548.5766217690992
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 64,
+          "mean": 2.4504700392972034,
+          "monte_carlo_standard_error": 0.07176507014177655,
+          "approximate_95_percent_normal_interval": [
+            2.3098105018193213,
+            2.5911295767750855
+          ]
+        }
+      }
+    },
+    {
+      "case": "selected",
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 420.4658010760138,
+          "monte_carlo_standard_error": 15.840367617869047,
+          "approximate_95_percent_normal_interval": [
+            389.4186805449905,
+            451.51292160703713
+          ]
+        },
+        "integral_L": {
+          "n": 64,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_R": {
+          "n": 64,
+          "mean": 0.0625,
+          "monte_carlo_standard_error": 0.043842023400762604,
+          "approximate_95_percent_normal_interval": [
+            -0.0234303658654947,
+            0.14843036586549468
+          ]
+        },
+        "final_L": {
+          "n": 64,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 64,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 64,
+          "mean": 0.0625,
+          "monte_carlo_standard_error": 0.043842023400762604,
+          "approximate_95_percent_normal_interval": [
+            -0.0234303658654947,
+            0.14843036586549468
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 64,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 65.39993819709208,
+          "monte_carlo_standard_error": 2.6461091175751923,
+          "approximate_95_percent_normal_interval": [
+            60.21356432664471,
+            70.58631206753947
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 42.328125,
+          "monte_carlo_standard_error": 1.2131584056553792,
+          "approximate_95_percent_normal_interval": [
+            39.950334524915455,
+            44.705915475084545
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 64,
+          "mean": 571.4375,
+          "monte_carlo_standard_error": 14.488875641715996,
+          "approximate_95_percent_normal_interval": [
+            543.0393037422366,
+            599.8356962577634
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 64,
+          "mean": 1.2425998903780475,
+          "monte_carlo_standard_error": 0.018346216367616106,
+          "approximate_95_percent_normal_interval": [
+            1.2066413062975199,
+            1.2785584744585752
+          ]
+        }
+      }
+    },
+    {
+      "case": "selected",
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 420.4658010760138,
+          "monte_carlo_standard_error": 15.840367617869047,
+          "approximate_95_percent_normal_interval": [
+            389.4186805449905,
+            451.51292160703713
+          ]
+        },
+        "integral_L": {
+          "n": 64,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_R": {
+          "n": 64,
+          "mean": 0.0625,
+          "monte_carlo_standard_error": 0.043842023400762604,
+          "approximate_95_percent_normal_interval": [
+            -0.0234303658654947,
+            0.14843036586549468
+          ]
+        },
+        "final_L": {
+          "n": 64,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 64,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 64,
+          "mean": 0.0625,
+          "monte_carlo_standard_error": 0.043842023400762604,
+          "approximate_95_percent_normal_interval": [
+            -0.0234303658654947,
+            0.14843036586549468
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 64,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 65.39993819709208,
+          "monte_carlo_standard_error": 2.6461091175751923,
+          "approximate_95_percent_normal_interval": [
+            60.21356432664471,
+            70.58631206753947
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 42.328125,
+          "monte_carlo_standard_error": 1.2131584056553792,
+          "approximate_95_percent_normal_interval": [
+            39.950334524915455,
+            44.705915475084545
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 64,
+          "mean": 571.4375,
+          "monte_carlo_standard_error": 14.488875641715996,
+          "approximate_95_percent_normal_interval": [
+            543.0393037422366,
+            599.8356962577634
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 64,
+          "mean": 1.2425998903780475,
+          "monte_carlo_standard_error": 0.018346216367616106,
+          "approximate_95_percent_normal_interval": [
+            1.2066413062975199,
+            1.2785584744585752
+          ]
+        }
+      }
+    }
+  ],
+  "response_groups": [
+    {
+      "case": "selected",
+      "mode": "common",
+      "varied": false,
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 394.2348306476621,
+          "monte_carlo_standard_error": 29.631084309011143,
+          "approximate_95_percent_normal_interval": [
+            336.1579054020002,
+            452.31175589332395
+          ]
+        },
+        "integral_R1": {
+          "n": 64,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 44.359375,
+          "monte_carlo_standard_error": 2.1057563758503792,
+          "approximate_95_percent_normal_interval": [
+            40.232092503333256,
+            48.486657496666744
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 53.46543153371297,
+          "monte_carlo_standard_error": 4.183803520042136,
+          "approximate_95_percent_normal_interval": [
+            45.26517663443039,
+            61.66568643299556
+          ]
+        },
+        "joint_heat": {
+          "n": 64,
+          "mean": 591.9007142688104,
+          "monte_carlo_standard_error": 25.01706947864664,
+          "approximate_95_percent_normal_interval": [
+            542.867258090663,
+            640.9341704469578
+          ]
+        }
+      },
+      "first_variant_paid_copy_fraction": 0.0,
+      "first_variant_thermal_fraction": 0.0
+    },
+    {
+      "case": "selected",
+      "mode": "common",
+      "varied": true,
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 365.66686628327324,
+          "monte_carlo_standard_error": 27.716153868182726,
+          "approximate_95_percent_normal_interval": [
+            311.3432047016351,
+            419.99052786491137
+          ]
+        },
+        "integral_R1": {
+          "n": 64,
+          "mean": 68.71929010361411,
+          "monte_carlo_standard_error": 8.643140258310474,
+          "approximate_95_percent_normal_interval": [
+            51.77873519732559,
+            85.65984500990264
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 42.875,
+          "monte_carlo_standard_error": 2.035827412618332,
+          "approximate_95_percent_normal_interval": [
+            38.88477827126807,
+            46.86522172873193
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 51.65825025058047,
+          "monte_carlo_standard_error": 3.823556171627555,
+          "approximate_95_percent_normal_interval": [
+            44.164080154190465,
+            59.15242034697048
+          ]
+        },
+        "joint_heat": {
+          "n": 64,
+          "mean": 574.5882142688104,
+          "monte_carlo_standard_error": 24.163650935043268,
+          "approximate_95_percent_normal_interval": [
+            527.2274584361255,
+            621.9489701014952
+          ]
+        }
+      },
+      "first_variant_paid_copy_fraction": 0.890625,
+      "first_variant_thermal_fraction": 0.0
+    },
+    {
+      "case": "selected",
+      "mode": "differentiated",
+      "varied": false,
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 395.46922601508464,
+          "monte_carlo_standard_error": 29.911381958769876,
+          "approximate_95_percent_normal_interval": [
+            336.8429173758957,
+            454.0955346542736
+          ]
+        },
+        "integral_R1": {
+          "n": 64,
+          "mean": 0.0017215987372747321,
+          "monte_carlo_standard_error": 0.0013911766572401317,
+          "approximate_95_percent_normal_interval": [
+            -0.0010051075109159262,
+            0.00444830498546539
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 44.34375,
+          "monte_carlo_standard_error": 2.127883052407303,
+          "approximate_95_percent_normal_interval": [
+            40.17309921728169,
+            48.51440078271831
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 52.70372436158747,
+          "monte_carlo_standard_error": 4.134408791261608,
+          "approximate_95_percent_normal_interval": [
+            44.600283130714715,
+            60.80716559246022
+          ]
+        },
+        "joint_heat": {
+          "n": 64,
+          "mean": 591.3382142688104,
+          "monte_carlo_standard_error": 25.28318155016407,
+          "approximate_95_percent_normal_interval": [
+            541.7831784304888,
+            640.893250107132
+          ]
+        }
+      },
+      "first_variant_paid_copy_fraction": 0.0,
+      "first_variant_thermal_fraction": 0.03125
+    },
+    {
+      "case": "selected",
+      "mode": "differentiated",
+      "varied": true,
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 387.8009773927795,
+          "monte_carlo_standard_error": 25.112998806326644,
+          "approximate_95_percent_normal_interval": [
+            338.57949973237925,
+            437.0224550531797
+          ]
+        },
+        "integral_R1": {
+          "n": 64,
+          "mean": 84.05573494664893,
+          "monte_carlo_standard_error": 8.605197425552943,
+          "approximate_95_percent_normal_interval": [
+            67.18954799256517,
+            100.92192190073268
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 46.03125,
+          "monte_carlo_standard_error": 1.9176975423896494,
+          "approximate_95_percent_normal_interval": [
+            42.272562816916285,
+            49.789937183083715
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 61.3187524257398,
+          "monte_carlo_standard_error": 3.8644895745516044,
+          "approximate_95_percent_normal_interval": [
+            53.74435285961866,
+            68.89315199186095
+          ]
+        },
+        "joint_heat": {
+          "n": 64,
+          "mean": 609.5725892688104,
+          "monte_carlo_standard_error": 22.679825367656438,
+          "approximate_95_percent_normal_interval": [
+            565.1201315482037,
+            654.025046989417
+          ]
+        }
+      },
+      "first_variant_paid_copy_fraction": 0.90625,
+      "first_variant_thermal_fraction": 0.0
+    }
+  ],
+  "response_interaction": [
+    {
+      "case": "selected",
+      "paired_interaction_response_by_variation": {
+        "n": 64,
+        "mean": 20.89971574208374,
+        "monte_carlo_standard_error": 17.126034313667674,
+        "approximate_95_percent_normal_interval": [
+          -12.667311512704902,
+          54.466742996872384
+        ]
+      }
+    }
+  ],
+  "turnover_statistics": [
+    {
+      "flags": {
+        "produce_L": true,
+        "protect_R": true
+      },
+      "founder_free_continuation_frequency": 0.90625,
+      "continuation_time": {
+        "n": 64,
+        "mean": 31.00741131060601,
+        "monte_carlo_standard_error": 2.731185706089902,
+        "approximate_95_percent_normal_interval": [
+          25.654287326669802,
+          36.36053529454222
+        ]
+      },
+      "inherited_R_time": {
+        "n": 64,
+        "mean": 96.18825231661623,
+        "monte_carlo_standard_error": 13.043076639662655,
+        "approximate_95_percent_normal_interval": [
+          70.62382210287743,
+          121.75268253035503
+        ]
+      },
+      "RL_continuation_time_after_founders": {
+        "n": 64,
+        "mean": 24.743007799278864,
+        "monte_carlo_standard_error": 2.629812731955868,
+        "approximate_95_percent_normal_interval": [
+          19.58857484464536,
+          29.897440753912367
+        ]
+      },
+      "RL_continuation_frequency_after_founders": 0.875,
+      "paid_L_instances_lost": {
+        "n": 64,
+        "mean": 32.359375,
+        "monte_carlo_standard_error": 0.4461959959653114,
+        "approximate_95_percent_normal_interval": [
+          31.48483084790799,
+          33.233919152092014
+        ]
+      },
+      "aggregate_fuel_standard_energy_per_R_time": 1.042673024149116
+    },
+    {
+      "flags": {
+        "produce_L": true,
+        "protect_R": false
+      },
+      "founder_free_continuation_frequency": 0.875,
+      "continuation_time": {
+        "n": 64,
+        "mean": 20.757036026481753,
+        "monte_carlo_standard_error": 2.2417282166143337,
+        "approximate_95_percent_normal_interval": [
+          16.363248721917657,
+          25.15082333104585
+        ]
+      },
+      "inherited_R_time": {
+        "n": 64,
+        "mean": 50.5851979833033,
+        "monte_carlo_standard_error": 7.097757877231231,
+        "approximate_95_percent_normal_interval": [
+          36.67359254393009,
+          64.49680342267652
+        ]
+      },
+      "RL_continuation_time_after_founders": {
+        "n": 64,
+        "mean": 18.486890407625808,
+        "monte_carlo_standard_error": 2.017357391689121,
+        "approximate_95_percent_normal_interval": [
+          14.53286991991513,
+          22.440910895336486
+        ]
+      },
+      "RL_continuation_frequency_after_founders": 0.875,
+      "paid_L_instances_lost": {
+        "n": 64,
+        "mean": 21.78125,
+        "monte_carlo_standard_error": 0.6117519525010843,
+        "approximate_95_percent_normal_interval": [
+          20.582216173097876,
+          22.980283826902124
+        ]
+      },
+      "aggregate_fuel_standard_energy_per_R_time": 2.2572334465945207
+    },
+    {
+      "flags": {
+        "produce_L": false,
+        "protect_R": true
+      },
+      "founder_free_continuation_frequency": 0.96875,
+      "continuation_time": {
+        "n": 64,
+        "mean": 42.60374502509633,
+        "monte_carlo_standard_error": 2.7182283638349136,
+        "approximate_95_percent_normal_interval": [
+          37.2760174319799,
+          47.93147261821276
+        ]
+      },
+      "inherited_R_time": {
+        "n": 64,
+        "mean": 191.62331199773138,
+        "monte_carlo_standard_error": 14.484309128330503,
+        "approximate_95_percent_normal_interval": [
+          163.23406610620358,
+          220.01255788925917
+        ]
+      },
+      "RL_continuation_time_after_founders": {
+        "n": 64,
+        "mean": 0.0,
+        "monte_carlo_standard_error": 0.0,
+        "approximate_95_percent_normal_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "RL_continuation_frequency_after_founders": 0.0,
+      "paid_L_instances_lost": {
+        "n": 64,
+        "mean": 0.0,
+        "monte_carlo_standard_error": 0.0,
+        "approximate_95_percent_normal_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "aggregate_fuel_standard_energy_per_R_time": 1.2080352283114044
+    },
+    {
+      "flags": {
+        "produce_L": false,
+        "protect_R": false
+      },
+      "founder_free_continuation_frequency": 0.96875,
+      "continuation_time": {
+        "n": 64,
+        "mean": 42.60374502509633,
+        "monte_carlo_standard_error": 2.7182283638349136,
+        "approximate_95_percent_normal_interval": [
+          37.2760174319799,
+          47.93147261821276
+        ]
+      },
+      "inherited_R_time": {
+        "n": 64,
+        "mean": 191.62331199773138,
+        "monte_carlo_standard_error": 14.484309128330503,
+        "approximate_95_percent_normal_interval": [
+          163.23406610620358,
+          220.01255788925917
+        ]
+      },
+      "RL_continuation_time_after_founders": {
+        "n": 64,
+        "mean": 0.0,
+        "monte_carlo_standard_error": 0.0,
+        "approximate_95_percent_normal_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "RL_continuation_frequency_after_founders": 0.0,
+      "paid_L_instances_lost": {
+        "n": 64,
+        "mean": 0.0,
+        "monte_carlo_standard_error": 0.0,
+        "approximate_95_percent_normal_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "aggregate_fuel_standard_energy_per_R_time": 1.2080352283114044
+    }
+  ],
+  "baseline_paired_factorial_interaction": {
+    "n": 64,
+    "mean": 475.1665362868471,
+    "monte_carlo_standard_error": 18.579544144155573,
+    "approximate_95_percent_normal_interval": [
+      438.7506297643022,
+      511.582442809392
+    ]
+  },
+  "copy_ablation_comparison": {
+    "integral_R": {
+      "copy_on_mean": 677.7652088742773,
+      "copy_off_mean": 197.46023519548342,
+      "paired_on_minus_off": {
+        "n": 64,
+        "mean": 480.3049736787939,
+        "monte_carlo_standard_error": 20.619493489094502,
+        "approximate_95_percent_normal_interval": [
+          439.89076644016865,
+          520.7191809174191
+        ]
+      }
+    },
+    "first_episode_duration": {
+      "copy_on_mean": 93.59969329220951,
+      "copy_off_mean": 70.2709237492197,
+      "paired_on_minus_off": {
+        "n": 64,
+        "mean": 23.328769542989807,
+        "monte_carlo_standard_error": 4.127841108843523,
+        "approximate_95_percent_normal_interval": [
+          15.238200969656504,
+          31.41933811632311
+        ]
+      }
+    },
+    "net_fuel_consumed": {
+      "copy_on_mean": 58.890625,
+      "copy_off_mean": 26.671875,
+      "paired_on_minus_off": {
+        "n": 64,
+        "mean": 32.21875,
+        "monte_carlo_standard_error": 1.3137453936457386,
+        "approximate_95_percent_normal_interval": [
+          29.643809028454353,
+          34.79369097154565
+        ]
+      }
+    },
+    "final_R": {
+      "copy_on_mean": 0.125,
+      "copy_off_mean": 0.125,
+      "paired_on_minus_off": {
+        "n": 64,
+        "mean": 0,
+        "monte_carlo_standard_error": 0.06299407883487121,
+        "approximate_95_percent_normal_interval": [
+          -0.12346839451634757,
+          0.12346839451634757
+        ]
+      }
+    },
+    "founder_R_remaining": {
+      "copy_on_mean": 0,
+      "copy_off_mean": 0.109375,
+      "paired_on_minus_off": {
+        "n": 64,
+        "mean": -0.109375,
+        "monte_carlo_standard_error": 0.045191323330536354,
+        "approximate_95_percent_normal_interval": [
+          -0.19794999372785127,
+          -0.020800006272148744
+        ]
+      }
+    }
+  },
+  "copy_ablation_thermal_R_births": 3,
+  "faster_copy_response_groups": [
+    {
+      "mode": "common",
+      "varied": false,
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 515.038361683039,
+          "monte_carlo_standard_error": 34.473718461425086,
+          "approximate_95_percent_normal_interval": [
+            447.4698734986459,
+            582.6068498674322
+          ]
+        },
+        "integral_R1": {
+          "n": 64,
+          "mean": 0.750769267574716,
+          "monte_carlo_standard_error": 0.7442809051885666,
+          "approximate_95_percent_normal_interval": [
+            -0.7080213065948746,
+            2.2095598417443068
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 52.765625,
+          "monte_carlo_standard_error": 1.9882769255535035,
+          "approximate_95_percent_normal_interval": [
+            48.86860222591513,
+            56.66264777408487
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 50.04839851289208,
+          "monte_carlo_standard_error": 3.5004676928490177,
+          "approximate_95_percent_normal_interval": [
+            43.187481834908006,
+            56.90931519087615
+          ]
+        }
+      },
+      "first_variant_paid_copy_fraction": 0.0,
+      "first_variant_thermal_fraction": 0.046875
+    },
+    {
+      "mode": "common",
+      "varied": true,
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 515.2794048397873,
+          "monte_carlo_standard_error": 35.17497699439906,
+          "approximate_95_percent_normal_interval": [
+            446.3364499307651,
+            584.2223597488095
+          ]
+        },
+        "integral_R1": {
+          "n": 64,
+          "mean": 136.07922096172226,
+          "monte_carlo_standard_error": 14.283089361265237,
+          "approximate_95_percent_normal_interval": [
+            108.08436581364239,
+            164.07407610980212
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 52.5625,
+          "monte_carlo_standard_error": 2.039402899504641,
+          "approximate_95_percent_normal_interval": [
+            48.5652703169709,
+            56.5597296830291
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 52.73231829660777,
+          "monte_carlo_standard_error": 3.8221269187256044,
+          "approximate_95_percent_normal_interval": [
+            45.240949535905585,
+            60.22368705730996
+          ]
+        }
+      },
+      "first_variant_paid_copy_fraction": 0.96875,
+      "first_variant_thermal_fraction": 0.0
+    },
+    {
+      "mode": "differentiated",
+      "varied": false,
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 513.833355066078,
+          "monte_carlo_standard_error": 33.85836372431927,
+          "approximate_95_percent_normal_interval": [
+            447.47096216641216,
+            580.1957479657437
+          ]
+        },
+        "integral_R1": {
+          "n": 64,
+          "mean": 0.01054621061913441,
+          "monte_carlo_standard_error": 0.01054621061913441,
+          "approximate_95_percent_normal_interval": [
+            -0.010124362194369033,
+            0.031216783432637854
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 52.734375,
+          "monte_carlo_standard_error": 1.9805906140107652,
+          "approximate_95_percent_normal_interval": [
+            48.8524173965389,
+            56.6163326034611
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 50.75234782461377,
+          "monte_carlo_standard_error": 3.633296284456999,
+          "approximate_95_percent_normal_interval": [
+            43.63108710707805,
+            57.87360854214949
+          ]
+        }
+      },
+      "first_variant_paid_copy_fraction": 0.0,
+      "first_variant_thermal_fraction": 0.015625
+    },
+    {
+      "mode": "differentiated",
+      "varied": true,
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 533.3712015416543,
+          "monte_carlo_standard_error": 28.953810619790755,
+          "approximate_95_percent_normal_interval": [
+            476.62173272686437,
+            590.1206703564442
+          ]
+        },
+        "integral_R1": {
+          "n": 64,
+          "mean": 150.2430692000844,
+          "monte_carlo_standard_error": 13.257559361596739,
+          "approximate_95_percent_normal_interval": [
+            124.25825285135478,
+            176.22788554881402
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 56.140625,
+          "monte_carlo_standard_error": 1.5682026392048722,
+          "approximate_95_percent_normal_interval": [
+            53.06694782715845,
+            59.21430217284155
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 59.49035635518409,
+          "monte_carlo_standard_error": 3.0124971878322087,
+          "approximate_95_percent_normal_interval": [
+            53.58586186703296,
+            65.39485084333522
+          ]
+        }
+      },
+      "first_variant_paid_copy_fraction": 0.96875,
+      "first_variant_thermal_fraction": 0.0
+    }
+  ],
+  "faster_copy_response_interaction": {
+    "n": 64,
+    "mean": 19.29680331882827,
+    "monte_carlo_standard_error": 20.329172180816343,
+    "approximate_95_percent_normal_interval": [
+      -20.54837415557176,
+      59.1419807932283
+    ]
+  },
+  "faster_copy_absolute_variation_effect": {
+    "n": 64,
+    "mean": 19.537846475576437,
+    "monte_carlo_standard_error": 22.264775758032695,
+    "approximate_95_percent_normal_interval": [
+      -24.10111401016764,
+      63.176806961320516
+    ]
+  },
+  "maintenance_groups": [
+    {
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 445.5418373331672,
+          "monte_carlo_standard_error": 15.944936467189484,
+          "approximate_95_percent_normal_interval": [
+            414.2897618574758,
+            476.79391280885864
+          ]
+        },
+        "integral_L": {
+          "n": 64,
+          "mean": 583.697644699303,
+          "monte_carlo_standard_error": 16.596919051199983,
+          "approximate_95_percent_normal_interval": [
+            551.1676833589511,
+            616.227606039655
+          ]
+        },
+        "final_R": {
+          "n": 64,
+          "mean": 0.5,
+          "monte_carlo_standard_error": 0.09708039541845291,
+          "approximate_95_percent_normal_interval": [
+            0.30972242497983227,
+            0.6902775750201677
+          ]
+        },
+        "final_L": {
+          "n": 64,
+          "mean": 1.71875,
+          "monte_carlo_standard_error": 0.16285637052518062,
+          "approximate_95_percent_normal_interval": [
+            1.399551513770646,
+            2.037948486229354
+          ]
+        },
+        "paid_R_births": {
+          "n": 64,
+          "mean": 9.28125,
+          "monte_carlo_standard_error": 0.4085329626206667,
+          "approximate_95_percent_normal_interval": [
+            8.480525393263493,
+            10.081974606736507
+          ]
+        },
+        "paid_L_births": {
+          "n": 64,
+          "mean": 11.90625,
+          "monte_carlo_standard_error": 0.48678913882152625,
+          "approximate_95_percent_normal_interval": [
+            10.95214328790981,
+            12.86035671209019
+          ]
+        },
+        "passive_R_deaths": {
+          "n": 64,
+          "mean": 20.71875,
+          "monte_carlo_standard_error": 0.47895634618158994,
+          "approximate_95_percent_normal_interval": [
+            19.779995561484085,
+            21.657504438515915
+          ]
+        },
+        "passive_L_deaths": {
+          "n": 64,
+          "mean": 23.5625,
+          "monte_carlo_standard_error": 0.4853381042086284,
+          "approximate_95_percent_normal_interval": [
+            22.61123731575109,
+            24.51376268424891
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 21.171875,
+          "monte_carlo_standard_error": 0.7065996597204555,
+          "approximate_95_percent_normal_interval": [
+            19.78693966694791,
+            22.55681033305209
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 64,
+          "mean": 415.234375,
+          "monte_carlo_standard_error": 6.4132157614203,
+          "approximate_95_percent_normal_interval": [
+            402.66447210761623,
+            427.80427789238377
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 68.93254497340614,
+          "monte_carlo_standard_error": 1.4753148112223524,
+          "approximate_95_percent_normal_interval": [
+            66.04092794341032,
+            71.82416200340195
+          ]
+        }
+      }
+    },
+    {
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 152.21381844626444,
+          "monte_carlo_standard_error": 8.036652883622105,
+          "approximate_95_percent_normal_interval": [
+            136.4619787943651,
+            167.96565809816377
+          ]
+        },
+        "integral_L": {
+          "n": 64,
+          "mean": 485.46576697677256,
+          "monte_carlo_standard_error": 15.378223424131377,
+          "approximate_95_percent_normal_interval": [
+            455.32444906547505,
+            515.6070848880701
+          ]
+        },
+        "final_R": {
+          "n": 64,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_L": {
+          "n": 64,
+          "mean": 1.046875,
+          "monte_carlo_standard_error": 0.12082242869514605,
+          "approximate_95_percent_normal_interval": [
+            0.8100630397575137,
+            1.2836869602424863
+          ]
+        },
+        "paid_R_births": {
+          "n": 64,
+          "mean": 5.328125,
+          "monte_carlo_standard_error": 0.48440700099103334,
+          "approximate_95_percent_normal_interval": [
+            4.3786872780575745,
+            6.2775627219424255
+          ]
+        },
+        "paid_L_births": {
+          "n": 64,
+          "mean": 6.734375,
+          "monte_carlo_standard_error": 0.39165538705895725,
+          "approximate_95_percent_normal_interval": [
+            5.966730441364444,
+            7.502019558635556
+          ]
+        },
+        "passive_R_deaths": {
+          "n": 64,
+          "mean": 17.265625,
+          "monte_carlo_standard_error": 0.5787413595553031,
+          "approximate_95_percent_normal_interval": [
+            16.131291935271605,
+            18.399958064728395
+          ]
+        },
+        "passive_L_deaths": {
+          "n": 64,
+          "mean": 19.09375,
+          "monte_carlo_standard_error": 0.45355668408105637,
+          "approximate_95_percent_normal_interval": [
+            18.20477889920113,
+            19.98272110079887
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 12.0625,
+          "monte_carlo_standard_error": 0.7637220236218669,
+          "approximate_95_percent_normal_interval": [
+            10.56560483370114,
+            13.55939516629886
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 64,
+          "mean": 314.84375,
+          "monte_carlo_standard_error": 8.921122016358366,
+          "approximate_95_percent_normal_interval": [
+            297.35835084793763,
+            332.32914915206237
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 34.445859100247276,
+          "monte_carlo_standard_error": 1.8936027486047626,
+          "approximate_95_percent_normal_interval": [
+            30.73439771298194,
+            38.157320487512614
+          ]
+        }
+      }
+    },
+    {
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 423.1962838631936,
+          "monte_carlo_standard_error": 15.76501492319708,
+          "approximate_95_percent_normal_interval": [
+            392.29685461372736,
+            454.0957131126599
+          ]
+        },
+        "integral_L": {
+          "n": 64,
+          "mean": 316.04903032288007,
+          "monte_carlo_standard_error": 14.209407148328168,
+          "approximate_95_percent_normal_interval": [
+            288.19859231215685,
+            343.8994683336033
+          ]
+        },
+        "final_R": {
+          "n": 64,
+          "mean": 0.375,
+          "monte_carlo_standard_error": 0.10326994983867543,
+          "approximate_95_percent_normal_interval": [
+            0.17259089831619615,
+            0.5774091016838039
+          ]
+        },
+        "final_L": {
+          "n": 64,
+          "mean": 0.59375,
+          "monte_carlo_standard_error": 0.11725775010768993,
+          "approximate_95_percent_normal_interval": [
+            0.3639248097889277,
+            0.8235751902110723
+          ]
+        },
+        "paid_R_births": {
+          "n": 64,
+          "mean": 15.90625,
+          "monte_carlo_standard_error": 0.811841537215003,
+          "approximate_95_percent_normal_interval": [
+            14.315040587058594,
+            17.497459412941406
+          ]
+        },
+        "paid_L_births": {
+          "n": 64,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "passive_R_deaths": {
+          "n": 64,
+          "mean": 27.46875,
+          "monte_carlo_standard_error": 0.7305577716636072,
+          "approximate_95_percent_normal_interval": [
+            26.03685676753933,
+            28.90064323246067
+          ]
+        },
+        "passive_L_deaths": {
+          "n": 64,
+          "mean": 12.796875,
+          "monte_carlo_standard_error": 0.34009488018751755,
+          "approximate_95_percent_normal_interval": [
+            12.130289034832465,
+            13.463460965167535
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 15.90625,
+          "monte_carlo_standard_error": 0.811841537215003,
+          "approximate_95_percent_normal_interval": [
+            14.315040587058594,
+            17.497459412941406
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 64,
+          "mean": 361.65625,
+          "monte_carlo_standard_error": 8.887474989081412,
+          "approximate_95_percent_normal_interval": [
+            344.23679902140043,
+            379.07570097859957
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 64.20416170316838,
+          "monte_carlo_standard_error": 1.7803044797215641,
+          "approximate_95_percent_normal_interval": [
+            60.714764922914114,
+            67.69355848342265
+          ]
+        }
+      }
+    },
+    {
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 64,
+          "mean": 166.7584119161404,
+          "monte_carlo_standard_error": 9.41112148753995,
+          "approximate_95_percent_normal_interval": [
+            148.3126138005621,
+            185.2042100317187
+          ]
+        },
+        "integral_L": {
+          "n": 64,
+          "mean": 327.65272174588483,
+          "monte_carlo_standard_error": 12.08821977240526,
+          "approximate_95_percent_normal_interval": [
+            303.9598109919705,
+            351.34563249979914
+          ]
+        },
+        "final_R": {
+          "n": 64,
+          "mean": 0.015625,
+          "monte_carlo_standard_error": 0.015625,
+          "approximate_95_percent_normal_interval": [
+            -0.015,
+            0.04625
+          ]
+        },
+        "final_L": {
+          "n": 64,
+          "mean": 0.59375,
+          "monte_carlo_standard_error": 0.08830061725682617,
+          "approximate_95_percent_normal_interval": [
+            0.42068079017662074,
+            0.7668192098233793
+          ]
+        },
+        "paid_R_births": {
+          "n": 64,
+          "mean": 7.59375,
+          "monte_carlo_standard_error": 0.585759728323309,
+          "approximate_95_percent_normal_interval": [
+            6.445660932486314,
+            8.741839067513686
+          ]
+        },
+        "paid_L_births": {
+          "n": 64,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "passive_R_deaths": {
+          "n": 64,
+          "mean": 19.515625,
+          "monte_carlo_standard_error": 0.7536262163422484,
+          "approximate_95_percent_normal_interval": [
+            18.038517615969194,
+            20.992732384030806
+          ]
+        },
+        "passive_L_deaths": {
+          "n": 64,
+          "mean": 12.78125,
+          "monte_carlo_standard_error": 0.3594450846084925,
+          "approximate_95_percent_normal_interval": [
+            12.076737634167355,
+            13.485762365832645
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 64,
+          "mean": 7.59375,
+          "monte_carlo_standard_error": 0.585759728323309,
+          "approximate_95_percent_normal_interval": [
+            6.445660932486314,
+            8.741839067513686
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 64,
+          "mean": 264.640625,
+          "monte_carlo_standard_error": 8.566539488225303,
+          "approximate_95_percent_normal_interval": [
+            247.85020760307842,
+            281.4310423969216
+          ]
+        },
+        "first_episode_duration": {
+          "n": 64,
+          "mean": 37.531929942268,
+          "monte_carlo_standard_error": 2.003738064317109,
+          "approximate_95_percent_normal_interval": [
+            33.604603336206466,
+            41.459256548329535
+          ]
+        }
+      }
+    }
+  ],
+  "maintenance_paired_contrasts": [
+    {
+      "contrast": "production_effect_when_protected",
+      "field": "integral_R",
+      "n": 64,
+      "mean": 22.34555346997359,
+      "monte_carlo_standard_error": 17.497800450868198,
+      "approximate_95_percent_normal_interval": [
+        -11.950135413728074,
+        56.64124235367525
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_when_protected",
+      "field": "integral_L",
+      "n": 64,
+      "mean": 267.64861437642315,
+      "monte_carlo_standard_error": 18.256427907414707,
+      "approximate_95_percent_normal_interval": [
+        231.86601567789035,
+        303.43121307495596
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_when_protected",
+      "field": "final_R",
+      "n": 64,
+      "mean": 0.125,
+      "monte_carlo_standard_error": 0.12299987095102277,
+      "approximate_95_percent_normal_interval": [
+        -0.11607974706400462,
+        0.3660797470640046
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_when_protected",
+      "field": "final_L",
+      "n": 64,
+      "mean": 1.125,
+      "monte_carlo_standard_error": 0.18025004678246098,
+      "approximate_95_percent_normal_interval": [
+        0.7717099083063765,
+        1.4782900916936235
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_when_protected",
+      "field": "paid_R_births",
+      "n": 64,
+      "mean": -6.625,
+      "monte_carlo_standard_error": 0.7256291741741772,
+      "approximate_95_percent_normal_interval": [
+        -8.047233181381387,
+        -5.202766818618613
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_when_protected",
+      "field": "paid_L_births",
+      "n": 64,
+      "mean": 11.90625,
+      "monte_carlo_standard_error": 0.48678913882152625,
+      "approximate_95_percent_normal_interval": [
+        10.95214328790981,
+        12.86035671209019
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_when_protected",
+      "field": "passive_R_deaths",
+      "n": 64,
+      "mean": -6.75,
+      "monte_carlo_standard_error": 0.7175520555199827,
+      "approximate_95_percent_normal_interval": [
+        -8.156402028819166,
+        -5.343597971180834
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_when_protected",
+      "field": "passive_L_deaths",
+      "n": 64,
+      "mean": 10.765625,
+      "monte_carlo_standard_error": 0.44249819942912294,
+      "approximate_95_percent_normal_interval": [
+        9.898328529118919,
+        11.632921470881081
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_when_protected",
+      "field": "net_fuel_consumed",
+      "n": 64,
+      "mean": 5.265625,
+      "monte_carlo_standard_error": 0.694808622267586,
+      "approximate_95_percent_normal_interval": [
+        3.9038001003555314,
+        6.627449899644469
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_when_protected",
+      "field": "net_heat_to_bath",
+      "n": 64,
+      "mean": 53.578125,
+      "monte_carlo_standard_error": 8.10113420090186,
+      "approximate_95_percent_normal_interval": [
+        37.69990196623235,
+        69.45634803376765
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_when_protected",
+      "field": "first_episode_duration",
+      "n": 64,
+      "mean": 4.728383270237765,
+      "monte_carlo_standard_error": 2.051721296593449,
+      "approximate_95_percent_normal_interval": [
+        0.7070095289146048,
+        8.749757011560924
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_without_protection",
+      "field": "integral_R",
+      "n": 64,
+      "mean": -14.544593469875945,
+      "monte_carlo_standard_error": 9.872076592675999,
+      "approximate_95_percent_normal_interval": [
+        -33.8938635915209,
+        4.804676651769011
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_without_protection",
+      "field": "integral_L",
+      "n": 64,
+      "mean": 157.81304523088775,
+      "monte_carlo_standard_error": 14.643247171096506,
+      "approximate_95_percent_normal_interval": [
+        129.1122807755386,
+        186.5138096862369
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_without_protection",
+      "field": "final_R",
+      "n": 64,
+      "mean": -0.015625,
+      "monte_carlo_standard_error": 0.015625,
+      "approximate_95_percent_normal_interval": [
+        -0.04625,
+        0.015
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_without_protection",
+      "field": "final_L",
+      "n": 64,
+      "mean": 0.453125,
+      "monte_carlo_standard_error": 0.1155767273749966,
+      "approximate_95_percent_normal_interval": [
+        0.2265946143450067,
+        0.6796553856549933
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_without_protection",
+      "field": "paid_R_births",
+      "n": 64,
+      "mean": -2.265625,
+      "monte_carlo_standard_error": 0.6767255235882519,
+      "approximate_95_percent_normal_interval": [
+        -3.5920070262329737,
+        -0.9392429737670263
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_without_protection",
+      "field": "paid_L_births",
+      "n": 64,
+      "mean": 6.734375,
+      "monte_carlo_standard_error": 0.39165538705895725,
+      "approximate_95_percent_normal_interval": [
+        5.966730441364444,
+        7.502019558635556
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_without_protection",
+      "field": "passive_R_deaths",
+      "n": 64,
+      "mean": -2.25,
+      "monte_carlo_standard_error": 0.6744339190099435,
+      "approximate_95_percent_normal_interval": [
+        -3.5718904812594894,
+        -0.9281095187405106
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_without_protection",
+      "field": "passive_L_deaths",
+      "n": 64,
+      "mean": 6.3125,
+      "monte_carlo_standard_error": 0.37524793391138334,
+      "approximate_95_percent_normal_interval": [
+        5.577014049533688,
+        7.047985950466312
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_without_protection",
+      "field": "net_fuel_consumed",
+      "n": 64,
+      "mean": 4.46875,
+      "monte_carlo_standard_error": 0.8489514862417424,
+      "approximate_95_percent_normal_interval": [
+        2.804805086966185,
+        6.132694913033815
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_without_protection",
+      "field": "net_heat_to_bath",
+      "n": 64,
+      "mean": 50.203125,
+      "monte_carlo_standard_error": 10.021038872446574,
+      "approximate_95_percent_normal_interval": [
+        30.561888810004714,
+        69.84436118999528
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_effect_without_protection",
+      "field": "first_episode_duration",
+      "n": 64,
+      "mean": -3.08607084202073,
+      "monte_carlo_standard_error": 2.5477689300487585,
+      "approximate_95_percent_normal_interval": [
+        -8.079697944916298,
+        1.9075562608748369
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_with_production",
+      "field": "integral_R",
+      "n": 64,
+      "mean": 293.3280188869027,
+      "monte_carlo_standard_error": 15.53445686872802,
+      "approximate_95_percent_normal_interval": [
+        262.8804834241958,
+        323.77555434960965
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_with_production",
+      "field": "integral_L",
+      "n": 64,
+      "mean": 98.23187772253064,
+      "monte_carlo_standard_error": 16.571562264317407,
+      "approximate_95_percent_normal_interval": [
+        65.75161568446853,
+        130.71213976059275
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_with_production",
+      "field": "final_R",
+      "n": 64,
+      "mean": 0.5,
+      "monte_carlo_standard_error": 0.09708039541845291,
+      "approximate_95_percent_normal_interval": [
+        0.30972242497983227,
+        0.6902775750201677
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_with_production",
+      "field": "final_L",
+      "n": 64,
+      "mean": 0.671875,
+      "monte_carlo_standard_error": 0.15757129826747768,
+      "approximate_95_percent_normal_interval": [
+        0.36303525539574377,
+        0.9807147446042562
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_with_production",
+      "field": "paid_R_births",
+      "n": 64,
+      "mean": 3.953125,
+      "monte_carlo_standard_error": 0.48613192628337437,
+      "approximate_95_percent_normal_interval": [
+        3.0003064244845863,
+        4.905943575515414
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_with_production",
+      "field": "paid_L_births",
+      "n": 64,
+      "mean": 5.171875,
+      "monte_carlo_standard_error": 0.5619175500776937,
+      "approximate_95_percent_normal_interval": [
+        4.070516601847721,
+        6.273233398152279
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_with_production",
+      "field": "passive_R_deaths",
+      "n": 64,
+      "mean": 3.453125,
+      "monte_carlo_standard_error": 0.5063729213398657,
+      "approximate_95_percent_normal_interval": [
+        2.4606340741738633,
+        4.445615925826137
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_with_production",
+      "field": "passive_L_deaths",
+      "n": 64,
+      "mean": 4.46875,
+      "monte_carlo_standard_error": 0.5251458366983284,
+      "approximate_95_percent_normal_interval": [
+        3.4394641600712763,
+        5.498035839928724
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_with_production",
+      "field": "net_fuel_consumed",
+      "n": 64,
+      "mean": 9.109375,
+      "monte_carlo_standard_error": 0.8398900354078389,
+      "approximate_95_percent_normal_interval": [
+        7.463190530600636,
+        10.755559469399364
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_with_production",
+      "field": "net_heat_to_bath",
+      "n": 64,
+      "mean": 100.390625,
+      "monte_carlo_standard_error": 9.775978242050137,
+      "approximate_95_percent_normal_interval": [
+        81.22970764558173,
+        119.55154235441827
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_with_production",
+      "field": "first_episode_duration",
+      "n": 64,
+      "mean": 34.486685873158876,
+      "monte_carlo_standard_error": 2.1094597528809786,
+      "approximate_95_percent_normal_interval": [
+        30.352144757512157,
+        38.621226988805596
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_after_production_stopped",
+      "field": "integral_R",
+      "n": 64,
+      "mean": 256.43787194705317,
+      "monte_carlo_standard_error": 15.046825147620856,
+      "approximate_95_percent_normal_interval": [
+        226.9460946577163,
+        285.92964923639005
+      ],
+      "definition": [
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_after_production_stopped",
+      "field": "integral_L",
+      "n": 64,
+      "mean": -11.603691423004754,
+      "monte_carlo_standard_error": 12.540034974117557,
+      "approximate_95_percent_normal_interval": [
+        -36.182159972275166,
+        12.974777126265657
+      ],
+      "definition": [
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_after_production_stopped",
+      "field": "final_R",
+      "n": 64,
+      "mean": 0.359375,
+      "monte_carlo_standard_error": 0.10295048967058243,
+      "approximate_95_percent_normal_interval": [
+        0.15759204024565845,
+        0.5611579597543416
+      ],
+      "definition": [
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_after_production_stopped",
+      "field": "final_L",
+      "n": 64,
+      "mean": 0.0,
+      "monte_carlo_standard_error": 0.1336306209562122,
+      "approximate_95_percent_normal_interval": [
+        -0.2619160170741759,
+        0.2619160170741759
+      ],
+      "definition": [
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_after_production_stopped",
+      "field": "paid_R_births",
+      "n": 64,
+      "mean": 8.3125,
+      "monte_carlo_standard_error": 0.8739719016768416,
+      "approximate_95_percent_normal_interval": [
+        6.59951507271339,
+        10.025484927286609
+      ],
+      "definition": [
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_after_production_stopped",
+      "field": "paid_L_births",
+      "n": 64,
+      "mean": 0.0,
+      "monte_carlo_standard_error": 0.0,
+      "approximate_95_percent_normal_interval": [
+        0.0,
+        0.0
+      ],
+      "definition": [
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_after_production_stopped",
+      "field": "passive_R_deaths",
+      "n": 64,
+      "mean": 7.953125,
+      "monte_carlo_standard_error": 0.8687217185929903,
+      "approximate_95_percent_normal_interval": [
+        6.250430431557739,
+        9.655819568442261
+      ],
+      "definition": [
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_after_production_stopped",
+      "field": "passive_L_deaths",
+      "n": 64,
+      "mean": 0.015625,
+      "monte_carlo_standard_error": 0.13080221706866962,
+      "approximate_95_percent_normal_interval": [
+        -0.24074734545459248,
+        0.2719973454545925
+      ],
+      "definition": [
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_after_production_stopped",
+      "field": "net_fuel_consumed",
+      "n": 64,
+      "mean": 8.3125,
+      "monte_carlo_standard_error": 0.8739719016768416,
+      "approximate_95_percent_normal_interval": [
+        6.59951507271339,
+        10.025484927286609
+      ],
+      "definition": [
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_after_production_stopped",
+      "field": "net_heat_to_bath",
+      "n": 64,
+      "mean": 97.015625,
+      "monte_carlo_standard_error": 10.55163729930955,
+      "approximate_95_percent_normal_interval": [
+        76.33441589335328,
+        117.69683410664672
+      ],
+      "definition": [
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "protection_effect_after_production_stopped",
+      "field": "first_episode_duration",
+      "n": 64,
+      "mean": 26.67223176090038,
+      "monte_carlo_standard_error": 2.394637014368165,
+      "approximate_95_percent_normal_interval": [
+        21.978743212738777,
+        31.365720309061984
+      ],
+      "definition": [
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": -1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_protection_interaction",
+      "field": "integral_R",
+      "n": 64,
+      "mean": 36.89014693984954,
+      "monte_carlo_standard_error": 21.268031217816045,
+      "approximate_95_percent_normal_interval": [
+        -4.795194247069908,
+        78.57548812676899
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": 1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_protection_interaction",
+      "field": "integral_L",
+      "n": 64,
+      "mean": 109.83556914553539,
+      "monte_carlo_standard_error": 22.184861394021876,
+      "approximate_95_percent_normal_interval": [
+        66.35324081325251,
+        153.31789747781826
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": 1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_protection_interaction",
+      "field": "final_R",
+      "n": 64,
+      "mean": 0.140625,
+      "monte_carlo_standard_error": 0.12572643579114948,
+      "approximate_95_percent_normal_interval": [
+        -0.10579881415065298,
+        0.38704881415065295
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": 1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_protection_interaction",
+      "field": "final_L",
+      "n": 64,
+      "mean": 0.671875,
+      "monte_carlo_standard_error": 0.19927284415757907,
+      "approximate_95_percent_normal_interval": [
+        0.281300225451145,
+        1.062449774548855
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": 1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_protection_interaction",
+      "field": "paid_R_births",
+      "n": 64,
+      "mean": -4.359375,
+      "monte_carlo_standard_error": 1.0216814230999502,
+      "approximate_95_percent_normal_interval": [
+        -6.361870589275902,
+        -2.3568794107240976
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": 1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_protection_interaction",
+      "field": "paid_L_births",
+      "n": 64,
+      "mean": 5.171875,
+      "monte_carlo_standard_error": 0.5619175500776937,
+      "approximate_95_percent_normal_interval": [
+        4.070516601847721,
+        6.273233398152279
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": 1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_protection_interaction",
+      "field": "passive_R_deaths",
+      "n": 64,
+      "mean": -4.5,
+      "monte_carlo_standard_error": 1.0298135137081244,
+      "approximate_95_percent_normal_interval": [
+        -6.518434486867924,
+        -2.481565513132076
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": 1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_protection_interaction",
+      "field": "passive_L_deaths",
+      "n": 64,
+      "mean": 4.453125,
+      "monte_carlo_standard_error": 0.5146319803012727,
+      "approximate_95_percent_normal_interval": [
+        3.4444463186095056,
+        5.461803681390494
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": 1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_protection_interaction",
+      "field": "net_fuel_consumed",
+      "n": 64,
+      "mean": 0.796875,
+      "monte_carlo_standard_error": 1.113851214269555,
+      "approximate_95_percent_normal_interval": [
+        -1.3862733799683276,
+        2.9800233799683276
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": 1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_protection_interaction",
+      "field": "net_heat_to_bath",
+      "n": 64,
+      "mean": 3.375,
+      "monte_carlo_standard_error": 13.201214846092704,
+      "approximate_95_percent_normal_interval": [
+        -22.499381098341697,
+        29.249381098341697
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": 1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    },
+    {
+      "contrast": "production_protection_interaction",
+      "field": "first_episode_duration",
+      "n": 64,
+      "mean": 7.8144541122584945,
+      "monte_carlo_standard_error": 3.1354047232401365,
+      "approximate_95_percent_normal_interval": [
+        1.6690608547078272,
+        13.959847369809161
+      ],
+      "definition": [
+        {
+          "produce_L": true,
+          "protect_R": true,
+          "weight": 1
+        },
+        {
+          "produce_L": true,
+          "protect_R": false,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": true,
+          "weight": -1
+        },
+        {
+          "produce_L": false,
+          "protect_R": false,
+          "weight": 1
+        }
+      ],
+      "uncertainty": "SE of per-origin differences; includes measured within-preparation covariance."
+    }
+  ],
+  "activity_normalized_fuel_economy": {
+    "measure": "ratio of ensemble total standard fuel energy to ensemble total active-template time",
+    "reduction_fraction": 0.13688524993880558,
+    "paired_bootstrap_95_interval": [
+      0.0972037557585516,
+      0.17428803463526849
+    ],
+    "replicates": 10000,
+    "bootstrap_seed": 335,
+    "scope": "An activity-normalized standard-energy ratio, not matched-reliability thermodynamic efficiency."
+  },
+  "conditional_availability_theorem": {
+    "model": "eight states: two binary sites, one finite repair packet",
+    "zero_temperature_active_time_advantage": 0.4652137666759955,
+    "reverse_event_coupling_correction": 2.638276637401091e-07,
+    "entropy_penalty": 0.2772588722239781,
+    "analytical_lower_bound": 0.1879546306243537,
+    "matrix_integrated_availability_advantage": 0.3641192061661295,
+    "quadrature_refinement_change": 5.7972502409686655e-08,
+    "scope": "Conditional finite-fuel regeneration theorem. Does not prove spatial individuality, universal biodiversity maximization, or moral legitimacy."
+  },
+  "requirements": [
+    {
+      "requirement": "produced material protection with explicit physical costs",
+      "state": "supported within supplied local chemistry; protection improves integrated template activity",
+      "evidence": [
+        "ensemble-results.json",
+        "verification.json"
+      ]
+    },
+    {
+      "requirement": "paid template renewal beyond survival of protected founders",
+      "state": "supported by copying ablation for integrated activity and first-episode persistence; no final-occupancy advantage",
+      "evidence": [
+        "copy-ablation-results.json",
+        "copy-ablation-verification.json"
+      ]
+    },
+    {
+      "requirement": "ongoing reciprocal maintenance after formation",
+      "state": "inconclusive; ongoing production benefit and production-protection interaction intervals include zero; legacy protective material remains beneficial",
+      "evidence": [
+        "maintenance-results.json",
+        "maintenance-verification.json"
+      ]
+    },
+    {
+      "requirement": "new functional response type from a single ancestral type through paid variation",
+      "state": "observed in declared two-type chemistry; thermal alternatives quantified",
+      "evidence": [
+        "response-ensemble-results.json",
+        "environment-verification.json"
+      ]
+    },
+    {
+      "requirement": "diversity improves regeneration in the same spatial organization",
+      "state": "inconclusive in both original and faster-copy comparisons; paired intervals include zero",
+      "evidence": [
+        "response-ensemble-results.json",
+        "environment-verification.json",
+        "rate-test-results.json",
+        "rate-test-verification.json"
+      ]
+    },
+    {
+      "requirement": "maintained higher individual and repeated nested individuation",
+      "state": "not established; protective contacts do not prove a maintained membrane or recursive unit",
+      "evidence": [
+        "protocol.md",
+        "model-spec.md"
+      ]
+    },
+    {
+      "requirement": "informational thermodynamics of aging and retained regulatory organization",
+      "state": "not established; turnover and finite-fuel decline are not sufficient",
+      "evidence": [
+        "turnover-analysis.json"
+      ]
+    },
+    {
+      "requirement": "cosmic least-action derivation of biodiversity",
+      "state": "not established; distinct action and thermodynamic quantities and scalar counterexamples",
+      "evidence": [
+        "theorem-audit.md"
+      ]
+    },
+    {
+      "requirement": "Unitology defense grounded in participant agency and flourishing",
+      "state": "conditional ethical argument preserved; not a scalar thermodynamic consequence",
+      "evidence": [
+        "theorem-audit.md"
+      ]
+    }
+  ],
+  "next_priority": "Test a physically justified regime where finite-lived protective material requires paid renewal, and establish ongoing reciprocal maintenance against a legacy-material control before attempting nested individuality. Preserve reversibility, matched initial resources and negative results; no further experiments are executed at this checkpoint."
+}

@@ -1,0 +1,69 @@
+{
+  "construction": "Gamma bin masses, with both omitted tails folded into endpoint representatives",
+  "parameters": {
+    "alpha": 1.5,
+    "tau": 1.0,
+    "entry_rate": 0.2,
+    "activation_rate": 1.0,
+    "theta": 0.05,
+    "bins": 192,
+    "edge_min": 1e-09,
+    "edge_max": 100.0
+  },
+  "folded_lower_tail_probability": 2.378832153443068e-14,
+  "folded_upper_tail_probability": 4.218541107192018e-43,
+  "lower_tail_contribution_to_mean_duration": 2.2269884604711862e-05,
+  "mean_entry_duration": 2.001401334065136,
+  "mean_entry_duration_if_tails_dropped_and_renormalized": 2.001379064180579,
+  "stationary_healthy_probability": 0.7141427496339383,
+  "stationary_mean_gate_energy": 0.07139767507316805,
+  "max_detailed_balance_log_residual": 7.105427357601002e-15,
+  "ultimate_single_exponential_rate": 1.0681840374355827e-09,
+  "ultimate_common_exponential_rate": 1.0681840374355866e-09,
+  "rows": [
+    {
+      "time": 100.0,
+      "entry_survival": 0.0009867511966701443,
+      "ideal_entry_survival": 0.0009851853368415735,
+      "residual_survival": 0.09957034725571383,
+      "ideal_residual_survival": 0.09950371902099892,
+      "single_first_activation_survival": 0.028866820310097227,
+      "three_independent_first_activation_survival": 2.4054528384382638e-05,
+      "three_common_first_activation_survival": 0.028594720051186077
+    },
+    {
+      "time": 1000.0,
+      "entry_survival": 3.162680456490615e-05,
+      "ideal_entry_survival": 3.157540166039031e-05,
+      "residual_survival": 0.0316117744178189,
+      "ideal_residual_survival": 0.0316069770620507,
+      "single_first_activation_survival": 0.009049134763092381,
+      "three_independent_first_activation_survival": 7.410050501273113e-07,
+      "three_common_first_activation_survival": 0.009040672654137716
+    },
+    {
+      "time": 10000.0,
+      "entry_survival": 1.001481631240914e-06,
+      "ideal_entry_survival": 9.998500187478127e-07,
+      "residual_survival": 0.009984225775219957,
+      "ideal_residual_survival": 0.009999500037496875,
+      "single_first_activation_survival": 0.002854464014405694,
+      "three_independent_first_activation_survival": 2.3258072339467507e-08,
+      "three_common_first_activation_survival": 0.0028541968615065417
+    }
+  ],
+  "apparent_exponents": {
+    "single": [
+      0.5037918928960411,
+      0.5010824836137892
+    ],
+    "three_independent": [
+      1.5113756786881236,
+      1.5032474508413676
+    ],
+    "three_common": [
+      0.5000851045252784,
+      0.500716820285689
+    ]
+  }
+}

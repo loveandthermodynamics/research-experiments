@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "independent_integrator": "Radau versus source DOP853",
+  "fixed_points_independently_recomputed": [
+    0.001378927728139912,
+    0.04994921773064707,
+    1.930522424852587
+  ],
+  "cases": {
+    "small_symmetric_lesion": {
+      "endpoint_difference_from_DOP853": 8.881784197001252e-16,
+      "independent_G_work_balance_error": 7.958078640513122e-13,
+      "independent_energy_heat_balance_error": 6.821210263296962e-13,
+      "steps": 493,
+      "final": [
+        1.9305224248525854,
+        1.9305224248525854
+      ]
+    },
+    "asymmetric_lesion": {
+      "endpoint_difference_from_DOP853": 7.105427357601002e-15,
+      "independent_G_work_balance_error": 2.6147972675971687e-12,
+      "independent_energy_heat_balance_error": 4.547473508864641e-13,
+      "steps": 661,
+      "final": [
+        1.9305224248525803,
+        1.9305224248525907
+      ]
+    },
+    "below_symmetric_threshold": {
+      "endpoint_difference_from_DOP853": 7.39425881635114e-17,
+      "independent_G_work_balance_error": 2.4868995751603507e-14,
+      "independent_energy_heat_balance_error": 4.884981308350689e-15,
+      "steps": 590,
+      "final": [
+        0.0013789280843355925,
+        0.0013789280843355925
+      ]
+    },
+    "above_symmetric_threshold": {
+      "endpoint_difference_from_DOP853": 2.4424906541753444e-15,
+      "independent_G_work_balance_error": 1.4779288903810084e-12,
+      "independent_energy_heat_balance_error": 2.2737367544323206e-13,
+      "steps": 1113,
+      "final": [
+        1.9305224248525854,
+        1.9305224248525854
+      ]
+    },
+    "near_zero_initial_activity": {
+      "endpoint_difference_from_DOP853": 0.0,
+      "independent_G_work_balance_error": 4.278695453496795e-14,
+      "independent_energy_heat_balance_error": 1.4094628242311558e-18,
+      "steps": 568,
+      "final": [
+        0.0013789277279531347,
+        0.0013789277279531347
+      ]
+    },
+    "x_reciprocal_channel_removed": {
+      "endpoint_difference_from_DOP853": 1.1689867823738709e-15,
+      "independent_G_work_balance_error": 1.8474111129762605e-12,
+      "independent_energy_heat_balance_error": 7.105427357601002e-14,
+      "steps": 1279,
+      "final": [
+        0.0013409384791524684,
+        0.0013778748058945107
+      ]
+    },
+    "y_reciprocal_channel_removed": {
+      "endpoint_difference_from_DOP853": 1.169203622808368e-15,
+      "independent_G_work_balance_error": 1.9468870959826745e-12,
+      "independent_energy_heat_balance_error": 7.105427357601002e-14,
+      "steps": 1279,
+      "final": [
+        0.001377874805894511,
+        0.0013409384791524684
+      ]
+    },
+    "both_reciprocal_channels_removed": {
+      "endpoint_difference_from_DOP853": 2.4069288229178198e-17,
+      "independent_G_work_balance_error": 3.3928415632544784e-13,
+      "independent_energy_heat_balance_error": 7.105427357601002e-15,
+      "steps": 1008,
+      "final": [
+        0.0013409509054947398,
+        0.0013409509054947398
+      ]
+    },
+    "zero_chemical_drive": {
+      "endpoint_difference_from_DOP853": 2.1467203015212988e-17,
+      "independent_G_work_balance_error": 1.3571366253017914e-12,
+      "independent_energy_heat_balance_error": 3.552713678800501e-15,
+      "steps": 1089,
+      "final": [
+        0.0013409508956951349,
+        0.0013409508956951349
+      ]
+    }
+  },
+  "sha256": {
+    "agent_closure.py": "e77252da71dc613d9a8e81128f3795e09a9d43fb217c1311572525df2d2ded97",
+    "agent-closure-results.json": "70b35abc753d3e3b6b0ecbcaa3ac6ebd19e75d1873a47786457e9848a3c8a586"
+  }
+}

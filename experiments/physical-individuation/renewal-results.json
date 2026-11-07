@@ -1,0 +1,115 @@
+{
+  "checks_passed": true,
+  "results": {
+    "independent": {
+      "irreversible": {
+        "first_inactivity_mean_time": 1.9375,
+        "integrated_active_energy_until_first_inactivity": 2.875,
+        "expected_forward_repairs": 0.875,
+        "expected_reverse_repairs": 0.0,
+        "expected_terminal_fuel": 2.125,
+        "expected_net_heat_to_bath": 3.75,
+        "first_law_error": 0.0
+      },
+      "finite_temperature": {
+        "first_inactivity_mean_time": 1.9375000004938174,
+        "integrated_active_energy_until_first_inactivity": 2.8750000009876353,
+        "expected_forward_repairs": 0.8750000005582289,
+        "expected_reverse_repairs": 1.631746615964208e-09,
+        "expected_terminal_fuel": 2.1250000010735173,
+        "expected_net_heat_to_bath": 3.7499999978529663,
+        "first_law_error": 1.7763568394002505e-15
+      },
+      "actual_availability": {
+        "horizon": 4.0,
+        "max_log_detailed_balance_error": 3.552713678800501e-15,
+        "integral_actual_active_availability": 2.504588497292541,
+        "availability_quadrature_error_estimate": 7.30571159124338e-12,
+        "integral_active_energy": 2.696093741988866,
+        "terminal_actual_active_availability": 0.11991134601571157,
+        "reference": "same thermal Gibbs measure for both damage dependencies"
+      }
+    },
+    "common": {
+      "irreversible": {
+        "first_inactivity_mean_time": 1.0,
+        "integrated_active_energy_until_first_inactivity": 2.0,
+        "expected_forward_repairs": 0.0,
+        "expected_reverse_repairs": 0.0,
+        "expected_terminal_fuel": 3.0,
+        "expected_net_heat_to_bath": 2.0,
+        "first_law_error": 0.0
+      },
+      "finite_temperature": {
+        "first_inactivity_mean_time": 1.0,
+        "integrated_active_energy_until_first_inactivity": 2.0,
+        "expected_forward_repairs": 0.0,
+        "expected_reverse_repairs": 0.0,
+        "expected_terminal_fuel": 3.0,
+        "expected_net_heat_to_bath": 2.0,
+        "first_law_error": 0.0
+      },
+      "actual_availability": {
+        "horizon": 4.0,
+        "max_log_detailed_balance_error": 3.552713678800501e-15,
+        "integral_actual_active_availability": 1.8866125068931876,
+        "availability_quadrature_error_estimate": 7.081002451059248e-13,
+        "integral_active_energy": 1.963368734389752,
+        "terminal_actual_active_availability": 0.03206080949982402,
+        "reference": "same thermal Gibbs measure for both damage dependencies"
+      }
+    }
+  },
+  "coupling_optimum": {
+    "coupling_optimum": 0.06816723450754329,
+    "integrated_active_energy_at_optimum": 2.056470757869438,
+    "isolated_value": 2.0,
+    "fully_coupled_value": 1.2222222222222223,
+    "initial_material": "two fixed sites and one conserved fuel/waste packet",
+    "initial_stored_energy_every_case": 4.0,
+    "same_fuel_packets_every_case": 1,
+    "max_formula_vs_generator_error": 4.440892098500626e-16,
+    "optimum_resource_ledger": {
+      "first_inactivity_mean_time": 1.4778644138984354,
+      "integrated_active_energy_until_first_inactivity": 2.056470757869438,
+      "expected_forward_repairs": 0.19665468227902927,
+      "expected_reverse_repairs": 0.0,
+      "expected_terminal_fuel": 0.8033453177209708,
+      "expected_net_heat_to_bath": 2.3933093645580583,
+      "first_law_error": 4.440892098500626e-16
+    },
+    "scope": "trait-performance optimum; no heredity or discovery of optimum modeled"
+  },
+  "availability_convergence": {
+    "horizon": 4.0,
+    "irreversible_finite_horizon_active_energy_gain": 0.7327250102234497,
+    "finite_temperature_cases": [
+      {
+        "thermal_energy": 0.1,
+        "actual_active_availability_gain": 0.5032896531491635,
+        "entropy_correction_bound": 0.5545177444479562,
+        "thermal_semigroup_correction_bound": 0.017433573028795314,
+        "derived_positive_gain_lower_bound": 0.16077369274669817,
+        "sum_quadrature_error_estimates": 1.5981216350269278e-11
+      },
+      {
+        "thermal_energy": 0.05,
+        "actual_active_availability_gain": 0.6179759903993534,
+        "entropy_correction_bound": 0.2772588722239781,
+        "thermal_semigroup_correction_bound": 7.914829901935562e-07,
+        "derived_positive_gain_lower_bound": 0.45546534651648146,
+        "sum_quadrature_error_estimates": 8.013811836349305e-12
+      },
+      {
+        "thermal_energy": 0.025,
+        "actual_active_availability_gain": 0.675350498948879,
+        "entropy_correction_bound": 0.13862943611198905,
+        "thermal_semigroup_correction_bound": 8.156840170159851e-16,
+        "derived_positive_gain_lower_bound": 0.5940955741114599,
+        "sum_quadrature_error_estimates": 4.037881140561694e-12
+      }
+    ],
+    "scope": "finite-horizon Gibbs availability, common reference; numerical matrix exponentials and quadrature"
+  },
+  "scope": "finite fuel, paid repair, explicit bath; fixed templates; no new individuality or negentropy identity"
+}

@@ -1,0 +1,234 @@
+{
+  "verifier_sha256": "c54f45e6d412eaa14d8c9b4db7b6e21582c2b6842ee36d1aef2e153e5c2f15fb",
+  "source_sha256": {
+    "differentiated_model.py": "be3f7bb8f486176beaf18a8cde1200995dd21d4f7cc3d6e483075f81f8aa50ac",
+    "verify_driven.py": "366a0a19b4a0f6c3ca8c89880f223eb5a5a6fa6be3c1c4df8ef59a6454a2238e",
+    "verify_interface.py": "ccbaac8114d5f4ad48cf1bd655de7c186ddca0f4e99197322ed3fc4e43aef0b6"
+  },
+  "physics": {
+    "configurations": 2,
+    "cases": 64,
+    "scalar_rates_checked": 44672,
+    "reverse_pairs_checked": 2599,
+    "initial_state_parity": true,
+    "zero_mu_included": true,
+    "zero_and_fractional_helper_masks_included": true,
+    "neutral_tags_nonfunctional": true,
+    "caller_mask_mutation_isolated": true,
+    "maximum_rate_error": 3.469446951953614e-18,
+    "maximum_delta_error": 0.0,
+    "maximum_local_detailed_balance_log_error": 4.440892098500626e-16
+  },
+  "clock_smokes": {
+    "scope": "Four tiny physical clock/replay smokes; not study outcomes or additional ensemble evidence",
+    "matched_gate_histories": true,
+    "gate_flips_per_arm": 6,
+    "initial_state_parity": true,
+    "continuation_gate_preserved": true,
+    "trajectories": [
+      {
+        "seed": 442,
+        "flags": {
+          "produce_L": false,
+          "protect_R": true,
+          "copy_R": true
+        },
+        "response_mode": "opposed",
+        "response": {
+          "asymmetry": 0.8,
+          "flip_rate": 0.7,
+          "initial_gate": null
+        },
+        "events_replayed": 62,
+        "event_counts": {
+          "reservoir_exchange": 27,
+          "fuel_swap": 16,
+          "material_swap": 7,
+          "gate_flip": 6,
+          "passive": 5,
+          "copy_R": 1
+        },
+        "samples_checked": 9,
+        "net_reservoir_fuel_exchange": 3,
+        "internal_fuel_change": -1,
+        "initial_H": 176.0,
+        "final_H": 181.0,
+        "chemical_work": 42.59167373200866,
+        "heat_to_bath": 37.59167373200866,
+        "maximum_record_errors": {
+          "time": 0.0,
+          "H": 0.0,
+          "heat_to_bath": 0.0,
+          "external_work": 0.0,
+          "delta_H": 0.0,
+          "fuel_standard_energy_change": 0.0,
+          "material_energy_change": 0.0
+        }
+      },
+      {
+        "seed": 442,
+        "flags": {
+          "produce_L": true,
+          "protect_R": true,
+          "copy_R": true
+        },
+        "response_mode": "opposed",
+        "response": {
+          "asymmetry": 0.8,
+          "flip_rate": 0.7,
+          "initial_gate": null
+        },
+        "events_replayed": 47,
+        "event_counts": {
+          "reservoir_exchange": 16,
+          "fuel_swap": 13,
+          "material_swap": 5,
+          "gate_flip": 6,
+          "copy_R": 3,
+          "passive": 2,
+          "produce_L": 2
+        },
+        "samples_checked": 9,
+        "net_reservoir_fuel_exchange": 6,
+        "internal_fuel_change": -5,
+        "initial_H": 176.0,
+        "final_H": 202.0,
+        "chemical_work": 85.18334746401732,
+        "heat_to_bath": 59.183347464017324,
+        "maximum_record_errors": {
+          "time": 0.0,
+          "H": 0.0,
+          "heat_to_bath": 0.0,
+          "external_work": 0.0,
+          "delta_H": 0.0,
+          "fuel_standard_energy_change": 0.0,
+          "material_energy_change": 0.0
+        }
+      },
+      {
+        "seed": 442,
+        "flags": {
+          "produce_L": false,
+          "protect_R": true,
+          "copy_R": true
+        },
+        "response_mode": "aligned",
+        "response": {
+          "asymmetry": 0.8,
+          "flip_rate": 0.7,
+          "initial_gate": null
+        },
+        "events_replayed": 62,
+        "event_counts": {
+          "reservoir_exchange": 30,
+          "fuel_swap": 14,
+          "material_swap": 7,
+          "gate_flip": 6,
+          "passive": 4,
+          "copy_R": 1
+        },
+        "samples_checked": 9,
+        "net_reservoir_fuel_exchange": 2,
+        "internal_fuel_change": -1,
+        "initial_H": 176.0,
+        "final_H": 164.0,
+        "chemical_work": 28.394449154672436,
+        "heat_to_bath": 40.39444915467244,
+        "maximum_record_errors": {
+          "time": 0.0,
+          "H": 0.0,
+          "heat_to_bath": 0.0,
+          "external_work": 0.0,
+          "delta_H": 0.0,
+          "fuel_standard_energy_change": 0.0,
+          "material_energy_change": 0.0
+        }
+      },
+      {
+        "seed": 442,
+        "flags": {
+          "produce_L": true,
+          "protect_R": true,
+          "copy_R": true
+        },
+        "response_mode": "aligned",
+        "response": {
+          "asymmetry": 0.8,
+          "flip_rate": 0.7,
+          "initial_gate": null
+        },
+        "events_replayed": 47,
+        "event_counts": {
+          "reservoir_exchange": 16,
+          "fuel_swap": 13,
+          "material_swap": 5,
+          "gate_flip": 6,
+          "copy_R": 3,
+          "passive": 2,
+          "produce_L": 2
+        },
+        "samples_checked": 9,
+        "net_reservoir_fuel_exchange": 6,
+        "internal_fuel_change": -5,
+        "initial_H": 176.0,
+        "final_H": 202.0,
+        "chemical_work": 85.18334746401732,
+        "heat_to_bath": 59.183347464017324,
+        "maximum_record_errors": {
+          "time": 0.0,
+          "H": 0.0,
+          "heat_to_bath": 0.0,
+          "external_work": 0.0,
+          "delta_H": 0.0,
+          "fuel_standard_energy_change": 0.0,
+          "material_energy_change": 0.0
+        }
+      }
+    ]
+  },
+  "supplied_trajectories": [
+    {
+      "file": "smoke-trace.json.gz",
+      "sha256": "35063f0c3fcf0ffdf6a8800ab7763669a3019986e4bf0857c2db71e7b45561cc",
+      "seed": 7,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "response_mode": "opposed",
+      "response": {
+        "asymmetry": 0.5,
+        "flip_rate": 0.1,
+        "initial_gate": null
+      },
+      "events_replayed": 397,
+      "event_counts": {
+        "reservoir_exchange": 246,
+        "fuel_swap": 92,
+        "passive": 13,
+        "material_swap": 24,
+        "produce_L": 13,
+        "copy_R": 7,
+        "gate_flip": 2
+      },
+      "samples_checked": 11,
+      "net_reservoir_fuel_exchange": 20,
+      "internal_fuel_change": -20,
+      "initial_H": 760.0,
+      "final_H": 807.0,
+      "chemical_work": 270.76114408270706,
+      "heat_to_bath": 223.76114408270712,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    }
+  ],
+  "scope": "Conditional thermodynamic/rate/replay checks only. No proof of diversity benefit, selection, collective individuality, or lower resource cost."
+}

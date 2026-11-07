@@ -1,0 +1,80 @@
+{
+  "checks_passed": true,
+  "states": 5,
+  "rates": [
+    [
+      0.0,
+      0.002718281828459045,
+      0.00036787944117144236,
+      1.6487212707001282,
+      0.6065306597126334
+    ],
+    [
+      0.00036787944117144236,
+      0.0,
+      0.002718281828459045,
+      0.0,
+      0.0
+    ],
+    [
+      0.002718281828459045,
+      0.00036787944117144236,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.6065306597126334,
+      0.0,
+      0.0,
+      0.0,
+      1.6487212707001282
+    ],
+    [
+      1.6487212707001282,
+      0.0,
+      0.0,
+      0.6065306597126334,
+      0.0
+    ]
+  ],
+  "escape_rates": [
+    2.258338091682392,
+    0.0030861612696304877,
+    0.0030861612696304877,
+    2.2552519304127614,
+    2.2552519304127614
+  ],
+  "stationary_distribution": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "stationarity_error": 0.0,
+  "horizon": 1.0,
+  "jump_time": 0.5,
+  "paths": [
+    {
+      "target": 1,
+      "total_entropy_production_in_kB": 2.0,
+      "forward_path_density": 0.00017549406770291613,
+      "reverse_path_density": 2.3750539358919436e-05,
+      "forward_one_jump_event_probability": 0.0002151227404717687,
+      "reverse_one_jump_event_probability": 2.911369701238314e-05
+    },
+    {
+      "target": 3,
+      "total_entropy_production_in_kB": 1.0,
+      "forward_path_density": 0.03451943005483135,
+      "reverse_path_density": 0.012698988638128048,
+      "forward_one_jump_event_probability": 0.034519443753856405,
+      "reverse_one_jump_event_probability": 0.01269899367771773
+    }
+  ],
+  "actual_high_to_low_density_ratio": 0.005083921357454566,
+  "actual_high_to_low_event_probability_ratio": 0.006231929517918024,
+  "entropy_only_density_ratio": 1.6487212707001282,
+  "scope": "Driven CTMC with equal internal energies and two chemostatted reaction affinities. Reservoir entropy is counted. Uniform stationary boundary probabilities yield total path entropy equal to jump log-rate ratio. This disproves universal entropy-only ranking of forward histories, not fluctuation relations or conditional biological mechanisms."
+}

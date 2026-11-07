@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "source_and_data_sha256": {
+    "agent_lattice.py": "a03c030ccc6ae083ee3e480b1681185401996b6a4442aa39ed9d281adb488af8",
+    "agent-lattice-results.json": "c44cfbbc094fcd3b70ef8b1f28aa671ba46aa6594467dd193aabdc5430427ee9",
+    "agent-lattice-event-ledgers.npz": "04009a201e1654bc120c7eeb0d551598fe6ec8c9e91c524835d26f9e025151a3"
+  },
+  "runs": {
+    "compact_no_mutation": {
+      "events_replayed": 4328,
+      "maximum_direct_energy_delta_error": 7.283063041541027e-13,
+      "maximum_first_law_error_all_events": 1.8189894035458565e-12,
+      "positive_recorded_reaction_propensities": true,
+      "all_observations_and_snapshots_match": true,
+      "template_instance_and_copying_ancestry_valid": true,
+      "exact_event_integrated_active_templates": 8161.331274323159,
+      "observation_grid_trapezoid_difference": -1.3312743231590503,
+      "final_active_templates": 71,
+      "net_fuel_consumed": 136
+    },
+    "compact_paid_copying_errors": {
+      "events_replayed": 4004,
+      "maximum_direct_energy_delta_error": 7.283063041541027e-13,
+      "maximum_first_law_error_all_events": 1.3642420526593924e-12,
+      "positive_recorded_reaction_propensities": true,
+      "all_observations_and_snapshots_match": true,
+      "template_instance_and_copying_ancestry_valid": true,
+      "exact_event_integrated_active_templates": 7122.974069847214,
+      "observation_grid_trapezoid_difference": 5.025930152785804,
+      "final_active_templates": 49,
+      "net_fuel_consumed": 112
+    },
+    "dispersed_no_mutation": {
+      "events_replayed": 8526,
+      "maximum_direct_energy_delta_error": 7.283063041541027e-13,
+      "maximum_first_law_error_all_events": 7.73070496506989e-12,
+      "positive_recorded_reaction_propensities": true,
+      "all_observations_and_snapshots_match": true,
+      "template_instance_and_copying_ancestry_valid": true,
+      "exact_event_integrated_active_templates": 17194.79443603371,
+      "observation_grid_trapezoid_difference": -8.794436033709644,
+      "final_active_templates": 113,
+      "net_fuel_consumed": 278
+    },
+    "dispersed_paid_copying_errors": {
+      "events_replayed": 8602,
+      "maximum_direct_energy_delta_error": 7.283063041541027e-13,
+      "maximum_first_law_error_all_events": 8.185452315956354e-12,
+      "positive_recorded_reaction_propensities": true,
+      "all_observations_and_snapshots_match": true,
+      "template_instance_and_copying_ancestry_valid": true,
+      "exact_event_integrated_active_templates": 17430.699371029663,
+      "observation_grid_trapezoid_difference": -18.69937102966287,
+      "final_active_templates": 137,
+      "net_fuel_consumed": 285
+    },
+    "no_binding_errors": {
+      "events_replayed": 9736,
+      "maximum_direct_energy_delta_error": 4.547473508864641e-13,
+      "maximum_first_law_error_all_events": 4.547473508864641e-13,
+      "positive_recorded_reaction_propensities": true,
+      "all_observations_and_snapshots_match": true,
+      "template_instance_and_copying_ancestry_valid": true,
+      "exact_event_integrated_active_templates": 15809.750015517307,
+      "observation_grid_trapezoid_difference": 1.2499844826925255,
+      "final_active_templates": 132,
+      "net_fuel_consumed": 307
+    },
+    "high_loss_errors": {
+      "events_replayed": 1145,
+      "maximum_direct_energy_delta_error": 7.283063041541027e-13,
+      "maximum_first_law_error_all_events": 7.531752999057062e-13,
+      "positive_recorded_reaction_propensities": true,
+      "all_observations_and_snapshots_match": true,
+      "template_instance_and_copying_ancestry_valid": true,
+      "exact_event_integrated_active_templates": 331.76802031484544,
+      "observation_grid_trapezoid_difference": -2.768020314845444,
+      "final_active_templates": 0,
+      "net_fuel_consumed": 13
+    }
+  },
+  "scope": "Exact replay of six illustrative trajectories; no population-level advantage, exergy or collective-reproduction inference."
+}

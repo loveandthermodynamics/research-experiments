@@ -1,0 +1,26 @@
+{
+  "checks_passed": true,
+  "arithmetic": "50-decimal outward interval arithmetic",
+  "model": "Rdot=A/R-C/R^2-BR; illustrative A3,B1,C1 in consistent units",
+  "fold_margin_enclosure": "[81.0, 81.0]",
+  "radii": [
+    {
+      "radius_bracket": [
+        ".347296355333",
+        ".347296355335"
+      ],
+      "stable_radially": false,
+      "stationary_derivative_enclosure": "[21.87257810798158032148300001513768591701968860007432113, 21.87257810826805125878039252622003477012245707402373319]"
+    },
+    {
+      "radius_bracket": [
+        "1.532088886237",
+        "1.532088886239"
+      ],
+      "stable_radially": true,
+      "stationary_derivative_enclosure": "[-1.721933856720356179403645300488990731739552205333036398, -1.721933856717019385684268961403261863267181730884191145]"
+    }
+  ],
+  "source_sha256": "a227ccb835ed6a4235ac6c244ae7d02749f65d29415b413e6652a73230e5f88c",
+  "scope": "Conditional radial flux approximation only. No phase-field derivation, nonspherical stability, spontaneous interface, division, lattice correspondence, biodiversity or individual is certified."
+}

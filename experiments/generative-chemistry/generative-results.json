@@ -1,0 +1,378 @@
+{
+  "status": "conditional chemical construction; not a universal cosmic theorem",
+  "parameters": {
+    "feed": 4.0,
+    "dilution": 1.0,
+    "association": 1.0,
+    "catalysis": 1.0,
+    "consume_w": 1.0,
+    "consume_v": 2.0,
+    "thermal_energy": null,
+    "inhibition": 0.0,
+    "slow_conversion": 0.0
+  },
+  "species": [
+    "F",
+    "A",
+    "B",
+    "C",
+    "W",
+    "Z",
+    "V",
+    "Y",
+    "Q"
+  ],
+  "material_weights": [
+    4.0,
+    1.0,
+    1.0,
+    2.0,
+    2.0,
+    1.0,
+    1.0,
+    0.5,
+    0.5
+  ],
+  "standard_energy_weights": [
+    3.0,
+    0.6,
+    0.6,
+    1.0,
+    1.0,
+    0.25,
+    0.5,
+    0.1,
+    0.2
+  ],
+  "standard_energy_releases": [
+    0.19999999999999996,
+    0.7999999999999999,
+    0.25,
+    0.19999999999999998,
+    0.35,
+    0.04999999999999999
+  ],
+  "physical_potential_motif": {
+    "thermal_energy": 0.05,
+    "reaction_endpoint_energy_drop": 0.8,
+    "free_saddle_coordinate": -0.07500000000000001,
+    "bound_saddle_coordinate": -0.15000000000000002,
+    "free_forward_barrier": 1.62247890625,
+    "bound_forward_barrier": 0.6448312500000001,
+    "Eyring_exponential_speedup": 310269900.9887963,
+    "binding_volume_over_standard_volume": 0.01,
+    "binding_well_depth": 0.43025850929940457,
+    "association_equilibrium_constant": 54.598150033144165,
+    "equilibrium_bound_fraction_at_total_concentration_one": 0.8735130460629081
+  },
+  "no_reward_or_group_offspring_operator": true,
+  "fold": {
+    "x": 0.657298106138376,
+    "feed": 3.610718613276039
+  },
+  "irreversible_exact_equilibrium": {
+    "concentrations": {
+      "F": 2.0,
+      "A": 1.0,
+      "B": 1.0,
+      "C": 1.0,
+      "W": 1.0,
+      "Z": 1.0,
+      "V": 0.5,
+      "Y": 0.5,
+      "Q": 0.5
+    },
+    "derivative_max_abs": 0.0,
+    "largest_eigenvalue_real_part": -0.4384471871911699,
+    "material": 16.0,
+    "standard_energy": 9.85,
+    "standard_energy_release_flow": 2.15
+  },
+  "rare_conversion_from_zero": {
+    "concentrations": {
+      "F": 2.0184883850361346,
+      "A": 0.9998305004767415,
+      "B": 0.9998306003705922,
+      "C": 0.9816810145932735,
+      "W": 1.0033226118553407,
+      "Z": 0.9781890134513893,
+      "V": 0.5041161619949389,
+      "Y": 0.474073020215559,
+      "Q": 0.47407284111358616
+    },
+    "derivative_max_abs": 2.220446049250313e-16,
+    "largest_eigenvalue_real_part": -0.4250349842505722,
+    "material": 16.0,
+    "standard_energy": 9.879092646670008,
+    "standard_energy_release_flow": 2.1209073533299927
+  },
+  "finite_reverse_after_conversion_removed": {
+    "concentrations": {
+      "F": 2.018488281352243,
+      "A": 0.9998306022612625,
+      "B": 0.9998306022612625,
+      "C": 0.9816811163864945,
+      "W": 1.0033226239288628,
+      "Z": 0.9781890947188943,
+      "V": 0.5041163477027518,
+      "Y": 0.4740727470161425,
+      "Q": 0.4740727470161425
+    },
+    "derivative_max_abs": 1.1102230246251565e-16,
+    "largest_eigenvalue_real_part": -0.4250350670662154,
+    "material": 16.0,
+    "standard_energy": 9.879092578721544,
+    "standard_energy_release_flow": 2.1209074212784564
+  },
+  "low_founder_final": {
+    "F": 3.9999999999999827,
+    "A": -1.0273427775953587e-14,
+    "B": -1.0273427775953587e-14,
+    "C": 7.049648181429538e-18,
+    "W": -1.0266789571897885e-14,
+    "Z": 1.907882071953265e-27,
+    "V": 1.0849939379399562e-27,
+    "Y": 8.228881339667482e-28,
+    "Q": 1.6356183126043646e-37
+  },
+  "no_seed_or_conversion_Z_Y_remain_zero": true,
+  "product_feedback_without_extra_inhibition": {
+    "thermal_energy": 0.1,
+    "added_inhibition": 0,
+    "C_without_consumers": 0.8625199940400594,
+    "C_with_Z_only": 0.8628089168697939,
+    "C_with_Z_and_Y": 0.8628154621567484,
+    "Z_without_Y": 0.8000093219434581,
+    "Z_with_Y": 0.8181289568480905,
+    "C_gain_fraction": 0.00034256378835362256,
+    "C_gain_fraction_from_Y": 7.586021454564218e-06,
+    "Z_gain_fraction_from_Y": 0.02264927971165953,
+    "largest_full_coexistence_eigenvalue_real_part": -0.33425418386530265
+  },
+  "ecological_return": {
+    "inhibition": 0.05,
+    "C_with_consumers": 0.8910949126722943,
+    "C_without_consumers": 0.8083467313812851,
+    "C_with_Z_only": 0.8894691699556426,
+    "Z_with_Y": 0.8096954726504313,
+    "Z_without_Y": 0.7929389541981762,
+    "relative_increase": 0.10236718734497874,
+    "C_relative_increase_from_Y": 0.0018277673600906041
+  },
+  "controls": {
+    "no_association": {
+      "F": 3.9999999999973865,
+      "A": -3.098020980934248e-13,
+      "B": -3.098020980934248e-13,
+      "C": 0.0,
+      "W": 0.0,
+      "Z": -3.0980209809462666e-22,
+      "V": 0.0,
+      "Y": -3.0980209809462666e-22,
+      "Q": 0.0
+    },
+    "no_catalysis": {
+      "F": 3.999999999999785,
+      "A": -2.4958429722638494e-14,
+      "B": -2.4958429722638494e-14,
+      "C": -2.4958429711093104e-14,
+      "W": 0.0,
+      "Z": -4.991685943343487e-23,
+      "V": 0.0,
+      "Y": -4.991685943343487e-23,
+      "Q": 0.0
+    },
+    "feed_below_fold": {
+      "F": 1.99999999999948,
+      "A": 4.0256763998523085e-13,
+      "B": 4.0256763998523085e-13,
+      "C": -4.628642930039774e-16,
+      "W": 4.0216409905282925e-13,
+      "Z": -2.0958057189367294e-25,
+      "V": -1.502572116103176e-25,
+      "Y": -5.932336028294433e-26,
+      "Q": -2.8247081161554655e-35
+    },
+    "no_external_feed": {
+      "F": 1.6348776308920453e-12,
+      "A": 9.340310106903388e-13,
+      "B": 9.340310106903388e-13,
+      "C": 7.50680150018271e-13,
+      "W": 8.548139624377009e-13,
+      "Z": 1.1998661132440399e-21,
+      "V": 3.6996891516357566e-22,
+      "Y": 8.29897198079009e-22,
+      "Q": 1.7866863249159724e-31
+    },
+    "downstream_below_invasion": {
+      "F": 2.000000000069363,
+      "A": 0.9999999998417964,
+      "B": 0.9999999998417964,
+      "C": 1.000000000088839,
+      "W": 1.999999999930635,
+      "Z": 7.630827018323246e-38,
+      "V": 7.630827018323246e-38,
+      "Y": 5.15008710284623e-140,
+      "Q": 1.965828778598833e-149
+    }
+  },
+  "finite_reverse_sweep": [
+    {
+      "thermal_energy": 0.01,
+      "concentrations": {
+        "F": 2.000000102062452,
+        "A": 0.9999998999970513,
+        "B": 0.9999999999970416,
+        "C": 0.9999998979405044,
+        "W": 0.9999999998368373,
+        "Z": 0.9999998982691576,
+        "V": 0.49999980085279055,
+        "Y": 0.5000002969109996,
+        "Q": 0.500000097247918
+      },
+      "residual": 1.3469336757054862e-11
+    },
+    {
+      "thermal_energy": 0.025,
+      "concentrations": {
+        "F": 2.0003356189689243,
+        "A": 0.999999843739589,
+        "B": 0.9999999437394902,
+        "C": 0.9996644372915872,
+        "W": 1.000022692235708,
+        "Z": 0.9996416922085102,
+        "V": 0.500083524183381,
+        "Y": 0.4995583577855119,
+        "Q": 0.49955816461198876
+      },
+      "residual": 2.2854773629177316e-10
+    },
+    {
+      "thermal_energy": 0.05,
+      "concentrations": {
+        "F": 2.0184883850498614,
+        "A": 0.9998305004453831,
+        "B": 0.9998306003392339,
+        "C": 0.9816810146109058,
+        "W": 1.0033226118378709,
+        "Z": 0.9781890134551335,
+        "V": 0.5041161619996682,
+        "Y": 0.4740730202145744,
+        "Q": 0.47407284111260156
+      },
+      "residual": 1.4345358234635341e-10
+    },
+    {
+      "thermal_energy": 0.1,
+      "concentrations": {
+        "F": 2.1474448873136174,
+        "A": 0.9897396685916966,
+        "B": 0.9897397650951283,
+        "C": 0.8628153475912526,
+        "W": 1.0344262445789707,
+        "Z": 0.8181288884586637,
+        "V": 0.5126304980606852,
+        "Y": 0.3054985223510804,
+        "Q": 0.3054983700467248
+      },
+      "residual": 1.043390929211796e-10
+    },
+    {
+      "thermal_energy": 0.2,
+      "concentrations": {
+        "F": 3.999999999998692,
+        "A": 1.3570784442918938e-12,
+        "B": 1.3570780753996464e-12,
+        "C": -1.1429828378136354e-13,
+        "W": 1.2427797916183555e-12,
+        "Z": -3.6889228519800205e-19,
+        "V": -7.057845093638962e-30,
+        "Y": 2.0055063910068945e-25,
+        "Q": 5.433152501609783e-54
+      },
+      "residual": 1.856319703891234e-12
+    },
+    {
+      "thermal_energy": 0.5,
+      "concentrations": {
+        "F": 3.9999999999986113,
+        "A": 1.6312381405528471e-12,
+        "B": 1.631237897200679e-12,
+        "C": -2.3412773674043074e-13,
+        "W": 1.397110160460191e-12,
+        "Z": -2.4335218891479765e-19,
+        "V": -3.593885444700744e-30,
+        "Y": 7.260776113012743e-26,
+        "Q": 8.166437596194583e-55
+      },
+      "residual": 2.7246897659107977e-12
+    }
+  ],
+  "branch_checks": [
+    {
+      "feed": 3.7,
+      "branch": "lower_saddle",
+      "x": 0.528473636757059,
+      "largest_eigenvalue_real_part": 0.12301151577125387
+    },
+    {
+      "feed": 3.7,
+      "branch": "upper_stable",
+      "x": 0.8093895327797095,
+      "largest_eigenvalue_real_part": -0.1745632950782035
+    },
+    {
+      "feed": 4,
+      "branch": "lower_saddle",
+      "x": 0.4142135623730784,
+      "largest_eigenvalue_real_part": 0.21356105844387124
+    },
+    {
+      "feed": 4,
+      "branch": "upper_stable",
+      "x": 0.9999999999999944,
+      "largest_eigenvalue_real_part": -0.4384471871911615
+    },
+    {
+      "feed": 5,
+      "branch": "lower_saddle",
+      "x": 0.2738905549642185,
+      "largest_eigenvalue_real_part": 0.30218681787435026
+    },
+    {
+      "feed": 5,
+      "branch": "upper_stable",
+      "x": 1.3772028539728496,
+      "largest_eigenvalue_real_part": -1.1033122990085238
+    },
+    {
+      "feed": 8,
+      "branch": "lower_saddle",
+      "x": 0.14636548903290855,
+      "largest_eigenvalue_real_part": 0.36316418282972746
+    },
+    {
+      "feed": 8,
+      "branch": "upper_stable",
+      "x": 2.102775049096628,
+      "largest_eigenvalue_real_part": -2.82016986123608
+    }
+  ],
+  "identity_checks": {
+    "random_states": 500,
+    "max_material_error": 4.440892098500626e-15,
+    "max_standard_energy_error": 4.440892098500626e-15,
+    "max_free_energy_error": 3.552713678800501e-15,
+    "max_mixing_aware_free_energy_balance_error": 5.329070518200751e-15,
+    "minimum_mixing_free_energy_gap": 0.07324233037091524,
+    "minimum_internal_free_energy_dissipation": 0.00304146520883049
+  },
+  "checks_passed": true,
+  "interpretation_limits": [
+    "Rates and reaction grammar were not computed from an atomistic potential.",
+    "Finite chemical possibilities are supplied; realized establishment is endogenous.",
+    "C is a self-regenerating chemical complex, not demonstrated Darwinian collective individuality.",
+    "No evolving sequences, stochastic extinction, shared social self-model or consciousness.",
+    "The niche cascade does not demonstrate a second nested transition in individuality."
+  ]
+}

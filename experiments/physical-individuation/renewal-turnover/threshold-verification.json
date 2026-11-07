@@ -1,0 +1,170 @@
+{
+  "checks_passed": true,
+  "parameters": {
+    "M": 0.95,
+    "alpha": 4.0,
+    "reverse_coefficient": 2.061153622438558e-09,
+    "theta": 1,
+    "epsilon_R": 20,
+    "epsilon_L": 20,
+    "fuel_affinity": 40.0
+  },
+  "limiting_fold": {
+    "L": 0.08355007450527999,
+    "M_min": 0.9161651040061768
+  },
+  "limiting_positive_equilibria": [
+    {
+      "R": 0.03456303265568846,
+      "L": 0.030583228665464993,
+      "D": 0.8848537386788464
+    },
+    {
+      "R": 0.23284761106459398,
+      "L": 0.13544838716009538,
+      "D": 0.5817040017753106
+    }
+  ],
+  "reversible_equilibria": [
+    {
+      "R": 3.916197081608474e-08,
+      "L": 3.916196498783978e-08,
+      "D": 0.9499999216760642,
+      "eigenvalues": [
+        -0.049999855306894214,
+        -1.0000001488154426
+      ],
+      "stable": true,
+      "thermodynamics": {
+        "currents": [
+          3.720386920796081e-08,
+          3.720386920796081e-08,
+          3.720386920829883e-08,
+          3.720386920796081e-08
+        ],
+        "chemical_power": 2.976309536636865e-06,
+        "entropy_production_rate": 2.9763095366378777e-06,
+        "free_energy_change_rate": -1.0126114431393016e-18,
+        "balance_error": 1.644530321444202e-23
+      }
+    },
+    {
+      "R": 0.03456298565737335,
+      "L": 0.03058319179908532,
+      "D": 0.8848538225435413,
+      "eigenvalues": [
+        0.03519993076614325,
+        -1.1043259528003124
+      ],
+      "stable": false,
+      "thermodynamics": {
+        "currents": [
+          0.030583189974982147,
+          0.030583189975265664,
+          0.030583189974982147,
+          0.03058318997526566
+        ],
+        "chemical_power": 2.4466551980099123,
+        "entropy_production_rate": 2.4466551980099123,
+        "free_energy_change_rate": 5.880928295088077e-17,
+        "balance_error": 5.880928295088077e-17
+      }
+    },
+    {
+      "R": 0.2328476170461281,
+      "L": 0.1354483897724793,
+      "D": 0.5817039931813925,
+      "eigenvalues": [
+        -0.13470235584189294,
+        -1.3309928854656836
+      ],
+      "stable": true,
+      "thermodynamics": {
+        "currents": [
+          0.13544838852675276,
+          0.13544838857349803,
+          0.13544838852675276,
+          0.135448388573498
+        ],
+        "chemical_power": 10.835871084010032,
+        "entropy_production_rate": 10.83587108401003,
+        "free_energy_change_rate": 3.53347896955811e-16,
+        "balance_error": 1.4230089424444394e-15
+      }
+    }
+  ],
+  "basin_examples": [
+    {
+      "initial": [
+        0.01,
+        0.01
+      ],
+      "final": [
+        3.916219417466194e-08,
+        3.916186185625573e-08
+      ],
+      "reaches_equilibrium_index": 0
+    },
+    {
+      "initial": [
+        0.3,
+        0.15
+      ],
+      "final": [
+        0.23284761704748178,
+        0.13544838976766804
+      ],
+      "reaches_equilibrium_index": 2
+    }
+  ],
+  "maximum_off_stationary_balance_error": 1.7763568394002505e-15,
+  "interventions_from_high_state": [
+    {
+      "produce_L": false,
+      "protect_R": true,
+      "initial": [
+        0.2328476170461281,
+        0.1354483897724793
+      ],
+      "final": [
+        3.916250174086859e-08,
+        1.9579989289481266e-09
+      ]
+    },
+    {
+      "produce_L": true,
+      "protect_R": false,
+      "initial": [
+        0.2328476170461281,
+        0.1354483897724793
+      ],
+      "final": [
+        3.91622467671736e-08,
+        3.91622467671736e-08
+      ]
+    },
+    {
+      "produce_L": false,
+      "protect_R": false,
+      "initial": [
+        0.2328476170461281,
+        0.1354483897724793
+      ],
+      "final": [
+        3.91624392853526e-08,
+        1.9578700006326687e-09
+      ]
+    }
+  ],
+  "stationary_R_upper_bounds": {
+    "no_protection": 3.916191882633256e-08,
+    "no_production": 3.916192496095705e-08
+  },
+  "supplied_premises": [
+    "R-catalyzed copying and L production",
+    "L-dependent symmetric passive R barrier",
+    "material conservation",
+    "fixed fuel/waste chemostats with counted work"
+  ],
+  "scope": "Conditional kinetic saddle-node and bistability with continually paid turnover. No spatial boundary, arbitrary-small-founder formation, new trait alphabet, biological aging, recursive individuality or moral legitimacy follows."
+}

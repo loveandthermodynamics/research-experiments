@@ -1,0 +1,4303 @@
+{
+  "turnover_statistics": [
+    {
+      "flags": {
+        "produce_L": true,
+        "protect_R": true
+      },
+      "founder_free_continuation_frequency": 0.90625,
+      "continuation_time": {
+        "n": 64,
+        "mean": 31.00741131060601,
+        "monte_carlo_standard_error": 2.731185706089902,
+        "approximate_95_percent_normal_interval": [
+          25.654287326669802,
+          36.36053529454222
+        ]
+      },
+      "inherited_R_time": {
+        "n": 64,
+        "mean": 96.18825231661623,
+        "monte_carlo_standard_error": 13.043076639662655,
+        "approximate_95_percent_normal_interval": [
+          70.62382210287743,
+          121.75268253035503
+        ]
+      },
+      "RL_continuation_time_after_founders": {
+        "n": 64,
+        "mean": 24.743007799278864,
+        "monte_carlo_standard_error": 2.629812731955868,
+        "approximate_95_percent_normal_interval": [
+          19.58857484464536,
+          29.897440753912367
+        ]
+      },
+      "RL_continuation_frequency_after_founders": 0.875,
+      "paid_L_instances_lost": {
+        "n": 64,
+        "mean": 32.359375,
+        "monte_carlo_standard_error": 0.4461959959653114,
+        "approximate_95_percent_normal_interval": [
+          31.48483084790799,
+          33.233919152092014
+        ]
+      },
+      "aggregate_fuel_standard_energy_per_R_time": 1.042673024149116
+    },
+    {
+      "flags": {
+        "produce_L": true,
+        "protect_R": false
+      },
+      "founder_free_continuation_frequency": 0.875,
+      "continuation_time": {
+        "n": 64,
+        "mean": 20.757036026481753,
+        "monte_carlo_standard_error": 2.2417282166143337,
+        "approximate_95_percent_normal_interval": [
+          16.363248721917657,
+          25.15082333104585
+        ]
+      },
+      "inherited_R_time": {
+        "n": 64,
+        "mean": 50.5851979833033,
+        "monte_carlo_standard_error": 7.097757877231231,
+        "approximate_95_percent_normal_interval": [
+          36.67359254393009,
+          64.49680342267652
+        ]
+      },
+      "RL_continuation_time_after_founders": {
+        "n": 64,
+        "mean": 18.486890407625808,
+        "monte_carlo_standard_error": 2.017357391689121,
+        "approximate_95_percent_normal_interval": [
+          14.53286991991513,
+          22.440910895336486
+        ]
+      },
+      "RL_continuation_frequency_after_founders": 0.875,
+      "paid_L_instances_lost": {
+        "n": 64,
+        "mean": 21.78125,
+        "monte_carlo_standard_error": 0.6117519525010843,
+        "approximate_95_percent_normal_interval": [
+          20.582216173097876,
+          22.980283826902124
+        ]
+      },
+      "aggregate_fuel_standard_energy_per_R_time": 2.2572334465945207
+    },
+    {
+      "flags": {
+        "produce_L": false,
+        "protect_R": true
+      },
+      "founder_free_continuation_frequency": 0.96875,
+      "continuation_time": {
+        "n": 64,
+        "mean": 42.60374502509633,
+        "monte_carlo_standard_error": 2.7182283638349136,
+        "approximate_95_percent_normal_interval": [
+          37.2760174319799,
+          47.93147261821276
+        ]
+      },
+      "inherited_R_time": {
+        "n": 64,
+        "mean": 191.62331199773138,
+        "monte_carlo_standard_error": 14.484309128330503,
+        "approximate_95_percent_normal_interval": [
+          163.23406610620358,
+          220.01255788925917
+        ]
+      },
+      "RL_continuation_time_after_founders": {
+        "n": 64,
+        "mean": 0.0,
+        "monte_carlo_standard_error": 0.0,
+        "approximate_95_percent_normal_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "RL_continuation_frequency_after_founders": 0.0,
+      "paid_L_instances_lost": {
+        "n": 64,
+        "mean": 0.0,
+        "monte_carlo_standard_error": 0.0,
+        "approximate_95_percent_normal_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "aggregate_fuel_standard_energy_per_R_time": 1.2080352283114044
+    },
+    {
+      "flags": {
+        "produce_L": false,
+        "protect_R": false
+      },
+      "founder_free_continuation_frequency": 0.96875,
+      "continuation_time": {
+        "n": 64,
+        "mean": 42.60374502509633,
+        "monte_carlo_standard_error": 2.7182283638349136,
+        "approximate_95_percent_normal_interval": [
+          37.2760174319799,
+          47.93147261821276
+        ]
+      },
+      "inherited_R_time": {
+        "n": 64,
+        "mean": 191.62331199773138,
+        "monte_carlo_standard_error": 14.484309128330503,
+        "approximate_95_percent_normal_interval": [
+          163.23406610620358,
+          220.01255788925917
+        ]
+      },
+      "RL_continuation_time_after_founders": {
+        "n": 64,
+        "mean": 0.0,
+        "monte_carlo_standard_error": 0.0,
+        "approximate_95_percent_normal_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "RL_continuation_frequency_after_founders": 0.0,
+      "paid_L_instances_lost": {
+        "n": 64,
+        "mean": 0.0,
+        "monte_carlo_standard_error": 0.0,
+        "approximate_95_percent_normal_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "aggregate_fuel_standard_energy_per_R_time": 1.2080352283114044
+    }
+  ],
+  "paired_factorial_interaction_R_time": {
+    "n": 64,
+    "mean": 475.1665362868471,
+    "monte_carlo_standard_error": 18.579544144155573,
+    "approximate_95_percent_normal_interval": [
+      438.7506297643022,
+      511.582442809392
+    ]
+  },
+  "activity_normalized_fuel_economy": {
+    "measure": "ratio of ensemble total standard fuel energy to ensemble total active-template time",
+    "reduction_fraction": 0.13688524993880558,
+    "paired_bootstrap_95_interval": [
+      0.0972037557585516,
+      0.17428803463526849
+    ],
+    "replicates": 10000,
+    "bootstrap_seed": 335,
+    "scope": "An activity-normalized standard-energy ratio, not matched-reliability thermodynamic efficiency."
+  },
+  "observations": [
+    {
+      "seed": 81001,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 15.67884527950725,
+      "founder_lineage_R_time_after_founder_instance_loss": 67.59627304407287,
+      "RL_contact_continuation_after_founders_lost": 15.67884527950725,
+      "integral_RL_contacts_after_founder_loss": 95.74507882014017,
+      "first_founder_free_continuation": 56.87313858171928,
+      "paid_L_instances_lost": 30,
+      "paid_L_instances_created": 31,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81001,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 33.3219522892426,
+      "founder_lineage_R_time_after_founder_instance_loss": 33.3219522892426,
+      "RL_contact_continuation_after_founders_lost": 33.3219522892426,
+      "integral_RL_contacts_after_founder_loss": 56.20460178980037,
+      "first_founder_free_continuation": 29.78715774003967,
+      "paid_L_instances_lost": 19,
+      "paid_L_instances_created": 19,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81001,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 61.4853338049133,
+      "founder_lineage_R_time_after_founder_instance_loss": 156.02216140413253,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 8.187396220681176,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81001,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 61.4853338049133,
+      "founder_lineage_R_time_after_founder_instance_loss": 156.02216140413253,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 8.187396220681176,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81002,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 63.32083015277591,
+      "founder_lineage_R_time_after_founder_instance_loss": 160.62249846081508,
+      "RL_contact_continuation_after_founders_lost": 63.168397383865795,
+      "integral_RL_contacts_after_founder_loss": 189.17826109132912,
+      "first_founder_free_continuation": 56.67916984722409,
+      "paid_L_instances_lost": 33,
+      "paid_L_instances_created": 34,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81002,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 5.338021520686954,
+      "founder_lineage_R_time_after_founder_instance_loss": 9.418460854212732,
+      "RL_contact_continuation_after_founders_lost": 5.338021520686954,
+      "integral_RL_contacts_after_founder_loss": 15.441824539097041,
+      "first_founder_free_continuation": 17.7652845683582,
+      "paid_L_instances_lost": 16,
+      "paid_L_instances_created": 16,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81002,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 48.184601558892616,
+      "founder_lineage_R_time_after_founder_instance_loss": 91.59291307591768,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 50.860721851572656,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81002,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 48.184601558892616,
+      "founder_lineage_R_time_after_founder_instance_loss": 91.59291307591768,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 50.860721851572656,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81003,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 89.41558993296874,
+      "founder_lineage_R_time_after_founder_instance_loss": 333.3520203814972,
+      "RL_contact_continuation_after_founders_lost": 85.10404972141362,
+      "integral_RL_contacts_after_founder_loss": 410.63442567328724,
+      "first_founder_free_continuation": 30.584410067031257,
+      "paid_L_instances_lost": 31,
+      "paid_L_instances_created": 35,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81003,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 51.856975325961834,
+      "founder_lineage_R_time_after_founder_instance_loss": 130.0177356058265,
+      "RL_contact_continuation_after_founders_lost": 51.02664151958905,
+      "integral_RL_contacts_after_founder_loss": 131.59616598561115,
+      "first_founder_free_continuation": 18.515137907128526,
+      "paid_L_instances_lost": 26,
+      "paid_L_instances_created": 27,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81003,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 18.46877652511995,
+      "founder_lineage_R_time_after_founder_instance_loss": 43.962560430650676,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 36.85394281224269,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81003,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 18.46877652511995,
+      "founder_lineage_R_time_after_founder_instance_loss": 43.962560430650676,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 36.85394281224269,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81004,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 72.49497828216836,
+      "founder_lineage_R_time_after_founder_instance_loss": 341.5163165183203,
+      "RL_contact_continuation_after_founders_lost": 71.24009213625857,
+      "integral_RL_contacts_after_founder_loss": 361.2606146937206,
+      "first_founder_free_continuation": 30.980449078997697,
+      "paid_L_instances_lost": 26,
+      "paid_L_instances_created": 26,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81004,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 23,
+      "paid_L_instances_created": 23,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81004,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 81.3823208857849,
+      "founder_lineage_R_time_after_founder_instance_loss": 111.57458201301746,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 38.617679114215086,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81004,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 81.3823208857849,
+      "founder_lineage_R_time_after_founder_instance_loss": 111.57458201301746,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 38.617679114215086,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81005,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 11.221009901754854,
+      "founder_lineage_R_time_after_founder_instance_loss": 26.41066713071075,
+      "RL_contact_continuation_after_founders_lost": 8.272093300144519,
+      "integral_RL_contacts_after_founder_loss": 18.514826834565312,
+      "first_founder_free_continuation": 66.06611140303049,
+      "paid_L_instances_lost": 36,
+      "paid_L_instances_created": 36,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81005,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 23.038932873179867,
+      "founder_lineage_R_time_after_founder_instance_loss": 32.43348012007022,
+      "RL_contact_continuation_after_founders_lost": 23.038932873179867,
+      "integral_RL_contacts_after_founder_loss": 40.80571540736493,
+      "first_founder_free_continuation": 12.28227511178656,
+      "paid_L_instances_lost": 20,
+      "paid_L_instances_created": 20,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81005,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 28.71031618501163,
+      "founder_lineage_R_time_after_founder_instance_loss": 54.23921476192664,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 25.247902184626444,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81005,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 28.71031618501163,
+      "founder_lineage_R_time_after_founder_instance_loss": 54.23921476192664,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 25.247902184626444,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81006,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 42.64969682040723,
+      "founder_lineage_R_time_after_founder_instance_loss": 92.23665344809397,
+      "RL_contact_continuation_after_founders_lost": 39.127821187886326,
+      "integral_RL_contacts_after_founder_loss": 91.28919732388854,
+      "first_founder_free_continuation": 69.39520237325914,
+      "paid_L_instances_lost": 37,
+      "paid_L_instances_created": 38,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81006,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 59.5340723417208,
+      "founder_lineage_R_time_after_founder_instance_loss": 218.74299740799904,
+      "RL_contact_continuation_after_founders_lost": 49.200293534357044,
+      "integral_RL_contacts_after_founder_loss": 239.97283686416304,
+      "first_founder_free_continuation": 17.82151699937315,
+      "paid_L_instances_lost": 31,
+      "paid_L_instances_created": 31,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81006,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 32.134358510139634,
+      "founder_lineage_R_time_after_founder_instance_loss": 156.17618519497893,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 14.897551892378056,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81006,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 32.134358510139634,
+      "founder_lineage_R_time_after_founder_instance_loss": 156.17618519497893,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 14.897551892378056,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81007,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 7.61579218565096,
+      "founder_lineage_R_time_after_founder_instance_loss": 7.61579218565096,
+      "RL_contact_continuation_after_founders_lost": 6.277321456285364,
+      "integral_RL_contacts_after_founder_loss": 10.57941759719344,
+      "first_founder_free_continuation": 59.17517243456892,
+      "paid_L_instances_lost": 29,
+      "paid_L_instances_created": 29,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81007,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 46.82368276384967,
+      "founder_lineage_R_time_after_founder_instance_loss": 78.95486299781086,
+      "RL_contact_continuation_after_founders_lost": 45.65796234515162,
+      "integral_RL_contacts_after_founder_loss": 102.38025326043669,
+      "first_founder_free_continuation": 18.641160953428844,
+      "paid_L_instances_lost": 22,
+      "paid_L_instances_created": 22,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81007,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 29.684176382919347,
+      "founder_lineage_R_time_after_founder_instance_loss": 108.76624007924757,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 35.10815675124026,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81007,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 29.684176382919347,
+      "founder_lineage_R_time_after_founder_instance_loss": 108.76624007924757,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 35.10815675124026,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81008,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 31.75381500055518,
+      "founder_lineage_R_time_after_founder_instance_loss": 75.2478643589284,
+      "RL_contact_continuation_after_founders_lost": 15.892411848986725,
+      "integral_RL_contacts_after_founder_loss": 55.457365463033355,
+      "first_founder_free_continuation": 70.9734276345594,
+      "paid_L_instances_lost": 35,
+      "paid_L_instances_created": 37,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81008,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 5.646671583406913,
+      "founder_lineage_R_time_after_founder_instance_loss": 16.364410515949448,
+      "RL_contact_continuation_after_founders_lost": 5.646671583406913,
+      "integral_RL_contacts_after_founder_loss": 29.500503800621455,
+      "first_founder_free_continuation": 18.602433149121623,
+      "paid_L_instances_lost": 22,
+      "paid_L_instances_created": 22,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81008,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 22.630718073557293,
+      "founder_lineage_R_time_after_founder_instance_loss": 171.54684874919533,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 21.361094406104836,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81008,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 22.630718073557293,
+      "founder_lineage_R_time_after_founder_instance_loss": 171.54684874919533,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 21.361094406104836,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81009,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 23.06060910437273,
+      "founder_lineage_R_time_after_founder_instance_loss": 23.06060910437273,
+      "RL_contact_continuation_after_founders_lost": 1.7573157337565704,
+      "integral_RL_contacts_after_founder_loss": 1.7573157337565704,
+      "first_founder_free_continuation": 81.59858016674436,
+      "paid_L_instances_lost": 32,
+      "paid_L_instances_created": 33,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81009,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 19,
+      "paid_L_instances_created": 19,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81009,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 49.85729883340287,
+      "founder_lineage_R_time_after_founder_instance_loss": 207.9880317937166,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 20.650243679714446,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81009,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 49.85729883340287,
+      "founder_lineage_R_time_after_founder_instance_loss": 207.9880317937166,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 20.650243679714446,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81010,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 27.448479941819677,
+      "founder_lineage_R_time_after_founder_instance_loss": 63.72121668903359,
+      "RL_contact_continuation_after_founders_lost": 25.17349553976785,
+      "integral_RL_contacts_after_founder_loss": 67.89199675397832,
+      "first_founder_free_continuation": 47.517692167589395,
+      "paid_L_instances_lost": 28,
+      "paid_L_instances_created": 28,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81010,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 33.26635511562762,
+      "founder_lineage_R_time_after_founder_instance_loss": 109.88431001160802,
+      "RL_contact_continuation_after_founders_lost": 26.888170101378478,
+      "integral_RL_contacts_after_founder_loss": 102.15108399549462,
+      "first_founder_free_continuation": 25.215277357499616,
+      "paid_L_instances_lost": 31,
+      "paid_L_instances_created": 31,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81010,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 24.502271794608863,
+      "founder_lineage_R_time_after_founder_instance_loss": 193.96513892246713,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 7.711717672934112,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81010,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 24.502271794608863,
+      "founder_lineage_R_time_after_founder_instance_loss": 193.96513892246713,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 7.711717672934112,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81011,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 35.619895056844534,
+      "founder_lineage_R_time_after_founder_instance_loss": 112.35774471410029,
+      "RL_contact_continuation_after_founders_lost": 35.619895056844534,
+      "integral_RL_contacts_after_founder_loss": 151.40642673139627,
+      "first_founder_free_continuation": 22.061886114800423,
+      "paid_L_instances_lost": 22,
+      "paid_L_instances_created": 23,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81011,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 14.8451144482083,
+      "founder_lineage_R_time_after_founder_instance_loss": 22.7769632597319,
+      "RL_contact_continuation_after_founders_lost": 14.8451144482083,
+      "integral_RL_contacts_after_founder_loss": 42.65066209993335,
+      "first_founder_free_continuation": 27.705571768357466,
+      "paid_L_instances_lost": 20,
+      "paid_L_instances_created": 20,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81011,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 73.28799257412413,
+      "founder_lineage_R_time_after_founder_instance_loss": 268.8703358193979,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 19.444658807014616,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81011,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 73.28799257412413,
+      "founder_lineage_R_time_after_founder_instance_loss": 268.8703358193979,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 19.444658807014616,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81012,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 67.60650897053661,
+      "founder_lineage_R_time_after_founder_instance_loss": 394.5559854606199,
+      "RL_contact_continuation_after_founders_lost": 50.69143910131381,
+      "integral_RL_contacts_after_founder_loss": 484.99485338052546,
+      "first_founder_free_continuation": 31.179873323408792,
+      "paid_L_instances_lost": 31,
+      "paid_L_instances_created": 31,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81012,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 32.28417711460559,
+      "founder_lineage_R_time_after_founder_instance_loss": 50.316071974385814,
+      "RL_contact_continuation_after_founders_lost": 18.841558079375133,
+      "integral_RL_contacts_after_founder_loss": 27.79112381576256,
+      "first_founder_free_continuation": 19.57779012001484,
+      "paid_L_instances_lost": 20,
+      "paid_L_instances_created": 20,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81012,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 42.605881073994844,
+      "founder_lineage_R_time_after_founder_instance_loss": 407.79995698868004,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 20.625254442765694,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81012,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 42.605881073994844,
+      "founder_lineage_R_time_after_founder_instance_loss": 407.79995698868004,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 20.625254442765694,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81013,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 32.092813497198364,
+      "founder_lineage_R_time_after_founder_instance_loss": 73.30544191550283,
+      "RL_contact_continuation_after_founders_lost": 27.219634032867162,
+      "integral_RL_contacts_after_founder_loss": 90.3697938141817,
+      "first_founder_free_continuation": 71.10297093674423,
+      "paid_L_instances_lost": 28,
+      "paid_L_instances_created": 29,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81013,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 3.5983139123580727,
+      "founder_lineage_R_time_after_founder_instance_loss": 3.5983139123580727,
+      "RL_contact_continuation_after_founders_lost": 2.855085603829039,
+      "integral_RL_contacts_after_founder_loss": 2.855085603829039,
+      "first_founder_free_continuation": 38.82148003262568,
+      "paid_L_instances_lost": 29,
+      "paid_L_instances_created": 29,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81013,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 13.356053400985296,
+      "founder_lineage_R_time_after_founder_instance_loss": 79.70238410101328,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 25.244634757278405,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81013,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 13.356053400985296,
+      "founder_lineage_R_time_after_founder_instance_loss": 79.70238410101328,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 25.244634757278405,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81014,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 35.23279711514843,
+      "founder_lineage_R_time_after_founder_instance_loss": 35.23279711514843,
+      "RL_contact_continuation_after_founders_lost": 28.993096380627293,
+      "integral_RL_contacts_after_founder_loss": 32.460383053665964,
+      "first_founder_free_continuation": 69.12428274776045,
+      "paid_L_instances_lost": 37,
+      "paid_L_instances_created": 40,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81014,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 32.1122652071904,
+      "founder_lineage_R_time_after_founder_instance_loss": 55.80656375970571,
+      "RL_contact_continuation_after_founders_lost": 26.379546806246776,
+      "integral_RL_contacts_after_founder_loss": 48.31569302671357,
+      "first_founder_free_continuation": 14.922047386250782,
+      "paid_L_instances_lost": 19,
+      "paid_L_instances_created": 20,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81014,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 22.155677250239332,
+      "founder_lineage_R_time_after_founder_instance_loss": 92.2043928583181,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 27.52224452836985,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81014,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 22.155677250239332,
+      "founder_lineage_R_time_after_founder_instance_loss": 92.2043928583181,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 27.52224452836985,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81015,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 9.560969439654173,
+      "founder_lineage_R_time_after_founder_instance_loss": 15.153614725469367,
+      "RL_contact_continuation_after_founders_lost": 9.560969439654173,
+      "integral_RL_contacts_after_founder_loss": 14.582182329035618,
+      "first_founder_free_continuation": 75.49676710913432,
+      "paid_L_instances_lost": 41,
+      "paid_L_instances_created": 41,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81015,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 11.233581437220597,
+      "founder_lineage_R_time_after_founder_instance_loss": 21.10353837763862,
+      "RL_contact_continuation_after_founders_lost": 7.076618812590983,
+      "integral_RL_contacts_after_founder_loss": 25.75241448613303,
+      "first_founder_free_continuation": 10.363409406656338,
+      "paid_L_instances_lost": 16,
+      "paid_L_instances_created": 16,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81015,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 55.30728440376404,
+      "founder_lineage_R_time_after_founder_instance_loss": 301.4154591600312,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 17.484333040547988,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81015,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 55.30728440376404,
+      "founder_lineage_R_time_after_founder_instance_loss": 301.4154591600312,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 17.484333040547988,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81016,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 27.72927188812252,
+      "founder_lineage_R_time_after_founder_instance_loss": 96.88672815865135,
+      "RL_contact_continuation_after_founders_lost": 15.611034798710676,
+      "integral_RL_contacts_after_founder_loss": 73.19142555979789,
+      "first_founder_free_continuation": 47.52376684967465,
+      "paid_L_instances_lost": 31,
+      "paid_L_instances_created": 31,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81016,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 28.531748075433555,
+      "founder_lineage_R_time_after_founder_instance_loss": 56.495741973214464,
+      "RL_contact_continuation_after_founders_lost": 28.531748075433555,
+      "integral_RL_contacts_after_founder_loss": 128.23620055442063,
+      "first_founder_free_continuation": 17.170712731186363,
+      "paid_L_instances_lost": 22,
+      "paid_L_instances_created": 22,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81016,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 32.7040316008091,
+      "founder_lineage_R_time_after_founder_instance_loss": 195.52542076136618,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 22.94422158124235,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81016,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 32.7040316008091,
+      "founder_lineage_R_time_after_founder_instance_loss": 195.52542076136618,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 22.94422158124235,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81017,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 60.55578947837785,
+      "founder_lineage_R_time_after_founder_instance_loss": 231.89757546102186,
+      "RL_contact_continuation_after_founders_lost": 40.68609616945125,
+      "integral_RL_contacts_after_founder_loss": 161.52126762100522,
+      "first_founder_free_continuation": 46.28471222306668,
+      "paid_L_instances_lost": 35,
+      "paid_L_instances_created": 36,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81017,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 12.734025306135802,
+      "founder_lineage_R_time_after_founder_instance_loss": 22.315200647277482,
+      "RL_contact_continuation_after_founders_lost": 9.147851674345251,
+      "integral_RL_contacts_after_founder_loss": 26.042485042066797,
+      "first_founder_free_continuation": 30.642478663512808,
+      "paid_L_instances_lost": 28,
+      "paid_L_instances_created": 29,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81017,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 46.320675101822296,
+      "founder_lineage_R_time_after_founder_instance_loss": 186.38111399804347,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 26.605028728251206,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81017,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 46.320675101822296,
+      "founder_lineage_R_time_after_founder_instance_loss": 186.38111399804347,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 26.605028728251206,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81018,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 40.41258790634854,
+      "founder_lineage_R_time_after_founder_instance_loss": 77.49197722852055,
+      "RL_contact_continuation_after_founders_lost": 34.772175325900754,
+      "integral_RL_contacts_after_founder_loss": 74.93477206666785,
+      "first_founder_free_continuation": 38.58834622061149,
+      "paid_L_instances_lost": 31,
+      "paid_L_instances_created": 31,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81018,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 6.31795115914014,
+      "founder_lineage_R_time_after_founder_instance_loss": 11.137110024034072,
+      "RL_contact_continuation_after_founders_lost": 2.4900973185810145,
+      "integral_RL_contacts_after_founder_loss": 4.570386033196659,
+      "first_founder_free_continuation": 29.416507061219516,
+      "paid_L_instances_lost": 24,
+      "paid_L_instances_created": 24,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81018,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 50.41295417924215,
+      "founder_lineage_R_time_after_founder_instance_loss": 312.3709674803607,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 15.170414396654577,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81018,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 50.41295417924215,
+      "founder_lineage_R_time_after_founder_instance_loss": 312.3709674803607,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 15.170414396654577,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81019,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 19.576428906004793,
+      "founder_lineage_R_time_after_founder_instance_loss": 52.39835359851928,
+      "RL_contact_continuation_after_founders_lost": 13.839371835534585,
+      "integral_RL_contacts_after_founder_loss": 31.871661804508214,
+      "first_founder_free_continuation": 49.60557276477418,
+      "paid_L_instances_lost": 29,
+      "paid_L_instances_created": 30,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81019,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 5.01284079983451,
+      "founder_lineage_R_time_after_founder_instance_loss": 6.7896825859412715,
+      "RL_contact_continuation_after_founders_lost": 3.992815886023166,
+      "integral_RL_contacts_after_founder_loss": 10.596023147101793,
+      "first_founder_free_continuation": 26.54949860701712,
+      "paid_L_instances_lost": 23,
+      "paid_L_instances_created": 23,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81019,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 53.60075875789469,
+      "founder_lineage_R_time_after_founder_instance_loss": 121.03930040841252,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 20.601714680298322,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81019,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 53.60075875789469,
+      "founder_lineage_R_time_after_founder_instance_loss": 121.03930040841252,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 20.601714680298322,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81020,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 19.26606898371601,
+      "founder_lineage_R_time_after_founder_instance_loss": 39.89621618755403,
+      "RL_contact_continuation_after_founders_lost": 1.4046481742677202,
+      "integral_RL_contacts_after_founder_loss": 2.498847243529312,
+      "first_founder_free_continuation": 76.45484806213878,
+      "paid_L_instances_lost": 31,
+      "paid_L_instances_created": 32,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81020,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 27.554055408429527,
+      "founder_lineage_R_time_after_founder_instance_loss": 127.33887458425261,
+      "RL_contact_continuation_after_founders_lost": 27.06529639080099,
+      "integral_RL_contacts_after_founder_loss": 122.54899641529242,
+      "first_founder_free_continuation": 19.725122712403206,
+      "paid_L_instances_lost": 21,
+      "paid_L_instances_created": 22,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81020,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 30.806588418990557,
+      "founder_lineage_R_time_after_founder_instance_loss": 115.06362485348328,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 21.447750116548896,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81020,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 30.806588418990557,
+      "founder_lineage_R_time_after_founder_instance_loss": 115.06362485348328,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 21.447750116548896,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81021,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 36.151322199422125,
+      "founder_lineage_R_time_after_founder_instance_loss": 125.86107960975629,
+      "RL_contact_continuation_after_founders_lost": 24.31939195220712,
+      "integral_RL_contacts_after_founder_loss": 106.90217598685541,
+      "first_founder_free_continuation": 35.65097270302307,
+      "paid_L_instances_lost": 30,
+      "paid_L_instances_created": 30,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81021,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 11.741497945714983,
+      "founder_lineage_R_time_after_founder_instance_loss": 43.78397488045191,
+      "RL_contact_continuation_after_founders_lost": 11.741497945714983,
+      "integral_RL_contacts_after_founder_loss": 28.892445314657053,
+      "first_founder_free_continuation": 36.584783463882516,
+      "paid_L_instances_lost": 21,
+      "paid_L_instances_created": 21,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81021,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 39.249952091840115,
+      "founder_lineage_R_time_after_founder_instance_loss": 95.90615336917293,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 38.04494415554866,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81021,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 39.249952091840115,
+      "founder_lineage_R_time_after_founder_instance_loss": 95.90615336917293,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 38.04494415554866,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81022,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 21.752985998898836,
+      "founder_lineage_R_time_after_founder_instance_loss": 57.01499093694147,
+      "RL_contact_continuation_after_founders_lost": 3.7343528528379295,
+      "integral_RL_contacts_after_founder_loss": 3.7343528528379295,
+      "first_founder_free_continuation": 81.25456335765988,
+      "paid_L_instances_lost": 35,
+      "paid_L_instances_created": 37,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81022,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 13.2675732088411,
+      "founder_lineage_R_time_after_founder_instance_loss": 21.66575459355527,
+      "RL_contact_continuation_after_founders_lost": 13.2675732088411,
+      "integral_RL_contacts_after_founder_loss": 33.596477764928125,
+      "first_founder_free_continuation": 34.433556461303,
+      "paid_L_instances_lost": 23,
+      "paid_L_instances_created": 23,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81022,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 69.4454020860217,
+      "founder_lineage_R_time_after_founder_instance_loss": 438.8941244373982,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 13.175928799410006,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81022,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 69.4454020860217,
+      "founder_lineage_R_time_after_founder_instance_loss": 438.8941244373982,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 13.175928799410006,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81023,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 25.888153056517154,
+      "founder_lineage_R_time_after_founder_instance_loss": 50.395784730825326,
+      "RL_contact_continuation_after_founders_lost": 17.383559777060597,
+      "integral_RL_contacts_after_founder_loss": 22.02866329968721,
+      "first_founder_free_continuation": 78.29667479412583,
+      "paid_L_instances_lost": 33,
+      "paid_L_instances_created": 34,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81023,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 20.170561417932575,
+      "founder_lineage_R_time_after_founder_instance_loss": 31.825464153349145,
+      "RL_contact_continuation_after_founders_lost": 19.217016766205294,
+      "integral_RL_contacts_after_founder_loss": 46.5520058881724,
+      "first_founder_free_continuation": 17.502847893080194,
+      "paid_L_instances_lost": 26,
+      "paid_L_instances_created": 27,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81023,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 37.82471074850135,
+      "founder_lineage_R_time_after_founder_instance_loss": 224.1242056356128,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 14.716268055845193,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81023,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 37.82471074850135,
+      "founder_lineage_R_time_after_founder_instance_loss": 224.1242056356128,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 14.716268055845193,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81024,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 16.278734311963944,
+      "founder_lineage_R_time_after_founder_instance_loss": 52.26503495973152,
+      "RL_contact_continuation_after_founders_lost": 12.438983327534203,
+      "integral_RL_contacts_after_founder_loss": 34.47274392088409,
+      "first_founder_free_continuation": 60.796073193535946,
+      "paid_L_instances_lost": 35,
+      "paid_L_instances_created": 35,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81024,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 5.824487068660174,
+      "founder_lineage_R_time_after_founder_instance_loss": 6.798128760609039,
+      "RL_contact_continuation_after_founders_lost": 5.824487068660174,
+      "integral_RL_contacts_after_founder_loss": 14.49285875252031,
+      "first_founder_free_continuation": 13.269954200125577,
+      "paid_L_instances_lost": 16,
+      "paid_L_instances_created": 16,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81024,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 50.32662034523004,
+      "founder_lineage_R_time_after_founder_instance_loss": 113.11971001657216,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 15.73726392412486,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81024,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 50.32662034523004,
+      "founder_lineage_R_time_after_founder_instance_loss": 113.11971001657216,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 15.73726392412486,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81025,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 31.795337541301706,
+      "founder_lineage_R_time_after_founder_instance_loss": 141.63994813720382,
+      "RL_contact_continuation_after_founders_lost": 30.550851523919277,
+      "integral_RL_contacts_after_founder_loss": 148.73027401609187,
+      "first_founder_free_continuation": 40.252541812053494,
+      "paid_L_instances_lost": 31,
+      "paid_L_instances_created": 32,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81025,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 22.959069833016212,
+      "founder_lineage_R_time_after_founder_instance_loss": 70.09215579987924,
+      "RL_contact_continuation_after_founders_lost": 22.959069833016212,
+      "integral_RL_contacts_after_founder_loss": 125.81583605691006,
+      "first_founder_free_continuation": 26.9489824584281,
+      "paid_L_instances_lost": 30,
+      "paid_L_instances_created": 31,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81025,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 55.19638986304818,
+      "founder_lineage_R_time_after_founder_instance_loss": 218.82529148901625,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 24.19503449412733,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81025,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 55.19638986304818,
+      "founder_lineage_R_time_after_founder_instance_loss": 218.82529148901625,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 24.19503449412733,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81026,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 55.52807033142529,
+      "founder_lineage_R_time_after_founder_instance_loss": 357.2973586701766,
+      "RL_contact_continuation_after_founders_lost": 51.71835855738434,
+      "integral_RL_contacts_after_founder_loss": 579.5796629559622,
+      "first_founder_free_continuation": 19.08391109261931,
+      "paid_L_instances_lost": 31,
+      "paid_L_instances_created": 31,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81026,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 12.599863267508022,
+      "founder_lineage_R_time_after_founder_instance_loss": 49.15005524443163,
+      "RL_contact_continuation_after_founders_lost": 12.599863267508022,
+      "integral_RL_contacts_after_founder_loss": 77.5641616346748,
+      "first_founder_free_continuation": 11.206709707439119,
+      "paid_L_instances_lost": 17,
+      "paid_L_instances_created": 17,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81026,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 46.453702138082754,
+      "founder_lineage_R_time_after_founder_instance_loss": 311.3706740052632,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 11.649171368946302,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81026,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 46.453702138082754,
+      "founder_lineage_R_time_after_founder_instance_loss": 311.3706740052632,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 11.649171368946302,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81027,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 21.466210347518533,
+      "founder_lineage_R_time_after_founder_instance_loss": 48.541194618426985,
+      "RL_contact_continuation_after_founders_lost": 7.077485855978615,
+      "integral_RL_contacts_after_founder_loss": 12.414537604968125,
+      "first_founder_free_continuation": 59.347093137007214,
+      "paid_L_instances_lost": 37,
+      "paid_L_instances_created": 37,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81027,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 12,
+      "paid_L_instances_created": 12,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81027,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 17.030559401734113,
+      "founder_lineage_R_time_after_founder_instance_loss": 31.361135630228222,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 27.25708215323976,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81027,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 17.030559401734113,
+      "founder_lineage_R_time_after_founder_instance_loss": 31.361135630228222,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 27.25708215323976,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81028,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 26,
+      "paid_L_instances_created": 27,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81028,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 5.002418377849221,
+      "founder_lineage_R_time_after_founder_instance_loss": 7.049442654887812,
+      "RL_contact_continuation_after_founders_lost": 5.002418377849221,
+      "integral_RL_contacts_after_founder_loss": 7.908498458851927,
+      "first_founder_free_continuation": 25.32770025458222,
+      "paid_L_instances_lost": 18,
+      "paid_L_instances_created": 18,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81028,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 39.907007639394934,
+      "founder_lineage_R_time_after_founder_instance_loss": 246.25658048077534,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 18.794564545373174,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81028,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 39.907007639394934,
+      "founder_lineage_R_time_after_founder_instance_loss": 246.25658048077534,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 18.794564545373174,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81029,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 32,
+      "paid_L_instances_created": 33,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81029,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 11.947576992632403,
+      "founder_lineage_R_time_after_founder_instance_loss": 32.303294768288595,
+      "RL_contact_continuation_after_founders_lost": 8.943870153183344,
+      "integral_RL_contacts_after_founder_loss": 23.31685162961704,
+      "first_founder_free_continuation": 18.409543507901937,
+      "paid_L_instances_lost": 21,
+      "paid_L_instances_created": 22,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81029,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 77.46103420633501,
+      "founder_lineage_R_time_after_founder_instance_loss": 337.3817129744537,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 10.29980463460504,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81029,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 77.46103420633501,
+      "founder_lineage_R_time_after_founder_instance_loss": 337.3817129744537,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 10.29980463460504,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81030,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 28.233170252808335,
+      "founder_lineage_R_time_after_founder_instance_loss": 71.41445506067761,
+      "RL_contact_continuation_after_founders_lost": 28.233170252808335,
+      "integral_RL_contacts_after_founder_loss": 46.542961978762705,
+      "first_founder_free_continuation": 67.86192313840738,
+      "paid_L_instances_lost": 33,
+      "paid_L_instances_created": 34,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81030,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 25.408385492777988,
+      "founder_lineage_R_time_after_founder_instance_loss": 31.27439965626428,
+      "RL_contact_continuation_after_founders_lost": 19.94985086246394,
+      "integral_RL_contacts_after_founder_loss": 40.264646828868116,
+      "first_founder_free_continuation": 35.60546431463179,
+      "paid_L_instances_lost": 25,
+      "paid_L_instances_created": 25,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81030,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 56.082329683256894,
+      "founder_lineage_R_time_after_founder_instance_loss": 300.1616044034981,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 10.973660630421728,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81030,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 56.082329683256894,
+      "founder_lineage_R_time_after_founder_instance_loss": 300.1616044034981,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 10.973660630421728,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81031,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 13.987758248265528,
+      "founder_lineage_R_time_after_founder_instance_loss": 47.47211760243878,
+      "RL_contact_continuation_after_founders_lost": 10.011648009183865,
+      "integral_RL_contacts_after_founder_loss": 40.09270459842909,
+      "first_founder_free_continuation": 62.69122820460729,
+      "paid_L_instances_lost": 33,
+      "paid_L_instances_created": 33,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81031,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 30.579626320182776,
+      "founder_lineage_R_time_after_founder_instance_loss": 89.89364454693794,
+      "RL_contact_continuation_after_founders_lost": 30.12873990825583,
+      "integral_RL_contacts_after_founder_loss": 94.29611063064569,
+      "first_founder_free_continuation": 7.126715329434057,
+      "paid_L_instances_lost": 18,
+      "paid_L_instances_created": 18,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81031,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 105.12846018040098,
+      "founder_lineage_R_time_after_founder_instance_loss": 400.7200437463314,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 14.87153981959902,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81031,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 105.12846018040098,
+      "founder_lineage_R_time_after_founder_instance_loss": 400.7200437463314,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 14.87153981959902,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81032,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 28.83735907015094,
+      "founder_lineage_R_time_after_founder_instance_loss": 43.429580033350504,
+      "RL_contact_continuation_after_founders_lost": 24.613275995601043,
+      "integral_RL_contacts_after_founder_loss": 35.48823130415826,
+      "first_founder_free_continuation": 91.16264092984906,
+      "paid_L_instances_lost": 35,
+      "paid_L_instances_created": 37,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81032,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 21.276072596389923,
+      "founder_lineage_R_time_after_founder_instance_loss": 39.80034093500722,
+      "RL_contact_continuation_after_founders_lost": 21.276072596389923,
+      "integral_RL_contacts_after_founder_loss": 66.37966204389284,
+      "first_founder_free_continuation": 20.4934697223351,
+      "paid_L_instances_lost": 21,
+      "paid_L_instances_created": 21,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81032,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 53.297692712017685,
+      "founder_lineage_R_time_after_founder_instance_loss": 274.7739363707576,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 29.06967719704209,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81032,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 53.297692712017685,
+      "founder_lineage_R_time_after_founder_instance_loss": 274.7739363707576,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 29.06967719704209,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81033,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 56.3175653601302,
+      "founder_lineage_R_time_after_founder_instance_loss": 220.50343188505008,
+      "RL_contact_continuation_after_founders_lost": 52.081806220657,
+      "integral_RL_contacts_after_founder_loss": 309.79295591370703,
+      "first_founder_free_continuation": 31.762372221895674,
+      "paid_L_instances_lost": 33,
+      "paid_L_instances_created": 33,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81033,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 14.87681096960771,
+      "founder_lineage_R_time_after_founder_instance_loss": 32.462198511887124,
+      "RL_contact_continuation_after_founders_lost": 14.87681096960771,
+      "integral_RL_contacts_after_founder_loss": 49.05150737316162,
+      "first_founder_free_continuation": 7.8506824953871694,
+      "paid_L_instances_lost": 18,
+      "paid_L_instances_created": 18,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81033,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 42.29899321596436,
+      "founder_lineage_R_time_after_founder_instance_loss": 216.32008026175072,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 30.055992480244896,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81033,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 42.29899321596436,
+      "founder_lineage_R_time_after_founder_instance_loss": 216.32008026175072,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 30.055992480244896,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81034,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 42.30238592341772,
+      "founder_lineage_R_time_after_founder_instance_loss": 42.30238592341772,
+      "RL_contact_continuation_after_founders_lost": 25.39476400682892,
+      "integral_RL_contacts_after_founder_loss": 34.221346258118345,
+      "first_founder_free_continuation": 77.69761407658228,
+      "paid_L_instances_lost": 35,
+      "paid_L_instances_created": 35,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81034,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 5.597561200167185,
+      "founder_lineage_R_time_after_founder_instance_loss": 14.213908258786608,
+      "RL_contact_continuation_after_founders_lost": 5.097985055366848,
+      "integral_RL_contacts_after_founder_loss": 15.749956539791576,
+      "first_founder_free_continuation": 13.12106932514508,
+      "paid_L_instances_lost": 15,
+      "paid_L_instances_created": 15,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81034,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 46.84962832696962,
+      "founder_lineage_R_time_after_founder_instance_loss": 191.55686380085461,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 12.867555913272545,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81034,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 46.84962832696962,
+      "founder_lineage_R_time_after_founder_instance_loss": 191.55686380085461,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 12.867555913272545,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81035,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 46.779655807239266,
+      "founder_lineage_R_time_after_founder_instance_loss": 262.28601213278245,
+      "RL_contact_continuation_after_founders_lost": 41.08723152063726,
+      "integral_RL_contacts_after_founder_loss": 216.16306542005123,
+      "first_founder_free_continuation": 46.98029770856189,
+      "paid_L_instances_lost": 31,
+      "paid_L_instances_created": 31,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81035,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 20.53852585505708,
+      "founder_lineage_R_time_after_founder_instance_loss": 34.233056113195104,
+      "RL_contact_continuation_after_founders_lost": 20.176605699155154,
+      "integral_RL_contacts_after_founder_loss": 37.960514587883196,
+      "first_founder_free_continuation": 48.826905916675905,
+      "paid_L_instances_lost": 30,
+      "paid_L_instances_created": 30,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81035,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 34.08601501977772,
+      "founder_lineage_R_time_after_founder_instance_loss": 192.70097859975587,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 24.18154819697103,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81035,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 34.08601501977772,
+      "founder_lineage_R_time_after_founder_instance_loss": 192.70097859975587,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 24.18154819697103,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81036,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 18.373997590581183,
+      "founder_lineage_R_time_after_founder_instance_loss": 18.780849149371477,
+      "RL_contact_continuation_after_founders_lost": 12.167882430730657,
+      "integral_RL_contacts_after_founder_loss": 28.58875641380449,
+      "first_founder_free_continuation": 64.82018338006752,
+      "paid_L_instances_lost": 36,
+      "paid_L_instances_created": 36,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81036,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 22.36385776806437,
+      "founder_lineage_R_time_after_founder_instance_loss": 48.8299896515429,
+      "RL_contact_continuation_after_founders_lost": 21.133212992351048,
+      "integral_RL_contacts_after_founder_loss": 44.14482410268106,
+      "first_founder_free_continuation": 18.639210154265925,
+      "paid_L_instances_lost": 22,
+      "paid_L_instances_created": 22,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81036,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 19.81062413531229,
+      "founder_lineage_R_time_after_founder_instance_loss": 62.192850538596936,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 36.27359272308811,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81036,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 19.81062413531229,
+      "founder_lineage_R_time_after_founder_instance_loss": 62.192850538596936,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 36.27359272308811,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81037,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 71.82593717914042,
+      "founder_lineage_R_time_after_founder_instance_loss": 172.9662092185894,
+      "RL_contact_continuation_after_founders_lost": 56.44544016149589,
+      "integral_RL_contacts_after_founder_loss": 132.73588749268296,
+      "first_founder_free_continuation": 48.17406282085958,
+      "paid_L_instances_lost": 35,
+      "paid_L_instances_created": 35,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81037,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 9.24277397855171,
+      "founder_lineage_R_time_after_founder_instance_loss": 9.24277397855171,
+      "RL_contact_continuation_after_founders_lost": 9.17906071578468,
+      "integral_RL_contacts_after_founder_loss": 14.845619837326694,
+      "first_founder_free_continuation": 56.940032576482224,
+      "paid_L_instances_lost": 28,
+      "paid_L_instances_created": 28,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81037,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 27.070068421497915,
+      "founder_lineage_R_time_after_founder_instance_loss": 88.7755912222638,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 29.51092343985949,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81037,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 27.070068421497915,
+      "founder_lineage_R_time_after_founder_instance_loss": 88.7755912222638,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 29.51092343985949,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81038,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 22.383728159941548,
+      "founder_lineage_R_time_after_founder_instance_loss": 30.95563395784002,
+      "RL_contact_continuation_after_founders_lost": 17.912555388486346,
+      "integral_RL_contacts_after_founder_loss": 36.20463031373452,
+      "first_founder_free_continuation": 50.509920936287195,
+      "paid_L_instances_lost": 31,
+      "paid_L_instances_created": 32,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81038,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 23,
+      "paid_L_instances_created": 23,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81038,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 33.69184508362508,
+      "founder_lineage_R_time_after_founder_instance_loss": 256.17201426693293,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 10.20203965608137,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81038,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 33.69184508362508,
+      "founder_lineage_R_time_after_founder_instance_loss": 256.17201426693293,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 10.20203965608137,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81039,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 34,
+      "paid_L_instances_created": 36,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81039,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 18.139193329976386,
+      "founder_lineage_R_time_after_founder_instance_loss": 19.272785872696957,
+      "RL_contact_continuation_after_founders_lost": 18.139193329976386,
+      "integral_RL_contacts_after_founder_loss": 34.12969785869713,
+      "first_founder_free_continuation": 35.59977180328132,
+      "paid_L_instances_lost": 18,
+      "paid_L_instances_created": 18,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81039,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 37.35426347076483,
+      "founder_lineage_R_time_after_founder_instance_loss": 228.0142199056017,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 17.576351168540658,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81039,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 37.35426347076483,
+      "founder_lineage_R_time_after_founder_instance_loss": 228.0142199056017,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 17.576351168540658,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81040,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 31.623965245986085,
+      "founder_lineage_R_time_after_founder_instance_loss": 120.73028826570187,
+      "RL_contact_continuation_after_founders_lost": 31.623965245986085,
+      "integral_RL_contacts_after_founder_loss": 172.8694769070885,
+      "first_founder_free_continuation": 66.416004673278,
+      "paid_L_instances_lost": 33,
+      "paid_L_instances_created": 34,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81040,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 16.440315957642202,
+      "founder_lineage_R_time_after_founder_instance_loss": 48.66658815437084,
+      "RL_contact_continuation_after_founders_lost": 16.440315957642202,
+      "integral_RL_contacts_after_founder_loss": 40.173351470084214,
+      "first_founder_free_continuation": 24.3118027510038,
+      "paid_L_instances_lost": 16,
+      "paid_L_instances_created": 16,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81040,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81040,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81041,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 26.63066211602937,
+      "founder_lineage_R_time_after_founder_instance_loss": 62.07878201917616,
+      "RL_contact_continuation_after_founders_lost": 22.791221351913777,
+      "integral_RL_contacts_after_founder_loss": 55.184458271430785,
+      "first_founder_free_continuation": 84.94599199261972,
+      "paid_L_instances_lost": 32,
+      "paid_L_instances_created": 35,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81041,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 11.192886745358848,
+      "founder_lineage_R_time_after_founder_instance_loss": 29.174829903992496,
+      "RL_contact_continuation_after_founders_lost": 11.192886745358848,
+      "integral_RL_contacts_after_founder_loss": 26.23111266608494,
+      "first_founder_free_continuation": 10.795473474238193,
+      "paid_L_instances_lost": 13,
+      "paid_L_instances_created": 13,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81041,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 37.97709014444121,
+      "founder_lineage_R_time_after_founder_instance_loss": 153.27361871699176,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 26.51456118117594,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81041,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 37.97709014444121,
+      "founder_lineage_R_time_after_founder_instance_loss": 153.27361871699176,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 26.51456118117594,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81042,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 7.433911304891822,
+      "founder_lineage_R_time_after_founder_instance_loss": 7.433911304891822,
+      "RL_contact_continuation_after_founders_lost": 2.5664522739007936,
+      "integral_RL_contacts_after_founder_loss": 2.5664522739007936,
+      "first_founder_free_continuation": 73.28276930566395,
+      "paid_L_instances_lost": 30,
+      "paid_L_instances_created": 30,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81042,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 13.747604946589618,
+      "founder_lineage_R_time_after_founder_instance_loss": 20.10229090537288,
+      "RL_contact_continuation_after_founders_lost": 12.88113661423785,
+      "integral_RL_contacts_after_founder_loss": 15.4319343031854,
+      "first_founder_free_continuation": 24.105514477244455,
+      "paid_L_instances_lost": 26,
+      "paid_L_instances_created": 26,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81042,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 5.374615693426486,
+      "founder_lineage_R_time_after_founder_instance_loss": 7.712869443384738,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 13.911740287149565,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81042,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 5.374615693426486,
+      "founder_lineage_R_time_after_founder_instance_loss": 7.712869443384738,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 13.911740287149565,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81043,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 33.32245949313193,
+      "founder_lineage_R_time_after_founder_instance_loss": 52.49388472699292,
+      "RL_contact_continuation_after_founders_lost": 18.301174138711545,
+      "integral_RL_contacts_after_founder_loss": 21.301253969916218,
+      "first_founder_free_continuation": 80.3261257313536,
+      "paid_L_instances_lost": 38,
+      "paid_L_instances_created": 39,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81043,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 28.671053358461634,
+      "founder_lineage_R_time_after_founder_instance_loss": 91.57139970964604,
+      "RL_contact_continuation_after_founders_lost": 28.671053358461634,
+      "integral_RL_contacts_after_founder_loss": 133.3098175065542,
+      "first_founder_free_continuation": 24.878292893603643,
+      "paid_L_instances_lost": 24,
+      "paid_L_instances_created": 25,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81043,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 42.2715915257982,
+      "founder_lineage_R_time_after_founder_instance_loss": 410.38276363652,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 13.650499786765366,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81043,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 42.2715915257982,
+      "founder_lineage_R_time_after_founder_instance_loss": 410.38276363652,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 13.650499786765366,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81044,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 56.94978326156231,
+      "founder_lineage_R_time_after_founder_instance_loss": 137.36787778809372,
+      "RL_contact_continuation_after_founders_lost": 49.58896120950566,
+      "integral_RL_contacts_after_founder_loss": 132.8073524102801,
+      "first_founder_free_continuation": 47.084992963366766,
+      "paid_L_instances_lost": 27,
+      "paid_L_instances_created": 28,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81044,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 22.94178324396278,
+      "founder_lineage_R_time_after_founder_instance_loss": 28.416594521702955,
+      "RL_contact_continuation_after_founders_lost": 16.23748190088115,
+      "integral_RL_contacts_after_founder_loss": 37.21303592750593,
+      "first_founder_free_continuation": 22.022613345590443,
+      "paid_L_instances_lost": 30,
+      "paid_L_instances_created": 30,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81044,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 43.46362990464215,
+      "founder_lineage_R_time_after_founder_instance_loss": 293.2308175358368,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 10.154441681564416,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81044,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 43.46362990464215,
+      "founder_lineage_R_time_after_founder_instance_loss": 293.2308175358368,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 10.154441681564416,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81045,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 36,
+      "paid_L_instances_created": 36,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81045,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 57.70525462446954,
+      "founder_lineage_R_time_after_founder_instance_loss": 214.6870106368388,
+      "RL_contact_continuation_after_founders_lost": 44.81416513547887,
+      "integral_RL_contacts_after_founder_loss": 250.85874230619328,
+      "first_founder_free_continuation": 9.271843125399135,
+      "paid_L_instances_lost": 20,
+      "paid_L_instances_created": 20,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81045,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 47.712609022108744,
+      "founder_lineage_R_time_after_founder_instance_loss": 225.88654404840648,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 18.28490934414349,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81045,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 47.712609022108744,
+      "founder_lineage_R_time_after_founder_instance_loss": 225.88654404840648,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 18.28490934414349,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81046,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 29.155239511897705,
+      "founder_lineage_R_time_after_founder_instance_loss": 55.85446450341651,
+      "RL_contact_continuation_after_founders_lost": 26.054563233124526,
+      "integral_RL_contacts_after_founder_loss": 95.98970077824896,
+      "first_founder_free_continuation": 62.90092803073648,
+      "paid_L_instances_lost": 37,
+      "paid_L_instances_created": 38,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81046,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 26,
+      "paid_L_instances_created": 26,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81046,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 14.777104981508732,
+      "founder_lineage_R_time_after_founder_instance_loss": 31.457310920570794,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 24.70995301040384,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81046,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 14.777104981508732,
+      "founder_lineage_R_time_after_founder_instance_loss": 31.457310920570794,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 24.70995301040384,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81047,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 85.1582624341088,
+      "founder_lineage_R_time_after_founder_instance_loss": 448.9582254830926,
+      "RL_contact_continuation_after_founders_lost": 85.1582624341088,
+      "integral_RL_contacts_after_founder_loss": 728.101436929369,
+      "first_founder_free_continuation": 34.8417375658912,
+      "paid_L_instances_lost": 30,
+      "paid_L_instances_created": 35,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81047,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 24,
+      "paid_L_instances_created": 25,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81047,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 35.855011925711835,
+      "founder_lineage_R_time_after_founder_instance_loss": 150.52971267767765,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 14.227432304852378,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81047,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 35.855011925711835,
+      "founder_lineage_R_time_after_founder_instance_loss": 150.52971267767765,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 14.227432304852378,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81048,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 22.255503246888765,
+      "founder_lineage_R_time_after_founder_instance_loss": 22.255503246888765,
+      "RL_contact_continuation_after_founders_lost": 20.66261782694133,
+      "integral_RL_contacts_after_founder_loss": 20.893248522159965,
+      "first_founder_free_continuation": 88.22516136344879,
+      "paid_L_instances_lost": 34,
+      "paid_L_instances_created": 34,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81048,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 30.90305131918425,
+      "founder_lineage_R_time_after_founder_instance_loss": 57.66807957527915,
+      "RL_contact_continuation_after_founders_lost": 30.90305131918425,
+      "integral_RL_contacts_after_founder_loss": 82.21915168887172,
+      "first_founder_free_continuation": 31.380644174360967,
+      "paid_L_instances_lost": 24,
+      "paid_L_instances_created": 24,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81048,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 65.60175180731545,
+      "founder_lineage_R_time_after_founder_instance_loss": 299.34266925580647,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 24.893495449109828,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81048,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 65.60175180731545,
+      "founder_lineage_R_time_after_founder_instance_loss": 299.34266925580647,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 24.893495449109828,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81049,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 29,
+      "paid_L_instances_created": 29,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81049,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 40.1257829513062,
+      "founder_lineage_R_time_after_founder_instance_loss": 143.04050747446666,
+      "RL_contact_continuation_after_founders_lost": 35.94851419888571,
+      "integral_RL_contacts_after_founder_loss": 190.51721241191296,
+      "first_founder_free_continuation": 12.626964749835253,
+      "paid_L_instances_lost": 26,
+      "paid_L_instances_created": 26,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81049,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 71.15941549964005,
+      "founder_lineage_R_time_after_founder_instance_loss": 319.07583768788373,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 10.543426908273396,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81049,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 71.15941549964005,
+      "founder_lineage_R_time_after_founder_instance_loss": 319.07583768788373,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 10.543426908273396,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81050,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 4.953209978902038,
+      "founder_lineage_R_time_after_founder_instance_loss": 4.953209978902038,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 101.56616799889933,
+      "paid_L_instances_lost": 37,
+      "paid_L_instances_created": 37,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81050,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 2.3537131476826545,
+      "founder_lineage_R_time_after_founder_instance_loss": 2.3537131476826545,
+      "RL_contact_continuation_after_founders_lost": 0.24504448277389557,
+      "integral_RL_contacts_after_founder_loss": 0.24504448277389557,
+      "first_founder_free_continuation": 9.761806070666204,
+      "paid_L_instances_lost": 10,
+      "paid_L_instances_created": 10,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81050,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 15.666470451127541,
+      "founder_lineage_R_time_after_founder_instance_loss": 69.23767848225536,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 22.12881182407688,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81050,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 15.666470451127541,
+      "founder_lineage_R_time_after_founder_instance_loss": 69.23767848225536,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 22.12881182407688,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81051,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 40.038740567587034,
+      "founder_lineage_R_time_after_founder_instance_loss": 86.5204521648802,
+      "RL_contact_continuation_after_founders_lost": 19.90663616424208,
+      "integral_RL_contacts_after_founder_loss": 43.77192816465061,
+      "first_founder_free_continuation": 53.62064089226475,
+      "paid_L_instances_lost": 35,
+      "paid_L_instances_created": 35,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81051,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 66.53621421072322,
+      "founder_lineage_R_time_after_founder_instance_loss": 144.61275114736185,
+      "RL_contact_continuation_after_founders_lost": 46.82799700608602,
+      "integral_RL_contacts_after_founder_loss": 118.44635835734806,
+      "first_founder_free_continuation": 14.658582469312202,
+      "paid_L_instances_lost": 25,
+      "paid_L_instances_created": 26,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81051,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 38.58508389976227,
+      "founder_lineage_R_time_after_founder_instance_loss": 235.76855661931089,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 14.676945091005127,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81051,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 38.58508389976227,
+      "founder_lineage_R_time_after_founder_instance_loss": 235.76855661931089,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 14.676945091005127,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81052,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 40.68321061293915,
+      "founder_lineage_R_time_after_founder_instance_loss": 119.6502961349716,
+      "RL_contact_continuation_after_founders_lost": 34.1235362868894,
+      "integral_RL_contacts_after_founder_loss": 90.07783464503123,
+      "first_founder_free_continuation": 37.16339666369004,
+      "paid_L_instances_lost": 28,
+      "paid_L_instances_created": 28,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81052,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 16.880295839389927,
+      "founder_lineage_R_time_after_founder_instance_loss": 28.626415836430837,
+      "RL_contact_continuation_after_founders_lost": 16.194869803760295,
+      "integral_RL_contacts_after_founder_loss": 33.22909320152897,
+      "first_founder_free_continuation": 20.388539213865673,
+      "paid_L_instances_lost": 21,
+      "paid_L_instances_created": 21,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81052,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 16.732072072764016,
+      "founder_lineage_R_time_after_founder_instance_loss": 24.187656170887372,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 25.638387488908318,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81052,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 16.732072072764016,
+      "founder_lineage_R_time_after_founder_instance_loss": 24.187656170887372,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 25.638387488908318,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81053,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 60.76495211433593,
+      "founder_lineage_R_time_after_founder_instance_loss": 119.81090209888134,
+      "RL_contact_continuation_after_founders_lost": 53.87698427896517,
+      "integral_RL_contacts_after_founder_loss": 101.40409638797057,
+      "first_founder_free_continuation": 59.23504788566407,
+      "paid_L_instances_lost": 31,
+      "paid_L_instances_created": 33,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81053,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 1.1180387696646008,
+      "founder_lineage_R_time_after_founder_instance_loss": 1.1180387696646008,
+      "RL_contact_continuation_after_founders_lost": 0.9119796653044432,
+      "integral_RL_contacts_after_founder_loss": 0.9119796653044432,
+      "first_founder_free_continuation": 28.868618254305716,
+      "paid_L_instances_lost": 25,
+      "paid_L_instances_created": 26,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81053,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 63.62585449845386,
+      "founder_lineage_R_time_after_founder_instance_loss": 270.86588360094066,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 19.674589556105687,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81053,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 63.62585449845386,
+      "founder_lineage_R_time_after_founder_instance_loss": 270.86588360094066,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 19.674589556105687,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81054,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 48.173235366038284,
+      "founder_lineage_R_time_after_founder_instance_loss": 76.63296109793356,
+      "RL_contact_continuation_after_founders_lost": 36.02051134112381,
+      "integral_RL_contacts_after_founder_loss": 90.32455429027435,
+      "first_founder_free_continuation": 61.52841683280322,
+      "paid_L_instances_lost": 32,
+      "paid_L_instances_created": 32,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81054,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 29.720829620279336,
+      "founder_lineage_R_time_after_founder_instance_loss": 48.50394278444835,
+      "RL_contact_continuation_after_founders_lost": 27.363303467701936,
+      "integral_RL_contacts_after_founder_loss": 67.66620239231369,
+      "first_founder_free_continuation": 8.116843915261798,
+      "paid_L_instances_lost": 15,
+      "paid_L_instances_created": 16,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81054,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 64.66602258716827,
+      "founder_lineage_R_time_after_founder_instance_loss": 378.6528779270303,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 11.147494619729951,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81054,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 64.66602258716827,
+      "founder_lineage_R_time_after_founder_instance_loss": 378.6528779270303,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 11.147494619729951,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81055,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 45.16229864378307,
+      "founder_lineage_R_time_after_founder_instance_loss": 234.88936512185398,
+      "RL_contact_continuation_after_founders_lost": 33.58648622447709,
+      "integral_RL_contacts_after_founder_loss": 280.69303801696145,
+      "first_founder_free_continuation": 48.76018345622058,
+      "paid_L_instances_lost": 32,
+      "paid_L_instances_created": 34,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81055,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 29.865615191860734,
+      "founder_lineage_R_time_after_founder_instance_loss": 116.05441485163715,
+      "RL_contact_continuation_after_founders_lost": 28.725152988723472,
+      "integral_RL_contacts_after_founder_loss": 143.69931524123558,
+      "first_founder_free_continuation": 9.531438454880794,
+      "paid_L_instances_lost": 18,
+      "paid_L_instances_created": 18,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81055,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 44.01649397356833,
+      "founder_lineage_R_time_after_founder_instance_loss": 172.70282462853982,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 32.10466629517582,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81055,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 44.01649397356833,
+      "founder_lineage_R_time_after_founder_instance_loss": 172.70282462853982,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 32.10466629517582,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81056,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 30.70701319137136,
+      "founder_lineage_R_time_after_founder_instance_loss": 67.58216482750073,
+      "RL_contact_continuation_after_founders_lost": 26.07288684788594,
+      "integral_RL_contacts_after_founder_loss": 79.55516632251059,
+      "first_founder_free_continuation": 69.77616121654569,
+      "paid_L_instances_lost": 33,
+      "paid_L_instances_created": 33,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81056,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 25.941842603640527,
+      "founder_lineage_R_time_after_founder_instance_loss": 130.20434424695665,
+      "RL_contact_continuation_after_founders_lost": 23.7629813759188,
+      "integral_RL_contacts_after_founder_loss": 146.12506004225193,
+      "first_founder_free_continuation": 11.286801396147235,
+      "paid_L_instances_lost": 22,
+      "paid_L_instances_created": 22,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81056,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 22.105918185945097,
+      "founder_lineage_R_time_after_founder_instance_loss": 71.4190438713409,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 26.31876350004296,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81056,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 22.105918185945097,
+      "founder_lineage_R_time_after_founder_instance_loss": 71.4190438713409,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 26.31876350004296,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81057,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 29.85080829404835,
+      "founder_lineage_R_time_after_founder_instance_loss": 118.1998644373824,
+      "RL_contact_continuation_after_founders_lost": 26.42636629984254,
+      "integral_RL_contacts_after_founder_loss": 119.3987246077408,
+      "first_founder_free_continuation": 47.13277000535443,
+      "paid_L_instances_lost": 30,
+      "paid_L_instances_created": 30,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81057,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 39.5330253224945,
+      "founder_lineage_R_time_after_founder_instance_loss": 104.70784087309067,
+      "RL_contact_continuation_after_founders_lost": 31.296902022314946,
+      "integral_RL_contacts_after_founder_loss": 114.27230595449629,
+      "first_founder_free_continuation": 13.31760517291029,
+      "paid_L_instances_lost": 17,
+      "paid_L_instances_created": 17,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81057,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 68.7161008427449,
+      "founder_lineage_R_time_after_founder_instance_loss": 242.6637814858834,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 15.021953902602688,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81057,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 68.7161008427449,
+      "founder_lineage_R_time_after_founder_instance_loss": 242.6637814858834,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 15.021953902602688,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81058,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 40,
+      "paid_L_instances_created": 40,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81058,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 24.108359187010702,
+      "founder_lineage_R_time_after_founder_instance_loss": 42.98578862640476,
+      "RL_contact_continuation_after_founders_lost": 12.901924370738836,
+      "integral_RL_contacts_after_founder_loss": 18.729048717132706,
+      "first_founder_free_continuation": 20.476728417469698,
+      "paid_L_instances_lost": 18,
+      "paid_L_instances_created": 18,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81058,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 37.316529588614564,
+      "founder_lineage_R_time_after_founder_instance_loss": 307.61336769117077,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 21.908808392904128,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81058,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 37.316529588614564,
+      "founder_lineage_R_time_after_founder_instance_loss": 307.61336769117077,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 21.908808392904128,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81059,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 42.81612993917601,
+      "founder_lineage_R_time_after_founder_instance_loss": 205.83988323855067,
+      "RL_contact_continuation_after_founders_lost": 39.21393431828032,
+      "integral_RL_contacts_after_founder_loss": 259.9182029777935,
+      "first_founder_free_continuation": 60.798821730191094,
+      "paid_L_instances_lost": 33,
+      "paid_L_instances_created": 36,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81059,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 22,
+      "paid_L_instances_created": 22,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81059,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 74.82614456527754,
+      "founder_lineage_R_time_after_founder_instance_loss": 235.89381512723241,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 28.238384400605668,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81059,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 74.82614456527754,
+      "founder_lineage_R_time_after_founder_instance_loss": 235.89381512723241,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 28.238384400605668,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81060,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 11.140482258527612,
+      "founder_lineage_R_time_after_founder_instance_loss": 11.140482258527612,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 68.23747306732301,
+      "paid_L_instances_lost": 30,
+      "paid_L_instances_created": 31,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81060,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 11.88667195528015,
+      "founder_lineage_R_time_after_founder_instance_loss": 24.299983915763903,
+      "RL_contact_continuation_after_founders_lost": 6.206455124737843,
+      "integral_RL_contacts_after_founder_loss": 10.750397197789852,
+      "first_founder_free_continuation": 65.58722134079521,
+      "paid_L_instances_lost": 30,
+      "paid_L_instances_created": 31,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81060,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 74.46760956391523,
+      "founder_lineage_R_time_after_founder_instance_loss": 372.45875629679574,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 15.41886199154323,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81060,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 74.46760956391523,
+      "founder_lineage_R_time_after_founder_instance_loss": 372.45875629679574,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 15.41886199154323,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81061,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 4.09203451873158,
+      "founder_lineage_R_time_after_founder_instance_loss": 4.09203451873158,
+      "RL_contact_continuation_after_founders_lost": 3.1142546086173155,
+      "integral_RL_contacts_after_founder_loss": 7.585574395733147,
+      "first_founder_free_continuation": 89.05260225906093,
+      "paid_L_instances_lost": 31,
+      "paid_L_instances_created": 35,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81061,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 82.87723169061904,
+      "founder_lineage_R_time_after_founder_instance_loss": 265.25656516993047,
+      "RL_contact_continuation_after_founders_lost": 79.46392023305475,
+      "integral_RL_contacts_after_founder_loss": 292.7445002211711,
+      "first_founder_free_continuation": 13.580979620645024,
+      "paid_L_instances_lost": 30,
+      "paid_L_instances_created": 31,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81061,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 79.59943680364628,
+      "founder_lineage_R_time_after_founder_instance_loss": 291.0092925421781,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 18.441741502564625,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81061,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 79.59943680364628,
+      "founder_lineage_R_time_after_founder_instance_loss": 291.0092925421781,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 18.441741502564625,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81062,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 8.302712060647373,
+      "founder_lineage_R_time_after_founder_instance_loss": 13.937454718435859,
+      "RL_contact_continuation_after_founders_lost": 7.435823778964171,
+      "integral_RL_contacts_after_founder_loss": 7.435823778964171,
+      "first_founder_free_continuation": 57.662015587551274,
+      "paid_L_instances_lost": 25,
+      "paid_L_instances_created": 25,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81062,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 50.602852056398156,
+      "founder_lineage_R_time_after_founder_instance_loss": 62.63196480478027,
+      "RL_contact_continuation_after_founders_lost": 50.602852056398156,
+      "integral_RL_contacts_after_founder_loss": 105.26467247791778,
+      "first_founder_free_continuation": 17.086999098838284,
+      "paid_L_instances_lost": 21,
+      "paid_L_instances_created": 22,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81062,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81062,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81063,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 50.940325650562755,
+      "founder_lineage_R_time_after_founder_instance_loss": 117.83949297046709,
+      "RL_contact_continuation_after_founders_lost": 41.225522375164985,
+      "integral_RL_contacts_after_founder_loss": 143.1946409624706,
+      "first_founder_free_continuation": 69.05967434943724,
+      "paid_L_instances_lost": 35,
+      "paid_L_instances_created": 35,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81063,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 0.0,
+      "founder_lineage_R_time_after_founder_instance_loss": 0.0,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": null,
+      "paid_L_instances_lost": 18,
+      "paid_L_instances_created": 18,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81063,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 9.52376643174153,
+      "founder_lineage_R_time_after_founder_instance_loss": 20.502752718891273,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 14.675924621663755,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81063,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 9.52376643174153,
+      "founder_lineage_R_time_after_founder_instance_loss": 20.502752718891273,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 14.675924621663755,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81064,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 4.104234844981761,
+      "founder_lineage_R_time_after_founder_instance_loss": 4.104234844981761,
+      "RL_contact_continuation_after_founders_lost": 0.5413771788060444,
+      "integral_RL_contacts_after_founder_loss": 0.5413771788060444,
+      "first_founder_free_continuation": 97.32732938847407,
+      "paid_L_instances_lost": 34,
+      "paid_L_instances_created": 34,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81064,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 20.71129064765103,
+      "founder_lineage_R_time_after_founder_instance_loss": 44.061966594007714,
+      "RL_contact_continuation_after_founders_lost": 20.71129064765103,
+      "integral_RL_contacts_after_founder_loss": 58.98360160443223,
+      "first_founder_free_continuation": 12.09841341443999,
+      "paid_L_instances_lost": 20,
+      "paid_L_instances_created": 20,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81064,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 46.43598955085061,
+      "founder_lineage_R_time_after_founder_instance_loss": 75.18893276007802,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 25.80548649506379,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    },
+    {
+      "seed": 81064,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "continuation_after_all_founder_instances_lost": 46.43598955085061,
+      "founder_lineage_R_time_after_founder_instance_loss": 75.18893276007802,
+      "RL_contact_continuation_after_founders_lost": 0.0,
+      "integral_RL_contacts_after_founder_loss": 0.0,
+      "first_founder_free_continuation": 25.80548649506379,
+      "paid_L_instances_lost": 0,
+      "paid_L_instances_created": 0,
+      "scope": "Copy ancestry and molecular-instance replacement, not collective heredity or functional regulatory information."
+    }
+  ],
+  "scope": "Secondary readouts from the frozen 64-seed ensemble. Ratio of aggregate fuel standard energy to activity is not a matched-function total-entropy-production measure."
+}

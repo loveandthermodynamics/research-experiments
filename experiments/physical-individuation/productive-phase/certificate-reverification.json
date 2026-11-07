@@ -1,0 +1,22 @@
+{
+  "balance_source_cases": 17043,
+  "certificate_math_reproduced": true,
+  "checks_passed": true,
+  "exact_cycle_affinity": "24",
+  "existing_reports_and_sources_unchanged": true,
+  "generalist_eligibility_cases": 13122,
+  "protocol_binding_scope": "The prospective protocol bound analytical notes. This final analytical rerun additionally binds the certificate scripts and reports; it does not retroactively add them to the prospective protocol.",
+  "reviewer_sha256": "ab180595e1e16b29322415aa151978ab871d79c75f47e0e18b06957465f4419b",
+  "saved_certificate_bindings_match_current_sources": true,
+  "scope": "Analytical identities, source bounds, local-cycle thermodynamics and conditional homogeneous/generalist comparisons. Positive NESS current need not be large. No spatial phase, ancestry survival, taxonomic necessity, exploit resistance or organismhood theorem.",
+  "source_sha256": {
+    "balance-and-cost.md": "e246ba4910049c1d663372511142410fd192f855c8b73699f731d9f78ccf9ee1",
+    "balance-independent-certificate.json": "60464c9a7e62a6363c807f4402552f31884bd9d20ec3f3711f5dab950c4a34f1",
+    "balance-independent-review.md": "4447f91fc4494df5dcc6390d087c65c21975a655159c507339977c8e43784fa7",
+    "generalist-certificate.json": "103f3bd76176786ee1d282321de9e3050c5500f9d6a85ea3106eba2795ab0d6a",
+    "generalist-comparison.md": "502c86c1ee5526a90c14d4babbb58e1b60a41c71a89a1c6fca4519e46fc3e131",
+    "model-spec.md": "217fa9077d39d5361833ed04c526621108c66a3c3288a6d7c497ef837e64d043",
+    "verify_balance_independent.py": "a92f8f50b54608e90ec32a6cb83d23c752e145962679161025aabf1e725979b9",
+    "verify_generalist.py": "03135a1a690d0d39457249e3258093e0a11511b925f0678c8112d805628ba769"
+  }
+}

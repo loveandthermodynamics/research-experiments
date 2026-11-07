@@ -1,0 +1,54 @@
+{
+  "scope": "Conditional reward-free chemical construction, not a cosmic theorem or recursive collective individuality",
+  "checks_passed": true,
+  "derivation_word_count": 3219,
+  "files": {
+    "derivation.md": {
+      "sha256": "ee7b3adebfd6954f8629e37df35b630f5b4aeaed16170cf1ef4fa8c017b5f0bb",
+      "bytes": 21362
+    },
+    "generative_model.py": {
+      "sha256": "b5b3017a2cab2509685f7f04e03b991af31540e26957a48a4d81734770255bc6",
+      "bytes": 17930
+    },
+    "generative-results.json": {
+      "sha256": "1b4c504a27b52f1cebfd5f4603c305d18bfe9c3e5f4466148bde7f094021bcf3",
+      "bytes": 10662
+    },
+    "generative-dynamics.png": {
+      "sha256": "e9ed7caefb49a4e8b8b35c5f72fc00199743d1a4f38dc527e0054a44226c26e7",
+      "bytes": 149094
+    },
+    "page-body.md": {
+      "sha256": "c8af7d70219b1b59968770ec60c4aefd5b96063eeb02f18cc0614ab315aa3bcd",
+      "bytes": 21371
+    }
+  },
+  "page": {
+    "title": "Least Action and the Emergence of Collective Organization",
+    "title_matches": true,
+    "full_body_matches_normalized": true,
+    "canonical_blocks": 81,
+    "main_headings": 9,
+    "tables": 3,
+    "code_fences": 28,
+    "native_image_occurrences": 1,
+    "agent_instructions": 0,
+    "url": "[private publication reference omitted]",
+    "uploaded_image_sha256": "e9ed7caefb49a4e8b8b35c5f72fc00199743d1a4f38dc527e0054a44226c26e7"
+  },
+  "reviews": {
+    "derive_variational_solution": "Pass after clarifying uncatalyzed channel omission in both limiting and finite-reverse models",
+    "derive_agency_measure": "Pass; no mandatory fixes",
+    "derive_regeneration_model": "Core, cascade, thermodynamic consistency and intrinsic reverse-product feedback cross-checked"
+  },
+  "visual_check": {
+    "local_figure": "Inspected latest three-panel plot",
+    "cloud_layout": "Not verified; browser preview required sign-in"
+  },
+  "unchanged_scope": [
+    "Hestia runtime",
+    "RFC",
+    "source essays"
+  ]
+}

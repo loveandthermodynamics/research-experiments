@@ -1,0 +1,431 @@
+{
+  "checks_passed": true,
+  "exact_cycle": {
+    "X_parent": 4,
+    "Y_parent": 6,
+    "copy_family_counts": {
+      "X": 1,
+      "Y": 1
+    },
+    "cycle_log_affinity_exact": "24",
+    "exact_initial_final_H": "27/2",
+    "formula": "2*mu/theta",
+    "passive_losses": 2,
+    "physical_arrays_return_exactly": true,
+    "scope": "Finite rational local-cycle example; no stochastic trajectory or phase-formation evidence.",
+    "side": 4,
+    "steps": [
+      {
+        "after": {
+          "material": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "templates": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "before": {
+          "material": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "templates": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chemical_work_exact": "12",
+        "delta_H_exact": "57/10",
+        "heat_to_bath_exact": "63/10",
+        "log_forward_reverse_ratio_exact": "63/10",
+        "name": "X_copy",
+        "reverse_symmetric_mobility_exact": "19/200"
+      },
+      {
+        "after": {
+          "material": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "templates": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "before": {
+          "material": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "templates": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chemical_work_exact": "0",
+        "delta_H_exact": "-17/2",
+        "heat_to_bath_exact": "17/2",
+        "log_forward_reverse_ratio_exact": "17/2",
+        "name": "X_loss",
+        "reverse_symmetric_mobility_exact": "1/50"
+      },
+      {
+        "after": {
+          "material": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "templates": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "before": {
+          "material": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "templates": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chemical_work_exact": "12",
+        "delta_H_exact": "44/5",
+        "heat_to_bath_exact": "16/5",
+        "log_forward_reverse_ratio_exact": "16/5",
+        "name": "Y_copy",
+        "reverse_symmetric_mobility_exact": "19/200"
+      },
+      {
+        "after": {
+          "material": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "templates": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "before": {
+          "material": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "templates": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "chemical_work_exact": "0",
+        "delta_H_exact": "-6",
+        "heat_to_bath_exact": "6",
+        "log_forward_reverse_ratio_exact": "6",
+        "name": "Y_loss",
+        "reverse_symmetric_mobility_exact": "1/50"
+      }
+    ],
+    "target": 5,
+    "total_delta_H_exact": "0",
+    "total_work_exact": "24",
+    "working_carriers": 3
+  },
+  "positive_NESS_theorem": {
+    "hypotheses": [
+      "finite physical occupancy state space at fixed material inventory",
+      "positive finite reverse rates and thermal D<->X/Y",
+      "connected local material transport",
+      "at least one working carrier and a target with two distinct neighboring helpers",
+      "both copy activities enabled, theta>0 and mu>0",
+      "kappa=0 and no other fueled bypass"
+    ],
+    "limitations": [
+      "Currents can be arbitrarily rare",
+      "Positive thermal sources are essential to stated irreducibility",
+      "Journal counters/instance IDs are observational and excluded from thermodynamic state",
+      "No high population, ancestry persistence, phase formation, size selection or taxonomic necessity follows"
+    ],
+    "not_certified_by_state_enumeration": true,
+    "one_activity_effective_equilibrium": {
+      "X_only": "H-mu*B",
+      "Y_only": "H+mu*B"
+    },
+    "probability_fluxes": "F=pi(s)*q(s,s'); reverse=pi(s')*q_rev; sigma=sum_unordered_pairs(F-Frev)*log(F/Frev)",
+    "reasoning": "Thermal template transitions and copy-plus-loss material flips connect the physical space. The four-step cycle has affinity2mu/theta. Irreducibility makes stationary pi positive, so zero entropy production would force detailed balance on all paired probability fluxes, contradicting this cycle. Since dE[B]/dt=0, JX=JY; since sigma=P/theta and P=mu(JX+JY), both are strictly positive."
+  },
+  "scope": "Independent exact local-cycle and balance review before model implementation or ensembles. No trajectory, reward, phase selector or old evidence modification.",
+  "source_sha256": {
+    "balance-and-cost.md": "e246ba4910049c1d663372511142410fd192f855c8b73699f731d9f78ccf9ee1",
+    "generalist-comparison.md": "502c86c1ee5526a90c14d4babbb58e1b60a41c71a89a1c6fca4519e46fc3e131",
+    "model-spec.md": "217fa9077d39d5361833ed04c526621108c66a3c3288a6d7c497ef837e64d043",
+    "verify_generalist.py": "03135a1a690d0d39457249e3258093e0a11511b925f0678c8112d805628ba769"
+  },
+  "symbolic_algebra": {
+    "c_difference": "diff=max(cB-c0,0) for conservative arbitrary-affinity bound",
+    "finite_T_addition": "(M+E[N_initial])/(delta*(1+c0)*T)",
+    "power_identity": "P=mu*(delta*E[N]-E[I_intensity])",
+    "source_condition": "E_r>=max(0,g_r) gives exact downhill loss delta; otherwise use saturated births and actual loss lower bound",
+    "stationary_currents": {
+      "JX": "-birth/2 - j0/2 + loss/2",
+      "JY": "-birth/2 + j0/2 + loss/2"
+    },
+    "tightened_one_family_expectation_bound": "(K*c0 + M*diff + M*kappa/delta)/(c0 + 1)"
+  },
+  "thermal_and_energy_values": {
+    "c0": "0.00495750435333271684609033486163333578301295917106789010175725",
+    "cB": "0.0304008517913291449141552257941069114589578437743926846977061",
+    "cB_ge_c0": true,
+    "cases_thermal_source_bound": 17043,
+    "delta": "0.02",
+    "forward_X_max_cost_exact": "21/2",
+    "forward_Y_acceptance_at_maximum": "0.201896517994655408485179267643349762861954146426012428425307",
+    "forward_Y_max_cost_exact": "68/5",
+    "lattice_sites": 256,
+    "numerical_scope": "70-digit evaluation plus60-digit outward interval enclosure of each displayed bound; no spatial result.",
+    "numerical_values": {
+      "no_background": {
+        "density_upper_bound": "0.0125481785501289196377313601514128338750378354544887785420778",
+        "expected_population_upper_bound": "3.21233370883300342725922819876168547200968587634912730677191",
+        "kappa": "0.0",
+        "mean_source_upper_at_all_D": "0.0645651773435780094768024465275719857499814732449877809987583",
+        "outward_interval_enclosing_the_bound": "[3.2123337088330034272592281987616854720096858763491273067719041425, 3.2123337088330034272592281987616854720096858763491273067719063206]"
+      },
+      "weak_background": {
+        "density_upper_bound": "0.0155411533644574706660954115391179383566593284164931271822603",
+        "expected_population_upper_bound": "3.97853526130111249052042535401419221930478807462224055865864",
+        "kappa": "0.0002",
+        "mean_source_upper_at_all_D": "0.0645651773435780094768024465275719857499814732449877809987583",
+        "outward_interval_enclosing_the_bound": "[3.9785352613011124905204253540141922193047880746222405586586375436, 3.978535261301112490520425354014192219304788074622240558658640344]"
+      }
+    },
+    "working_carriers": 77
+  },
+  "verifier_sha256": "a92f8f50b54608e90ec32a6cb83d23c752e145962679161025aabf1e725979b9"
+}

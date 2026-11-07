@@ -1,0 +1,1145 @@
+{
+  "checked_at_utc": "2026-11-07T19:41:59.731100+00:00",
+  "checks_passed": false,
+  "environment": {
+    "python": "3.12.4",
+    "implementation": "CPython",
+    "platform": "Darwin",
+    "numpy": "2.2.6",
+    "scipy": "1.16.2",
+    "matplotlib": "3.9.2",
+    "mpmath": "1.3.0",
+    "sympy": "1.14.0"
+  },
+  "network_denied": true,
+  "live_providers_used": false,
+  "execution_location": "Disposable copy; original and public saved results were not execution outputs.",
+  "physical_small_checks": [
+    {
+      "check": "capacity_bound",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_capacity_bound.py"
+      ],
+      "working_directory": "experiments/physical-individuation/capacity-bridge",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.235,
+      "scope": "Existing synchronized-module algebra and378bounded-stock event-word states.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "closure_independent_ODE",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_closure.py"
+      ],
+      "working_directory": "experiments/physical-individuation",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.484,
+      "scope": "Nine existing ODE cases with independent Radau integration versus saved DOP853 results.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "diversity_coefficient",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "certify_diversity_coefficient.py"
+      ],
+      "working_directory": "experiments/physical-individuation/driven-spatial",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.033,
+      "scope": "Existing two weak-forcing coefficient enclosures; no finite-amplitude study.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "finite_availability_bound",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_availability_bound.py"
+      ],
+      "working_directory": "experiments/physical-individuation/interface-maintenance",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.955,
+      "scope": "Separate small finite-temperature availability theorem example.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "generalist_counterexample",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_generalist.py"
+      ],
+      "working_directory": "experiments/physical-individuation/productive-phase",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.487,
+      "scope": "Existing homogeneous algebra and13,122eligibility fixtures.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "generative_chemistry_existing_suite",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "generative_model.py"
+      ],
+      "working_directory": "experiments/generative-chemistry",
+      "status": "fresh_replay_with_warning",
+      "exit_code": 1,
+      "seconds": 7.942,
+      "scope": "Recompute the original standalone generative construction, existing controls/sweeps/identity checks in the disposable copy only.",
+      "raw_log": "Retained privately; not included in public snapshot.",
+      "initial_strict_status": "failed",
+      "supplementary": {
+        "command": [
+          "python3",
+          "generative_model.py"
+        ],
+        "working_directory": "experiments/generative-chemistry",
+        "exit_code": 0,
+        "seconds": 1.148,
+        "warning_counts": {
+          "DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)": 12
+        },
+        "numeric_comparison": {
+          "saved_numeric_leaves_compared": 260,
+          "numeric_mismatches": 0,
+          "maximum_absolute_numeric_difference": 0.0,
+          "absolute_tolerance": 1e-08,
+          "relative_tolerance": 1e-10
+        },
+        "status": "fresh_replay_with_warning",
+        "warning_handling": "Ordinary execution with warnings captured, without promoting them to errors; no model or source change."
+      }
+    },
+    {
+      "check": "integrity_npz_replay",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_integrity.py"
+      ],
+      "working_directory": "experiments/physical-individuation",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 4.888,
+      "scope": "256saved wound/sham-copying histories /67,553events; exact ledgers and paired deficit contrasts.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "lattice_npz_replay",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_lattice_replay.py"
+      ],
+      "working_directory": "experiments/physical-individuation",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 3.662,
+      "scope": "Six saved illustrative physical histories /36,341events; exact state, ancestry, heat and fuel replay.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "maintenance_interval",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "interval_threshold_certificate.py"
+      ],
+      "working_directory": "experiments/physical-individuation/renewal-turnover",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.042,
+      "scope": "Outward interval certificates for the existing three root brackets; no global exhaustiveness claim.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "maintenance_threshold",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_threshold.py"
+      ],
+      "working_directory": "experiments/physical-individuation/renewal-turnover",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.266,
+      "scope": "Existing R/L equilibria, chemical-work identities and paired ablation checks.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "path_ranking",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "path_ranking_counterexample.py"
+      ],
+      "working_directory": "experiments/physical-individuation/renewal-turnover",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.022,
+      "scope": "Existing five-state entropy-only forward-path ranking counterexample.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "productive_balance",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_balance_independent.py"
+      ],
+      "working_directory": "experiments/physical-individuation/productive-phase",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.306,
+      "scope": "Existing rational cycle, source bounds and symbolic balance checks.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "productive_roles",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "productive_role_independent_check.py"
+      ],
+      "working_directory": "experiments/physical-individuation/active-phase",
+      "status": "passed_after_disposable_output_preparation",
+      "exit_code": 1,
+      "seconds": 0.049,
+      "scope": "Finite-count rate pairs and192existing ideal-parameter fixtures, not a new spatial run.",
+      "raw_log": "Retained privately; not included in public snapshot.",
+      "initial_strict_status": "failed",
+      "supplementary": {
+        "command": [
+          "python3",
+          "-W",
+          "error",
+          "productive_role_independent_check.py"
+        ],
+        "working_directory": "experiments/physical-individuation/active-phase",
+        "exit_code": 0,
+        "seconds": 0.119,
+        "warning_counts": {},
+        "numeric_comparison": {
+          "saved_numeric_leaves_compared": 17,
+          "numeric_mismatches": 0,
+          "maximum_absolute_numeric_difference": 0.0,
+          "absolute_tolerance": 1e-08,
+          "relative_tolerance": 1e-10
+        },
+        "status": "passed_after_disposable_output_preparation",
+        "setup": "Removed only the pre-existing generated report in the disposable copy; source write-once guard was respected."
+      }
+    },
+    {
+      "check": "radial_radius",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "certify_radius.py"
+      ],
+      "working_directory": "experiments/physical-individuation/differentiated-renewal",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.037,
+      "scope": "Existing conditional3D radial example, not a spatial formation simulation.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "renewal_fixtures",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "renewal_fixtures.py"
+      ],
+      "working_directory": "experiments/physical-individuation/productive-phase",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.034,
+      "scope": "Eleven existing adversarial reader histories and five invalid fixtures.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "tail_finite_gate",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_tail_bridge.py"
+      ],
+      "working_directory": "experiments/physical-individuation",
+      "status": "fresh_replay_with_warning",
+      "exit_code": 1,
+      "seconds": 0.174,
+      "scope": "193-state first-activation/Jensen numerical check; no new post-activation hypothesis.",
+      "raw_log": "Retained privately; not included in public snapshot.",
+      "initial_strict_status": "failed",
+      "supplementary": {
+        "command": [
+          "python3",
+          "verify_tail_bridge.py"
+        ],
+        "working_directory": "experiments/physical-individuation",
+        "exit_code": 0,
+        "seconds": 0.233,
+        "warning_counts": {
+          "RuntimeWarning: divide by zero encountered in matmul": 7,
+          "RuntimeWarning: overflow encountered in matmul": 7,
+          "RuntimeWarning: invalid value encountered in matmul": 7
+        },
+        "numeric_comparison": {
+          "saved_numeric_leaves_compared": 36,
+          "numeric_mismatches": 0,
+          "maximum_absolute_numeric_difference": 0.0,
+          "absolute_tolerance": 1e-08,
+          "relative_tolerance": 1e-10
+        },
+        "status": "fresh_replay_with_warning",
+        "warning_handling": "Ordinary execution with warnings captured, without promoting them to errors; no model or source change."
+      }
+    }
+  ],
+  "scientific_module_imports": [
+    {
+      "module": "experiments/candidate-model/candidate_model.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/diversity-persistence/diversity_persistence.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/generative-chemistry/generative_model.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/active-phase/active_phase_model.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/active-phase/analyze_study.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/active-phase/morphology.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/active-phase/plot_study.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/active-phase/productive_role_independent_check.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/active-phase/run_study.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/active-phase/software_smoke.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/active-phase/verify_active_phase.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/active-phase/verify_productive_roles.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/active-phase/verify_study.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/agent_chemistry.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/agent_closure.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/agent_integrity.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/agent_lattice.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/agent_mutation.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/agent_renewal.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/agent_tail_numerics.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/boundary_scan.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/capacity-bridge/verify_capacity_bound.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/compare_correlated_shocks.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/differentiated-renewal/certify_radius.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/differentiated-renewal/cohort_support_readouts.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/differentiated-renewal/differentiated_model.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/differentiated-renewal/lineage_readouts.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/differentiated-renewal/plot_results.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/differentiated-renewal/prepare_lesion.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/differentiated-renewal/run_causal_support.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/differentiated-renewal/run_differentiated.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/differentiated-renewal/verify_causal_study.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/differentiated-renewal/verify_differentiated.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/differentiated-renewal/verify_lineages.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/differentiated-renewal/verify_study.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/differentiated-renewal/verify_support_readouts.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/driven-spatial/certify_diversity_coefficient.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/driven-spatial/diversity_invasion_algebra.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/driven-spatial/driven_model.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/driven-spatial/founder_reachability.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/driven-spatial/plot_checkpoint.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/driven-spatial/replicate_locality.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/driven-spatial/run_driven.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/driven-spatial/verify_driven.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/driven-spatial/verify_founders.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/driven-spatial/verify_locality_replication.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/finite_resource_groups.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/interface-maintenance/analyze_interface.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/interface-maintenance/audit_response_mechanism.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/interface-maintenance/autonomous_environment.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/interface-maintenance/interface_model.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/interface-maintenance/interface_readouts.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/interface-maintenance/run_copy_ablation.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/interface-maintenance/run_interface.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/interface-maintenance/run_maintenance.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/interface-maintenance/run_rate_test.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/interface-maintenance/run_responses.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/interface-maintenance/verify_availability_bound.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/interface-maintenance/verify_environment.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/interface-maintenance/verify_interface.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/interface-maintenance/verify_maintenance.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/plot_individuation.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/plot_lattice.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/productive-phase/analyze_study.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/productive-phase/dependencies/morphology.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/productive-phase/plot_study.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/productive-phase/productive_model.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/productive-phase/renewal_fixtures.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/productive-phase/renewal_readouts.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/productive-phase/run_study.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/productive-phase/software_preflight.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/productive-phase/spatial_readouts.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/productive-phase/verify_active_phase.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/productive-phase/verify_balance_independent.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/productive-phase/verify_certificates.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/productive-phase/verify_generalist.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/productive-phase/verify_productive.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/productive-phase/verify_study.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/renewal-turnover/interval_threshold_certificate.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/renewal-turnover/make_figure.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/renewal-turnover/path_ranking_counterexample.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/renewal-turnover/run_turnover.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/renewal-turnover/verify_threshold.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/renewal-turnover/verify_turnover.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/verify_closure.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/verify_integrity.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/verify_lattice_replay.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/verify_physical_results.py",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "module": "experiments/physical-individuation/verify_tail_bridge.py",
+      "status": "passed",
+      "exit_code": 0
+    }
+  ],
+  "scientific_modules_imported": 89,
+  "public_scientific_files_changed": [],
+  "original_source_archive_edited": false,
+  "not_rerun": [
+    "Full interface baseline/response/copy-ablation/faster-copy/maintenance ensembles",
+    "Full renewal-turnover pilot/confirmation",
+    "Driven-spatial pilot/confirmation/locality replication",
+    "Differentiated-renewal primary and causal ensembles",
+    "Active-phase48histories and productive-phase64histories",
+    "Any new parameter scan, hypothesis, live LLM/provider call or human-participant study"
+  ],
+  "historical_replay_limit": "Original full ensemble traces are omitted. Their saved audit reports describe earlier verification, not fresh full replay from this package. Sanitized method/audit metadata preserves original hashes; full original binding material or an explicitly derived public protocol is required for complete historical reproduction.",
+  "early_replays": "Candidate-model and effective diversity-persistence replays are recorded separately in the root-owned quick replay report; not repeated here.",
+  "provenance": "See provenance/physical-snapshot.json for original/published hashes and metadata-only adaptations.",
+  "first_pass_preserved_privately": true,
+  "initial_strict_attempts": [
+    {
+      "check": "capacity_bound",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_capacity_bound.py"
+      ],
+      "working_directory": "experiments/physical-individuation/capacity-bridge",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.235,
+      "scope": "Existing synchronized-module algebra and378bounded-stock event-word states.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "closure_independent_ODE",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_closure.py"
+      ],
+      "working_directory": "experiments/physical-individuation",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.484,
+      "scope": "Nine existing ODE cases with independent Radau integration versus saved DOP853 results.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "diversity_coefficient",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "certify_diversity_coefficient.py"
+      ],
+      "working_directory": "experiments/physical-individuation/driven-spatial",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.033,
+      "scope": "Existing two weak-forcing coefficient enclosures; no finite-amplitude study.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "finite_availability_bound",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_availability_bound.py"
+      ],
+      "working_directory": "experiments/physical-individuation/interface-maintenance",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.955,
+      "scope": "Separate small finite-temperature availability theorem example.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "generalist_counterexample",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_generalist.py"
+      ],
+      "working_directory": "experiments/physical-individuation/productive-phase",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.487,
+      "scope": "Existing homogeneous algebra and13,122eligibility fixtures.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "generative_chemistry_existing_suite",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "generative_model.py"
+      ],
+      "working_directory": "experiments/generative-chemistry",
+      "status": "fresh_replay_with_warning",
+      "exit_code": 1,
+      "seconds": 7.942,
+      "scope": "Recompute the original standalone generative construction, existing controls/sweeps/identity checks in the disposable copy only.",
+      "raw_log": "Retained privately; not included in public snapshot.",
+      "initial_strict_status": "failed",
+      "supplementary": {
+        "command": [
+          "python3",
+          "generative_model.py"
+        ],
+        "working_directory": "experiments/generative-chemistry",
+        "exit_code": 0,
+        "seconds": 1.148,
+        "warning_counts": {
+          "DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)": 12
+        },
+        "numeric_comparison": {
+          "saved_numeric_leaves_compared": 260,
+          "numeric_mismatches": 0,
+          "maximum_absolute_numeric_difference": 0.0,
+          "absolute_tolerance": 1e-08,
+          "relative_tolerance": 1e-10
+        },
+        "status": "fresh_replay_with_warning",
+        "warning_handling": "Ordinary execution with warnings captured, without promoting them to errors; no model or source change."
+      }
+    },
+    {
+      "check": "integrity_npz_replay",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_integrity.py"
+      ],
+      "working_directory": "experiments/physical-individuation",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 4.888,
+      "scope": "256saved wound/sham-copying histories /67,553events; exact ledgers and paired deficit contrasts.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "lattice_npz_replay",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_lattice_replay.py"
+      ],
+      "working_directory": "experiments/physical-individuation",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 3.662,
+      "scope": "Six saved illustrative physical histories /36,341events; exact state, ancestry, heat and fuel replay.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "maintenance_interval",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "interval_threshold_certificate.py"
+      ],
+      "working_directory": "experiments/physical-individuation/renewal-turnover",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.042,
+      "scope": "Outward interval certificates for the existing three root brackets; no global exhaustiveness claim.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "maintenance_threshold",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_threshold.py"
+      ],
+      "working_directory": "experiments/physical-individuation/renewal-turnover",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.266,
+      "scope": "Existing R/L equilibria, chemical-work identities and paired ablation checks.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "path_ranking",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "path_ranking_counterexample.py"
+      ],
+      "working_directory": "experiments/physical-individuation/renewal-turnover",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.022,
+      "scope": "Existing five-state entropy-only forward-path ranking counterexample.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "productive_balance",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_balance_independent.py"
+      ],
+      "working_directory": "experiments/physical-individuation/productive-phase",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.306,
+      "scope": "Existing rational cycle, source bounds and symbolic balance checks.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "productive_roles",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "productive_role_independent_check.py"
+      ],
+      "working_directory": "experiments/physical-individuation/active-phase",
+      "status": "passed_after_disposable_output_preparation",
+      "exit_code": 1,
+      "seconds": 0.049,
+      "scope": "Finite-count rate pairs and192existing ideal-parameter fixtures, not a new spatial run.",
+      "raw_log": "Retained privately; not included in public snapshot.",
+      "initial_strict_status": "failed",
+      "supplementary": {
+        "command": [
+          "python3",
+          "-W",
+          "error",
+          "productive_role_independent_check.py"
+        ],
+        "working_directory": "experiments/physical-individuation/active-phase",
+        "exit_code": 0,
+        "seconds": 0.119,
+        "warning_counts": {},
+        "numeric_comparison": {
+          "saved_numeric_leaves_compared": 17,
+          "numeric_mismatches": 0,
+          "maximum_absolute_numeric_difference": 0.0,
+          "absolute_tolerance": 1e-08,
+          "relative_tolerance": 1e-10
+        },
+        "status": "passed_after_disposable_output_preparation",
+        "setup": "Removed only the pre-existing generated report in the disposable copy; source write-once guard was respected."
+      }
+    },
+    {
+      "check": "radial_radius",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "certify_radius.py"
+      ],
+      "working_directory": "experiments/physical-individuation/differentiated-renewal",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.037,
+      "scope": "Existing conditional3D radial example, not a spatial formation simulation.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "renewal_fixtures",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "renewal_fixtures.py"
+      ],
+      "working_directory": "experiments/physical-individuation/productive-phase",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.034,
+      "scope": "Eleven existing adversarial reader histories and five invalid fixtures.",
+      "raw_log": "Retained privately; not included in public snapshot."
+    },
+    {
+      "check": "tail_finite_gate",
+      "command": [
+        "python3",
+        "-W",
+        "error",
+        "verify_tail_bridge.py"
+      ],
+      "working_directory": "experiments/physical-individuation",
+      "status": "fresh_replay_with_warning",
+      "exit_code": 1,
+      "seconds": 0.174,
+      "scope": "193-state first-activation/Jensen numerical check; no new post-activation hypothesis.",
+      "raw_log": "Retained privately; not included in public snapshot.",
+      "initial_strict_status": "failed",
+      "supplementary": {
+        "command": [
+          "python3",
+          "verify_tail_bridge.py"
+        ],
+        "working_directory": "experiments/physical-individuation",
+        "exit_code": 0,
+        "seconds": 0.233,
+        "warning_counts": {
+          "RuntimeWarning: divide by zero encountered in matmul": 7,
+          "RuntimeWarning: overflow encountered in matmul": 7,
+          "RuntimeWarning: invalid value encountered in matmul": 7
+        },
+        "numeric_comparison": {
+          "saved_numeric_leaves_compared": 36,
+          "numeric_mismatches": 0,
+          "maximum_absolute_numeric_difference": 0.0,
+          "absolute_tolerance": 1e-08,
+          "relative_tolerance": 1e-10
+        },
+        "status": "fresh_replay_with_warning",
+        "warning_handling": "Ordinary execution with warnings captured, without promoting them to errors; no model or source change."
+      }
+    }
+  ],
+  "tail_warning_diagnosis": {
+    "all_generator_and_stationary_entries_finite": true,
+    "stationary_probability_mass": 1.0,
+    "pure_python_stationarity_maximum": 2.0559990364597302e-17,
+    "numpy_matmul_stationarity_maximum": 6.938893903907228e-17,
+    "maximum_pure_python_vs_numpy_difference": 8.994892940366958e-17,
+    "warnings": [
+      "divide by zero encountered in matmul",
+      "overflow encountered in matmul",
+      "invalid value encountered in matmul"
+    ],
+    "saved_survival_probabilities_finite_in_unit_interval": true,
+    "Jensen_order_at_200_times_passed": true,
+    "interpretation": "Finite inputs, normalization, pure-Python stationarity and saved-result comparisons pass. The NumPy matmul RuntimeWarning remains an unresolved strict-warning compatibility issue; no source fix or theorem rejection is inferred."
+  },
+  "out_of_scope_import_attempts": [
+    {
+      "module": "experiments/software-correctness/audit_probes.py",
+      "status": "failed",
+      "exit_code": 1,
+      "scope": "Root-owned software correctness module; outside physical scientific import closure and tested separately."
+    },
+    {
+      "module": "experiments/software-correctness/run_offline_tests.py",
+      "status": "failed",
+      "exit_code": 1,
+      "scope": "Root-owned software correctness module; outside physical scientific import closure and tested separately."
+    }
+  ],
+  "all_strict_checks_passed": false,
+  "overall_status": "completed_with_warnings",
+  "check_summary": {
+    "total_small_checks": 16,
+    "strict_checks_passed_initially": 13,
+    "strict_check_passed_after_disposable_output_preparation": 1,
+    "normal_replays_completed_with_warnings": 2,
+    "scientific_imports_passed": 89,
+    "full_ensembles_rerun": 0
+  },
+  "limitations": [
+    "Strict-warning mode is an additional diagnostic, not the original scientific claim criterion. Its initial failures remain reported.",
+    "The tail RuntimeWarning remains a compatibility issue despite bounded finite/normalization/accuracy checks; do not advertise all-clean fresh replay.",
+    "Generative chemistry reproduces saved numeric results but emits a plotting deprecation warning in ordinary execution.",
+    "Productive-role output guard required removing a generated certificate in the disposable copy, not changing source or saved public results.",
+    "Root-owned software module imports were outside this physical dependency environment and excluded from physical import counts."
+  ]
+}

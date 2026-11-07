@@ -1,0 +1,20 @@
+{
+  "kind": "historical_output_reproduction_check",
+  "python": "3.12.11",
+  "relative_tolerance": 1e-08,
+  "absolute_tolerance": 1e-10,
+  "checks": [
+    {
+      "family": "candidate-model",
+      "matched": true,
+      "leaf_values_compared": 201
+    },
+    {
+      "family": "diversity-persistence",
+      "matched": true,
+      "leaf_values_compared": 80
+    }
+  ],
+  "historical_files_modified": false,
+  "limit": "Tests supplied models against their saved outputs, not organisms or human benefit."
+}

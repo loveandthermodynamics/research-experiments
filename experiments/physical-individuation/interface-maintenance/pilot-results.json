@@ -1,0 +1,3415 @@
+{
+  "stage": "pilot",
+  "source_hashes": {
+    "interface_model.py": "08c5d9948e84d62ddc77a0265e5e91e805b2badf47bc516542a36fa918201927",
+    "interface_readouts.py": "504360788ea120d8a0250dba03409887d10a04a4fe4b83b89bcf20eddc184cbd",
+    "run_interface.py": "4b6b446183f98d16595d23547dc41b4f05a9a42d894d9e6c06ab78080787b401"
+  },
+  "params_by_case": {
+    "balanced": {
+      "side": 8,
+      "theta": 0.7,
+      "epsilon_R": 8,
+      "epsilon_L": 8,
+      "E_F": 12,
+      "J_LL": 1.0,
+      "J_RL": 1.0,
+      "J_RR": 0.0,
+      "copy_rate": 0.06,
+      "production_rate": 0.02,
+      "passive_R": 0.12,
+      "passive_L": 0.04,
+      "material_mobility": 0.1,
+      "fuel_mobility": 0.2,
+      "protection_strength": 1.0,
+      "transport_protection_strength": 0.25,
+      "mutation": [
+        [
+          0.95,
+          0.05
+        ],
+        [
+          0.05,
+          0.95
+        ]
+      ],
+      "allele_passive_multipliers": [
+        1.0,
+        1.0
+      ],
+      "initial_templates": 8,
+      "initial_R1_fraction": 0.0,
+      "initial_fuel": null
+    },
+    "high_production": {
+      "side": 8,
+      "theta": 0.7,
+      "epsilon_R": 8,
+      "epsilon_L": 8,
+      "E_F": 12,
+      "J_LL": 1.0,
+      "J_RL": 1.0,
+      "J_RR": 0.0,
+      "copy_rate": 0.06,
+      "production_rate": 0.08,
+      "passive_R": 0.12,
+      "passive_L": 0.04,
+      "material_mobility": 0.1,
+      "fuel_mobility": 0.2,
+      "protection_strength": 1.0,
+      "transport_protection_strength": 0.25,
+      "mutation": [
+        [
+          0.95,
+          0.05
+        ],
+        [
+          0.05,
+          0.95
+        ]
+      ],
+      "allele_passive_multipliers": [
+        1.0,
+        1.0
+      ],
+      "initial_templates": 8,
+      "initial_R1_fraction": 0.0,
+      "initial_fuel": null
+    },
+    "weak_protection": {
+      "side": 8,
+      "theta": 0.7,
+      "epsilon_R": 8,
+      "epsilon_L": 8,
+      "E_F": 12,
+      "J_LL": 1.0,
+      "J_RL": 1.0,
+      "J_RR": 0.0,
+      "copy_rate": 0.06,
+      "production_rate": 0.02,
+      "passive_R": 0.12,
+      "passive_L": 0.04,
+      "material_mobility": 0.1,
+      "fuel_mobility": 0.2,
+      "protection_strength": 0.2,
+      "transport_protection_strength": 0.05,
+      "mutation": [
+        [
+          0.95,
+          0.05
+        ],
+        [
+          0.05,
+          0.95
+        ]
+      ],
+      "allele_passive_multipliers": [
+        1.0,
+        1.0
+      ],
+      "initial_templates": 8,
+      "initial_R1_fraction": 0.0,
+      "initial_fuel": null
+    }
+  },
+  "horizon": 120.0,
+  "replicates_per_arm": 3,
+  "seeds": [
+    1101,
+    1102,
+    1103
+  ],
+  "groups": [
+    {
+      "case": "balanced",
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 3,
+          "mean": 551.4018328197614,
+          "monte_carlo_standard_error": 127.18095181171881,
+          "approximate_95_percent_normal_interval": [
+            302.1271672687925,
+            800.6764983707302
+          ]
+        },
+        "integral_L": {
+          "n": 3,
+          "mean": 238.15547641711774,
+          "monte_carlo_standard_error": 31.65732645214059,
+          "approximate_95_percent_normal_interval": [
+            176.1071165709222,
+            300.2038362633133
+          ]
+        },
+        "final_R": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_L": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "first_episode_duration": {
+          "n": 3,
+          "mean": 77.31271123063203,
+          "monte_carlo_standard_error": 3.8250110899635827,
+          "approximate_95_percent_normal_interval": [
+            69.81568949430341,
+            84.80973296696065
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 3,
+          "mean": 48.333333333333336,
+          "monte_carlo_standard_error": 5.696002496878355,
+          "approximate_95_percent_normal_interval": [
+            37.16916843945176,
+            59.49749822721491
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 3,
+          "mean": 644.0,
+          "monte_carlo_standard_error": 68.35202996254026,
+          "approximate_95_percent_normal_interval": [
+            510.0300212734211,
+            777.9699787265789
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 3,
+          "mean": 1.1340553798041741,
+          "monte_carlo_standard_error": 0.17846196311804366,
+          "approximate_95_percent_normal_interval": [
+            0.7842699320928086,
+            1.4838408275155397
+          ]
+        }
+      }
+    },
+    {
+      "case": "balanced",
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 3,
+          "mean": 297.28009031239236,
+          "monte_carlo_standard_error": 117.92899218723727,
+          "approximate_95_percent_normal_interval": [
+            66.13926562540732,
+            528.4209149993774
+          ]
+        },
+        "integral_L": {
+          "n": 3,
+          "mean": 204.1294834364459,
+          "monte_carlo_standard_error": 75.20665960903014,
+          "approximate_95_percent_normal_interval": [
+            56.72443060274682,
+            351.53453627014494
+          ]
+        },
+        "final_R": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_L": {
+          "n": 3,
+          "mean": 0.3333333333333333,
+          "monte_carlo_standard_error": 0.33333333333333337,
+          "approximate_95_percent_normal_interval": [
+            -0.3200000000000001,
+            0.9866666666666668
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 3,
+          "mean": 0.3333333333333333,
+          "monte_carlo_standard_error": 0.33333333333333337,
+          "approximate_95_percent_normal_interval": [
+            -0.3200000000000001,
+            0.9866666666666668
+          ]
+        },
+        "first_episode_duration": {
+          "n": 3,
+          "mean": 49.450942382738276,
+          "monte_carlo_standard_error": 9.899680538332566,
+          "approximate_95_percent_normal_interval": [
+            30.047568527606447,
+            68.85431623787011
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 3,
+          "mean": 35.333333333333336,
+          "monte_carlo_standard_error": 10.26861453383291,
+          "approximate_95_percent_normal_interval": [
+            15.206848847020833,
+            55.459817819645835
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 3,
+          "mean": 485.3333333333333,
+          "monte_carlo_standard_error": 121.2013934646701,
+          "approximate_95_percent_normal_interval": [
+            247.77860214257993,
+            722.8880645240868
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 3,
+          "mean": 1.6486568308929115,
+          "monte_carlo_standard_error": 0.2852982060731437,
+          "approximate_95_percent_normal_interval": [
+            1.0894723469895498,
+            2.207841314796273
+          ]
+        }
+      }
+    },
+    {
+      "case": "balanced",
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 3,
+          "mean": 327.2198011717939,
+          "monte_carlo_standard_error": 73.17600526648123,
+          "approximate_95_percent_normal_interval": [
+            183.7948308494907,
+            470.6447714940971
+          ]
+        },
+        "integral_L": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_R": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_L": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "first_episode_duration": {
+          "n": 3,
+          "mean": 56.18699460353046,
+          "monte_carlo_standard_error": 11.79409466817595,
+          "approximate_95_percent_normal_interval": [
+            33.0705690539056,
+            79.30342015315532
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 3,
+          "mean": 33.333333333333336,
+          "monte_carlo_standard_error": 7.881060278357926,
+          "approximate_95_percent_normal_interval": [
+            17.8864551877518,
+            48.78021147891487
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 3,
+          "mean": 464.0,
+          "monte_carlo_standard_error": 94.57272334029513,
+          "approximate_95_percent_normal_interval": [
+            278.63746225302157,
+            649.3625377469784
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 3,
+          "mean": 1.2189289762823043,
+          "monte_carlo_standard_error": 0.03128190123426035,
+          "approximate_95_percent_normal_interval": [
+            1.157616449863154,
+            1.2802415027014546
+          ]
+        }
+      }
+    },
+    {
+      "case": "balanced",
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 3,
+          "mean": 327.2198011717939,
+          "monte_carlo_standard_error": 73.17600526648123,
+          "approximate_95_percent_normal_interval": [
+            183.7948308494907,
+            470.6447714940971
+          ]
+        },
+        "integral_L": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_R": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_L": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "first_episode_duration": {
+          "n": 3,
+          "mean": 56.18699460353046,
+          "monte_carlo_standard_error": 11.79409466817595,
+          "approximate_95_percent_normal_interval": [
+            33.0705690539056,
+            79.30342015315532
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 3,
+          "mean": 33.333333333333336,
+          "monte_carlo_standard_error": 7.881060278357926,
+          "approximate_95_percent_normal_interval": [
+            17.8864551877518,
+            48.78021147891487
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 3,
+          "mean": 464.0,
+          "monte_carlo_standard_error": 94.57272334029513,
+          "approximate_95_percent_normal_interval": [
+            278.63746225302157,
+            649.3625377469784
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 3,
+          "mean": 1.2189289762823043,
+          "monte_carlo_standard_error": 0.03128190123426035,
+          "approximate_95_percent_normal_interval": [
+            1.157616449863154,
+            1.2802415027014546
+          ]
+        }
+      }
+    },
+    {
+      "case": "high_production",
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 3,
+          "mean": 763.3757772702193,
+          "monte_carlo_standard_error": 69.92198195517578,
+          "approximate_95_percent_normal_interval": [
+            626.3286926380747,
+            900.4228619023638
+          ]
+        },
+        "integral_L": {
+          "n": 3,
+          "mean": 720.5885657670242,
+          "monte_carlo_standard_error": 106.04072790893018,
+          "approximate_95_percent_normal_interval": [
+            512.748739065521,
+            928.4283924685274
+          ]
+        },
+        "final_R": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_L": {
+          "n": 3,
+          "mean": 0.3333333333333333,
+          "monte_carlo_standard_error": 0.33333333333333337,
+          "approximate_95_percent_normal_interval": [
+            -0.3200000000000001,
+            0.9866666666666668
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 3,
+          "mean": 0.3333333333333333,
+          "monte_carlo_standard_error": 0.33333333333333337,
+          "approximate_95_percent_normal_interval": [
+            -0.3200000000000001,
+            0.9866666666666668
+          ]
+        },
+        "first_episode_duration": {
+          "n": 3,
+          "mean": 80.63757816668523,
+          "monte_carlo_standard_error": 1.616573552438431,
+          "approximate_95_percent_normal_interval": [
+            77.46909400390591,
+            83.80606232946455
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 3,
+          "mean": 60.333333333333336,
+          "monte_carlo_standard_error": 2.0275875100994067,
+          "approximate_95_percent_normal_interval": [
+            56.359261813538495,
+            64.30740485312818
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 3,
+          "mean": 785.3333333333334,
+          "monte_carlo_standard_error": 24.69367890326951,
+          "approximate_95_percent_normal_interval": [
+            736.9337226829251,
+            833.7329439837416
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 3,
+          "mean": 0.9586778878896992,
+          "monte_carlo_standard_error": 0.05928451029840336,
+          "approximate_95_percent_normal_interval": [
+            0.8424802477048287,
+            1.0748755280745699
+          ]
+        }
+      }
+    },
+    {
+      "case": "high_production",
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 3,
+          "mean": 212.9965465955081,
+          "monte_carlo_standard_error": 4.077399108106029,
+          "approximate_95_percent_normal_interval": [
+            205.00484434362028,
+            220.98824884739594
+          ]
+        },
+        "integral_L": {
+          "n": 3,
+          "mean": 672.2069750279725,
+          "monte_carlo_standard_error": 57.92033083149638,
+          "approximate_95_percent_normal_interval": [
+            558.6831265982396,
+            785.7308234577054
+          ]
+        },
+        "final_R": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_L": {
+          "n": 3,
+          "mean": 0.6666666666666666,
+          "monte_carlo_standard_error": 0.33333333333333337,
+          "approximate_95_percent_normal_interval": [
+            0.013333333333333197,
+            1.32
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 3,
+          "mean": 0.6666666666666666,
+          "monte_carlo_standard_error": 0.33333333333333337,
+          "approximate_95_percent_normal_interval": [
+            0.013333333333333197,
+            1.32
+          ]
+        },
+        "first_episode_duration": {
+          "n": 3,
+          "mean": 33.657512230807846,
+          "monte_carlo_standard_error": 4.595388004234656,
+          "approximate_95_percent_normal_interval": [
+            24.650551742507922,
+            42.66447271910777
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 3,
+          "mean": 39.333333333333336,
+          "monte_carlo_standard_error": 1.6666666666666667,
+          "approximate_95_percent_normal_interval": [
+            36.06666666666667,
+            42.6
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 3,
+          "mean": 530.6666666666666,
+          "monte_carlo_standard_error": 21.457969252574774,
+          "approximate_95_percent_normal_interval": [
+            488.60904693162007,
+            572.7242864017132
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 3,
+          "mean": 2.218934745769171,
+          "monte_carlo_standard_error": 0.11637089766297369,
+          "approximate_95_percent_normal_interval": [
+            1.9908477863497425,
+            2.4470217051885994
+          ]
+        }
+      }
+    },
+    {
+      "case": "high_production",
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 3,
+          "mean": 327.2198011717939,
+          "monte_carlo_standard_error": 73.17600526648123,
+          "approximate_95_percent_normal_interval": [
+            183.7948308494907,
+            470.6447714940971
+          ]
+        },
+        "integral_L": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_R": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_L": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "first_episode_duration": {
+          "n": 3,
+          "mean": 56.18699460353046,
+          "monte_carlo_standard_error": 11.79409466817595,
+          "approximate_95_percent_normal_interval": [
+            33.0705690539056,
+            79.30342015315532
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 3,
+          "mean": 33.333333333333336,
+          "monte_carlo_standard_error": 7.881060278357926,
+          "approximate_95_percent_normal_interval": [
+            17.8864551877518,
+            48.78021147891487
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 3,
+          "mean": 464.0,
+          "monte_carlo_standard_error": 94.57272334029513,
+          "approximate_95_percent_normal_interval": [
+            278.63746225302157,
+            649.3625377469784
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 3,
+          "mean": 1.2189289762823043,
+          "monte_carlo_standard_error": 0.03128190123426035,
+          "approximate_95_percent_normal_interval": [
+            1.157616449863154,
+            1.2802415027014546
+          ]
+        }
+      }
+    },
+    {
+      "case": "high_production",
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 3,
+          "mean": 327.2198011717939,
+          "monte_carlo_standard_error": 73.17600526648123,
+          "approximate_95_percent_normal_interval": [
+            183.7948308494907,
+            470.6447714940971
+          ]
+        },
+        "integral_L": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_R": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_L": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "first_episode_duration": {
+          "n": 3,
+          "mean": 56.18699460353046,
+          "monte_carlo_standard_error": 11.79409466817595,
+          "approximate_95_percent_normal_interval": [
+            33.0705690539056,
+            79.30342015315532
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 3,
+          "mean": 33.333333333333336,
+          "monte_carlo_standard_error": 7.881060278357926,
+          "approximate_95_percent_normal_interval": [
+            17.8864551877518,
+            48.78021147891487
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 3,
+          "mean": 464.0,
+          "monte_carlo_standard_error": 94.57272334029513,
+          "approximate_95_percent_normal_interval": [
+            278.63746225302157,
+            649.3625377469784
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 3,
+          "mean": 1.2189289762823043,
+          "monte_carlo_standard_error": 0.03128190123426035,
+          "approximate_95_percent_normal_interval": [
+            1.157616449863154,
+            1.2802415027014546
+          ]
+        }
+      }
+    },
+    {
+      "case": "weak_protection",
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 3,
+          "mean": 435.82557059192897,
+          "monte_carlo_standard_error": 88.7492508664068,
+          "approximate_95_percent_normal_interval": [
+            261.87703889377167,
+            609.7741022900863
+          ]
+        },
+        "integral_L": {
+          "n": 3,
+          "mean": 178.5468153056556,
+          "monte_carlo_standard_error": 74.57072308282842,
+          "approximate_95_percent_normal_interval": [
+            32.388198063311904,
+            324.7054325479993
+          ]
+        },
+        "final_R": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_L": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "first_episode_duration": {
+          "n": 3,
+          "mean": 75.08482215690374,
+          "monte_carlo_standard_error": 0.912641898131757,
+          "approximate_95_percent_normal_interval": [
+            73.29604403656549,
+            76.87360027724199
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 3,
+          "mean": 46.0,
+          "monte_carlo_standard_error": 5.686240703077327,
+          "approximate_95_percent_normal_interval": [
+            34.85496822196844,
+            57.14503177803156
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 3,
+          "mean": 616.0,
+          "monte_carlo_standard_error": 68.23488843692793,
+          "approximate_95_percent_normal_interval": [
+            482.25961866362127,
+            749.7403813363787
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 3,
+          "mean": 1.32643881067302,
+          "monte_carlo_standard_error": 0.15001084510189996,
+          "approximate_95_percent_normal_interval": [
+            1.032417554273296,
+            1.620460067072744
+          ]
+        }
+      }
+    },
+    {
+      "case": "weak_protection",
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 3,
+          "mean": 297.28009031239236,
+          "monte_carlo_standard_error": 117.92899218723727,
+          "approximate_95_percent_normal_interval": [
+            66.13926562540732,
+            528.4209149993774
+          ]
+        },
+        "integral_L": {
+          "n": 3,
+          "mean": 204.1294834364459,
+          "monte_carlo_standard_error": 75.20665960903014,
+          "approximate_95_percent_normal_interval": [
+            56.72443060274682,
+            351.53453627014494
+          ]
+        },
+        "final_R": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_L": {
+          "n": 3,
+          "mean": 0.3333333333333333,
+          "monte_carlo_standard_error": 0.33333333333333337,
+          "approximate_95_percent_normal_interval": [
+            -0.3200000000000001,
+            0.9866666666666668
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 3,
+          "mean": 0.3333333333333333,
+          "monte_carlo_standard_error": 0.33333333333333337,
+          "approximate_95_percent_normal_interval": [
+            -0.3200000000000001,
+            0.9866666666666668
+          ]
+        },
+        "first_episode_duration": {
+          "n": 3,
+          "mean": 49.450942382738276,
+          "monte_carlo_standard_error": 9.899680538332566,
+          "approximate_95_percent_normal_interval": [
+            30.047568527606447,
+            68.85431623787011
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 3,
+          "mean": 35.333333333333336,
+          "monte_carlo_standard_error": 10.26861453383291,
+          "approximate_95_percent_normal_interval": [
+            15.206848847020833,
+            55.459817819645835
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 3,
+          "mean": 485.3333333333333,
+          "monte_carlo_standard_error": 121.2013934646701,
+          "approximate_95_percent_normal_interval": [
+            247.77860214257993,
+            722.8880645240868
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 3,
+          "mean": 1.6486568308929115,
+          "monte_carlo_standard_error": 0.2852982060731437,
+          "approximate_95_percent_normal_interval": [
+            1.0894723469895498,
+            2.207841314796273
+          ]
+        }
+      }
+    },
+    {
+      "case": "weak_protection",
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 3,
+          "mean": 327.2198011717939,
+          "monte_carlo_standard_error": 73.17600526648123,
+          "approximate_95_percent_normal_interval": [
+            183.7948308494907,
+            470.6447714940971
+          ]
+        },
+        "integral_L": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_R": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_L": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "first_episode_duration": {
+          "n": 3,
+          "mean": 56.18699460353046,
+          "monte_carlo_standard_error": 11.79409466817595,
+          "approximate_95_percent_normal_interval": [
+            33.0705690539056,
+            79.30342015315532
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 3,
+          "mean": 33.333333333333336,
+          "monte_carlo_standard_error": 7.881060278357926,
+          "approximate_95_percent_normal_interval": [
+            17.8864551877518,
+            48.78021147891487
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 3,
+          "mean": 464.0,
+          "monte_carlo_standard_error": 94.57272334029513,
+          "approximate_95_percent_normal_interval": [
+            278.63746225302157,
+            649.3625377469784
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 3,
+          "mean": 1.2189289762823043,
+          "monte_carlo_standard_error": 0.03128190123426035,
+          "approximate_95_percent_normal_interval": [
+            1.157616449863154,
+            1.2802415027014546
+          ]
+        }
+      }
+    },
+    {
+      "case": "weak_protection",
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "statistics": {
+        "integral_R": {
+          "n": 3,
+          "mean": 327.2198011717939,
+          "monte_carlo_standard_error": 73.17600526648123,
+          "approximate_95_percent_normal_interval": [
+            183.7948308494907,
+            470.6447714940971
+          ]
+        },
+        "integral_L": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_R": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_L": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "founder_R_remaining": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_R_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_paid_L_instances": {
+          "n": 3,
+          "mean": 0.0,
+          "monte_carlo_standard_error": 0.0,
+          "approximate_95_percent_normal_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "first_episode_duration": {
+          "n": 3,
+          "mean": 56.18699460353046,
+          "monte_carlo_standard_error": 11.79409466817595,
+          "approximate_95_percent_normal_interval": [
+            33.0705690539056,
+            79.30342015315532
+          ]
+        },
+        "net_fuel_consumed": {
+          "n": 3,
+          "mean": 33.333333333333336,
+          "monte_carlo_standard_error": 7.881060278357926,
+          "approximate_95_percent_normal_interval": [
+            17.8864551877518,
+            48.78021147891487
+          ]
+        },
+        "net_heat_to_bath": {
+          "n": 3,
+          "mean": 464.0,
+          "monte_carlo_standard_error": 94.57272334029513,
+          "approximate_95_percent_normal_interval": [
+            278.63746225302157,
+            649.3625377469784
+          ]
+        },
+        "fuel_energy_per_integral_R": {
+          "n": 3,
+          "mean": 1.2189289762823043,
+          "monte_carlo_standard_error": 0.03128190123426035,
+          "approximate_95_percent_normal_interval": [
+            1.157616449863154,
+            1.2802415027014546
+          ]
+        }
+      }
+    }
+  ],
+  "factorial_interactions": [
+    {
+      "case": "balanced",
+      "field": "integral_R",
+      "mean": 254.121742507369,
+      "standard_error_upper_bound_without_covariance_assumption": 391.46195453191854,
+      "approximate_95_percent_interval_using_SE_bound": [
+        -513.1436883751912,
+        1021.3871733899293
+      ],
+      "interpretation": "Exploratory factorial interaction, not an external objective or reward."
+    },
+    {
+      "case": "high_production",
+      "field": "integral_R",
+      "mean": 550.3792306747112,
+      "standard_error_upper_bound_without_covariance_assumption": 220.35139159624427,
+      "approximate_95_percent_interval_using_SE_bound": [
+        118.4905031460724,
+        982.26795820335
+      ],
+      "interpretation": "Exploratory factorial interaction, not an external objective or reward."
+    },
+    {
+      "case": "weak_protection",
+      "field": "integral_R",
+      "mean": 138.5454802795366,
+      "standard_error_upper_bound_without_covariance_assumption": 353.03025358660653,
+      "approximate_95_percent_interval_using_SE_bound": [
+        -553.3938167502122,
+        830.4847773092854
+      ],
+      "interpretation": "Exploratory factorial interaction, not an external objective or reward."
+    }
+  ],
+  "runs": [
+    {
+      "seed": 1101,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 29,
+      "reverse_R_copies": 0,
+      "paid_L_births": 8,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 37,
+      "passive_L_births": 0,
+      "passive_L_deaths": 8,
+      "integral_R": 297.8060341693013,
+      "integral_L": 175.9930213989312,
+      "integral_R0": 244.09602140425267,
+      "integral_R1": 53.71001276504836,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 72.32769248760297,
+      "first_episode_duration": 72.32769248760297,
+      "net_fuel_consumed": 37,
+      "fuel_energy_transferred": 444,
+      "net_heat_to_bath": 508.0,
+      "initial_H": 832.0,
+      "final_H": 324.0,
+      "first_law_error": 0.0,
+      "events": 1535,
+      "fuel_energy_per_integral_R": 1.4909033030122825,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "balanced",
+      "trajectory_file": "pilot/balanced-s1101-p1b1.json.gz"
+    },
+    {
+      "seed": 1101,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 11,
+      "reverse_R_copies": 0,
+      "paid_L_births": 5,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 19,
+      "passive_L_births": 0,
+      "passive_L_deaths": 5,
+      "integral_R": 87.4335790296293,
+      "integral_L": 60.98539755064709,
+      "integral_R0": 63.06773093019629,
+      "integral_R1": 24.365848099432927,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 29.957522149373165,
+      "first_episode_duration": 29.957522149373165,
+      "net_fuel_consumed": 16,
+      "fuel_energy_transferred": 192,
+      "net_heat_to_bath": 256.0,
+      "initial_H": 832.0,
+      "final_H": 576.0,
+      "first_law_error": 0.0,
+      "events": 1177,
+      "fuel_energy_per_integral_R": 2.195952654928325,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "balanced",
+      "trajectory_file": "pilot/balanced-s1101-p1b0.json.gz"
+    },
+    {
+      "seed": 1101,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 48,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 56,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 456.8162085102819,
+      "integral_L": 0.0,
+      "integral_R0": 406.2030872948704,
+      "integral_R1": 50.61312121541203,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 75.79235821281223,
+      "first_episode_duration": 75.79235821281223,
+      "net_fuel_consumed": 48,
+      "fuel_energy_transferred": 576,
+      "net_heat_to_bath": 640.0,
+      "initial_H": 832.0,
+      "final_H": 192.0,
+      "first_law_error": 0.0,
+      "events": 1493,
+      "fuel_energy_per_integral_R": 1.2609009690754778,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "balanced",
+      "trajectory_file": "pilot/balanced-s1101-p0b1.json.gz"
+    },
+    {
+      "seed": 1101,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 48,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 56,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 456.8162085102819,
+      "integral_L": 0.0,
+      "integral_R0": 406.2030872948704,
+      "integral_R1": 50.61312121541203,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 75.79235821281223,
+      "first_episode_duration": 75.79235821281223,
+      "net_fuel_consumed": 48,
+      "fuel_energy_transferred": 576,
+      "net_heat_to_bath": 640.0,
+      "initial_H": 832.0,
+      "final_H": 192.0,
+      "first_law_error": 0.0,
+      "events": 1493,
+      "fuel_energy_per_integral_R": 1.2609009690754778,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "balanced",
+      "trajectory_file": "pilot/balanced-s1101-p0b0.json.gz"
+    },
+    {
+      "seed": 1102,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 42,
+      "reverse_R_copies": 0,
+      "paid_L_births": 13,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 50,
+      "passive_L_births": 0,
+      "passive_L_deaths": 13,
+      "integral_R": 695.2836922049638,
+      "integral_L": 279.64971712490393,
+      "integral_R0": 421.4912357676127,
+      "integral_R1": 273.7924564373514,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 84.830588311456,
+      "first_episode_duration": 84.830588311456,
+      "net_fuel_consumed": 55,
+      "fuel_energy_transferred": 660,
+      "net_heat_to_bath": 724.0,
+      "initial_H": 832.0,
+      "final_H": 108.0,
+      "first_law_error": 0.0,
+      "events": 1278,
+      "fuel_energy_per_integral_R": 0.9492528120527779,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "balanced",
+      "trajectory_file": "pilot/balanced-s1102-p1b1.json.gz"
+    },
+    {
+      "seed": 1102,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 32,
+      "reverse_R_copies": 0,
+      "paid_L_births": 7,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 40,
+      "passive_L_births": 0,
+      "passive_L_deaths": 7,
+      "integral_R": 308.9559713433737,
+      "integral_L": 235.695864835198,
+      "integral_R0": 303.70217903210846,
+      "integral_R1": 5.253792311265136,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 56.194995344966564,
+      "first_episode_duration": 56.194995344966564,
+      "net_fuel_consumed": 39,
+      "fuel_energy_transferred": 468,
+      "net_heat_to_bath": 532.0,
+      "initial_H": 832.0,
+      "final_H": 300.0,
+      "first_law_error": 0.0,
+      "events": 1653,
+      "fuel_energy_per_integral_R": 1.5147789439546542,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "balanced",
+      "trajectory_file": "pilot/balanced-s1102-p1b0.json.gz"
+    },
+    {
+      "seed": 1102,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 31,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 39,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 321.30930117655794,
+      "integral_L": 0.0,
+      "integral_R0": 258.94733682260903,
+      "integral_R1": 62.36196435394871,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 57.743198987093805,
+      "first_episode_duration": 57.743198987093805,
+      "net_fuel_consumed": 31,
+      "fuel_energy_transferred": 372,
+      "net_heat_to_bath": 436.0,
+      "initial_H": 832.0,
+      "final_H": 396.0,
+      "first_law_error": 0.0,
+      "events": 1622,
+      "fuel_energy_per_integral_R": 1.157762936329029,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "balanced",
+      "trajectory_file": "pilot/balanced-s1102-p0b1.json.gz"
+    },
+    {
+      "seed": 1102,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 31,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 39,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 321.30930117655794,
+      "integral_L": 0.0,
+      "integral_R0": 258.94733682260903,
+      "integral_R1": 62.36196435394871,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 57.743198987093805,
+      "first_episode_duration": 57.743198987093805,
+      "net_fuel_consumed": 31,
+      "fuel_energy_transferred": 372,
+      "net_heat_to_bath": 436.0,
+      "initial_H": 832.0,
+      "final_H": 396.0,
+      "first_law_error": 0.0,
+      "events": 1622,
+      "fuel_energy_per_integral_R": 1.157762936329029,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "balanced",
+      "trajectory_file": "pilot/balanced-s1102-p0b0.json.gz"
+    },
+    {
+      "seed": 1103,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 45,
+      "reverse_R_copies": 0,
+      "paid_L_births": 8,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 53,
+      "passive_L_births": 0,
+      "passive_L_deaths": 8,
+      "integral_R": 661.1157720850188,
+      "integral_L": 258.82369072751806,
+      "integral_R0": 559.9756483263853,
+      "integral_R1": 101.14012375863325,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 74.77985289283714,
+      "first_episode_duration": 74.77985289283714,
+      "net_fuel_consumed": 53,
+      "fuel_energy_transferred": 636,
+      "net_heat_to_bath": 700.0,
+      "initial_H": 832.0,
+      "final_H": 132.0,
+      "first_law_error": 0.0,
+      "events": 1374,
+      "fuel_energy_per_integral_R": 0.962010024347462,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "balanced",
+      "trajectory_file": "pilot/balanced-s1103-p1b1.json.gz"
+    },
+    {
+      "seed": 1103,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 43,
+      "reverse_R_copies": 0,
+      "paid_L_births": 8,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 51,
+      "passive_L_births": 0,
+      "passive_L_deaths": 7,
+      "integral_R": 495.45072056417405,
+      "integral_L": 315.7071879234926,
+      "integral_R0": 472.9325897473183,
+      "integral_R1": 22.518130816855958,
+      "final_R": 0,
+      "final_L": 1,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 1,
+      "first_R_extinction": 62.2003096538751,
+      "first_episode_duration": 62.2003096538751,
+      "net_fuel_consumed": 51,
+      "fuel_energy_transferred": 612,
+      "net_heat_to_bath": 668.0,
+      "initial_H": 832.0,
+      "final_H": 164.0,
+      "first_law_error": 0.0,
+      "events": 1418,
+      "fuel_energy_per_integral_R": 1.2352388937957548,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 1,
+        "D": 63,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 1,
+        "largest_contact_component": 1,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "balanced",
+      "trajectory_file": "pilot/balanced-s1103-p1b0.json.gz"
+    },
+    {
+      "seed": 1103,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 21,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 29,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 203.53389382854186,
+      "integral_L": 0.0,
+      "integral_R0": 195.29136648688552,
+      "integral_R1": 8.242527341656395,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 35.02542661068536,
+      "first_episode_duration": 35.02542661068536,
+      "net_fuel_consumed": 21,
+      "fuel_energy_transferred": 252,
+      "net_heat_to_bath": 316.0,
+      "initial_H": 832.0,
+      "final_H": 516.0,
+      "first_law_error": 0.0,
+      "events": 1424,
+      "fuel_energy_per_integral_R": 1.2381230234424065,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "balanced",
+      "trajectory_file": "pilot/balanced-s1103-p0b1.json.gz"
+    },
+    {
+      "seed": 1103,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 21,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 29,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 203.53389382854186,
+      "integral_L": 0.0,
+      "integral_R0": 195.29136648688552,
+      "integral_R1": 8.242527341656395,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 35.02542661068536,
+      "first_episode_duration": 35.02542661068536,
+      "net_fuel_consumed": 21,
+      "fuel_energy_transferred": 252,
+      "net_heat_to_bath": 316.0,
+      "initial_H": 832.0,
+      "final_H": 516.0,
+      "first_law_error": 0.0,
+      "events": 1424,
+      "fuel_energy_per_integral_R": 1.2381230234424065,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "balanced",
+      "trajectory_file": "pilot/balanced-s1103-p0b0.json.gz"
+    },
+    {
+      "seed": 1101,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 36,
+      "reverse_R_copies": 0,
+      "paid_L_births": 24,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 44,
+      "passive_L_births": 0,
+      "passive_L_deaths": 23,
+      "integral_R": 682.2352843830267,
+      "integral_L": 533.3468662216263,
+      "integral_R0": 366.2097284737014,
+      "integral_R1": 316.02555590932525,
+      "final_R": 0,
+      "final_L": 1,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 1,
+      "first_R_extinction": 83.37144497500464,
+      "first_episode_duration": 83.37144497500464,
+      "net_fuel_consumed": 60,
+      "fuel_energy_transferred": 720,
+      "net_heat_to_bath": 776.0,
+      "initial_H": 832.0,
+      "final_H": 56.0,
+      "first_law_error": 0.0,
+      "events": 938,
+      "fuel_energy_per_integral_R": 1.0553543865019022,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 1,
+        "D": 63,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 1,
+        "largest_contact_component": 1,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "high_production",
+      "trajectory_file": "pilot/high_production-s1101-p1b1.json.gz"
+    },
+    {
+      "seed": 1101,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 19,
+      "reverse_R_copies": 0,
+      "paid_L_births": 22,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 27,
+      "passive_L_births": 0,
+      "passive_L_deaths": 22,
+      "integral_R": 204.96573215568304,
+      "integral_L": 768.874694430837,
+      "integral_R0": 126.48490941817275,
+      "integral_R1": 78.48082273751037,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 27.97666251810634,
+      "first_episode_duration": 27.97666251810634,
+      "net_fuel_consumed": 41,
+      "fuel_energy_transferred": 492,
+      "net_heat_to_bath": 556.0,
+      "initial_H": 832.0,
+      "final_H": 276.0,
+      "first_law_error": 0.0,
+      "events": 1668,
+      "fuel_energy_per_integral_R": 2.4004012515921356,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "high_production",
+      "trajectory_file": "pilot/high_production-s1101-p1b0.json.gz"
+    },
+    {
+      "seed": 1101,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 48,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 56,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 456.8162085102819,
+      "integral_L": 0.0,
+      "integral_R0": 406.2030872948704,
+      "integral_R1": 50.61312121541203,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 75.79235821281223,
+      "first_episode_duration": 75.79235821281223,
+      "net_fuel_consumed": 48,
+      "fuel_energy_transferred": 576,
+      "net_heat_to_bath": 640.0,
+      "initial_H": 832.0,
+      "final_H": 192.0,
+      "first_law_error": 0.0,
+      "events": 1493,
+      "fuel_energy_per_integral_R": 1.2609009690754778,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "high_production",
+      "trajectory_file": "pilot/high_production-s1101-p0b1.json.gz"
+    },
+    {
+      "seed": 1101,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 48,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 56,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 456.8162085102819,
+      "integral_L": 0.0,
+      "integral_R0": 406.2030872948704,
+      "integral_R1": 50.61312121541203,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 75.79235821281223,
+      "first_episode_duration": 75.79235821281223,
+      "net_fuel_consumed": 48,
+      "fuel_energy_transferred": 576,
+      "net_heat_to_bath": 640.0,
+      "initial_H": 832.0,
+      "final_H": 192.0,
+      "first_law_error": 0.0,
+      "events": 1493,
+      "fuel_energy_per_integral_R": 1.2609009690754778,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "high_production",
+      "trajectory_file": "pilot/high_production-s1101-p0b0.json.gz"
+    },
+    {
+      "seed": 1102,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 34,
+      "reverse_R_copies": 0,
+      "paid_L_births": 30,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 42,
+      "passive_L_births": 0,
+      "passive_L_deaths": 30,
+      "integral_R": 902.5838257581503,
+      "integral_L": 727.9579379298845,
+      "integral_R0": 902.5838257581503,
+      "integral_R1": 0.0,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 77.77585067733943,
+      "first_episode_duration": 77.77585067733943,
+      "net_fuel_consumed": 64,
+      "fuel_energy_transferred": 768,
+      "net_heat_to_bath": 832.0,
+      "initial_H": 832.0,
+      "final_H": 0.0,
+      "first_law_error": 0.0,
+      "events": 710,
+      "fuel_energy_per_integral_R": 0.8508904969074724,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "high_production",
+      "trajectory_file": "pilot/high_production-s1102-p1b1.json.gz"
+    },
+    {
+      "seed": 1102,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 20,
+      "reverse_R_copies": 0,
+      "paid_L_births": 21,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 28,
+      "passive_L_births": 0,
+      "passive_L_deaths": 20,
+      "integral_R": 218.23876473613103,
+      "integral_L": 679.1524802828849,
+      "integral_R0": 215.35621426515957,
+      "integral_R1": 2.8825504709715206,
+      "final_R": 0,
+      "final_L": 1,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 1,
+      "first_R_extinction": 42.754831894861994,
+      "first_episode_duration": 42.754831894861994,
+      "net_fuel_consumed": 41,
+      "fuel_energy_transferred": 492,
+      "net_heat_to_bath": 548.0,
+      "initial_H": 832.0,
+      "final_H": 284.0,
+      "first_law_error": 0.0,
+      "events": 1638,
+      "fuel_energy_per_integral_R": 2.2544115872121493,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 1,
+        "D": 63,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 1,
+        "largest_contact_component": 1,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "high_production",
+      "trajectory_file": "pilot/high_production-s1102-p1b0.json.gz"
+    },
+    {
+      "seed": 1102,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 31,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 39,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 321.30930117655794,
+      "integral_L": 0.0,
+      "integral_R0": 258.94733682260903,
+      "integral_R1": 62.36196435394871,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 57.743198987093805,
+      "first_episode_duration": 57.743198987093805,
+      "net_fuel_consumed": 31,
+      "fuel_energy_transferred": 372,
+      "net_heat_to_bath": 436.0,
+      "initial_H": 832.0,
+      "final_H": 396.0,
+      "first_law_error": 0.0,
+      "events": 1622,
+      "fuel_energy_per_integral_R": 1.157762936329029,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "high_production",
+      "trajectory_file": "pilot/high_production-s1102-p0b1.json.gz"
+    },
+    {
+      "seed": 1102,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 31,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 39,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 321.30930117655794,
+      "integral_L": 0.0,
+      "integral_R0": 258.94733682260903,
+      "integral_R1": 62.36196435394871,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 57.743198987093805,
+      "first_episode_duration": 57.743198987093805,
+      "net_fuel_consumed": 31,
+      "fuel_energy_transferred": 372,
+      "net_heat_to_bath": 436.0,
+      "initial_H": 832.0,
+      "final_H": 396.0,
+      "first_law_error": 0.0,
+      "events": 1622,
+      "fuel_energy_per_integral_R": 1.157762936329029,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "high_production",
+      "trajectory_file": "pilot/high_production-s1102-p0b0.json.gz"
+    },
+    {
+      "seed": 1103,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 23,
+      "reverse_R_copies": 0,
+      "paid_L_births": 34,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 31,
+      "passive_L_births": 0,
+      "passive_L_deaths": 34,
+      "integral_R": 705.3082216694806,
+      "integral_L": 900.4608931495618,
+      "integral_R0": 705.3082216694806,
+      "integral_R1": 0.0,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 80.76543884771161,
+      "first_episode_duration": 80.76543884771161,
+      "net_fuel_consumed": 57,
+      "fuel_energy_transferred": 684,
+      "net_heat_to_bath": 748.0,
+      "initial_H": 832.0,
+      "final_H": 84.0,
+      "first_law_error": 0.0,
+      "events": 1249,
+      "fuel_energy_per_integral_R": 0.969788780259723,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "high_production",
+      "trajectory_file": "pilot/high_production-s1103-p1b1.json.gz"
+    },
+    {
+      "seed": 1103,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 19,
+      "reverse_R_copies": 0,
+      "paid_L_births": 17,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 27,
+      "passive_L_births": 0,
+      "passive_L_deaths": 16,
+      "integral_R": 215.7851428947103,
+      "integral_L": 568.5937503701955,
+      "integral_R0": 208.23718798115243,
+      "integral_R1": 7.547954913557943,
+      "final_R": 0,
+      "final_L": 1,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 1,
+      "first_R_extinction": 30.241042279455197,
+      "first_episode_duration": 30.241042279455197,
+      "net_fuel_consumed": 36,
+      "fuel_energy_transferred": 432,
+      "net_heat_to_bath": 488.0,
+      "initial_H": 832.0,
+      "final_H": 344.0,
+      "first_law_error": 0.0,
+      "events": 1751,
+      "fuel_energy_per_integral_R": 2.001991398503228,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 1,
+        "D": 63,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 1,
+        "largest_contact_component": 1,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "high_production",
+      "trajectory_file": "pilot/high_production-s1103-p1b0.json.gz"
+    },
+    {
+      "seed": 1103,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 21,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 29,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 203.53389382854186,
+      "integral_L": 0.0,
+      "integral_R0": 195.29136648688552,
+      "integral_R1": 8.242527341656395,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 35.02542661068536,
+      "first_episode_duration": 35.02542661068536,
+      "net_fuel_consumed": 21,
+      "fuel_energy_transferred": 252,
+      "net_heat_to_bath": 316.0,
+      "initial_H": 832.0,
+      "final_H": 516.0,
+      "first_law_error": 0.0,
+      "events": 1424,
+      "fuel_energy_per_integral_R": 1.2381230234424065,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "high_production",
+      "trajectory_file": "pilot/high_production-s1103-p0b1.json.gz"
+    },
+    {
+      "seed": 1103,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 21,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 29,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 203.53389382854186,
+      "integral_L": 0.0,
+      "integral_R0": 195.29136648688552,
+      "integral_R1": 8.242527341656395,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 35.02542661068536,
+      "first_episode_duration": 35.02542661068536,
+      "net_fuel_consumed": 21,
+      "fuel_energy_transferred": 252,
+      "net_heat_to_bath": 316.0,
+      "initial_H": 832.0,
+      "final_H": 516.0,
+      "first_law_error": 0.0,
+      "events": 1424,
+      "fuel_energy_per_integral_R": 1.2381230234424065,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "high_production",
+      "trajectory_file": "pilot/high_production-s1103-p0b0.json.gz"
+    },
+    {
+      "seed": 1101,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 28,
+      "reverse_R_copies": 0,
+      "paid_L_births": 7,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 36,
+      "passive_L_births": 0,
+      "passive_L_deaths": 7,
+      "integral_R": 258.6775132223812,
+      "integral_L": 183.44155333410527,
+      "integral_R0": 256.37615991408074,
+      "integral_R1": 2.301353308300598,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 76.9092205554906,
+      "first_episode_duration": 76.9092205554906,
+      "net_fuel_consumed": 35,
+      "fuel_energy_transferred": 420,
+      "net_heat_to_bath": 484.0,
+      "initial_H": 832.0,
+      "final_H": 348.0,
+      "first_law_error": 0.0,
+      "events": 1477,
+      "fuel_energy_per_integral_R": 1.6236432566866847,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "weak_protection",
+      "trajectory_file": "pilot/weak_protection-s1101-p1b1.json.gz"
+    },
+    {
+      "seed": 1101,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 11,
+      "reverse_R_copies": 0,
+      "paid_L_births": 5,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 19,
+      "passive_L_births": 0,
+      "passive_L_deaths": 5,
+      "integral_R": 87.4335790296293,
+      "integral_L": 60.98539755064709,
+      "integral_R0": 63.06773093019629,
+      "integral_R1": 24.365848099432927,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 29.957522149373165,
+      "first_episode_duration": 29.957522149373165,
+      "net_fuel_consumed": 16,
+      "fuel_energy_transferred": 192,
+      "net_heat_to_bath": 256.0,
+      "initial_H": 832.0,
+      "final_H": 576.0,
+      "first_law_error": 0.0,
+      "events": 1177,
+      "fuel_energy_per_integral_R": 2.195952654928325,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "weak_protection",
+      "trajectory_file": "pilot/weak_protection-s1101-p1b0.json.gz"
+    },
+    {
+      "seed": 1101,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 48,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 56,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 456.8162085102819,
+      "integral_L": 0.0,
+      "integral_R0": 406.2030872948704,
+      "integral_R1": 50.61312121541203,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 75.79235821281223,
+      "first_episode_duration": 75.79235821281223,
+      "net_fuel_consumed": 48,
+      "fuel_energy_transferred": 576,
+      "net_heat_to_bath": 640.0,
+      "initial_H": 832.0,
+      "final_H": 192.0,
+      "first_law_error": 0.0,
+      "events": 1493,
+      "fuel_energy_per_integral_R": 1.2609009690754778,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "weak_protection",
+      "trajectory_file": "pilot/weak_protection-s1101-p0b1.json.gz"
+    },
+    {
+      "seed": 1101,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 48,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 56,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 456.8162085102819,
+      "integral_L": 0.0,
+      "integral_R0": 406.2030872948704,
+      "integral_R1": 50.61312121541203,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 75.79235821281223,
+      "first_episode_duration": 75.79235821281223,
+      "net_fuel_consumed": 48,
+      "fuel_energy_transferred": 576,
+      "net_heat_to_bath": 640.0,
+      "initial_H": 832.0,
+      "final_H": 192.0,
+      "first_law_error": 0.0,
+      "events": 1493,
+      "fuel_energy_per_integral_R": 1.2609009690754778,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "weak_protection",
+      "trajectory_file": "pilot/weak_protection-s1101-p0b0.json.gz"
+    },
+    {
+      "seed": 1102,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 43,
+      "reverse_R_copies": 0,
+      "paid_L_births": 6,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 51,
+      "passive_L_births": 0,
+      "passive_L_deaths": 6,
+      "integral_R": 514.7449156624257,
+      "integral_L": 47.00874415524948,
+      "integral_R0": 469.67884454146946,
+      "integral_R1": 45.06607112095546,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 74.22185267528019,
+      "first_episode_duration": 74.22185267528019,
+      "net_fuel_consumed": 49,
+      "fuel_energy_transferred": 588,
+      "net_heat_to_bath": 652.0,
+      "initial_H": 832.0,
+      "final_H": 180.0,
+      "first_law_error": 0.0,
+      "events": 1478,
+      "fuel_energy_per_integral_R": 1.1423133713585152,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "weak_protection",
+      "trajectory_file": "pilot/weak_protection-s1102-p1b1.json.gz"
+    },
+    {
+      "seed": 1102,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 32,
+      "reverse_R_copies": 0,
+      "paid_L_births": 7,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 40,
+      "passive_L_births": 0,
+      "passive_L_deaths": 7,
+      "integral_R": 308.9559713433737,
+      "integral_L": 235.695864835198,
+      "integral_R0": 303.70217903210846,
+      "integral_R1": 5.253792311265136,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 56.194995344966564,
+      "first_episode_duration": 56.194995344966564,
+      "net_fuel_consumed": 39,
+      "fuel_energy_transferred": 468,
+      "net_heat_to_bath": 532.0,
+      "initial_H": 832.0,
+      "final_H": 300.0,
+      "first_law_error": 0.0,
+      "events": 1653,
+      "fuel_energy_per_integral_R": 1.5147789439546542,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "weak_protection",
+      "trajectory_file": "pilot/weak_protection-s1102-p1b0.json.gz"
+    },
+    {
+      "seed": 1102,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 31,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 39,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 321.30930117655794,
+      "integral_L": 0.0,
+      "integral_R0": 258.94733682260903,
+      "integral_R1": 62.36196435394871,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 57.743198987093805,
+      "first_episode_duration": 57.743198987093805,
+      "net_fuel_consumed": 31,
+      "fuel_energy_transferred": 372,
+      "net_heat_to_bath": 436.0,
+      "initial_H": 832.0,
+      "final_H": 396.0,
+      "first_law_error": 0.0,
+      "events": 1622,
+      "fuel_energy_per_integral_R": 1.157762936329029,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "weak_protection",
+      "trajectory_file": "pilot/weak_protection-s1102-p0b1.json.gz"
+    },
+    {
+      "seed": 1102,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 31,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 39,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 321.30930117655794,
+      "integral_L": 0.0,
+      "integral_R0": 258.94733682260903,
+      "integral_R1": 62.36196435394871,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 57.743198987093805,
+      "first_episode_duration": 57.743198987093805,
+      "net_fuel_consumed": 31,
+      "fuel_energy_transferred": 372,
+      "net_heat_to_bath": 436.0,
+      "initial_H": 832.0,
+      "final_H": 396.0,
+      "first_law_error": 0.0,
+      "events": 1622,
+      "fuel_energy_per_integral_R": 1.157762936329029,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "weak_protection",
+      "trajectory_file": "pilot/weak_protection-s1102-p0b0.json.gz"
+    },
+    {
+      "seed": 1103,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 44,
+      "reverse_R_copies": 0,
+      "paid_L_births": 10,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 52,
+      "passive_L_births": 0,
+      "passive_L_deaths": 10,
+      "integral_R": 534.05428289098,
+      "integral_L": 305.19014842761203,
+      "integral_R0": 360.44011417093293,
+      "integral_R1": 173.61416872004816,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 74.12339323994041,
+      "first_episode_duration": 74.12339323994041,
+      "net_fuel_consumed": 54,
+      "fuel_energy_transferred": 648,
+      "net_heat_to_bath": 712.0,
+      "initial_H": 832.0,
+      "final_H": 120.0,
+      "first_law_error": 0.0,
+      "events": 1349,
+      "fuel_energy_per_integral_R": 1.2133598039738605,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "weak_protection",
+      "trajectory_file": "pilot/weak_protection-s1103-p1b1.json.gz"
+    },
+    {
+      "seed": 1103,
+      "flags": {
+        "produce_L": true,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 43,
+      "reverse_R_copies": 0,
+      "paid_L_births": 8,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 51,
+      "passive_L_births": 0,
+      "passive_L_deaths": 7,
+      "integral_R": 495.45072056417405,
+      "integral_L": 315.7071879234926,
+      "integral_R0": 472.9325897473183,
+      "integral_R1": 22.518130816855958,
+      "final_R": 0,
+      "final_L": 1,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 1,
+      "first_R_extinction": 62.2003096538751,
+      "first_episode_duration": 62.2003096538751,
+      "net_fuel_consumed": 51,
+      "fuel_energy_transferred": 612,
+      "net_heat_to_bath": 668.0,
+      "initial_H": 832.0,
+      "final_H": 164.0,
+      "first_law_error": 0.0,
+      "events": 1418,
+      "fuel_energy_per_integral_R": 1.2352388937957548,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 1,
+        "D": 63,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 1,
+        "largest_contact_component": 1,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "weak_protection",
+      "trajectory_file": "pilot/weak_protection-s1103-p1b0.json.gz"
+    },
+    {
+      "seed": 1103,
+      "flags": {
+        "produce_L": false,
+        "protect_R": true,
+        "copy_R": true
+      },
+      "paid_R_births": 21,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 29,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 203.53389382854186,
+      "integral_L": 0.0,
+      "integral_R0": 195.29136648688552,
+      "integral_R1": 8.242527341656395,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 35.02542661068536,
+      "first_episode_duration": 35.02542661068536,
+      "net_fuel_consumed": 21,
+      "fuel_energy_transferred": 252,
+      "net_heat_to_bath": 316.0,
+      "initial_H": 832.0,
+      "final_H": 516.0,
+      "first_law_error": 0.0,
+      "events": 1424,
+      "fuel_energy_per_integral_R": 1.2381230234424065,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "weak_protection",
+      "trajectory_file": "pilot/weak_protection-s1103-p0b1.json.gz"
+    },
+    {
+      "seed": 1103,
+      "flags": {
+        "produce_L": false,
+        "protect_R": false,
+        "copy_R": true
+      },
+      "paid_R_births": 21,
+      "reverse_R_copies": 0,
+      "paid_L_births": 0,
+      "reverse_L_production": 0,
+      "passive_R_births": 0,
+      "passive_R_deaths": 29,
+      "passive_L_births": 0,
+      "passive_L_deaths": 0,
+      "integral_R": 203.53389382854186,
+      "integral_L": 0.0,
+      "integral_R0": 195.29136648688552,
+      "integral_R1": 8.242527341656395,
+      "final_R": 0,
+      "final_L": 0,
+      "founder_R_remaining": 0,
+      "final_paid_R_instances": 0,
+      "final_paid_L_instances": 0,
+      "first_R_extinction": 35.02542661068536,
+      "first_episode_duration": 35.02542661068536,
+      "net_fuel_consumed": 21,
+      "fuel_energy_transferred": 252,
+      "net_heat_to_bath": 316.0,
+      "initial_H": 832.0,
+      "final_H": 516.0,
+      "first_law_error": 0.0,
+      "events": 1424,
+      "fuel_energy_per_integral_R": 1.2381230234424065,
+      "final_spatial": {
+        "R0": 0,
+        "R1": 0,
+        "R": 0,
+        "L": 0,
+        "D": 64,
+        "RL_edges": 0,
+        "LL_edges": 0,
+        "RR_edges": 0,
+        "R_with_L_neighbor": 0,
+        "L_with_R_neighbor": 0,
+        "RL_enrichment_over_random_placement": null,
+        "contact_components": 0,
+        "largest_contact_component": 0,
+        "mixed_RL_components": 0,
+        "scope": "Spatial contacts and retention observations; not a test of an enclosing membrane, functional memory, or organismality."
+      },
+      "case": "weak_protection",
+      "trajectory_file": "pilot/weak_protection-s1103-p0b0.json.gz"
+    }
+  ],
+  "elapsed_seconds": 6.44491749998997,
+  "scope": "Full physical trajectories retained. Protected contacts and founder turnover do not establish an enclosing membrane, aging, functional organizational memory or an individual. Heat is not total ensemble entropy production. Fuel/function ratios alone do not prove matched-function efficiency."
+}

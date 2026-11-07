@@ -1,0 +1,69 @@
+{
+  "source_commit": "295eb9468dc589f2fc90948dea17272e4076ad4d",
+  "source_basis": "current working tree, including pre-existing changes; hashes identify reviewed bytes",
+  "relative_source_sha256": {
+    "api/worlds/services/epoch_runner.py": "89a1788c038a0fb2a8c105c138c623086324e03756b0f1a76cedd6b7512110f7",
+    "api/worlds/services/fitness.py": "66a1b6bee38cc0d9b83497866cf0a6e4e89fa62bc9d2486c5a69b4dde95e0d8d",
+    "api/worlds/services/dyad_fitness.py": "b3a0baad4a42277a7e883010c6416421d8cf4e4b1a9c35fc903ea49672f99bd1",
+    "api/worlds/services/life_l6.py": "503aa5e7dd51b7552f665dd0aed5a27df6df1875dee6d91c48f210321d548947",
+    "api/worlds/services/lifecycle.py": "fa3b0a7f761a9fd1fea8661ae05dc130b74ac6935df62376df36eb8e1542b1f6",
+    "api/worlds/models.py": "cd712fa5ae227370b34654a470765cf482b73176df6e9336b5a4adeffcf04479",
+    "api/worlds/management/commands/run_world.py": "c6a3885d27b8b5843bbadcfb2817120bfd2eb821d2f35bd44cd823860492ec7e",
+    "api/worlds/tests.py": "a4eb8888ddec1b342e93117af084147f422bb5b05fdbaa3cd51a0bdb6a3cf0cc",
+    "api/agents/services/orchestrator.py": "b0384498af5c7949210b165e6f2ba9c28779486c792f87e2393b582ff32e1230",
+    "api/agents/services/metabolism.py": "e3e3620a71389b887f76c5aaa48cfbed5b466b569476bcd3bc6f0320ab7102d6",
+    "api/agents/services/social_prediction.py": "8571de5ca9b4fa3cf3045079875026247d550d1044219ee120596762937bc4ea",
+    "api/agents/services/openrouter.py": "1fb3f465038aa737b5641c3f35cd003ef339ca775e79a990de0eb19a57542c8a",
+    "api/agents/services/auto_evaluator.py": "3c089b3e28ddbb7be4b734fc0e887a24b1b9f1a7e7c9685991abcc6661e5e693",
+    "api/agents/services/feelings.py": "febedc3a2a25f7f9881607d51d82edc24bb7b88d4795cd275b8108bdfa299b12",
+    "api/agents/views.py": "8bc3f57773315086bdc12872af79178e730799f3874dd0112f5aba2d3b1d8ebb",
+    "api/agents/models.py": "35c87c8f1cba90e2d66f9df2e06973337356ebdd0a2e80fabc4a95e8c28977cc",
+    "api/agents/tasks.py": "356dbbbe9acfb3c0d6899f35aeacfb413e16286ee288d16dfa7b39ad5e5e1d2b",
+    "api/evaluation/services/mvc_tester.py": "a4d56a186867114116c1b05946bc53d5ce04fa7b4840ee6bea05380927690ca0",
+    "api/evaluation/services/world_mvc_tests.py": "c4a24ac4c4687b8ecf1e290b443b5b84439ed0f5046b0cd961e2ae92c4e214c2",
+    "api/evaluation/tests.py": "d67776a833c2767e31ea411c1704610aa5a531e7ba6aeaaa296106bca4b5ce0f",
+    "api/pyproject.toml": "07c5b5f8892b654a76839a99a83f4a576c226bdbc4a73a7ad1170e30cfa2cf2a",
+    "api/uv.lock": "cd9df27b6eebb9b97f8d0d69014b298a76f6d18b67fb34431e6ea5c1a2191386",
+    "rfc.md": "75add53014bc5c80eca470b5de5799caefd3463f794dd0b47ccc4caf16b7c02e",
+    "implementation-plan.md": "79e772a491f90a2a762634df91f1a9ecab74fd15e63391e312e0d956e302eaff"
+  },
+  "original_relative_evidence_sha256": {
+    "audit-probes-initial.log": {
+      "sha256": "7db5952e22fa7d926fb7bc97126f8372cf0b79fa69f77b78ecfbaf6143ede3c2",
+      "bytes": 2299
+    },
+    "audit-probes.log": {
+      "sha256": "aa21205756cc6613422ef3fc6830927545043700ad91b7612ab99316334ab069",
+      "bytes": 1010
+    },
+    "audit_probes.py": {
+      "sha256": "ab9227b16fe39a1237df94f4a2008695c9b455fa9eaa3cc4d2653d377e4e34da",
+      "bytes": 6445
+    },
+    "backend-tests-placeholder.log": {
+      "sha256": "69613b9b168ef17ca97e1da4e9f27a5324562521280efe7a433619af02663a93",
+      "bytes": 2173
+    },
+    "backend-tests.log": {
+      "sha256": "760c1bc6bd6c17445a5093655170f13318b53d22ac36a9e10a8c7d5d5d04a747",
+      "bytes": 19499
+    },
+    "run_offline_tests.py": {
+      "sha256": "634caf692196ed9975db350abbdc6531f501a8ef6626975e0e63a33a191cd787",
+      "bytes": 1093
+    }
+  },
+  "result_kind": "Synthetic offline characterization of implementation defects; not scientific acceptance.",
+  "historical_suite": {
+    "tests": 255,
+    "passed": 255,
+    "seconds": 19.898,
+    "successful_log": "backend-tests-placeholder.log"
+  },
+  "historical_probes": {
+    "tests": 3,
+    "passed": 3,
+    "seconds": 0.008
+  },
+  "reverified_now": "All 24 source hashes and six evidence hashes match. No tests rerun."
+}

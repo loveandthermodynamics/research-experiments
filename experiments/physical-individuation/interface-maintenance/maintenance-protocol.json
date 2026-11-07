@@ -1,0 +1,418 @@
+{
+  "stage": "maintenance",
+  "source_results": "ensemble-results.json",
+  "source_results_sha256": "e5b3837c4974f74482f065741f31761690f5dbd587014bb977e3cc9776024f2b",
+  "source_hashes": {
+    "interface_model.py": "08c5d9948e84d62ddc77a0265e5e91e805b2badf47bc516542a36fa918201927",
+    "interface_readouts.py": "504360788ea120d8a0250dba03409887d10a04a4fe4b83b89bcf20eddc184cbd",
+    "run_interface.py": "4b6b446183f98d16595d23547dc41b4f05a9a42d894d9e6c06ab78080787b401",
+    "run_maintenance.py": "7318de35c8b50f4df600dc5cf1ba059155e7cd0599fda82f467acae54e2b0d4f"
+  },
+  "preparations": [
+    {
+      "origin_seed": 81001,
+      "source_trajectory": "ensemble/selected-s81001-p1b1.json.gz",
+      "source_trajectory_sha256": "3f875152ac78e29370c952ce9fa12306e42c0bd02cf105bffc8469cc468d1201"
+    },
+    {
+      "origin_seed": 81002,
+      "source_trajectory": "ensemble/selected-s81002-p1b1.json.gz",
+      "source_trajectory_sha256": "3b1c74292c6205c2fcd4cfc4da890389777435ab5406dba4315aeb7aa1275e76"
+    },
+    {
+      "origin_seed": 81003,
+      "source_trajectory": "ensemble/selected-s81003-p1b1.json.gz",
+      "source_trajectory_sha256": "6c5cddc1317f4e20ce38a9161256a98ab4811df8ce0f6d51637a705ec93666ef"
+    },
+    {
+      "origin_seed": 81004,
+      "source_trajectory": "ensemble/selected-s81004-p1b1.json.gz",
+      "source_trajectory_sha256": "8c71fb7c035e4f70fb2e7d60ed63269da68d8364ebdb5a4f7fb8a31dc81b83f2"
+    },
+    {
+      "origin_seed": 81005,
+      "source_trajectory": "ensemble/selected-s81005-p1b1.json.gz",
+      "source_trajectory_sha256": "8ef5c7cb6c620b0a390be6ad540b9016e197b048e2d69a0c5cafc089577fc21e"
+    },
+    {
+      "origin_seed": 81006,
+      "source_trajectory": "ensemble/selected-s81006-p1b1.json.gz",
+      "source_trajectory_sha256": "6e9556029e41be4444a1bc04a378e4dd6cde696b5f171c4827c4305b38f77585"
+    },
+    {
+      "origin_seed": 81007,
+      "source_trajectory": "ensemble/selected-s81007-p1b1.json.gz",
+      "source_trajectory_sha256": "ef91811a8e2f1ac3b1993e6e6565020e53d95de8a62bc2e0fb267ba46e9958bd"
+    },
+    {
+      "origin_seed": 81008,
+      "source_trajectory": "ensemble/selected-s81008-p1b1.json.gz",
+      "source_trajectory_sha256": "8276656590387e5648b9ae60f5b4b80b7da17d0a13f32688ab7a892d08ff105c"
+    },
+    {
+      "origin_seed": 81009,
+      "source_trajectory": "ensemble/selected-s81009-p1b1.json.gz",
+      "source_trajectory_sha256": "cdd2fcaf87873520a5233a45467a748c8be9297272c9b67f5dc02ae1b82b49f4"
+    },
+    {
+      "origin_seed": 81010,
+      "source_trajectory": "ensemble/selected-s81010-p1b1.json.gz",
+      "source_trajectory_sha256": "f4f378a71634500a9a07ce9fca8a561a9123091ebe398058c3a7fc4e65a89959"
+    },
+    {
+      "origin_seed": 81011,
+      "source_trajectory": "ensemble/selected-s81011-p1b1.json.gz",
+      "source_trajectory_sha256": "48f42d098eff5461b19a858e5cec3e12cf1ce00b070035f20171adcf675e17be"
+    },
+    {
+      "origin_seed": 81012,
+      "source_trajectory": "ensemble/selected-s81012-p1b1.json.gz",
+      "source_trajectory_sha256": "184f9a8c4d1301e8c051846441d1d0244192f75987fd95d66575ac6ee2d156f4"
+    },
+    {
+      "origin_seed": 81013,
+      "source_trajectory": "ensemble/selected-s81013-p1b1.json.gz",
+      "source_trajectory_sha256": "b624e1c76213d49bb394b3470873dbec7b5b3cb411f64afc745fc1ef38476df6"
+    },
+    {
+      "origin_seed": 81014,
+      "source_trajectory": "ensemble/selected-s81014-p1b1.json.gz",
+      "source_trajectory_sha256": "134215bba4bd151c6a7322bc2aaab61c78f83b77cc2005368165b2a99748524e"
+    },
+    {
+      "origin_seed": 81015,
+      "source_trajectory": "ensemble/selected-s81015-p1b1.json.gz",
+      "source_trajectory_sha256": "aa81fe1b5c7b94cb11ac86f381b851d3669673ac434373339681c3ede7b6230c"
+    },
+    {
+      "origin_seed": 81016,
+      "source_trajectory": "ensemble/selected-s81016-p1b1.json.gz",
+      "source_trajectory_sha256": "9e28d2f95f1a39b14b0ebe69075f8579ae533a00175946f419a985053d6fad17"
+    },
+    {
+      "origin_seed": 81017,
+      "source_trajectory": "ensemble/selected-s81017-p1b1.json.gz",
+      "source_trajectory_sha256": "0bfa0d224d537b3a114eddc6be1b04c0b41451fce1cf72723bf79dee4d9770a2"
+    },
+    {
+      "origin_seed": 81018,
+      "source_trajectory": "ensemble/selected-s81018-p1b1.json.gz",
+      "source_trajectory_sha256": "c91cdc2e219ea38b2de5811916b41d1758babcdaa6443816361aa4f6806d7604"
+    },
+    {
+      "origin_seed": 81019,
+      "source_trajectory": "ensemble/selected-s81019-p1b1.json.gz",
+      "source_trajectory_sha256": "108c3e4b5909d117053402ff53d41a92e2392c4a3c15ec630322f7d776584795"
+    },
+    {
+      "origin_seed": 81020,
+      "source_trajectory": "ensemble/selected-s81020-p1b1.json.gz",
+      "source_trajectory_sha256": "b004b5a3ddaaca971dba900ba3c9c9156f7a96a68c77886395a6bc2181ed826f"
+    },
+    {
+      "origin_seed": 81021,
+      "source_trajectory": "ensemble/selected-s81021-p1b1.json.gz",
+      "source_trajectory_sha256": "a975701d5a619a67ad3877a8d5492548133242898e1f2d93023a75bcfa639e79"
+    },
+    {
+      "origin_seed": 81022,
+      "source_trajectory": "ensemble/selected-s81022-p1b1.json.gz",
+      "source_trajectory_sha256": "dcdb8b1a8f095fc7e6be6ea75a7d5fac7b502803cf63058140193c99af9aeaa1"
+    },
+    {
+      "origin_seed": 81023,
+      "source_trajectory": "ensemble/selected-s81023-p1b1.json.gz",
+      "source_trajectory_sha256": "f3613321eb69197c4d8c1d72b148d1b60827af4c703a6c264afbe47db556da9d"
+    },
+    {
+      "origin_seed": 81024,
+      "source_trajectory": "ensemble/selected-s81024-p1b1.json.gz",
+      "source_trajectory_sha256": "73fad17d3135fa0c635b70500404349ba4638d43e98161c3947da865d0862a3b"
+    },
+    {
+      "origin_seed": 81025,
+      "source_trajectory": "ensemble/selected-s81025-p1b1.json.gz",
+      "source_trajectory_sha256": "2baf37fdebee7caa043091fa037c2369126e45c07c1bd962d5e616fb1582ada1"
+    },
+    {
+      "origin_seed": 81026,
+      "source_trajectory": "ensemble/selected-s81026-p1b1.json.gz",
+      "source_trajectory_sha256": "ed231e73632883bc2fbede65caf8e220d44d96ae6392ff398e3283c51f46c254"
+    },
+    {
+      "origin_seed": 81027,
+      "source_trajectory": "ensemble/selected-s81027-p1b1.json.gz",
+      "source_trajectory_sha256": "db754497cdaab3f5410460a71932b711b7c4bb63288a9e374f32c38107039772"
+    },
+    {
+      "origin_seed": 81028,
+      "source_trajectory": "ensemble/selected-s81028-p1b1.json.gz",
+      "source_trajectory_sha256": "126993320b758530c80baff2c06dbdd17902cbf38870e6455657a0e178c3cace"
+    },
+    {
+      "origin_seed": 81029,
+      "source_trajectory": "ensemble/selected-s81029-p1b1.json.gz",
+      "source_trajectory_sha256": "511e863863e188777d65a5eeec1c3de462565d9d3f4000c0c9f917f60358303c"
+    },
+    {
+      "origin_seed": 81030,
+      "source_trajectory": "ensemble/selected-s81030-p1b1.json.gz",
+      "source_trajectory_sha256": "75d08d7283f9054aa3a70f035b6a7bfebe6cc924bb6090f820ce8d628c761241"
+    },
+    {
+      "origin_seed": 81031,
+      "source_trajectory": "ensemble/selected-s81031-p1b1.json.gz",
+      "source_trajectory_sha256": "ff3334f7c0846662e3025541402ea584a58b85745f34611c18813617bcf680ad"
+    },
+    {
+      "origin_seed": 81032,
+      "source_trajectory": "ensemble/selected-s81032-p1b1.json.gz",
+      "source_trajectory_sha256": "1c7ad9e08a039fab232ce191ca21c23355293c2cf7468852c75bb8b124a8ce68"
+    },
+    {
+      "origin_seed": 81033,
+      "source_trajectory": "ensemble/selected-s81033-p1b1.json.gz",
+      "source_trajectory_sha256": "44ac33bc8435eb1f5b6c7b7ec43eed166877202e295348b3a6ef6f60af054051"
+    },
+    {
+      "origin_seed": 81034,
+      "source_trajectory": "ensemble/selected-s81034-p1b1.json.gz",
+      "source_trajectory_sha256": "b8bfbeb0901ca3b9f22f31c847ca6acae0a7df7018a0bd555dba1959edd12a89"
+    },
+    {
+      "origin_seed": 81035,
+      "source_trajectory": "ensemble/selected-s81035-p1b1.json.gz",
+      "source_trajectory_sha256": "1f4c9abf487369b6e527ed3920cd3eef65e70cbe68b3be08b3f4dc7ff64f11e1"
+    },
+    {
+      "origin_seed": 81036,
+      "source_trajectory": "ensemble/selected-s81036-p1b1.json.gz",
+      "source_trajectory_sha256": "f3e90d7d52daf986b35d169857d88581502d221a6d10ea5a1989a9c1a1a12c4b"
+    },
+    {
+      "origin_seed": 81037,
+      "source_trajectory": "ensemble/selected-s81037-p1b1.json.gz",
+      "source_trajectory_sha256": "4ec15d24df15b042274bb0f3708f74ff3fe8c98f19e88dcc3857b61b7b75df33"
+    },
+    {
+      "origin_seed": 81038,
+      "source_trajectory": "ensemble/selected-s81038-p1b1.json.gz",
+      "source_trajectory_sha256": "bb4549ce70ed5bad51ba824252ffd73685c0e623c3594a2d5a9fc2baddb40d7d"
+    },
+    {
+      "origin_seed": 81039,
+      "source_trajectory": "ensemble/selected-s81039-p1b1.json.gz",
+      "source_trajectory_sha256": "4ac6f0747381573a94c3d9da5f3de19f28019395775615d8ae97d38d4c7de671"
+    },
+    {
+      "origin_seed": 81040,
+      "source_trajectory": "ensemble/selected-s81040-p1b1.json.gz",
+      "source_trajectory_sha256": "1cc76808227718eb4b01a9e12f8c5515dece34d78fbdbf7f4b6ff33fb845916c"
+    },
+    {
+      "origin_seed": 81041,
+      "source_trajectory": "ensemble/selected-s81041-p1b1.json.gz",
+      "source_trajectory_sha256": "6822428f74d817130d5e3dc2e464799919784e664b674d86de71bd65f4c9f36f"
+    },
+    {
+      "origin_seed": 81042,
+      "source_trajectory": "ensemble/selected-s81042-p1b1.json.gz",
+      "source_trajectory_sha256": "44a604c0960d8723c751872dbbabede60193d185c0d5811c5735bffe7873dbed"
+    },
+    {
+      "origin_seed": 81043,
+      "source_trajectory": "ensemble/selected-s81043-p1b1.json.gz",
+      "source_trajectory_sha256": "14010df459644b07564f72dc24e21705c03ca6af652c55067924ff3603130b73"
+    },
+    {
+      "origin_seed": 81044,
+      "source_trajectory": "ensemble/selected-s81044-p1b1.json.gz",
+      "source_trajectory_sha256": "d6d08d1dd92cf771f928f3598eab0b6903b7b6fd50c4154e2f2ec2a85422d4b4"
+    },
+    {
+      "origin_seed": 81045,
+      "source_trajectory": "ensemble/selected-s81045-p1b1.json.gz",
+      "source_trajectory_sha256": "c68afa93fb0f3ccd251a04d8c0c291bfdc551d50cd38e271531c38ebc6bd116a"
+    },
+    {
+      "origin_seed": 81046,
+      "source_trajectory": "ensemble/selected-s81046-p1b1.json.gz",
+      "source_trajectory_sha256": "2c71dd5ee687112e953cd53e48ee2cbd4ce51f366ecec57c3e497ecdd22fc9c5"
+    },
+    {
+      "origin_seed": 81047,
+      "source_trajectory": "ensemble/selected-s81047-p1b1.json.gz",
+      "source_trajectory_sha256": "59cf5956b1980a69c299a038520209f27064e6df8d11191a01c0dfa8b0f8263b"
+    },
+    {
+      "origin_seed": 81048,
+      "source_trajectory": "ensemble/selected-s81048-p1b1.json.gz",
+      "source_trajectory_sha256": "e9b698724ab7940ce510e1be966014c9fb1e9a78bad5f2b95c34ed9f75631e02"
+    },
+    {
+      "origin_seed": 81049,
+      "source_trajectory": "ensemble/selected-s81049-p1b1.json.gz",
+      "source_trajectory_sha256": "ed9ffe587b5a2daceac76af03990a5a8cf9c200b828c1051e8587a22c678b0b4"
+    },
+    {
+      "origin_seed": 81050,
+      "source_trajectory": "ensemble/selected-s81050-p1b1.json.gz",
+      "source_trajectory_sha256": "6b9d39cc16dee326de6e499262563772961d650d9355dc7df7ceb6190d442cd4"
+    },
+    {
+      "origin_seed": 81051,
+      "source_trajectory": "ensemble/selected-s81051-p1b1.json.gz",
+      "source_trajectory_sha256": "3af1fa9f48848e0a0026a1f621181eca3443ab0dd8352d7aec875bcd0cad7997"
+    },
+    {
+      "origin_seed": 81052,
+      "source_trajectory": "ensemble/selected-s81052-p1b1.json.gz",
+      "source_trajectory_sha256": "1e245bc4452469e6cfce30813698deac928d54f9a9dfe65bd130bc2c45f14236"
+    },
+    {
+      "origin_seed": 81053,
+      "source_trajectory": "ensemble/selected-s81053-p1b1.json.gz",
+      "source_trajectory_sha256": "ff8e1c9241cb6430e26efe9a33c12c6046fb912824606052a30b43f22dc31b81"
+    },
+    {
+      "origin_seed": 81054,
+      "source_trajectory": "ensemble/selected-s81054-p1b1.json.gz",
+      "source_trajectory_sha256": "46fd2343a45182939dfb9007b53a62bed4f54486f8edf642f930f8b50a8ba71a"
+    },
+    {
+      "origin_seed": 81055,
+      "source_trajectory": "ensemble/selected-s81055-p1b1.json.gz",
+      "source_trajectory_sha256": "334a9cfca20b69146433243f8400033a0e540a2c263fe4ba95ef634a99d7f0b2"
+    },
+    {
+      "origin_seed": 81056,
+      "source_trajectory": "ensemble/selected-s81056-p1b1.json.gz",
+      "source_trajectory_sha256": "9d04fcec8fd8250e2ef4514dfc1a5eb66840a0b65aa26ed30e9b413e7bc1ca6a"
+    },
+    {
+      "origin_seed": 81057,
+      "source_trajectory": "ensemble/selected-s81057-p1b1.json.gz",
+      "source_trajectory_sha256": "fde0cc6bbce8d8e7bfb7f8e0606b24d47e8f0ec79890749d313f2ec4039d5bda"
+    },
+    {
+      "origin_seed": 81058,
+      "source_trajectory": "ensemble/selected-s81058-p1b1.json.gz",
+      "source_trajectory_sha256": "0c2b70f721a50b242f273f3014123c1843a70754be0b0efa564380a083e89007"
+    },
+    {
+      "origin_seed": 81059,
+      "source_trajectory": "ensemble/selected-s81059-p1b1.json.gz",
+      "source_trajectory_sha256": "5aa7fcf66148694768bf40cb0af5abfe3c143198b181be9f2c0f02bbd1d909f6"
+    },
+    {
+      "origin_seed": 81060,
+      "source_trajectory": "ensemble/selected-s81060-p1b1.json.gz",
+      "source_trajectory_sha256": "7407d7a3134a059aa624afb4cb316c01e25e47a297a8c41283d88fa1834cbbf2"
+    },
+    {
+      "origin_seed": 81061,
+      "source_trajectory": "ensemble/selected-s81061-p1b1.json.gz",
+      "source_trajectory_sha256": "380534074d9764ee536471618ba4df349c633a8eeb4a61f6dd9a562a63fe3776"
+    },
+    {
+      "origin_seed": 81062,
+      "source_trajectory": "ensemble/selected-s81062-p1b1.json.gz",
+      "source_trajectory_sha256": "4ba59fed45c438ee6ade440cca04ebe512b2f9488db7af071dc37ca0a885502a"
+    },
+    {
+      "origin_seed": 81063,
+      "source_trajectory": "ensemble/selected-s81063-p1b1.json.gz",
+      "source_trajectory_sha256": "0d31350f943c036c4786d852a3726ff54444c29672df3c2f43064e39cf4cd8c5"
+    },
+    {
+      "origin_seed": 81064,
+      "source_trajectory": "ensemble/selected-s81064-p1b1.json.gz",
+      "source_trajectory_sha256": "9e193ed5cfda9aecda7fbd0093077d834dc3c5cb292fcfcac7c2f8c65c1ad718"
+    }
+  ],
+  "replicates_per_arm": 64,
+  "number_arms": 4,
+  "branch_time": 20.0,
+  "continuation_horizon": 80.0,
+  "post_seed_offset": 3000000,
+  "sample_dt": 2.0,
+  "params": {
+    "side": 8,
+    "theta": 0.7,
+    "epsilon_R": 8,
+    "epsilon_L": 8,
+    "E_F": 12,
+    "J_LL": 1.0,
+    "J_RL": 1.0,
+    "J_RR": 0.0,
+    "copy_rate": 0.06,
+    "production_rate": 0.08,
+    "passive_R": 0.12,
+    "passive_L": 0.04,
+    "material_mobility": 0.1,
+    "fuel_mobility": 0.2,
+    "protection_strength": 1.0,
+    "transport_protection_strength": 0.25,
+    "mutation": [
+      [
+        0.95,
+        0.05
+      ],
+      [
+        0.05,
+        0.95
+      ]
+    ],
+    "allele_passive_multipliers": [
+      1.0,
+      1.0
+    ],
+    "initial_templates": 8,
+    "initial_R1_fraction": 0.0,
+    "initial_fuel": null
+  },
+  "arms": [
+    {
+      "produce_L": true,
+      "protect_R": true,
+      "copy_R": true
+    },
+    {
+      "produce_L": true,
+      "protect_R": false,
+      "copy_R": true
+    },
+    {
+      "produce_L": false,
+      "protect_R": true,
+      "copy_R": true
+    },
+    {
+      "produce_L": false,
+      "protect_R": false,
+      "copy_R": true
+    }
+  ],
+  "selection": "Every original full-production/protection baseline seed, including failed or low-L preparations; no state-dependent selection.",
+  "preparation": "Replay the original ledger from its original microscopic initial state through every event at time <= 20. No extrapolated or selected successful state.",
+  "bookkeeping_reset": [
+    "time",
+    "cumulative_heat",
+    "external_work",
+    "event_count"
+  ],
+  "physical_reset": "None. Material, fuel, instance tags and next_tag remain identical across the four continuations.",
+  "primary_fields": [
+    "integral_R",
+    "integral_L"
+  ],
+  "primary_paired_contrasts": [
+    "production_effect_when_protected",
+    "production_effect_without_protection",
+    "protection_effect_with_production",
+    "protection_effect_after_production_stopped",
+    "production_protection_interaction"
+  ],
+  "analysis": "Exact event-time R/L integrals from run_interface.measurements; Monte Carlo SE of per-origin contrasts. Negative production effects retained.",
+  "scope": "Conditional continuation of fixed-time generated preparations. Tests ongoing production versus inherited protective material; not autonomous origin, a maintained membrane, aging, functional memory, or matched-function efficiency."
+}

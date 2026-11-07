@@ -1,0 +1,175 @@
+{
+  "stage": "pilot",
+  "source_hashes": {
+    "run_turnover.py": "3321ce54f369cd868f39dc306840bc8189b817a0cc1218190d53380eee602245",
+    "../interface-maintenance/interface_model.py": "08c5d9948e84d62ddc77a0265e5e91e805b2badf47bc516542a36fa918201927",
+    "../interface-maintenance/interface_readouts.py": "504360788ea120d8a0250dba03409887d10a04a4fe4b83b89bcf20eddc184cbd",
+    "../interface-maintenance/run_interface.py": "4b6b446183f98d16595d23547dc41b4f05a9a42d894d9e6c06ab78080787b401"
+  },
+  "base_parameter_protocol": "../interface-maintenance/ensemble-protocol.json",
+  "base_parameter_protocol_sha256": "b28c5e257deca197d098a29f7b5a40cc7afc3fb963f1c4b4e9d64684af03bd2c",
+  "base_params": {
+    "side": 8,
+    "theta": 0.7,
+    "epsilon_R": 8,
+    "epsilon_L": 8,
+    "E_F": 12,
+    "J_LL": 1.0,
+    "J_RL": 1.0,
+    "J_RR": 0.0,
+    "copy_rate": 0.06,
+    "production_rate": 0.08,
+    "passive_R": 0.12,
+    "passive_L": 0.04,
+    "material_mobility": 0.1,
+    "fuel_mobility": 0.2,
+    "protection_strength": 1.0,
+    "transport_protection_strength": 0.25,
+    "mutation": [
+      [
+        0.95,
+        0.05
+      ],
+      [
+        0.05,
+        0.95
+      ]
+    ],
+    "allele_passive_multipliers": [
+      1.0,
+      1.0
+    ],
+    "initial_templates": 8,
+    "initial_R1_fraction": 0.0,
+    "initial_fuel": null
+  },
+  "passive_L_levels": [
+    0.08,
+    0.16,
+    0.32
+  ],
+  "turnover_intervention": "Only passive_L changes across levels. It is the symmetric D<->L mobility during BOTH preparation and continuation and is equal across all factorial arms at a level.",
+  "seeds": [
+    920001,
+    920002,
+    920003,
+    920004,
+    920005,
+    920006,
+    920007,
+    920008
+  ],
+  "replicates_per_arm_per_level": 8,
+  "preparation_horizon": 20.0,
+  "continuation_horizon": 80.0,
+  "post_seed_offset": 3000000,
+  "sample_dt": 2.0,
+  "arms": [
+    {
+      "produce_L": true,
+      "protect_R": true,
+      "copy_R": true
+    },
+    {
+      "produce_L": true,
+      "protect_R": false,
+      "copy_R": true
+    },
+    {
+      "produce_L": false,
+      "protect_R": true,
+      "copy_R": true
+    },
+    {
+      "produce_L": false,
+      "protect_R": false,
+      "copy_R": true
+    }
+  ],
+  "selection_rule": "Choose exactly one level maximizing the minimum of paired R-time mean/SE for production_effect_when_protected and production_protection_interaction; ties choose lower passive_L. Selection occurs regardless of signs. No additional tuning.",
+  "confirmation_seeds": [
+    930001,
+    930002,
+    930003,
+    930004,
+    930005,
+    930006,
+    930007,
+    930008,
+    930009,
+    930010,
+    930011,
+    930012,
+    930013,
+    930014,
+    930015,
+    930016,
+    930017,
+    930018,
+    930019,
+    930020,
+    930021,
+    930022,
+    930023,
+    930024,
+    930025,
+    930026,
+    930027,
+    930028,
+    930029,
+    930030,
+    930031,
+    930032,
+    930033,
+    930034,
+    930035,
+    930036,
+    930037,
+    930038,
+    930039,
+    930040,
+    930041,
+    930042,
+    930043,
+    930044,
+    930045,
+    930046,
+    930047,
+    930048,
+    930049,
+    930050,
+    930051,
+    930052,
+    930053,
+    930054,
+    930055,
+    930056,
+    930057,
+    930058,
+    930059,
+    930060,
+    930061,
+    930062,
+    930063,
+    930064
+  ],
+  "joint_support_rule": "Fresh confirmation supports the joint claim only if BOTH primary paired R-time contrasts have approximate 95 percent normal intervals strictly above zero.",
+  "primary_contrasts": [
+    "production_effect_when_protected",
+    "production_protection_interaction"
+  ],
+  "primary_field": "integral_R",
+  "secondary_fields": [
+    "integral_L",
+    "paid_L_births",
+    "passive_L_births",
+    "passive_L_deaths",
+    "paid_R_births_after_original_founder_clearance",
+    "paid_R_births_after_preparation_R_clearance",
+    "net_fuel_consumed",
+    "net_heat_to_bath"
+  ],
+  "preparation_rule": "Every seed starts dispersed with no L and runs full P1B1 for fixed time20; all resulting states, including R=0 or L=0, enter all four branches.",
+  "branch_rule": "Identical material/fuel/instance_tags/next_tag across four arms. Reset only time, cumulative_heat, external_work and event_count. Copying stays enabled.",
+  "scope": "Cross-level comparisons combine formation and continuation turnover changes. Primary causal contrasts are paired within a level. Physical turnover is not aging; instance ancestry is not functional information. No reward, replenishment, enclosing membrane or new individuality is supplied or inferred."
+}

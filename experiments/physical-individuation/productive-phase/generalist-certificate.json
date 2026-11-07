@@ -1,0 +1,56 @@
+{
+  "checks": {
+    "four_neighbor_eligibility_parent_fixtures": 13122,
+    "full_generalist_not_excluded_by_four_k_hazard_cap": true,
+    "generalist_diagonal_jacobian_at_fixed_point": true,
+    "local_opportunity_allocation_identities": true,
+    "max_forward_hazard_per_unit_k": {
+      "full_generalist": 4.0,
+      "half_generalist": 2.0,
+      "specialist": 4.0
+    },
+    "same_alphabet_sources_reverse_and_mutation": true,
+    "same_positive_thermal_equilibrium_at_zero_affinity": true,
+    "specialist_half_generalist_symmetric_vector_fields_equal": true,
+    "two_material_currents_equal_on_symmetric_submanifold": true
+  },
+  "example": {
+    "Delta": 10.0,
+    "E": 6.0,
+    "M": 2.0,
+    "S": 2.0,
+    "common_chemical_power": 1.882207548335856,
+    "common_net_copying": 0.1882207548335856,
+    "delta": 0.1,
+    "ell": 0.01831563888873418,
+    "eta": 0.00024787521766663585,
+    "full_generalist_each_type": 0.9661564550466495,
+    "full_generalist_net_copying": 0.1931977351050422,
+    "half_generalist_eigenvalues": [
+      -1.9005574754636345,
+      -0.02127186628629603,
+      -0.2531477349862289
+    ],
+    "k": 1.0,
+    "mutation": 0.02,
+    "specialist_and_half_generalist_each_type": 0.9413943121207196,
+    "theta": 1.0
+  },
+  "not_claimed": [
+    "finite_path_law_equality_for_generalist_control",
+    "spatial_unit_formation",
+    "taxonomic_necessity",
+    "universal_biodiversity_optimum",
+    "exploiter_resistance"
+  ],
+  "note_sha256": "502c86c1ee5526a90c14d4babbb58e1b60a41c71a89a1c6fca4519e46fc3e131",
+  "scope": "Exact homogeneous concentration algebra and eligibility bounds; no simulation",
+  "source_sha256": "03135a1a690d0d39457249e3258093e0a11511b925f0678c8112d805628ba769",
+  "theorem_domain": {
+    "mutation_interval": [
+      0,
+      0.5
+    ],
+    "positive": "M,S,k,ell,delta,eta"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "model": "eight states: two binary sites, one finite repair packet",
+  "zero_temperature_active_time_advantage": 0.4652137666759955,
+  "reverse_event_coupling_correction": 2.638276637401091e-07,
+  "entropy_penalty": 0.2772588722239781,
+  "analytical_lower_bound": 0.1879546306243537,
+  "matrix_integrated_availability_advantage": 0.3641192061661295,
+  "quadrature_refinement_change": 5.7972502409686655e-08,
+  "scope": "Conditional finite-fuel regeneration theorem. Does not prove spatial individuality, universal biodiversity maximization, or moral legitimacy."
+}

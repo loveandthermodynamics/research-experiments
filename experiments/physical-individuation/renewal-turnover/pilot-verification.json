@@ -1,0 +1,4443 @@
+{
+  "checks_passed": true,
+  "verifier_sha256": "10453071579904ab4760474958b8debea883ce623906d5d050b6615ab7e0abaa",
+  "independent_reference_sha256": "ccbaac8114d5f4ad48cf1bd655de7c186ddca0f4e99197322ed3fc4e43aef0b6",
+  "model_sha256": "08c5d9948e84d62ddc77a0265e5e91e805b2badf47bc516542a36fa918201927",
+  "trajectory_records_replayed": 120,
+  "preparation_trajectories": 24,
+  "continuation_trajectories": 96,
+  "total_events_replayed": 88239,
+  "model_checks": [
+    {
+      "passive_L": 0.08,
+      "state_flag_cases": 12,
+      "individual_propensities_compared": 26112,
+      "reverse_pairs": 960,
+      "maximum_errors": {
+        "H": 0.0,
+        "delta_H": 0.0,
+        "rate": 0.0,
+        "LDB_log": 2.220446049250313e-16
+      },
+      "factorial_initial_states_identical": true
+    },
+    {
+      "passive_L": 0.16,
+      "state_flag_cases": 12,
+      "individual_propensities_compared": 26112,
+      "reverse_pairs": 960,
+      "maximum_errors": {
+        "H": 0.0,
+        "delta_H": 0.0,
+        "rate": 0.0,
+        "LDB_log": 2.220446049250313e-16
+      },
+      "factorial_initial_states_identical": true
+    },
+    {
+      "passive_L": 0.32,
+      "state_flag_cases": 12,
+      "individual_propensities_compared": 26112,
+      "reverse_pairs": 960,
+      "maximum_errors": {
+        "H": 0.0,
+        "delta_H": 0.0,
+        "rate": 0.0,
+        "LDB_log": 2.220446049250313e-16
+      },
+      "factorial_initial_states_identical": true
+    }
+  ],
+  "studies": [
+    {
+      "checks_passed": true,
+      "stage": "pilot",
+      "result_file": "experiments/physical-individuation/renewal-turnover/pilot-results.json",
+      "result_sha256": "98dc6d9b2a1441331fb4216f2a5530c01499d451b695f2bd9434180118b70a7a",
+      "protocol_sha256": "c69ff33639bc804d50632222c9540353674d24fc003a36383ae757abf38351cf",
+      "preparation_trajectories": 24,
+      "continuation_trajectories": 96,
+      "trajectory_records_replayed": 120,
+      "total_events_replayed": 88239,
+      "samples_checked": 4200,
+      "no_R_preparations_included": 0,
+      "no_L_preparations_included": 2,
+      "all_declared_seed_level_arm_cells_present": true,
+      "all_branch_initial_physical_states_identical": true,
+      "preparation_and_continuation_costs_counted": true,
+      "readouts_and_all_contrasts_recomputed": true,
+      "primary_R_time_contrasts": [
+        {
+          "passive_L": 0.08,
+          "contrast": "production_effect_when_protected",
+          "n": 8,
+          "mean": -3.366139024853739,
+          "monte_carlo_standard_error": 40.049322963491214,
+          "approximate_95_percent_normal_interval": [
+            -81.86281203329652,
+            75.13053398358905
+          ]
+        },
+        {
+          "passive_L": 0.08,
+          "contrast": "production_effect_without_protection",
+          "n": 8,
+          "mean": 8.855235574496904,
+          "monte_carlo_standard_error": 34.83637581880392,
+          "approximate_95_percent_normal_interval": [
+            -59.424061030358786,
+            77.13453217935259
+          ]
+        },
+        {
+          "passive_L": 0.08,
+          "contrast": "protection_effect_with_production",
+          "n": 8,
+          "mean": 97.2206963261782,
+          "monte_carlo_standard_error": 32.029516407250405,
+          "approximate_95_percent_normal_interval": [
+            34.44284416796741,
+            159.998548484389
+          ]
+        },
+        {
+          "passive_L": 0.08,
+          "contrast": "protection_effect_after_production_stopped",
+          "n": 8,
+          "mean": 109.44207092552884,
+          "monte_carlo_standard_error": 27.500921827097464,
+          "approximate_95_percent_normal_interval": [
+            55.54026414441781,
+            163.34387770663986
+          ]
+        },
+        {
+          "passive_L": 0.08,
+          "contrast": "production_protection_interaction",
+          "n": 8,
+          "mean": -12.221374599350643,
+          "monte_carlo_standard_error": 36.480089349574364,
+          "approximate_95_percent_normal_interval": [
+            -83.72234972451639,
+            59.27960052581511
+          ]
+        },
+        {
+          "passive_L": 0.16,
+          "contrast": "production_effect_when_protected",
+          "n": 8,
+          "mean": 17.24723076675387,
+          "monte_carlo_standard_error": 20.434047498554087,
+          "approximate_95_percent_normal_interval": [
+            -22.80350233041214,
+            57.297963863919875
+          ]
+        },
+        {
+          "passive_L": 0.16,
+          "contrast": "production_effect_without_protection",
+          "n": 8,
+          "mean": -17.11729329416343,
+          "monte_carlo_standard_error": 15.403551063058153,
+          "approximate_95_percent_normal_interval": [
+            -47.30825337775741,
+            13.073666789430547
+          ]
+        },
+        {
+          "passive_L": 0.16,
+          "contrast": "protection_effect_with_production",
+          "n": 8,
+          "mean": 25.046719352200494,
+          "monte_carlo_standard_error": 23.21643425566145,
+          "approximate_95_percent_normal_interval": [
+            -20.457491788895947,
+            70.55093049329693
+          ]
+        },
+        {
+          "passive_L": 0.16,
+          "contrast": "protection_effect_after_production_stopped",
+          "n": 8,
+          "mean": -9.317804708716807,
+          "monte_carlo_standard_error": 21.070284989768098,
+          "approximate_95_percent_normal_interval": [
+            -50.61556328866228,
+            31.979953871228666
+          ]
+        },
+        {
+          "passive_L": 0.16,
+          "contrast": "production_protection_interaction",
+          "n": 8,
+          "mean": 34.364524060917304,
+          "monte_carlo_standard_error": 31.613693882223846,
+          "approximate_95_percent_normal_interval": [
+            -27.598315948241435,
+            96.32736407007604
+          ]
+        },
+        {
+          "passive_L": 0.32,
+          "contrast": "production_effect_when_protected",
+          "n": 8,
+          "mean": -4.777202356800737,
+          "monte_carlo_standard_error": 19.698033789765038,
+          "approximate_95_percent_normal_interval": [
+            -43.38534858474021,
+            33.830943871138736
+          ]
+        },
+        {
+          "passive_L": 0.32,
+          "contrast": "production_effect_without_protection",
+          "n": 8,
+          "mean": 1.1478008953027659,
+          "monte_carlo_standard_error": 17.39471092185054,
+          "approximate_95_percent_normal_interval": [
+            -32.94583251152429,
+            35.24143430212982
+          ]
+        },
+        {
+          "passive_L": 0.32,
+          "contrast": "protection_effect_with_production",
+          "n": 8,
+          "mean": 5.822034611316589,
+          "monte_carlo_standard_error": 16.225127595895913,
+          "approximate_95_percent_normal_interval": [
+            -25.9792154766394,
+            37.623284699272574
+          ]
+        },
+        {
+          "passive_L": 0.32,
+          "contrast": "protection_effect_after_production_stopped",
+          "n": 8,
+          "mean": 11.747037863420092,
+          "monte_carlo_standard_error": 35.09623918786477,
+          "approximate_95_percent_normal_interval": [
+            -57.04159094479485,
+            80.53566667163503
+          ]
+        },
+        {
+          "passive_L": 0.32,
+          "contrast": "production_protection_interaction",
+          "n": 8,
+          "mean": -5.925003252103503,
+          "monte_carlo_standard_error": 33.988999145463026,
+          "approximate_95_percent_normal_interval": [
+            -72.54344157721104,
+            60.69343507300403
+          ]
+        }
+      ],
+      "declared_joint_claim_supported": null,
+      "selection_audit": null,
+      "replays": [
+        {
+          "seed": 920001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 353,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 31,
+            "copy_R": 19,
+            "produce_L": 27,
+            "material_swap": 71,
+            "fuel_swap": 205
+          },
+          "gross_fuel_conversions": 46,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 46,
+          "initial_H": 832.0,
+          "final_H": 384.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920001-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920001,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 746,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 28,
+            "copy_R": 5,
+            "produce_L": 0,
+            "material_swap": 46,
+            "fuel_swap": 667
+          },
+          "gross_fuel_conversions": 5,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 5,
+          "initial_H": 384.0,
+          "final_H": 156.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920001-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920001,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 574,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 35,
+            "copy_R": 12,
+            "produce_L": 0,
+            "material_swap": 78,
+            "fuel_swap": 449
+          },
+          "gross_fuel_conversions": 12,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 12,
+          "initial_H": 384.0,
+          "final_H": 72.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920001-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 582,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 34,
+            "copy_R": 4,
+            "produce_L": 7,
+            "material_swap": 64,
+            "fuel_swap": 473
+          },
+          "gross_fuel_conversions": 11,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 11,
+          "initial_H": 384.0,
+          "final_H": 84.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920001-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 596,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 33,
+            "copy_R": 6,
+            "produce_L": 4,
+            "material_swap": 63,
+            "fuel_swap": 490
+          },
+          "gross_fuel_conversions": 10,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 10,
+          "initial_H": 384.0,
+          "final_H": 96.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920001-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 920002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 283,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 23,
+            "copy_R": 14,
+            "produce_L": 20,
+            "material_swap": 41,
+            "fuel_swap": 185
+          },
+          "gross_fuel_conversions": 34,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 34,
+          "initial_H": 832.0,
+          "final_H": 500.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920002-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920002,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 926,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 31,
+            "copy_R": 12,
+            "produce_L": 0,
+            "material_swap": 50,
+            "fuel_swap": 833
+          },
+          "gross_fuel_conversions": 12,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 12,
+          "initial_H": 500.0,
+          "final_H": 216.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920002-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920002,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 926,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 29,
+            "copy_R": 10,
+            "produce_L": 0,
+            "material_swap": 45,
+            "fuel_swap": 842
+          },
+          "gross_fuel_conversions": 10,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 10,
+          "initial_H": 500.0,
+          "final_H": 240.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920002-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 683,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 39,
+            "copy_R": 10,
+            "produce_L": 10,
+            "material_swap": 64,
+            "fuel_swap": 560
+          },
+          "gross_fuel_conversions": 20,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 20,
+          "initial_H": 500.0,
+          "final_H": 120.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920002-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 706,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 40,
+            "copy_R": 8,
+            "produce_L": 13,
+            "material_swap": 83,
+            "fuel_swap": 562
+          },
+          "gross_fuel_conversions": 21,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 21,
+          "initial_H": 500.0,
+          "final_H": 108.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920002-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 920003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 328,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 25,
+            "copy_R": 19,
+            "produce_L": 18,
+            "material_swap": 49,
+            "fuel_swap": 217
+          },
+          "gross_fuel_conversions": 37,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 37,
+          "initial_H": 832.0,
+          "final_H": 469.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920003-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920003,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 973,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 27,
+            "copy_R": 7,
+            "produce_L": 0,
+            "material_swap": 49,
+            "fuel_swap": 890
+          },
+          "gross_fuel_conversions": 7,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 7,
+          "initial_H": 469.0,
+          "final_H": 240.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920003-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920003,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 690,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 38,
+            "copy_R": 18,
+            "produce_L": 0,
+            "material_swap": 86,
+            "fuel_swap": 548
+          },
+          "gross_fuel_conversions": 18,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 18,
+          "initial_H": 469.0,
+          "final_H": 108.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920003-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 973,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 26,
+            "copy_R": 4,
+            "produce_L": 2,
+            "material_swap": 27,
+            "fuel_swap": 914
+          },
+          "gross_fuel_conversions": 6,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 6,
+          "initial_H": 469.0,
+          "final_H": 252.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920003-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 600,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 41,
+            "copy_R": 9,
+            "produce_L": 12,
+            "material_swap": 61,
+            "fuel_swap": 477
+          },
+          "gross_fuel_conversions": 21,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 21,
+          "initial_H": 469.0,
+          "final_H": 72.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920003-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 920004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 264,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 25,
+            "copy_R": 15,
+            "produce_L": 21,
+            "material_swap": 45,
+            "fuel_swap": 158
+          },
+          "gross_fuel_conversions": 36,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 36,
+          "initial_H": 832.0,
+          "final_H": 478.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920004-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920004,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 709,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 40,
+            "copy_R": 21,
+            "produce_L": 0,
+            "material_swap": 119,
+            "fuel_swap": 529
+          },
+          "gross_fuel_conversions": 21,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 21,
+          "initial_H": 478.0,
+          "final_H": 84.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920004-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920004,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 862,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 35,
+            "copy_R": 17,
+            "produce_L": 0,
+            "material_swap": 106,
+            "fuel_swap": 704
+          },
+          "gross_fuel_conversions": 17,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 17,
+          "initial_H": 478.0,
+          "final_H": 140.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920004-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 973,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 33,
+            "copy_R": 6,
+            "produce_L": 8,
+            "material_swap": 100,
+            "fuel_swap": 826
+          },
+          "gross_fuel_conversions": 14,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 14,
+          "initial_H": 478.0,
+          "final_H": 168.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920004-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 770,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 36,
+            "copy_R": 6,
+            "produce_L": 13,
+            "material_swap": 111,
+            "fuel_swap": 604
+          },
+          "gross_fuel_conversions": 19,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 19,
+          "initial_H": 478.0,
+          "final_H": 124.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920004-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 920005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 345,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 30,
+            "copy_R": 22,
+            "produce_L": 27,
+            "material_swap": 56,
+            "fuel_swap": 210
+          },
+          "gross_fuel_conversions": 49,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 49,
+          "initial_H": 832.0,
+          "final_H": 374.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920005-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920005,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 751,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 31,
+            "copy_R": 4,
+            "produce_L": 0,
+            "material_swap": 98,
+            "fuel_swap": 618
+          },
+          "gross_fuel_conversions": 4,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 4,
+          "initial_H": 374.0,
+          "final_H": 132.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920005-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920005,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 484,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 38,
+            "copy_R": 11,
+            "produce_L": 0,
+            "material_swap": 86,
+            "fuel_swap": 349
+          },
+          "gross_fuel_conversions": 11,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 11,
+          "initial_H": 374.0,
+          "final_H": 48.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920005-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 535,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 36,
+            "copy_R": 2,
+            "produce_L": 7,
+            "material_swap": 61,
+            "fuel_swap": 429
+          },
+          "gross_fuel_conversions": 9,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 9,
+          "initial_H": 374.0,
+          "final_H": 72.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920005-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 593,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 35,
+            "copy_R": 4,
+            "produce_L": 4,
+            "material_swap": 74,
+            "fuel_swap": 476
+          },
+          "gross_fuel_conversions": 8,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 8,
+          "initial_H": 374.0,
+          "final_H": 84.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920005-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 920006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 290,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 24,
+            "copy_R": 16,
+            "produce_L": 17,
+            "material_swap": 45,
+            "fuel_swap": 188
+          },
+          "gross_fuel_conversions": 33,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 33,
+          "initial_H": 832.0,
+          "final_H": 496.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920006-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920006,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 1059,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 17,
+            "copy_R": 0,
+            "produce_L": 0,
+            "material_swap": 37,
+            "fuel_swap": 1005
+          },
+          "gross_fuel_conversions": 0,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 0,
+          "initial_H": 496.0,
+          "final_H": 372.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920006-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920006,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 1048,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 18,
+            "copy_R": 1,
+            "produce_L": 0,
+            "material_swap": 43,
+            "fuel_swap": 986
+          },
+          "gross_fuel_conversions": 1,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 1,
+          "initial_H": 496.0,
+          "final_H": 360.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920006-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 1112,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 21,
+            "copy_R": 1,
+            "produce_L": 3,
+            "material_swap": 91,
+            "fuel_swap": 996
+          },
+          "gross_fuel_conversions": 4,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 4,
+          "initial_H": 496.0,
+          "final_H": 324.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920006-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 858,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 37,
+            "copy_R": 9,
+            "produce_L": 11,
+            "material_swap": 100,
+            "fuel_swap": 701
+          },
+          "gross_fuel_conversions": 20,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 20,
+          "initial_H": 496.0,
+          "final_H": 132.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920006-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 920007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 317,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 27,
+            "copy_R": 14,
+            "produce_L": 21,
+            "material_swap": 60,
+            "fuel_swap": 195
+          },
+          "gross_fuel_conversions": 35,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 35,
+          "initial_H": 832.0,
+          "final_H": 470.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920007-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920007,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 1091,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 16,
+            "copy_R": 1,
+            "produce_L": 0,
+            "material_swap": 76,
+            "fuel_swap": 998
+          },
+          "gross_fuel_conversions": 1,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 1,
+          "initial_H": 470.0,
+          "final_H": 344.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920007-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920007,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 1060,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 23,
+            "copy_R": 7,
+            "produce_L": 0,
+            "material_swap": 74,
+            "fuel_swap": 956
+          },
+          "gross_fuel_conversions": 7,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 7,
+          "initial_H": 470.0,
+          "final_H": 264.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920007-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 1039,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 23,
+            "copy_R": 3,
+            "produce_L": 4,
+            "material_swap": 65,
+            "fuel_swap": 944
+          },
+          "gross_fuel_conversions": 7,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 7,
+          "initial_H": 470.0,
+          "final_H": 264.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920007-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 1013,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 26,
+            "copy_R": 3,
+            "produce_L": 7,
+            "material_swap": 74,
+            "fuel_swap": 903
+          },
+          "gross_fuel_conversions": 10,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 10,
+          "initial_H": 470.0,
+          "final_H": 228.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920007-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 920008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 291,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 24,
+            "copy_R": 29,
+            "produce_L": 20,
+            "material_swap": 45,
+            "fuel_swap": 173
+          },
+          "gross_fuel_conversions": 49,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 49,
+          "initial_H": 832.0,
+          "final_H": 421.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920008-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920008,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 782,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 36,
+            "copy_R": 3,
+            "produce_L": 0,
+            "material_swap": 63,
+            "fuel_swap": 680
+          },
+          "gross_fuel_conversions": 3,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 3,
+          "initial_H": 421.0,
+          "final_H": 144.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920008-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920008,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 583,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 42,
+            "copy_R": 9,
+            "produce_L": 0,
+            "material_swap": 108,
+            "fuel_swap": 424
+          },
+          "gross_fuel_conversions": 9,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 9,
+          "initial_H": 421.0,
+          "final_H": 72.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920008-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 277,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 49,
+            "copy_R": 8,
+            "produce_L": 6,
+            "material_swap": 104,
+            "fuel_swap": 110
+          },
+          "gross_fuel_conversions": 14,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 14,
+          "initial_H": 421.0,
+          "final_H": 12.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920008-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 3920008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 416,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 45,
+            "copy_R": 6,
+            "produce_L": 6,
+            "material_swap": 97,
+            "fuel_swap": 262
+          },
+          "gross_fuel_conversions": 12,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 12,
+          "initial_H": 421.0,
+          "final_H": 36.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L080-s920008-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.08
+        },
+        {
+          "seed": 920001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 302,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 30,
+            "copy_R": 13,
+            "produce_L": 16,
+            "material_swap": 37,
+            "fuel_swap": 206
+          },
+          "gross_fuel_conversions": 29,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 29,
+          "initial_H": 832.0,
+          "final_H": 474.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920001-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920001,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 1011,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 22,
+            "copy_R": 15,
+            "produce_L": 0,
+            "material_swap": 42,
+            "fuel_swap": 932
+          },
+          "gross_fuel_conversions": 15,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 15,
+          "initial_H": 474.0,
+          "final_H": 240.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920001-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920001,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 1063,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 9,
+            "copy_R": 2,
+            "produce_L": 0,
+            "material_swap": 22,
+            "fuel_swap": 1030
+          },
+          "gross_fuel_conversions": 2,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 2,
+          "initial_H": 474.0,
+          "final_H": 396.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920001-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 880,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 27,
+            "copy_R": 7,
+            "produce_L": 13,
+            "material_swap": 35,
+            "fuel_swap": 798
+          },
+          "gross_fuel_conversions": 20,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 20,
+          "initial_H": 474.0,
+          "final_H": 180.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920001-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 945,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 24,
+            "copy_R": 4,
+            "produce_L": 13,
+            "material_swap": 24,
+            "fuel_swap": 880
+          },
+          "gross_fuel_conversions": 17,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 17,
+          "initial_H": 474.0,
+          "final_H": 216.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920001-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 920002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 267,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 26,
+            "copy_R": 10,
+            "produce_L": 17,
+            "material_swap": 39,
+            "fuel_swap": 175
+          },
+          "gross_fuel_conversions": 27,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 27,
+          "initial_H": 832.0,
+          "final_H": 514.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920002-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920002,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 969,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 25,
+            "copy_R": 16,
+            "produce_L": 0,
+            "material_swap": 50,
+            "fuel_swap": 878
+          },
+          "gross_fuel_conversions": 16,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 16,
+          "initial_H": 514.0,
+          "final_H": 252.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920002-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920002,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 1000,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 16,
+            "copy_R": 7,
+            "produce_L": 0,
+            "material_swap": 31,
+            "fuel_swap": 946
+          },
+          "gross_fuel_conversions": 7,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 7,
+          "initial_H": 514.0,
+          "final_H": 360.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920002-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 964,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 20,
+            "copy_R": 5,
+            "produce_L": 6,
+            "material_swap": 12,
+            "fuel_swap": 921
+          },
+          "gross_fuel_conversions": 11,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 11,
+          "initial_H": 514.0,
+          "final_H": 312.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920002-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 869,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 32,
+            "copy_R": 6,
+            "produce_L": 17,
+            "material_swap": 49,
+            "fuel_swap": 765
+          },
+          "gross_fuel_conversions": 23,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 23,
+          "initial_H": 514.0,
+          "final_H": 168.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920002-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 920003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 309,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 28,
+            "copy_R": 14,
+            "produce_L": 15,
+            "material_swap": 50,
+            "fuel_swap": 202
+          },
+          "gross_fuel_conversions": 29,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 29,
+          "initial_H": 832.0,
+          "final_H": 485.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920003-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920003,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 1060,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 13,
+            "copy_R": 4,
+            "produce_L": 0,
+            "material_swap": 10,
+            "fuel_swap": 1033
+          },
+          "gross_fuel_conversions": 4,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 4,
+          "initial_H": 485.0,
+          "final_H": 372.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920003-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920003,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 1044,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 12,
+            "copy_R": 3,
+            "produce_L": 0,
+            "material_swap": 12,
+            "fuel_swap": 1017
+          },
+          "gross_fuel_conversions": 3,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 3,
+          "initial_H": 485.0,
+          "final_H": 384.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920003-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 1028,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 20,
+            "copy_R": 3,
+            "produce_L": 8,
+            "material_swap": 26,
+            "fuel_swap": 971
+          },
+          "gross_fuel_conversions": 11,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 11,
+          "initial_H": 485.0,
+          "final_H": 288.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920003-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 1033,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 13,
+            "copy_R": 3,
+            "produce_L": 1,
+            "material_swap": 13,
+            "fuel_swap": 1003
+          },
+          "gross_fuel_conversions": 4,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 4,
+          "initial_H": 485.0,
+          "final_H": 372.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920003-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 920004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 346,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 43,
+            "copy_R": 21,
+            "produce_L": 27,
+            "material_swap": 58,
+            "fuel_swap": 197
+          },
+          "gross_fuel_conversions": 48,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 48,
+          "initial_H": 832.0,
+          "final_H": 293.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920004-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920004,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 634,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 20,
+            "copy_R": 7,
+            "produce_L": 0,
+            "material_swap": 70,
+            "fuel_swap": 537
+          },
+          "gross_fuel_conversions": 7,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 7,
+          "initial_H": 293.0,
+          "final_H": 108.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920004-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920004,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 674,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 18,
+            "copy_R": 5,
+            "produce_L": 0,
+            "material_swap": 46,
+            "fuel_swap": 605
+          },
+          "gross_fuel_conversions": 5,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 5,
+          "initial_H": 293.0,
+          "final_H": 132.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920004-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 498,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 23,
+            "copy_R": 4,
+            "produce_L": 6,
+            "material_swap": 60,
+            "fuel_swap": 405
+          },
+          "gross_fuel_conversions": 10,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 10,
+          "initial_H": 293.0,
+          "final_H": 72.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920004-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 690,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 17,
+            "copy_R": 1,
+            "produce_L": 3,
+            "material_swap": 42,
+            "fuel_swap": 627
+          },
+          "gross_fuel_conversions": 4,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 4,
+          "initial_H": 293.0,
+          "final_H": 144.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920004-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 920005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 336,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 36,
+            "copy_R": 18,
+            "produce_L": 18,
+            "material_swap": 46,
+            "fuel_swap": 218
+          },
+          "gross_fuel_conversions": 36,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 36,
+          "initial_H": 832.0,
+          "final_H": 397.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920005-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920005,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 997,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 15,
+            "copy_R": 7,
+            "produce_L": 0,
+            "material_swap": 34,
+            "fuel_swap": 941
+          },
+          "gross_fuel_conversions": 7,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 7,
+          "initial_H": 397.0,
+          "final_H": 252.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920005-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920005,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 988,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 16,
+            "copy_R": 8,
+            "produce_L": 0,
+            "material_swap": 41,
+            "fuel_swap": 923
+          },
+          "gross_fuel_conversions": 8,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 8,
+          "initial_H": 397.0,
+          "final_H": 240.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920005-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 815,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 24,
+            "copy_R": 5,
+            "produce_L": 11,
+            "material_swap": 52,
+            "fuel_swap": 723
+          },
+          "gross_fuel_conversions": 16,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 16,
+          "initial_H": 397.0,
+          "final_H": 144.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920005-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 1009,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 13,
+            "copy_R": 2,
+            "produce_L": 3,
+            "material_swap": 19,
+            "fuel_swap": 972
+          },
+          "gross_fuel_conversions": 5,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 5,
+          "initial_H": 397.0,
+          "final_H": 276.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920005-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 920006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 310,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 28,
+            "copy_R": 15,
+            "produce_L": 20,
+            "material_swap": 45,
+            "fuel_swap": 202
+          },
+          "gross_fuel_conversions": 35,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 35,
+          "initial_H": 832.0,
+          "final_H": 462.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920006-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920006,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 1070,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 17,
+            "copy_R": 2,
+            "produce_L": 0,
+            "material_swap": 49,
+            "fuel_swap": 1002
+          },
+          "gross_fuel_conversions": 2,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 2,
+          "initial_H": 462.0,
+          "final_H": 324.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920006-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920006,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 1039,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 18,
+            "copy_R": 3,
+            "produce_L": 0,
+            "material_swap": 39,
+            "fuel_swap": 979
+          },
+          "gross_fuel_conversions": 3,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 3,
+          "initial_H": 462.0,
+          "final_H": 312.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920006-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 993,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 20,
+            "copy_R": 1,
+            "produce_L": 4,
+            "material_swap": 38,
+            "fuel_swap": 930
+          },
+          "gross_fuel_conversions": 5,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 5,
+          "initial_H": 462.0,
+          "final_H": 288.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920006-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 850,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 30,
+            "copy_R": 5,
+            "produce_L": 10,
+            "material_swap": 60,
+            "fuel_swap": 745
+          },
+          "gross_fuel_conversions": 15,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 15,
+          "initial_H": 462.0,
+          "final_H": 168.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920006-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 920007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 356,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 37,
+            "copy_R": 15,
+            "produce_L": 22,
+            "material_swap": 57,
+            "fuel_swap": 225
+          },
+          "gross_fuel_conversions": 37,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 37,
+          "initial_H": 832.0,
+          "final_H": 386.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920007-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920007,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 1012,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 9,
+            "copy_R": 1,
+            "produce_L": 0,
+            "material_swap": 27,
+            "fuel_swap": 975
+          },
+          "gross_fuel_conversions": 1,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 1,
+          "initial_H": 386.0,
+          "final_H": 312.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920007-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920007,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 959,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 16,
+            "copy_R": 8,
+            "produce_L": 0,
+            "material_swap": 54,
+            "fuel_swap": 881
+          },
+          "gross_fuel_conversions": 8,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 8,
+          "initial_H": 386.0,
+          "final_H": 228.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920007-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 928,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 19,
+            "copy_R": 5,
+            "produce_L": 6,
+            "material_swap": 54,
+            "fuel_swap": 844
+          },
+          "gross_fuel_conversions": 11,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 11,
+          "initial_H": 386.0,
+          "final_H": 192.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920007-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 981,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 16,
+            "copy_R": 5,
+            "produce_L": 3,
+            "material_swap": 45,
+            "fuel_swap": 912
+          },
+          "gross_fuel_conversions": 8,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 8,
+          "initial_H": 386.0,
+          "final_H": 228.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920007-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 920008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 314,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 35,
+            "copy_R": 18,
+            "produce_L": 22,
+            "material_swap": 54,
+            "fuel_swap": 185
+          },
+          "gross_fuel_conversions": 40,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 40,
+          "initial_H": 832.0,
+          "final_H": 387.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920008-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920008,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 860,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 24,
+            "copy_R": 11,
+            "produce_L": 0,
+            "material_swap": 81,
+            "fuel_swap": 744
+          },
+          "gross_fuel_conversions": 11,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 11,
+          "initial_H": 387.0,
+          "final_H": 156.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920008-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920008,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 816,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 24,
+            "copy_R": 11,
+            "produce_L": 0,
+            "material_swap": 60,
+            "fuel_swap": 721
+          },
+          "gross_fuel_conversions": 11,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 11,
+          "initial_H": 387.0,
+          "final_H": 156.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920008-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 744,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 26,
+            "copy_R": 5,
+            "produce_L": 8,
+            "material_swap": 52,
+            "fuel_swap": 653
+          },
+          "gross_fuel_conversions": 13,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 13,
+          "initial_H": 387.0,
+          "final_H": 132.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920008-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 3920008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 630,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 31,
+            "copy_R": 7,
+            "produce_L": 11,
+            "material_swap": 102,
+            "fuel_swap": 479
+          },
+          "gross_fuel_conversions": 18,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 18,
+          "initial_H": 387.0,
+          "final_H": 72.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L160-s920008-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.16
+        },
+        {
+          "seed": 920001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 321,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 37,
+            "copy_R": 15,
+            "produce_L": 24,
+            "material_swap": 50,
+            "fuel_swap": 195
+          },
+          "gross_fuel_conversions": 39,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 39,
+          "initial_H": 832.0,
+          "final_H": 377.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920001-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920001,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 1013,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 10,
+            "copy_R": 0,
+            "produce_L": 0,
+            "material_swap": 24,
+            "fuel_swap": 979
+          },
+          "gross_fuel_conversions": 0,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 0,
+          "initial_H": 377.0,
+          "final_H": 300.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920001-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920001,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 896,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 19,
+            "copy_R": 9,
+            "produce_L": 0,
+            "material_swap": 53,
+            "fuel_swap": 815
+          },
+          "gross_fuel_conversions": 9,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 9,
+          "initial_H": 377.0,
+          "final_H": 192.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920001-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 646,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 26,
+            "copy_R": 8,
+            "produce_L": 8,
+            "material_swap": 38,
+            "fuel_swap": 566
+          },
+          "gross_fuel_conversions": 16,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 16,
+          "initial_H": 377.0,
+          "final_H": 108.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920001-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 736,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 24,
+            "copy_R": 6,
+            "produce_L": 8,
+            "material_swap": 43,
+            "fuel_swap": 655
+          },
+          "gross_fuel_conversions": 14,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 14,
+          "initial_H": 377.0,
+          "final_H": 132.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920001-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 920002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 332,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 38,
+            "copy_R": 20,
+            "produce_L": 25,
+            "material_swap": 60,
+            "fuel_swap": 189
+          },
+          "gross_fuel_conversions": 45,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 45,
+          "initial_H": 832.0,
+          "final_H": 340.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920002-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920002,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 672,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 23,
+            "copy_R": 8,
+            "produce_L": 0,
+            "material_swap": 49,
+            "fuel_swap": 592
+          },
+          "gross_fuel_conversions": 8,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 8,
+          "initial_H": 340.0,
+          "final_H": 132.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920002-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920002,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 644,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 24,
+            "copy_R": 9,
+            "produce_L": 0,
+            "material_swap": 52,
+            "fuel_swap": 559
+          },
+          "gross_fuel_conversions": 9,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 9,
+          "initial_H": 340.0,
+          "final_H": 120.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920002-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 435,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 29,
+            "copy_R": 5,
+            "produce_L": 9,
+            "material_swap": 55,
+            "fuel_swap": 337
+          },
+          "gross_fuel_conversions": 14,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 14,
+          "initial_H": 340.0,
+          "final_H": 60.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920002-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 539,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 27,
+            "copy_R": 5,
+            "produce_L": 7,
+            "material_swap": 34,
+            "fuel_swap": 466
+          },
+          "gross_fuel_conversions": 12,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 12,
+          "initial_H": 340.0,
+          "final_H": 84.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920002-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 920003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 330,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 33,
+            "copy_R": 13,
+            "produce_L": 18,
+            "material_swap": 53,
+            "fuel_swap": 213
+          },
+          "gross_fuel_conversions": 31,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 31,
+          "initial_H": 832.0,
+          "final_H": 443.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920003-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920003,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 1060,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 8,
+            "copy_R": 2,
+            "produce_L": 0,
+            "material_swap": 4,
+            "fuel_swap": 1046
+          },
+          "gross_fuel_conversions": 2,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 2,
+          "initial_H": 443.0,
+          "final_H": 372.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920003-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920003,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 890,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 20,
+            "copy_R": 14,
+            "produce_L": 0,
+            "material_swap": 47,
+            "fuel_swap": 809
+          },
+          "gross_fuel_conversions": 14,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 14,
+          "initial_H": 443.0,
+          "final_H": 228.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920003-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 1012,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 11,
+            "copy_R": 2,
+            "produce_L": 3,
+            "material_swap": 14,
+            "fuel_swap": 982
+          },
+          "gross_fuel_conversions": 5,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 5,
+          "initial_H": 443.0,
+          "final_H": 336.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920003-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 771,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 25,
+            "copy_R": 9,
+            "produce_L": 10,
+            "material_swap": 40,
+            "fuel_swap": 687
+          },
+          "gross_fuel_conversions": 19,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 19,
+          "initial_H": 443.0,
+          "final_H": 168.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920003-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 920004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 319,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 49,
+            "copy_R": 16,
+            "produce_L": 31,
+            "material_swap": 35,
+            "fuel_swap": 188
+          },
+          "gross_fuel_conversions": 47,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 47,
+          "initial_H": 832.0,
+          "final_H": 252.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920004-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920004,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 791,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 7,
+            "copy_R": 1,
+            "produce_L": 0,
+            "material_swap": 7,
+            "fuel_swap": 776
+          },
+          "gross_fuel_conversions": 1,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 1,
+          "initial_H": 252.0,
+          "final_H": 192.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920004-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920004,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 791,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 7,
+            "copy_R": 1,
+            "produce_L": 0,
+            "material_swap": 7,
+            "fuel_swap": 776
+          },
+          "gross_fuel_conversions": 1,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 1,
+          "initial_H": 252.0,
+          "final_H": 192.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920004-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 765,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 9,
+            "copy_R": 1,
+            "produce_L": 2,
+            "material_swap": 16,
+            "fuel_swap": 737
+          },
+          "gross_fuel_conversions": 3,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 3,
+          "initial_H": 252.0,
+          "final_H": 168.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920004-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 786,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 7,
+            "copy_R": 0,
+            "produce_L": 1,
+            "material_swap": 13,
+            "fuel_swap": 765
+          },
+          "gross_fuel_conversions": 1,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 1,
+          "initial_H": 252.0,
+          "final_H": 192.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920004-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 920005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 370,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 46,
+            "copy_R": 18,
+            "produce_L": 32,
+            "material_swap": 66,
+            "fuel_swap": 208
+          },
+          "gross_fuel_conversions": 50,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 50,
+          "initial_H": 832.0,
+          "final_H": 258.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920005-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920005,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 754,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 12,
+            "copy_R": 0,
+            "produce_L": 0,
+            "material_swap": 15,
+            "fuel_swap": 727
+          },
+          "gross_fuel_conversions": 0,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 0,
+          "initial_H": 258.0,
+          "final_H": 168.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920005-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920005,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 613,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 17,
+            "copy_R": 5,
+            "produce_L": 0,
+            "material_swap": 35,
+            "fuel_swap": 556
+          },
+          "gross_fuel_conversions": 5,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 5,
+          "initial_H": 258.0,
+          "final_H": 108.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920005-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 590,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 17,
+            "copy_R": 3,
+            "produce_L": 2,
+            "material_swap": 30,
+            "fuel_swap": 538
+          },
+          "gross_fuel_conversions": 5,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 5,
+          "initial_H": 258.0,
+          "final_H": 108.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920005-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 701,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 14,
+            "copy_R": 0,
+            "produce_L": 2,
+            "material_swap": 16,
+            "fuel_swap": 669
+          },
+          "gross_fuel_conversions": 2,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 2,
+          "initial_H": 258.0,
+          "final_H": 144.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920005-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 920006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 347,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 37,
+            "copy_R": 15,
+            "produce_L": 23,
+            "material_swap": 41,
+            "fuel_swap": 231
+          },
+          "gross_fuel_conversions": 38,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 38,
+          "initial_H": 832.0,
+          "final_H": 380.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920006-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920006,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 851,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 22,
+            "copy_R": 13,
+            "produce_L": 0,
+            "material_swap": 77,
+            "fuel_swap": 739
+          },
+          "gross_fuel_conversions": 13,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 13,
+          "initial_H": 380.0,
+          "final_H": 156.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920006-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920006,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 979,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 11,
+            "copy_R": 2,
+            "produce_L": 0,
+            "material_swap": 20,
+            "fuel_swap": 946
+          },
+          "gross_fuel_conversions": 2,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 2,
+          "initial_H": 380.0,
+          "final_H": 288.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920006-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 789,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 21,
+            "copy_R": 5,
+            "produce_L": 7,
+            "material_swap": 51,
+            "fuel_swap": 705
+          },
+          "gross_fuel_conversions": 12,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 12,
+          "initial_H": 380.0,
+          "final_H": 168.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920006-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 797,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 26,
+            "copy_R": 5,
+            "produce_L": 12,
+            "material_swap": 67,
+            "fuel_swap": 687
+          },
+          "gross_fuel_conversions": 17,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 17,
+          "initial_H": 380.0,
+          "final_H": 108.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920006-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 920007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 330,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 32,
+            "copy_R": 11,
+            "produce_L": 23,
+            "material_swap": 38,
+            "fuel_swap": 226
+          },
+          "gross_fuel_conversions": 34,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 34,
+          "initial_H": 832.0,
+          "final_H": 436.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920007-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920007,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 1091,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 15,
+            "copy_R": 5,
+            "produce_L": 0,
+            "material_swap": 44,
+            "fuel_swap": 1027
+          },
+          "gross_fuel_conversions": 5,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 5,
+          "initial_H": 436.0,
+          "final_H": 300.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920007-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920007,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 993,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 23,
+            "copy_R": 13,
+            "produce_L": 0,
+            "material_swap": 67,
+            "fuel_swap": 890
+          },
+          "gross_fuel_conversions": 13,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 13,
+          "initial_H": 436.0,
+          "final_H": 204.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920007-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 936,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 22,
+            "copy_R": 2,
+            "produce_L": 10,
+            "material_swap": 29,
+            "fuel_swap": 873
+          },
+          "gross_fuel_conversions": 12,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 12,
+          "initial_H": 436.0,
+          "final_H": 216.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920007-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 785,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 29,
+            "copy_R": 5,
+            "produce_L": 14,
+            "material_swap": 45,
+            "fuel_swap": 692
+          },
+          "gross_fuel_conversions": 19,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 19,
+          "initial_H": 436.0,
+          "final_H": 132.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920007-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 920008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 281,
+          "samples_checked": 11,
+          "event_counts": {
+            "passive": 37,
+            "copy_R": 18,
+            "produce_L": 15,
+            "material_swap": 44,
+            "fuel_swap": 167
+          },
+          "gross_fuel_conversions": 33,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 33,
+          "initial_H": 832.0,
+          "final_H": 404.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920008-preparation.json.gz",
+          "stage": "pilot",
+          "phase": "preparation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920008,
+          "flags": {
+            "produce_L": false,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 1098,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 7,
+            "copy_R": 3,
+            "produce_L": 0,
+            "material_swap": 27,
+            "fuel_swap": 1061
+          },
+          "gross_fuel_conversions": 3,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 3,
+          "initial_H": 404.0,
+          "final_H": 336.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920008-p0b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920008,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 1098,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 7,
+            "copy_R": 3,
+            "produce_L": 0,
+            "material_swap": 27,
+            "fuel_swap": 1061
+          },
+          "gross_fuel_conversions": 3,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 3,
+          "initial_H": 404.0,
+          "final_H": 336.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920008-p0b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": false,
+            "copy_R": true
+          },
+          "events_replayed": 1002,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 12,
+            "copy_R": 4,
+            "produce_L": 4,
+            "material_swap": 34,
+            "fuel_swap": 948
+          },
+          "gross_fuel_conversions": 8,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 8,
+          "initial_H": 404.0,
+          "final_H": 276.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920008-p1b0.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        },
+        {
+          "seed": 3920008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "events_replayed": 1031,
+          "samples_checked": 41,
+          "event_counts": {
+            "passive": 9,
+            "copy_R": 2,
+            "produce_L": 3,
+            "material_swap": 13,
+            "fuel_swap": 1004
+          },
+          "gross_fuel_conversions": 5,
+          "gross_reverse_fuel_conversions": 0,
+          "net_fuel_consumed": 5,
+          "initial_H": 404.0,
+          "final_H": 312.0,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          },
+          "record": "experiments/physical-individuation/renewal-turnover/pilot/L320-s920008-p1b1.json.gz",
+          "stage": "pilot",
+          "phase": "continuation",
+          "passive_L": 0.32
+        }
+      ]
+    }
+  ],
+  "scope": "A symmetric kinetic-turnover intervention in supplied reversible local chemistry; no reward, group readout, imposed aging clock or replenishment. Preparation plus continuation cost and physical state parity are verified. Any positive contrast is conditional material maintenance, not a membrane, functional memory, Darwinian individuality or universal biodiversity theorem."
+}

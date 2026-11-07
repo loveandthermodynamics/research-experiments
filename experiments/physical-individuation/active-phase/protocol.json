@@ -1,0 +1,129 @@
+{
+  "arms": [
+    "full",
+    "no_drive",
+    "no_affinity"
+  ],
+  "early_window": [
+    100.0,
+    200.0
+  ],
+  "horizon": 400.0,
+  "independent_preflight_sha256": "90d1c0be06b99cdf08d534996c13cb1282df0a1f71b3163ba6ff227e2cc7d31d",
+  "late_window": [
+    300.0,
+    400.0
+  ],
+  "no_outcome_parameter_selection": true,
+  "no_rescue_or_optional_extension": true,
+  "parameters": {
+    "16-full": {
+      "J_BB": 2.4,
+      "J_EB": 2.5,
+      "catalytic_rate": 0.2,
+      "enzyme_count": 8,
+      "enzyme_mobility": 0.5,
+      "epsilon_B": 2.0,
+      "material_count": 77,
+      "material_mobility": 1.0,
+      "mu": 12.0,
+      "passive_rate": 0.02,
+      "side": 16,
+      "theta": 1.0
+    },
+    "16-no_affinity": {
+      "J_BB": 2.4,
+      "J_EB": 0.0,
+      "catalytic_rate": 0.2,
+      "enzyme_count": 8,
+      "enzyme_mobility": 0.5,
+      "epsilon_B": 2.0,
+      "material_count": 77,
+      "material_mobility": 1.0,
+      "mu": 12.0,
+      "passive_rate": 0.02,
+      "side": 16,
+      "theta": 1.0
+    },
+    "16-no_drive": {
+      "J_BB": 2.4,
+      "J_EB": 2.5,
+      "catalytic_rate": 0.2,
+      "enzyme_count": 8,
+      "enzyme_mobility": 0.5,
+      "epsilon_B": 2.0,
+      "material_count": 77,
+      "material_mobility": 1.0,
+      "mu": 0.0,
+      "passive_rate": 0.02,
+      "side": 16,
+      "theta": 1.0
+    },
+    "32-full": {
+      "J_BB": 2.4,
+      "J_EB": 2.5,
+      "catalytic_rate": 0.2,
+      "enzyme_count": 32,
+      "enzyme_mobility": 0.5,
+      "epsilon_B": 2.0,
+      "material_count": 308,
+      "material_mobility": 1.0,
+      "mu": 12.0,
+      "passive_rate": 0.02,
+      "side": 32,
+      "theta": 1.0
+    },
+    "32-no_affinity": {
+      "J_BB": 2.4,
+      "J_EB": 0.0,
+      "catalytic_rate": 0.2,
+      "enzyme_count": 32,
+      "enzyme_mobility": 0.5,
+      "epsilon_B": 2.0,
+      "material_count": 308,
+      "material_mobility": 1.0,
+      "mu": 12.0,
+      "passive_rate": 0.02,
+      "side": 32,
+      "theta": 1.0
+    },
+    "32-no_drive": {
+      "J_BB": 2.4,
+      "J_EB": 2.5,
+      "catalytic_rate": 0.2,
+      "enzyme_count": 32,
+      "enzyme_mobility": 0.5,
+      "epsilon_B": 2.0,
+      "material_count": 308,
+      "material_mobility": 1.0,
+      "mu": 0.0,
+      "passive_rate": 0.02,
+      "side": 32,
+      "theta": 1.0
+    }
+  },
+  "sample_dt": 5.0,
+  "seeds": [
+    720100,
+    720101,
+    720102,
+    720103,
+    720104,
+    720105,
+    720106,
+    720107
+  ],
+  "sides": [
+    16,
+    32
+  ],
+  "source_sha256": {
+    "active_phase_model.py": "45dc452a1ecf4e8558382786d9203f788e074985a4b0d6a8276d2859823f648f",
+    "analyze_study.py": "59aa3bd6c1674e0c593b7945264b817bb57490c631178910dcef3fdde8016502",
+    "model-spec.md": "c0408ba215b5d1dbbd8e423ef02e8f67d2dc891ec4b4cb900e7127648347ff9a",
+    "morphology.py": "ba042a840e7ad6b084e537db9a050f5d738317d0c24b3b5e286a6c1524ebe64b",
+    "run_study.py": "bf6d2057a32b3541397ecfcac3cff17b601a6b62b79d529cc5d176b8b7e3c599",
+    "study-design.md": "8a476944a7519dfe446d5bc44a3228b2948d545b8a92d5bfb320fd30df38dd23"
+  },
+  "study": "bounded active phase, prospective operational arrest test"
+}

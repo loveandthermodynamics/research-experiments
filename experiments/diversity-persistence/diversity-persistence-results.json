@@ -1,0 +1,100 @@
+{
+  "status": "conditional analytical illustrations, not a biodiversity optimum",
+  "no_diversity_reward": true,
+  "complementary_two_state": {
+    "common_arithmetic_mean": 1.15,
+    "monoculture_log_growth": -0.05268025782891311,
+    "monoculture_geometric_multiplier": 0.9486832980505139,
+    "regenerated_mix_log_growth": 0.13976194237515863,
+    "regenerated_mix_geometric_multiplier": 1.15
+  },
+  "independent_channels_log_growth_n_1_to_20": [
+    -0.05268025782891311,
+    0.04354084227312276,
+    0.07809811562597199,
+    0.09489722044815213,
+    0.10462482469494114,
+    0.11092082550426206,
+    0.11531522079617486,
+    0.11855214911479801,
+    0.12103411964787347,
+    0.12299702733172499,
+    0.12458800049726843,
+    0.12590346360797205,
+    0.12700920717740963,
+    0.1279516410945215,
+    0.12876443375388552,
+    0.12947260000979754,
+    0.13009511155235118,
+    0.13064661681749512,
+    0.13113860549149128,
+    0.1315802160424048
+  ],
+  "perfect_common_response_log_growth": -0.05268025782891311,
+  "independent_failure_formula": "Pr(complete loss)=q**n",
+  "common_failure_formula": "Pr(complete loss)=c+(1-c)*q**n",
+  "repair_and_cost_assumptions": "Exact illustrative checks for diversity and persistence, not a cosmic theorem.\n\nNo diversity reward is present. Population or maintained capacity is multiplied\nby declared environmental returns. Constant composition between generations\nrequires regeneration of that composition; it is a model premise.\n\nThe hazard illustration separately assumes discrete cycles, with repair from a\nsurviving module before the next exposure, retained templates for every response\ntype, and sufficient paid repair time and material. Its productive power is net\nof declared maintenance/repair expenditure. Each feasible module must remain\nabove minimum viable size. This effective model does not resolve repair kinetics\nor derive biological species, individuality, or thermodynamic entropy.\n",
+  "work_before_ruin_optimal_n": {
+    "0.0": 9,
+    "0.01": 4
+  },
+  "no_repair_counterexample": {
+    "fixed_total_stock": 100.0,
+    "integrated_expected_active_stock_all_n": 90.9090909090909,
+    "last_survivor_times_no_common_clock_n_1_to_20": [
+      1.0,
+      1.5,
+      1.8333333333333333,
+      2.0833333333333335,
+      2.283333333333333,
+      2.45,
+      2.592857142857143,
+      2.717857142857143,
+      2.828968253968254,
+      2.9289682539682538,
+      3.019877344877345,
+      3.103210678210678,
+      3.180133755133755,
+      3.2515623265623264,
+      3.3182289932289932,
+      3.3807289932289932,
+      3.4395525226407577,
+      3.4951080781963135,
+      3.5477396571436817,
+      3.597739657143682
+    ],
+    "meaning": "Continuation alone does not prove more cumulative organization."
+  },
+  "convex_replication_growth_at_spreads_0_05_1_2": [
+    0.02,
+    0.03986807184000736,
+    0.09795348538783234,
+    0.31075356032839363
+  ],
+  "fat_tailed_log_loss_construction": {
+    "alpha": 0.5,
+    "pareto_lower_scale": 0.1,
+    "baseline_log_return": 2.0,
+    "per_channel_log_cost": 0.01,
+    "n_1_and_2_time_average_log_growth": "minus infinity",
+    "n_3_expected_log_growth_lower_bound": 0.5713877113318901,
+    "n_3_expected_log_growth_upper_bound": 1.67,
+    "supremum_gross_return_n_3": 6.48829639928671,
+    "independent_time_and_channel_exposures": true,
+    "minimum_log_loss_tail_exponent": 1.5,
+    "caveats": [
+      "Equal allocation is restored at each time by assumed regeneration.",
+      "Continuous capacity; no finite-copy extinction barrier.",
+      "A shared infinite-mean log-loss shock defeats every finite n.",
+      "Rates and response distributions are premises, not microscopic derivations.",
+      "This is not a result about thermodynamic entropy or unlimited biodiversity."
+    ]
+  },
+  "limits": [
+    "Species richness is not failure-response diversity.",
+    "No stored exergy or physical negentropy identity is derived.",
+    "Fat-tailed losses can defeat unrestricted pooling.",
+    "Finite populations, repair dynamics and inheritance remain unresolved."
+  ],
+  "checks_passed": true
+}

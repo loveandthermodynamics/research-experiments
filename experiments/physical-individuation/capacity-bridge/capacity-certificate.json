@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "both_configuration_directions_present": true,
+    "both_productive_directions_present": true,
+    "bounded_stock_word_states": 378,
+    "general_ceiling_rearrangement": true,
+    "maximum_word_length": 9,
+    "relaxed_parallel_minus_synchronized_gap": "2*CX**2*CY**2/((CX + CY)*(2*CX*CY + CX*M*r + CY*M*r))",
+    "zero_background_cycle_reduction": true
+  },
+  "domain": "K>L0; CX,CY,M,rmax positive. D=abs(1/CX-1/CY). Actual synchronized incompatibility and all physical rate/cost premises must independently be justified.",
+  "general_ceiling": "(D*L0/2 + L0/(M*r) + 1)/(1/(M*r) + 1/(2*CY) + 1/(2*CX))",
+  "not_claimed": [
+    "best_generalist_ceiling",
+    "taxonomic_necessity",
+    "spatial_individuality",
+    "physical_molecule_implementation",
+    "universal_biodiversity_optimum",
+    "ethical_legitimacy"
+  ],
+  "note_sha256": "317fd50a16fabfd06b90656eaffa1e225c503d00190944fe3ff1c3504334f380",
+  "passed": true,
+  "scope": "Conditional synchronized-module algebra and bounded-stock word identity only; no physical model, stochastic simulation or parameter scan.",
+  "source_sha256": "4542520482dbe928f47a7583247bb2bbea421520aef4b5e3c9192c0428711636"
+}

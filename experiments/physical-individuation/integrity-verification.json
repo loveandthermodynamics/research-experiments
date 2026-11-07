@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "trajectories": 256,
+  "events_replayed": 67553,
+  "maximum_independent_energy_delta_error": 3.6415315207705135e-13,
+  "maximum_independent_first_law_error": 5.684341886080801e-13,
+  "preparation_material_energy_fuel_and_final_snapshots": "passed",
+  "exact_activity_and_ROI_integrals": "passed",
+  "contrasts": {
+    "final_active_templates": {
+      "difference_in_differences": 2.03125,
+      "monte_carlo_SE": 0.7861552356650002
+    },
+    "final_lesion_ROI_occupancy": {
+      "difference_in_differences": 1.703125,
+      "monte_carlo_SE": 0.21208489743552722
+    }
+  },
+  "sha256": {
+    "agent_lattice.py": "a03c030ccc6ae083ee3e480b1681185401996b6a4442aa39ed9d281adb488af8",
+    "agent_integrity.py": "1c3fcf2035f509d0055d59121955a13daffa3a923ba8f77f3c363de17d299201",
+    "agent-integrity-results.json": "f298bdc72388da4c3ec8fd92eff61bbfdf5680d3b68612b0e25fca752e70140f",
+    "agent-integrity-event-ledgers.npz": "8416c7996df99c283fb6a4e7c32273196a3465dea6838d715d12c10f5e99837e"
+  },
+  "scope": "Partial local repair assay; not a demonstration of a membrane, nested individuality or selective boundary maintenance."
+}

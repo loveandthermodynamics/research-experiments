@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-07",
+  "scope": "Curated standalone exploratory research and synthetic Hestia characterization; full raw ensembles and private runtime excluded.",
+  "physical_snapshot": {
+    "manifest": "provenance/physical-snapshot.json",
+    "manifest_sha256": "7b46488b83c9eb812624b5f1f25b65d3473ac3e849b70176b0f757e58a23d794",
+    "files": 264,
+    "published_bytes": 50590830,
+    "unchanged_scientific_python_files": 89,
+    "metadata_adapted_files": 21,
+    "original_source_corpus_unchanged": true
+  },
+  "hestia_audit_scripts": [
+    {
+      "source_family": "offline-hestia-audit-2026-10-22",
+      "source_relative": "audit_probes.py",
+      "destination_relative": "experiments/software-correctness/audit_probes.py",
+      "original_sha256": "ab9227b16fe39a1237df94f4a2008695c9b455fa9eaa3cc4d2653d377e4e34da",
+      "published_sha256": "ab9227b16fe39a1237df94f4a2008695c9b455fa9eaa3cc4d2653d377e4e34da",
+      "original_bytes": 6445,
+      "published_bytes": 6445,
+      "adaptations": {},
+      "dependency": "Matching separately accessible private Hestia runtime and locked dependencies; see study README."
+    },
+    {
+      "source_family": "offline-hestia-audit-2026-10-22",
+      "source_relative": "run_offline_tests.py",
+      "destination_relative": "experiments/software-correctness/run_offline_tests.py",
+      "original_sha256": "634caf692196ed9975db350abbdc6531f501a8ef6626975e0e63a33a191cd787",
+      "published_sha256": "634caf692196ed9975db350abbdc6531f501a8ef6626975e0e63a33a191cd787",
+      "original_bytes": 1093,
+      "published_bytes": 1093,
+      "adaptations": {},
+      "dependency": "Matching separately accessible private Hestia runtime and locked dependencies; see study README."
+    }
+  ],
+  "derived_hestia_evidence": {
+    "historical_results": "experiments/software-correctness/results.json",
+    "source_manifest": "experiments/software-correctness/manifest.json",
+    "fresh_replay": "experiments/software-correctness/replay-verification.json",
+    "method": "Extracted only synthetic AUDIT_PROBE JSON rows and suite counts; source/evidence hashes retained; raw stack/provider/workstation logs not copied."
+  },
+  "new_authoring": {
+    "documents": "README, NOTICE, catalogue and five topic digests, coverage, reproduction guide and study entry READMEs prepared for this release from reviewed source records.",
+    "software": [
+      "scripts/replay_quick.py",
+      "scripts/verify_archive.py"
+    ],
+    "limits": "The new helper scripts verify record/integrity; they do not add a scientific result."
+  },
+  "replay_reports": [
+    "verification/quick-replay-2026-11-07.json",
+    "verification/physical-small-replays-2026-11-07.json",
+    "experiments/software-correctness/replay-verification.json"
+  ],
+  "reuse_status": "No new software/data license selected. Existing notices retained; terms must be agreed separately. Specification CC BY-NC terms are not silently applied to all code.",
+  "omissions": [
+    "Full pilot/confirmation/ensemble/preparation/continuation .json.gz histories",
+    "Per-record audit caches",
+    "ZIP bundles and their duplicate contents",
+    "Third-party literature clone/PDF/source solver",
+    "Cloud Page readbacks, delivery receipts, rendered exports and progress/log files",
+    "Private full research-program/essay corpus prose",
+    "Old packaging tools and full-archive manifests whose listed raw data are not in the proposed package",
+    "Original RUN.txt files contain local environment paths; use portable generated reproduction documentation instead."
+  ],
+  "record_count_rule": "49 primary evidence/design records plus five adjacent-method records; not 54 successful or independent experiments."
+}

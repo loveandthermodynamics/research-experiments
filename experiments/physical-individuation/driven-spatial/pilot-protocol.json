@@ -1,0 +1,187 @@
+{
+  "stage": "pilot",
+  "source_hashes": {
+    "driven_model.py": "3dd7b498f0f1b31739aa706966c220320e10aaecc31a68523ce4c1a0866b228f",
+    "run_driven.py": "b6676b63efe28dfb24e62187a0ae8f3446297cb7832b6f4c8ae6fd02d033693f",
+    "model-spec.md": "c229ea7976f423042026e33f1be76fac607e347621d38fbfb0e3546b744797e9",
+    "../interface-maintenance/interface_model.py": "08c5d9948e84d62ddc77a0265e5e91e805b2badf47bc516542a36fa918201927",
+    "../interface-maintenance/interface_readouts.py": "504360788ea120d8a0250dba03409887d10a04a4fe4b83b89bcf20eddc184cbd"
+  },
+  "base_params": {
+    "side": 8,
+    "theta": 0.7,
+    "epsilon_R": 8,
+    "epsilon_L": 8,
+    "E_F": 12,
+    "J_LL": 1,
+    "J_RL": 1,
+    "J_RR": 0,
+    "copy_rate": 0.025,
+    "production_rate": 0.04,
+    "passive_R": 0.12,
+    "passive_L": 0.08,
+    "material_mobility": 0.1,
+    "fuel_mobility": 0.2,
+    "protection_strength": 1,
+    "transport_protection_strength": 0.25,
+    "mutation": [
+      [
+        0.95,
+        0.05
+      ],
+      [
+        0.05,
+        0.95
+      ]
+    ],
+    "allele_passive_multipliers": [
+      1.0,
+      1.0
+    ],
+    "initial_templates": 8,
+    "initial_R1_fraction": 0.0,
+    "initial_fuel": 58
+  },
+  "copy_rate_levels": [
+    0.02,
+    0.025,
+    0.028
+  ],
+  "drive": {
+    "exchange_rate": 1.0,
+    "fuel_probability": 0.9,
+    "mu": null
+  },
+  "seeds": [
+    1010001,
+    1010002,
+    1010003,
+    1010004,
+    1010005,
+    1010006,
+    1010007,
+    1010008
+  ],
+  "confirmation_seeds": [
+    1020001,
+    1020002,
+    1020003,
+    1020004,
+    1020005,
+    1020006,
+    1020007,
+    1020008,
+    1020009,
+    1020010,
+    1020011,
+    1020012,
+    1020013,
+    1020014,
+    1020015,
+    1020016,
+    1020017,
+    1020018,
+    1020019,
+    1020020,
+    1020021,
+    1020022,
+    1020023,
+    1020024,
+    1020025,
+    1020026,
+    1020027,
+    1020028,
+    1020029,
+    1020030,
+    1020031,
+    1020032,
+    1020033,
+    1020034,
+    1020035,
+    1020036,
+    1020037,
+    1020038,
+    1020039,
+    1020040,
+    1020041,
+    1020042,
+    1020043,
+    1020044,
+    1020045,
+    1020046,
+    1020047,
+    1020048,
+    1020049,
+    1020050,
+    1020051,
+    1020052,
+    1020053,
+    1020054,
+    1020055,
+    1020056,
+    1020057,
+    1020058,
+    1020059,
+    1020060,
+    1020061,
+    1020062,
+    1020063,
+    1020064
+  ],
+  "replicates_per_cell": 8,
+  "preparation_horizon": 20.0,
+  "continuation_horizon": 80.0,
+  "post_seed_offset": 4000000,
+  "sample_dt": 2.0,
+  "arms": [
+    {
+      "produce_L": true,
+      "protect_R": true,
+      "copy_R": true
+    },
+    {
+      "produce_L": true,
+      "protect_R": false,
+      "copy_R": true
+    },
+    {
+      "produce_L": false,
+      "protect_R": true,
+      "copy_R": true
+    },
+    {
+      "produce_L": false,
+      "protect_R": false,
+      "copy_R": true
+    }
+  ],
+  "transport_modes": [
+    "local",
+    "mixed_L"
+  ],
+  "preparation_rule": "Each seed starts eight dispersed R0, zero L and58F. Local full P1B1 evolves for20; every resulting state enters all8branches without selection or replenishment.",
+  "branch_rule": "Identical material/fuel/tags/next_tag for every mode and flag. Reset only time, cumulative_heat, external_work,event_count. Transport graph changes only after local preparation.",
+  "reservoir_rule": "Uniform reversible W<->F exchange at every site, up=.9,down=.1,mu=E_F+theta*ln9; count reservoir work and bath heat on each jump.",
+  "mixing_control": "Mixed_L replaces L-containing NNswaps by all-pairs conservative exchanges with proposal mobility4M/(N-1), same H/Metropolis and endpoint-inclusive symmetric barrier. Matched proposal clocks, not accepted flux or R displacement. No mixed formation comparison.",
+  "primary_field": "integral_R",
+  "primary_contrasts": [
+    "production_effect_when_protected",
+    "production_protection_interaction",
+    "locality_effect_full"
+  ],
+  "selection_rule": "Choose one copy rate maximizing the minimum of the three paired primary mean/SE scores; ties choose lower copy rate. Retain all levels and signs; no extra tuning.",
+  "confirmation_rule": "64 fresh seeds at selected rate. Support joint claim only if ALL THREE paired primary approximate95percent normal intervals have lower endpoints strictly positive.",
+  "secondary_readouts": [
+    "integral_L",
+    "paid_L_births",
+    "passive_L_births",
+    "sampled_integral_RL_contacts",
+    "sampled_mean_RL_enrichment",
+    "final_spatial",
+    "paid_R_births_after_preparation_R_clearance",
+    "paid_L_births_after_preparation_L_clearance",
+    "chemical_work",
+    "heat_to_bath"
+  ],
+  "scope": "Driven finite-horizon contact maintenance. Initial material/fuel/H and reservoir/transport apparatus are supplied. Uniform drive is not a group reward; contact geometry and instance continuity do not establish enclosing boundaries, aging, functional memory, participant independence or individuality. Heat is not total entropy production; fuel/work ratios alone do not establish matched-function efficiency."
+}

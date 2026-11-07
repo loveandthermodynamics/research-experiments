@@ -1,0 +1,140 @@
+{
+  "params_before_mutation_override": {
+    "side": 8,
+    "theta": 0.7,
+    "epsilon_R": 8,
+    "epsilon_L": 8,
+    "E_F": 12,
+    "J_LL": 1.0,
+    "J_RL": 1.0,
+    "J_RR": 0.0,
+    "copy_rate": 0.12,
+    "production_rate": 0.08,
+    "passive_R": 0.12,
+    "passive_L": 0.04,
+    "material_mobility": 0.1,
+    "fuel_mobility": 0.2,
+    "protection_strength": 1.0,
+    "transport_protection_strength": 0.25,
+    "mutation": [
+      [
+        0.95,
+        0.05
+      ],
+      [
+        0.05,
+        0.95
+      ]
+    ],
+    "allele_passive_multipliers": [
+      1.0,
+      1.0
+    ],
+    "initial_templates": 8,
+    "initial_R1_fraction": 0.0,
+    "initial_fuel": null
+  },
+  "gateparams": {
+    "p_bad": [
+      0.08,
+      0.08
+    ],
+    "gamma": [
+      0.25,
+      0.25
+    ],
+    "bad_multiplier": [
+      40.0,
+      40.0
+    ],
+    "initial_gates": [
+      0,
+      0
+    ]
+  },
+  "seeds": [
+    148001,
+    148002,
+    148003,
+    148004,
+    148005,
+    148006,
+    148007,
+    148008,
+    148009,
+    148010,
+    148011,
+    148012,
+    148013,
+    148014,
+    148015,
+    148016,
+    148017,
+    148018,
+    148019,
+    148020,
+    148021,
+    148022,
+    148023,
+    148024,
+    148025,
+    148026,
+    148027,
+    148028,
+    148029,
+    148030,
+    148031,
+    148032,
+    148033,
+    148034,
+    148035,
+    148036,
+    148037,
+    148038,
+    148039,
+    148040,
+    148041,
+    148042,
+    148043,
+    148044,
+    148045,
+    148046,
+    148047,
+    148048,
+    148049,
+    148050,
+    148051,
+    148052,
+    148053,
+    148054,
+    148055,
+    148056,
+    148057,
+    148058,
+    148059,
+    148060,
+    148061,
+    148062,
+    148063,
+    148064
+  ],
+  "horizon": 120.0,
+  "copying_mutation_levels": [
+    0.0,
+    0.2
+  ],
+  "source_hashes": {
+    "interface_model.py": "08c5d9948e84d62ddc77a0265e5e91e805b2badf47bc516542a36fa918201927",
+    "autonomous_environment.py": "1cd3b7b6e24b657828cf50b29af7b8ae29bb24f7be4407c68f57389aefe80573",
+    "run_rate_test.py": "91ee816756a2d0b7675f4a7a4f6fc41498b4d4a948c89c07057b4552f91026fb",
+    "run_responses.py": "721c4f2fb52e1bcb661bfbea74b413677d60d5c20afad5cb5058941cf81c6867",
+    "run_interface.py": "4b6b446183f98d16595d23547dc41b4f05a9a42d894d9e6c06ab78080787b401",
+    "interface_readouts.py": "504360788ea120d8a0250dba03409887d10a04a4fe4b83b89bcf20eddc184cbd"
+  },
+  "prediction": "Increasing copying in every arm may allow the healthy response variant to replace itself during a hazard, overcoming its measured local subcriticality. Neighborhood and fuel opportunity remain endogenous and can defeat this prediction.",
+  "primary_contrasts": [
+    "paired response by variation interaction",
+    "absolute variation effect under differentiated hazards"
+  ],
+  "scope": "Mechanistically directed new regime after retaining original inconclusive confirmation. No parameter is changed only for the varied arm."
+}

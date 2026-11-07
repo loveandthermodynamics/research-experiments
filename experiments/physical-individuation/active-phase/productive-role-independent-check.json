@@ -1,0 +1,36 @@
+{
+  "checks_passed": true,
+  "microscopic_copy_pairs": 16,
+  "maximum_count_copy_log_LDB_error": 1.4654943925052066e-14,
+  "maximum_passive_count_log_LDB_error": 2.842170943040401e-14,
+  "ideal_parameter_fixtures": 192,
+  "maximum_fixed_point_residual": 1.4988010832439613e-15,
+  "maximum_transformed_jacobian_error": 5.329070518200751e-15,
+  "example": {
+    "x_equals_y": 0.9413943121207194,
+    "D": 0.11721137575856111,
+    "total_net_copy_current": 0.18822075483358558,
+    "chemical_power": 1.8822075483358558,
+    "eigenvalues": [
+      {
+        "real": -1.900557475463632,
+        "imaginary": 0.0
+      },
+      {
+        "real": -0.13720980063626237,
+        "imaginary": 0.08264651873771053
+      },
+      {
+        "real": -0.13720980063626237,
+        "imaginary": -0.08264651873771053
+      }
+    ]
+  },
+  "source_sha256": "eb63cfaa65aa4a2be42d6a99ca1951b1084d6d9d626c2f6a342d8271451b6788",
+  "author_files_sha256": {
+    "productive-roles-bridge.md": "a46f9cdaac0b9214ec14f9648e21afdcdda33198bcdad9f47f936de1e0c51e1b",
+    "verify_productive_roles.py": "c8926ecbe76ee5f2fc937918bcddea1a3e7ee8d24766e7ac57706d723ee50a47",
+    "productive-role-certificate.json": "73749e80d83265fed8bf82f57e2ad2b37ceca49b479300761985b7954320c86f"
+  },
+  "scope": "Independent finite-count Gibbs/rate check and ideal algebra evaluation only. No trajectory, spatial implementation, role-copying evolution, lineage persistence or diversity optimum is tested. The analytical stationary/finite-time balance bound is reviewed separately in prose."
+}

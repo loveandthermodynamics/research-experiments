@@ -1,0 +1,192 @@
+{
+  "study": "external_fixed_location_causal_support",
+  "stage": "fixed_confirmation",
+  "source_hashes": {
+    "run_causal_support.py": "affdb8c2950674186e104f6c08b77e415a0c255068d96177cbbf7faeda8e0e93",
+    "causal-support-design.md": "47a6615e5d8e24a26baccd3bafb4272d0c29c3068ac64c378afa4d23bcea6e55",
+    "cohort_support_readouts.py": "77849872b811dea43d94f174d9436dbfbd549beac9bd0a851d9471db6ecac491",
+    "prepare_lesion.py": "c3a1a1a7177411548f0bc552f98e5a8867144f9e4ffbf2468d07ee70ca51ea27",
+    "differentiated_model.py": "be3f7bb8f486176beaf18a8cde1200995dd21d4f7cc3d6e483075f81f8aa50ac",
+    "model-spec.md": "6a906e834e4c6821e80da996da9b06edc68977d57090758f5e3ccfa70f56ad3c",
+    "lineage_readouts.py": "da2c372cef52ad102fc13559009074cc0ad9084570083494e591d97d8b4e937f",
+    "../driven-spatial/driven_model.py": "3dd7b498f0f1b31739aa706966c220320e10aaecc31a68523ce4c1a0866b228f",
+    "../interface-maintenance/interface_model.py": "08c5d9948e84d62ddc77a0265e5e91e805b2badf47bc516542a36fa918201927"
+  },
+  "selected_parameter_protocol_file": "confirmation-protocol.json",
+  "selected_parameter_protocol_sha256": "521a05640259b464f55a0ae6b6537a64b4f306f3b64f9c80c11b74b43fb79cc6",
+  "params": {
+    "side": 8,
+    "theta": 0.7,
+    "epsilon_R": 8,
+    "epsilon_L": 8,
+    "E_F": 12,
+    "J_LL": 1,
+    "J_RL": 1,
+    "J_RR": 0,
+    "copy_rate": 0.028,
+    "production_rate": 0.04,
+    "passive_R": 0.12,
+    "passive_L": 0.08,
+    "material_mobility": 0.1,
+    "fuel_mobility": 0.2,
+    "protection_strength": 1,
+    "transport_protection_strength": 0.25,
+    "mutation": [
+      [
+        0.95,
+        0.05
+      ],
+      [
+        0.05,
+        0.95
+      ]
+    ],
+    "allele_passive_multipliers": [
+      1.0,
+      1.0
+    ],
+    "initial_templates": 8,
+    "initial_R1_fraction": 0.0,
+    "initial_fuel": 58
+  },
+  "drive": {
+    "exchange_rate": 1.0,
+    "fuel_probability": 0.9,
+    "mu": null
+  },
+  "response": {
+    "asymmetry": 0.8,
+    "flip_rate": 0.025,
+    "initial_gate": null
+  },
+  "flags": {
+    "produce_L": true,
+    "protect_R": true,
+    "copy_R": true
+  },
+  "seeds": [
+    1070001,
+    1070002,
+    1070003,
+    1070004,
+    1070005,
+    1070006,
+    1070007,
+    1070008,
+    1070009,
+    1070010,
+    1070011,
+    1070012,
+    1070013,
+    1070014,
+    1070015,
+    1070016,
+    1070017,
+    1070018,
+    1070019,
+    1070020,
+    1070021,
+    1070022,
+    1070023,
+    1070024,
+    1070025,
+    1070026,
+    1070027,
+    1070028,
+    1070029,
+    1070030,
+    1070031,
+    1070032,
+    1070033,
+    1070034,
+    1070035,
+    1070036,
+    1070037,
+    1070038,
+    1070039,
+    1070040,
+    1070041,
+    1070042,
+    1070043,
+    1070044,
+    1070045,
+    1070046,
+    1070047,
+    1070048,
+    1070049,
+    1070050,
+    1070051,
+    1070052,
+    1070053,
+    1070054,
+    1070055,
+    1070056,
+    1070057,
+    1070058,
+    1070059,
+    1070060,
+    1070061,
+    1070062,
+    1070063,
+    1070064
+  ],
+  "preparation_horizon": 100.0,
+  "continuation_horizon": 80.0,
+  "post_seed_offset": 3000000,
+  "sample_dt": 2.0,
+  "max_events": 5000000,
+  "max_gate_events": 1000000,
+  "preparation_response_mode": "opposed",
+  "transport_mode": "local",
+  "response_modes": [
+    "opposed",
+    "aligned"
+  ],
+  "lesions": [
+    "sham",
+    "near",
+    "remote"
+  ],
+  "selection": {
+    "near": "Periodic 2x2 square: maximum R count, then L count, then lexicographic top-left.",
+    "remote": "Disjoint 2x2 squares at periodic Manhattan center distance >=3: minimum absolute difference in initial total paid-L propensity; then larger distance; then lexicographic top-left.",
+    "minimum_periodic_manhattan_center_distance": 3.0,
+    "removed_fraction_near": "min(1, Hremote/Hnear)",
+    "removed_fraction_remote": "min(1, Hnear/Hremote)",
+    "matching": "Forward plus reverse initial total propensity only; not net current, strength, future flux or outcome.",
+    "unmatched": "Keep every preparation; absent templates, zero propensity or no eligible remote square gives two no-op lesions and an explicit flag."
+  },
+  "initial_state_policy": "Same realized material, fuel, instance tags, next_tag and gate in all six branches. Reset only time and cumulative heat/work/event counters; never reset physical gate or select successful preparations.",
+  "gate_pairing": "Same post seed origin+3000000 across all six arms; the independent autonomous gate clock has identical realized gate history.",
+  "primary_outcome": "outcome_integral_local_R",
+  "primary_region": "Near 2x2 square plus its periodic nearest-neighbor shell, frozen once per preparation.",
+  "primary_contrasts": [
+    "opposed_sham_minus_near",
+    "opposed_remote_minus_near"
+  ],
+  "primary_inference": {
+    "n": 64,
+    "degrees_freedom": 63,
+    "interval": "Two-sided t63 95% confidence interval for paired seed means.",
+    "joint_claim": "Both primary lower endpoints must be strictly positive. No outcome-dependent choice, filtering, pooling, extra scan or rescue endpoint."
+  },
+  "primary_bootstrap_sensitivity": {
+    "replicates": 10000,
+    "seed": 1080002,
+    "confidence": 0.95,
+    "resampling": "Paired seeds; one shared index matrix for both primary contrasts; numpy percentile quantiles with default linear interpolation.",
+    "rule": "Sensitivity only; cannot replace the declared two-sided t63 decision."
+  },
+  "named_secondary_contrasts": [
+    "remote_minus_near_response_interaction",
+    "sham_opposed_minus_aligned"
+  ],
+  "secondary_lineage": "Prepared near-square R instances and their paid-copy descendants, through backmutation; unrelated thermal births do not join. Track local/global counts, crossings, original-instance clearance and post-clearance copying. Ancestry does not enter rates.",
+  "cost_policy": "Retain the complete preparation and each continuation ledger. Report initial supplied inventory and stored H, preparation and branch chemical work/heat, and their totals. Initial resources are supplied; stored H is not distribution-level exergy. Shared reservoir parameters do not imply equal realized work.",
+  "fixture_scope": "Response-map and fixed-site paired-mobility changes are external counterfactual interventions. State/H remain unchanged, but apparatus construction, measurement and switching cost are excluded and not asserted to be zero.",
+  "supported_inference": "A positive joint result supports continuing production at these fixed nearby locations during this finite protocol, conditional on prepared states and supplied chemistry. It does not establish ownership, a self-bounded individual, organizational memory, aging, reproduction or ethical participant status.",
+  "expected_preparations": 64,
+  "expected_continuations": 384,
+  "history_directory": "causal-support",
+  "result_file": "causal-support-results.json"
+}

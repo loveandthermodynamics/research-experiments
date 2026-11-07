@@ -1,0 +1,44 @@
+{
+  "checkpoint": "Response Diversity and Physically Funded Regeneration",
+  "date": "2026-10-21",
+  "archive_integrity": "passed",
+  "unique_archive_entries": 19,
+  "all_archived_sources_match_manifest_and_current_files": true,
+  "page_uploaded_bundle_hash_matches": true,
+  "page_uploaded_figure_hash_matches": true,
+  "page_readback": {
+    "page_id": "[private publication identifier omitted]",
+    "url": "[private publication reference omitted]",
+    "title_matches": true,
+    "normalized_complete_body_matches": true,
+    "canonical_blocks": 82,
+    "main_headings": 10,
+    "tables": 2,
+    "images": 1,
+    "bundle_links": 1,
+    "figure_sha256": "7525be66e47adae97bdbdcdf13432cc5cd179eabd013c8121dad844fe47eb883",
+    "bundle_sha256": "5188a3c41c2d5a7ce559edb9acbb216646449320f70e9a4384cd361dce1e20fc"
+  },
+  "audits": {
+    "mathematics": "Passed with explicit conditions and independent reruns",
+    "physical_semantics": "Passed; common-reference exergy, heat bath and supplied chemistry limits explicit"
+  },
+  "numerical_checks": {
+    "renewal": "Exact recurrence, fuel and heat ledgers, finite-temperature exergy bound; independently rerun",
+    "contacts": "Detailed balance, fuel generator identity, common-reference exergy, time-grid refinement",
+    "chemistry": "Mass, energy and Gibbs identities, reciprocal material transfer, adverse controls; independently rerun",
+    "copying": "All 14 cases; local detailed balance, fuel and energy ledgers, entropy degeneracy, first-origin accounting, integration refinement; independently rerun"
+  },
+  "scope": "Conditional physical constructions; isolated research, no runtime or source essay changes.",
+  "remaining": [
+    "Unified local dynamics of copying, contact assembly and differentiated failure",
+    "Physical fission with persistent daughters and collective inheritance",
+    "Repeated individuation and further levels of organization",
+    "Heavy-tail scaling in the same physically funded model",
+    "Cosmic necessity or a universal biodiversity maximization theorem"
+  ],
+  "ongoing_experiments_outside_this_uploaded_checkpoint": [
+    "agent_lattice.py and its results, when available",
+    "agent_tail_bridge.md, when available"
+  ]
+}

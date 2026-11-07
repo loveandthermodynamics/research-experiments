@@ -1,0 +1,5462 @@
+{
+  "checks_passed": true,
+  "verifier_sha256": "639cd3c9f3a50381089885418034afe05c9671170155fde687e2f64c3029ac9a",
+  "physics_verifier_sha256": "c54f45e6d412eaa14d8c9b4db7b6e21582c2b6842ee36d1aef2e153e5c2f15fb",
+  "records": 128,
+  "events": 266638,
+  "samples": 6528,
+  "stages": [
+    {
+      "stage": "pilot",
+      "summary_file": "pilot-results.json",
+      "summary_sha256": "e9b1c414060af95265ae13f2afa1550bb362302d86bd286cb440cfdb41a5447a",
+      "protocol_file": "pilot-protocol.json",
+      "protocol_sha256": "c32e314f975c8d6cea22658a0f68c77eda02b5aeed1b5691392d55c69c9ee9c0",
+      "physical_records": 128,
+      "physical_events": 266638,
+      "samples_checked": 6528,
+      "complete_unfiltered_cells": true,
+      "matched_actual_gate_paths": true,
+      "matched_initial_states": true,
+      "matched_seed_setting_pairs": 32,
+      "fresh_confirmation": false,
+      "primary_results": [
+        {
+          "asymmetry": 0.5,
+          "flip_rate": 0.025,
+          "contrast": "response_effect_full_renewal",
+          "field": "integral_R",
+          "n": 8,
+          "mean": -342.7352410207299,
+          "monte_carlo_standard_error": 144.5099447219017,
+          "degrees_freedom": 7,
+          "t_95_interval": [
+            -684.4469609064713,
+            -1.0235211349884707
+          ]
+        },
+        {
+          "asymmetry": 0.5,
+          "flip_rate": 0.025,
+          "contrast": "response_by_production_interaction",
+          "field": "integral_R",
+          "n": 8,
+          "mean": -324.87111215987653,
+          "monte_carlo_standard_error": 167.93609322408196,
+          "degrees_freedom": 7,
+          "t_95_interval": [
+            -721.9768709152875,
+            72.23464659553434
+          ]
+        },
+        {
+          "asymmetry": 0.5,
+          "flip_rate": 0.1,
+          "contrast": "response_effect_full_renewal",
+          "field": "integral_R",
+          "n": 8,
+          "mean": -124.03382590595905,
+          "monte_carlo_standard_error": 103.9339695894208,
+          "degrees_freedom": 7,
+          "t_95_interval": [
+            -369.7986109614104,
+            121.73095914949232
+          ]
+        },
+        {
+          "asymmetry": 0.5,
+          "flip_rate": 0.1,
+          "contrast": "response_by_production_interaction",
+          "field": "integral_R",
+          "n": 8,
+          "mean": -187.0131341630636,
+          "monte_carlo_standard_error": 118.92063565185681,
+          "degrees_freedom": 7,
+          "t_95_interval": [
+            -468.21575324027367,
+            94.1894849141465
+          ]
+        },
+        {
+          "asymmetry": 0.8,
+          "flip_rate": 0.025,
+          "contrast": "response_effect_full_renewal",
+          "field": "integral_R",
+          "n": 8,
+          "mean": 128.02197233625427,
+          "monte_carlo_standard_error": 100.22914509930183,
+          "degrees_freedom": 7,
+          "t_95_interval": [
+            -108.98229488196694,
+            365.02623955447547
+          ]
+        },
+        {
+          "asymmetry": 0.8,
+          "flip_rate": 0.025,
+          "contrast": "response_by_production_interaction",
+          "field": "integral_R",
+          "n": 8,
+          "mean": 109.88633454126014,
+          "monte_carlo_standard_error": 130.2168173468882,
+          "degrees_freedom": 7,
+          "t_95_interval": [
+            -198.0275097224197,
+            417.80017880493995
+          ]
+        },
+        {
+          "asymmetry": 0.8,
+          "flip_rate": 0.1,
+          "contrast": "response_effect_full_renewal",
+          "field": "integral_R",
+          "n": 8,
+          "mean": -66.6400481239531,
+          "monte_carlo_standard_error": 193.09508037444832,
+          "degrees_freedom": 7,
+          "t_95_interval": [
+            -523.2373580406315,
+            389.9572617927253
+          ]
+        },
+        {
+          "asymmetry": 0.8,
+          "flip_rate": 0.1,
+          "contrast": "response_by_production_interaction",
+          "field": "integral_R",
+          "n": 8,
+          "mean": -177.21488574159983,
+          "monte_carlo_standard_error": 210.35581128152475,
+          "degrees_freedom": 7,
+          "t_95_interval": [
+            -674.6273385613683,
+            320.1975670781686
+          ]
+        }
+      ],
+      "selected_pilot_setting": null,
+      "declared_joint_claim_supported": null,
+      "final_zero_R": 56,
+      "no_focal_mutant_by_deadline": 76,
+      "focal_establishments_over_both_alleles": 12,
+      "focal_survivors": 6,
+      "focal_parents_without_initial_founder_ancestry": 0,
+      "independent_lifetime_graph_readouts_match": true,
+      "trajectories": [
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050001-opposed-p1.json.gz",
+          "trajectory_sha256": "75a10c6bc4b35d16c04190dbd5fc6b6b282be607beb4f893472c642ba60e0518",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2417,
+          "event_counts": {
+            "passive": 128,
+            "material_swap": 257,
+            "reservoir_exchange": 1321,
+            "copy_R": 59,
+            "produce_L": 78,
+            "fuel_swap": 569,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 135,
+          "internal_fuel_change": -137,
+          "initial_H": 760.0,
+          "final_H": 799.0,
+          "chemical_work": 1827.6377225582753,
+          "heat_to_bath": 1788.6377225582755,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050001-opposed-p0.json.gz",
+          "trajectory_sha256": "579c86a53978b030ebea3f11d4fbce166c2b0a3e8731b931176ee66edaa1112d",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1908,
+          "event_counts": {
+            "copy_R": 33,
+            "material_swap": 141,
+            "reservoir_exchange": 1180,
+            "fuel_swap": 512,
+            "passive": 37,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 30,
+          "internal_fuel_change": -33,
+          "initial_H": 760.0,
+          "final_H": 692.0,
+          "chemical_work": 406.14171612406034,
+          "heat_to_bath": 474.1417161240603,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050001-aligned-p1.json.gz",
+          "trajectory_sha256": "c3395c02ea1a99b951d35470128b7317ffce5874a6e00bf1ef3a1288bd5f8fc5",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2406,
+          "event_counts": {
+            "passive": 137,
+            "material_swap": 280,
+            "reservoir_exchange": 1290,
+            "copy_R": 58,
+            "produce_L": 102,
+            "fuel_swap": 534,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 160,
+          "internal_fuel_change": -160,
+          "initial_H": 760.0,
+          "final_H": 923.0,
+          "chemical_work": 2166.0891526616597,
+          "heat_to_bath": 2003.0891526616595,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050001-aligned-p0.json.gz",
+          "trajectory_sha256": "f862c6c9b0295e8397b831f131d6534dc1669eec07ba87adf7911d8ca61b7dcb",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2021,
+          "event_counts": {
+            "copy_R": 41,
+            "material_swap": 200,
+            "reservoir_exchange": 1225,
+            "fuel_swap": 501,
+            "passive": 49,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 39,
+          "internal_fuel_change": -41,
+          "initial_H": 760.0,
+          "final_H": 672.0,
+          "chemical_work": 527.9842309612784,
+          "heat_to_bath": 615.9842309612782,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050002-opposed-p1.json.gz",
+          "trajectory_sha256": "11e890b0edc0c7a94cb2d8573fdf6107688c6dedba72e0d2bd1baaefb98cb3b7",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2488,
+          "event_counts": {
+            "material_swap": 291,
+            "fuel_swap": 534,
+            "reservoir_exchange": 1304,
+            "produce_L": 101,
+            "copy_R": 78,
+            "gate_flip": 2,
+            "passive": 178
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 176,
+          "internal_fuel_change": -179,
+          "initial_H": 760.0,
+          "final_H": 728.0,
+          "chemical_work": 2382.698067927826,
+          "heat_to_bath": 2414.6980679278254,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050002-opposed-p0.json.gz",
+          "trajectory_sha256": "9a7ed1a1c4efd397f9889395965de67768163b29ecb9c8befb457ec7e6ea785f",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2062,
+          "event_counts": {
+            "fuel_swap": 451,
+            "material_swap": 243,
+            "reservoir_exchange": 1216,
+            "passive": 79,
+            "copy_R": 71,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 68,
+          "internal_fuel_change": -71,
+          "initial_H": 760.0,
+          "final_H": 660.0,
+          "chemical_work": 920.5878898812045,
+          "heat_to_bath": 1020.5878898812043,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050002-aligned-p1.json.gz",
+          "trajectory_sha256": "35c5bac816a10e88decfb4c339f8ea709e07d8498bf40cae7deeaa3f8d44609a",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2617,
+          "event_counts": {
+            "material_swap": 319,
+            "fuel_swap": 578,
+            "reservoir_exchange": 1311,
+            "produce_L": 112,
+            "copy_R": 102,
+            "gate_flip": 2,
+            "passive": 193
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 215,
+          "internal_fuel_change": -214,
+          "initial_H": 760.0,
+          "final_H": 921.0,
+          "chemical_work": 2910.682298889106,
+          "heat_to_bath": 2749.682298889106,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050002-aligned-p0.json.gz",
+          "trajectory_sha256": "53eb9804fcec7798f891c866f5f6d70c1de25fbb80ff961a58bcc1f0ad47434a",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2034,
+          "event_counts": {
+            "fuel_swap": 468,
+            "material_swap": 229,
+            "reservoir_exchange": 1221,
+            "passive": 61,
+            "copy_R": 53,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 53,
+          "internal_fuel_change": -53,
+          "initial_H": 760.0,
+          "final_H": 696.0,
+          "chemical_work": 717.5170318191738,
+          "heat_to_bath": 781.5170318191738,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050003-opposed-p1.json.gz",
+          "trajectory_sha256": "287ad36428a3e9703bcbecb2be7a5235e23fe5ab2afba4896da60da925375ca6",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1797,
+          "event_counts": {
+            "reservoir_exchange": 1099,
+            "fuel_swap": 479,
+            "material_swap": 118,
+            "passive": 49,
+            "produce_L": 35,
+            "copy_R": 15,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 55,
+          "internal_fuel_change": -50,
+          "initial_H": 760.0,
+          "final_H": 824.0,
+          "chemical_work": 744.5931462274445,
+          "heat_to_bath": 680.5931462274445,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050003-opposed-p0.json.gz",
+          "trajectory_sha256": "9b5122d1a136366be04d22de3985fb7c3d7c07788bd1e4cf2b093f513a4c97f0",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2184,
+          "event_counts": {
+            "reservoir_exchange": 1148,
+            "material_swap": 318,
+            "fuel_swap": 517,
+            "passive": 100,
+            "copy_R": 99,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 100,
+          "internal_fuel_change": -99,
+          "initial_H": 760.0,
+          "final_H": 764.0,
+          "chemical_work": 1353.8057204135368,
+          "heat_to_bath": 1349.8057204135366,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050003-aligned-p1.json.gz",
+          "trajectory_sha256": "9c1b64e2a8fd657079ac1b2d413dddec1b088ff89d8904a54d804c6ca2a10b5f",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2231,
+          "event_counts": {
+            "reservoir_exchange": 1191,
+            "fuel_swap": 538,
+            "material_swap": 205,
+            "passive": 137,
+            "produce_L": 97,
+            "copy_R": 61,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 147,
+          "internal_fuel_change": -158,
+          "initial_H": 760.0,
+          "final_H": 766.0,
+          "chemical_work": 1990.0944090078997,
+          "heat_to_bath": 1984.0944090078995,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050003-aligned-p0.json.gz",
+          "trajectory_sha256": "679034d490d50722e74592ce999cb37a0c5242c8b6c89b2f231a96a8780795cc",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2179,
+          "event_counts": {
+            "reservoir_exchange": 1172,
+            "material_swap": 311,
+            "fuel_swap": 506,
+            "passive": 96,
+            "copy_R": 92,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 90,
+          "internal_fuel_change": -92,
+          "initial_H": 760.0,
+          "final_H": 704.0,
+          "chemical_work": 1218.425148372183,
+          "heat_to_bath": 1274.4251483721825,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050004-opposed-p1.json.gz",
+          "trajectory_sha256": "cbc9058d6dbbaa7fc597a76ad23ead96e638951ab2bc0472e054e6655003006a",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1980,
+          "event_counts": {
+            "material_swap": 185,
+            "reservoir_exchange": 1182,
+            "passive": 60,
+            "produce_L": 43,
+            "fuel_swap": 482,
+            "copy_R": 27,
+            "gate_flip": 1
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 68,
+          "internal_fuel_change": -70,
+          "initial_H": 760.0,
+          "final_H": 802.0,
+          "chemical_work": 920.5878898812045,
+          "heat_to_bath": 878.5878898812041,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050004-opposed-p0.json.gz",
+          "trajectory_sha256": "a63c707e7fb9dab59ffb48aa77310ce6e1c9320f7ca00dfb144d522ae0c56310",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2472,
+          "event_counts": {
+            "fuel_swap": 571,
+            "reservoir_exchange": 1284,
+            "passive": 83,
+            "copy_R": 100,
+            "material_swap": 433,
+            "gate_flip": 1
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 100,
+          "internal_fuel_change": -100,
+          "initial_H": 760.0,
+          "final_H": 896.0,
+          "chemical_work": 1353.8057204135368,
+          "heat_to_bath": 1217.8057204135366,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050004-aligned-p1.json.gz",
+          "trajectory_sha256": "361f559e5aec29c550d64c7fb89801d41b0e559dd6e13fda0e9ab02ac81be48f",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2056,
+          "event_counts": {
+            "material_swap": 171,
+            "reservoir_exchange": 1245,
+            "passive": 57,
+            "produce_L": 46,
+            "fuel_swap": 507,
+            "copy_R": 29,
+            "gate_flip": 1
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 71,
+          "internal_fuel_change": -75,
+          "initial_H": 760.0,
+          "final_H": 833.0,
+          "chemical_work": 961.2020614936107,
+          "heat_to_bath": 888.2020614936107,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050004-aligned-p0.json.gz",
+          "trajectory_sha256": "1ccf8fc599dbc6ea4f75928d727e12645b56fe937b067b91443bcc24541c93ba",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2368,
+          "event_counts": {
+            "fuel_swap": 498,
+            "reservoir_exchange": 1196,
+            "passive": 89,
+            "copy_R": 107,
+            "material_swap": 477,
+            "gate_flip": 1
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 104,
+          "internal_fuel_change": -107,
+          "initial_H": 760.0,
+          "final_H": 884.0,
+          "chemical_work": 1407.9579492300784,
+          "heat_to_bath": 1283.9579492300782,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050005-opposed-p1.json.gz",
+          "trajectory_sha256": "1f9a73c7a210bf9d0c5a0ed97016b607a37b57de42d1467431bbaa0692b645ff",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2229,
+          "event_counts": {
+            "fuel_swap": 513,
+            "reservoir_exchange": 1279,
+            "produce_L": 58,
+            "material_swap": 227,
+            "copy_R": 48,
+            "passive": 99,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 107,
+          "internal_fuel_change": -106,
+          "initial_H": 760.0,
+          "final_H": 820.0,
+          "chemical_work": 1448.5721208424845,
+          "heat_to_bath": 1388.5721208424848,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050005-opposed-p0.json.gz",
+          "trajectory_sha256": "de58f1ddad6cf5b4cf37ca27c676906e97107dcb3940dd88319c9db2af8b0c27",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1929,
+          "event_counts": {
+            "fuel_swap": 472,
+            "reservoir_exchange": 1182,
+            "material_swap": 180,
+            "passive": 49,
+            "copy_R": 41,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 38,
+          "internal_fuel_change": -41,
+          "initial_H": 760.0,
+          "final_H": 660.0,
+          "chemical_work": 514.446173757143,
+          "heat_to_bath": 614.4461737571432,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050005-aligned-p1.json.gz",
+          "trajectory_sha256": "125e243dc4d8d56e78f65cedf2c49f798f0448de6bfc77a82c1570b41abd9656",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2586,
+          "event_counts": {
+            "fuel_swap": 581,
+            "reservoir_exchange": 1345,
+            "produce_L": 97,
+            "material_swap": 329,
+            "copy_R": 78,
+            "passive": 151,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 175,
+          "internal_fuel_change": -175,
+          "initial_H": 760.0,
+          "final_H": 922.0,
+          "chemical_work": 2369.1600107236904,
+          "heat_to_bath": 2207.1600107236904,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050005-aligned-p0.json.gz",
+          "trajectory_sha256": "1b1bedc98dcafb46373f04956c5c313b1b70756aeaafbdc6456e3101a97d3801",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1929,
+          "event_counts": {
+            "fuel_swap": 472,
+            "reservoir_exchange": 1182,
+            "material_swap": 180,
+            "passive": 49,
+            "copy_R": 41,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 38,
+          "internal_fuel_change": -41,
+          "initial_H": 760.0,
+          "final_H": 660.0,
+          "chemical_work": 514.446173757143,
+          "heat_to_bath": 614.4461737571432,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050006-opposed-p1.json.gz",
+          "trajectory_sha256": "83635ec42d8bafd5c509f1f9b62bb5c8e7475e652ebada6bf52172f759df989e",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1758,
+          "event_counts": {
+            "reservoir_exchange": 1215,
+            "produce_L": 11,
+            "fuel_swap": 464,
+            "passive": 26,
+            "copy_R": 7,
+            "material_swap": 33,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 17,
+          "internal_fuel_change": -18,
+          "initial_H": 760.0,
+          "final_H": 684.0,
+          "chemical_work": 230.14697247030102,
+          "heat_to_bath": 306.14697247030097,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050006-opposed-p0.json.gz",
+          "trajectory_sha256": "47a5b8498162946eddc87185dcf95e4960bdbac8e214afe53805859ba93ca2f0",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1605,
+          "event_counts": {
+            "reservoir_exchange": 1130,
+            "copy_R": 6,
+            "material_swap": 17,
+            "fuel_swap": 436,
+            "passive": 14,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 4,
+          "internal_fuel_change": -6,
+          "initial_H": 760.0,
+          "final_H": 672.0,
+          "chemical_work": 54.152228816541395,
+          "heat_to_bath": 142.15222881654142,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050006-aligned-p1.json.gz",
+          "trajectory_sha256": "fa43a0358d78cfbc4bba5a7f77c7d7fd49907209f00d0016cc7f33909902065f",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1668,
+          "event_counts": {
+            "reservoir_exchange": 1152,
+            "produce_L": 11,
+            "fuel_swap": 437,
+            "passive": 26,
+            "copy_R": 7,
+            "material_swap": 33,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 18,
+          "internal_fuel_change": -18,
+          "initial_H": 760.0,
+          "final_H": 696.0,
+          "chemical_work": 243.68502967443638,
+          "heat_to_bath": 307.6850296744363,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050006-aligned-p0.json.gz",
+          "trajectory_sha256": "6bab252e82bbd23d8738994470479bb95319290e624d937cc134d1c36f32b688",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1651,
+          "event_counts": {
+            "reservoir_exchange": 1185,
+            "copy_R": 3,
+            "material_swap": 10,
+            "fuel_swap": 440,
+            "passive": 11,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 3,
+          "internal_fuel_change": -3,
+          "initial_H": 760.0,
+          "final_H": 696.0,
+          "chemical_work": 40.614171612406054,
+          "heat_to_bath": 104.61417161240607,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050007-opposed-p1.json.gz",
+          "trajectory_sha256": "126359fc46f7eb723c0d0fcfcbb363371f23ab75007f09e9dcc39c294da443f8",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1718,
+          "event_counts": {
+            "fuel_swap": 441,
+            "material_swap": 64,
+            "produce_L": 14,
+            "gate_flip": 5,
+            "reservoir_exchange": 1160,
+            "passive": 28,
+            "copy_R": 6
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 20,
+          "internal_fuel_change": -20,
+          "initial_H": 760.0,
+          "final_H": 696.0,
+          "chemical_work": 270.76114408270706,
+          "heat_to_bath": 334.76114408270706,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050007-opposed-p0.json.gz",
+          "trajectory_sha256": "12e6936dfd9b3e1e62bd4fd961695b091f35ca441fcd2f932ae25515db600e94",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1654,
+          "event_counts": {
+            "reservoir_exchange": 1175,
+            "fuel_swap": 453,
+            "gate_flip": 5,
+            "material_swap": 9,
+            "copy_R": 2,
+            "passive": 10
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 3,
+          "internal_fuel_change": -2,
+          "initial_H": 760.0,
+          "final_H": 708.0,
+          "chemical_work": 40.61417161240607,
+          "heat_to_bath": 92.61417161240607,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050007-aligned-p1.json.gz",
+          "trajectory_sha256": "dd6291dc1068fa1f95eb61cae4013e78c3eaf8e75116bd9bd0e4c6ba7ea501d3",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1662,
+          "event_counts": {
+            "fuel_swap": 410,
+            "material_swap": 74,
+            "produce_L": 14,
+            "gate_flip": 5,
+            "reservoir_exchange": 1125,
+            "passive": 28,
+            "copy_R": 6
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 17,
+          "internal_fuel_change": -20,
+          "initial_H": 760.0,
+          "final_H": 660.0,
+          "chemical_work": 230.14697247030102,
+          "heat_to_bath": 330.1469724703011,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050007-aligned-p0.json.gz",
+          "trajectory_sha256": "c5527cd34408bdd0f7fc812cc409ee32261498745a790ab8cbdf10caaf211bf3",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1636,
+          "event_counts": {
+            "reservoir_exchange": 1161,
+            "fuel_swap": 449,
+            "gate_flip": 5,
+            "material_swap": 9,
+            "copy_R": 2,
+            "passive": 10
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 3,
+          "internal_fuel_change": -2,
+          "initial_H": 760.0,
+          "final_H": 708.0,
+          "chemical_work": 40.61417161240607,
+          "heat_to_bath": 92.61417161240607,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050008-opposed-p1.json.gz",
+          "trajectory_sha256": "1faa4775dee51647472f2c7a73fb39b55d64597ef8767512a24f24e55fe7d938",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1944,
+          "event_counts": {
+            "reservoir_exchange": 1167,
+            "fuel_swap": 479,
+            "material_swap": 167,
+            "passive": 60,
+            "produce_L": 43,
+            "copy_R": 24,
+            "gate_flip": 4
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 65,
+          "internal_fuel_change": -67,
+          "initial_H": 760.0,
+          "final_H": 784.0,
+          "chemical_work": 879.9737182687984,
+          "heat_to_bath": 855.9737182687986,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050008-opposed-p0.json.gz",
+          "trajectory_sha256": "8960b316fab211f28d50dbf366bfabbbfe2e7eff173aa918f84008dae498a91a",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1785,
+          "event_counts": {
+            "reservoir_exchange": 1140,
+            "fuel_swap": 485,
+            "material_swap": 106,
+            "passive": 29,
+            "copy_R": 21,
+            "gate_flip": 4
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 22,
+          "internal_fuel_change": -21,
+          "initial_H": 760.0,
+          "final_H": 708.0,
+          "chemical_work": 297.8372584909777,
+          "heat_to_bath": 349.83725849097766,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050008-aligned-p1.json.gz",
+          "trajectory_sha256": "8a371ad504da3af714b122e54af2c8e5943473b426958d464c9ac0841ae4a6b3",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2122,
+          "event_counts": {
+            "reservoir_exchange": 1246,
+            "fuel_swap": 502,
+            "material_swap": 202,
+            "passive": 69,
+            "produce_L": 60,
+            "copy_R": 39,
+            "gate_flip": 4
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 98,
+          "internal_fuel_change": -99,
+          "initial_H": 760.0,
+          "final_H": 945.0,
+          "chemical_work": 1326.729606005266,
+          "heat_to_bath": 1141.7296060052659,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.025-s1050008-aligned-p0.json.gz",
+          "trajectory_sha256": "512171922fecc924714a2d2012f4c7522f43fad0690162a7ac3e59de51d83aee",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1777,
+          "event_counts": {
+            "reservoir_exchange": 1138,
+            "fuel_swap": 481,
+            "material_swap": 104,
+            "passive": 29,
+            "copy_R": 21,
+            "gate_flip": 4
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 18,
+          "internal_fuel_change": -21,
+          "initial_H": 760.0,
+          "final_H": 660.0,
+          "chemical_work": 243.68502967443638,
+          "heat_to_bath": 343.6850296744364,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050001-opposed-p1.json.gz",
+          "trajectory_sha256": "b34fbaa802c4a1cacad5258a150ca09a5351d1de4a783fc76f1b7e0d28e77b2e",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2511,
+          "event_counts": {
+            "passive": 150,
+            "material_swap": 270,
+            "reservoir_exchange": 1348,
+            "copy_R": 73,
+            "produce_L": 98,
+            "fuel_swap": 559,
+            "gate_flip": 13
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 172,
+          "internal_fuel_change": -171,
+          "initial_H": 760.0,
+          "final_H": 915.0,
+          "chemical_work": 2328.5458391112843,
+          "heat_to_bath": 2173.5458391112843,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050001-opposed-p0.json.gz",
+          "trajectory_sha256": "db369994ee02fce1651a907b84320cb54af3108a6a2e254b01b82616435d630b",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1891,
+          "event_counts": {
+            "copy_R": 32,
+            "material_swap": 164,
+            "reservoir_exchange": 1184,
+            "fuel_swap": 458,
+            "passive": 40,
+            "gate_flip": 13
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 32,
+          "internal_fuel_change": -32,
+          "initial_H": 760.0,
+          "final_H": 696.0,
+          "chemical_work": 433.21783053233105,
+          "heat_to_bath": 497.2178305323309,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050001-aligned-p1.json.gz",
+          "trajectory_sha256": "9f7e5da9d1b4d4da33ec83981e4489cbef211320f6c2431dc2433884c2506833",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2628,
+          "event_counts": {
+            "passive": 175,
+            "material_swap": 341,
+            "reservoir_exchange": 1334,
+            "copy_R": 86,
+            "produce_L": 107,
+            "fuel_swap": 572,
+            "gate_flip": 13
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 192,
+          "internal_fuel_change": -193,
+          "initial_H": 760.0,
+          "final_H": 875.0,
+          "chemical_work": 2599.306983193992,
+          "heat_to_bath": 2484.306983193992,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050001-aligned-p0.json.gz",
+          "trajectory_sha256": "c0614054ecd81458e253247760d745c4b8908286284fc721d5e198571f1164e2",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1891,
+          "event_counts": {
+            "copy_R": 32,
+            "material_swap": 164,
+            "reservoir_exchange": 1184,
+            "fuel_swap": 458,
+            "passive": 40,
+            "gate_flip": 13
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 32,
+          "internal_fuel_change": -32,
+          "initial_H": 760.0,
+          "final_H": 696.0,
+          "chemical_work": 433.21783053233105,
+          "heat_to_bath": 497.2178305323309,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050002-opposed-p1.json.gz",
+          "trajectory_sha256": "8fae379aba444e273f2647882595a52d4b856617bf18727ceafc8cf1a9583d73",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2366,
+          "event_counts": {
+            "material_swap": 269,
+            "fuel_swap": 519,
+            "reservoir_exchange": 1278,
+            "produce_L": 94,
+            "gate_flip": 12,
+            "passive": 133,
+            "copy_R": 61
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 152,
+          "internal_fuel_change": -155,
+          "initial_H": 760.0,
+          "final_H": 870.0,
+          "chemical_work": 2057.7846950285766,
+          "heat_to_bath": 1947.7846950285766,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050002-opposed-p0.json.gz",
+          "trajectory_sha256": "d93ef00ee72f168fcac56bca002fc2ef7583c81030df90006b5185b6f0631174",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1653,
+          "event_counts": {
+            "fuel_swap": 467,
+            "material_swap": 40,
+            "reservoir_exchange": 1120,
+            "passive": 11,
+            "gate_flip": 12,
+            "copy_R": 3
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 4,
+          "internal_fuel_change": -3,
+          "initial_H": 760.0,
+          "final_H": 708.0,
+          "chemical_work": 54.15222881654141,
+          "heat_to_bath": 106.15222881654142,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050002-aligned-p1.json.gz",
+          "trajectory_sha256": "304005bca05fdbe84a4386fcff49081e0ac40f464b272cbd19e4fcd6bf2ae828",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2405,
+          "event_counts": {
+            "material_swap": 312,
+            "fuel_swap": 525,
+            "reservoir_exchange": 1250,
+            "produce_L": 97,
+            "gate_flip": 12,
+            "passive": 145,
+            "copy_R": 64
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 160,
+          "internal_fuel_change": -161,
+          "initial_H": 760.0,
+          "final_H": 856.0,
+          "chemical_work": 2166.0891526616597,
+          "heat_to_bath": 2070.0891526616597,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050002-aligned-p0.json.gz",
+          "trajectory_sha256": "f9e4a724755e37d17e993f5372fab433cbac01a800e19ac3ae0962f7ae80d1f5",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1653,
+          "event_counts": {
+            "fuel_swap": 467,
+            "material_swap": 40,
+            "reservoir_exchange": 1120,
+            "passive": 11,
+            "gate_flip": 12,
+            "copy_R": 3
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 4,
+          "internal_fuel_change": -3,
+          "initial_H": 760.0,
+          "final_H": 708.0,
+          "chemical_work": 54.15222881654141,
+          "heat_to_bath": 106.15222881654142,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050003-opposed-p1.json.gz",
+          "trajectory_sha256": "62295a1664a8c0597103196d7cd4cf309c15bf5348a73f42be365559092ff30f",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2154,
+          "event_counts": {
+            "reservoir_exchange": 1188,
+            "fuel_swap": 522,
+            "material_swap": 203,
+            "passive": 110,
+            "produce_L": 74,
+            "gate_flip": 13,
+            "copy_R": 44
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 118,
+          "internal_fuel_change": -118,
+          "initial_H": 760.0,
+          "final_H": 805.0,
+          "chemical_work": 1597.4907500879738,
+          "heat_to_bath": 1552.4907500879735,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050003-opposed-p0.json.gz",
+          "trajectory_sha256": "270b242e820089530c49f61caa4a6fd168fedfb934b2f8c9e9aff80b15f617e0",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1807,
+          "event_counts": {
+            "reservoir_exchange": 1084,
+            "material_swap": 132,
+            "fuel_swap": 498,
+            "passive": 44,
+            "gate_flip": 13,
+            "copy_R": 36
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 30,
+          "internal_fuel_change": -36,
+          "initial_H": 760.0,
+          "final_H": 624.0,
+          "chemical_work": 406.1417161240604,
+          "heat_to_bath": 542.1417161240597,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050003-aligned-p1.json.gz",
+          "trajectory_sha256": "b67773576fdb60d7a7ed6ce261ef712efb25fd03a8a01de1b2b08e2aaa8d8d5a",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2466,
+          "event_counts": {
+            "reservoir_exchange": 1259,
+            "fuel_swap": 566,
+            "material_swap": 281,
+            "passive": 162,
+            "produce_L": 106,
+            "gate_flip": 13,
+            "copy_R": 79
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 185,
+          "internal_fuel_change": -185,
+          "initial_H": 760.0,
+          "final_H": 923.0,
+          "chemical_work": 2504.5405827650443,
+          "heat_to_bath": 2341.5405827650443,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050003-aligned-p0.json.gz",
+          "trajectory_sha256": "16b7830f85163a98803719783c508ff3490c31b7e1a293143fdd92e66a47b4ac",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1740,
+          "event_counts": {
+            "reservoir_exchange": 1128,
+            "material_swap": 82,
+            "fuel_swap": 463,
+            "passive": 31,
+            "gate_flip": 13,
+            "copy_R": 23
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 26,
+          "internal_fuel_change": -23,
+          "initial_H": 760.0,
+          "final_H": 732.0,
+          "chemical_work": 351.989487307519,
+          "heat_to_bath": 379.989487307519,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050004-opposed-p1.json.gz",
+          "trajectory_sha256": "86367882be1e3d377884eea28f4f950fc3872536e53403283073dae3020e66b1",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2481,
+          "event_counts": {
+            "material_swap": 318,
+            "reservoir_exchange": 1251,
+            "passive": 168,
+            "produce_L": 126,
+            "fuel_swap": 541,
+            "gate_flip": 8,
+            "copy_R": 69
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 195,
+          "internal_fuel_change": -195,
+          "initial_H": 760.0,
+          "final_H": 936.0,
+          "chemical_work": 2639.921154806398,
+          "heat_to_bath": 2463.9211548063977,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050004-opposed-p0.json.gz",
+          "trajectory_sha256": "f87cbd11718b6f90ecd488fae2f82d46a2782401468cea6744dbca086f04a006",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1954,
+          "event_counts": {
+            "fuel_swap": 511,
+            "reservoir_exchange": 1193,
+            "passive": 41,
+            "gate_flip": 8,
+            "copy_R": 33,
+            "material_swap": 168
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 37,
+          "internal_fuel_change": -33,
+          "initial_H": 760.0,
+          "final_H": 744.0,
+          "chemical_work": 500.9081165530077,
+          "heat_to_bath": 516.9081165530077,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050004-aligned-p1.json.gz",
+          "trajectory_sha256": "d2606cb381609a2122941dca9afcd66294c0740abd9e62a1bd584a3257dd929f",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2543,
+          "event_counts": {
+            "material_swap": 323,
+            "reservoir_exchange": 1273,
+            "passive": 161,
+            "produce_L": 122,
+            "fuel_swap": 592,
+            "gate_flip": 8,
+            "copy_R": 64
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 187,
+          "internal_fuel_change": -186,
+          "initial_H": 760.0,
+          "final_H": 929.0,
+          "chemical_work": 2531.616697173315,
+          "heat_to_bath": 2362.616697173315,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050004-aligned-p0.json.gz",
+          "trajectory_sha256": "00cb550a9e327c581aabbff9e0c77fe620a0a7574b7e01b275d9c4a9fa4f22a7",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2021,
+          "event_counts": {
+            "fuel_swap": 525,
+            "reservoir_exchange": 1244,
+            "passive": 40,
+            "gate_flip": 8,
+            "copy_R": 32,
+            "material_swap": 172
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 28,
+          "internal_fuel_change": -32,
+          "initial_H": 760.0,
+          "final_H": 648.0,
+          "chemical_work": 379.0656017157897,
+          "heat_to_bath": 491.0656017157897,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050005-opposed-p1.json.gz",
+          "trajectory_sha256": "f9f01195d26b3b31a62d2c01ea1640d55dc83251769b58640d289c28f3f33ea6",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2067,
+          "event_counts": {
+            "fuel_swap": 528,
+            "reservoir_exchange": 1317,
+            "produce_L": 22,
+            "material_swap": 129,
+            "copy_R": 15,
+            "passive": 45,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 39,
+          "internal_fuel_change": -37,
+          "initial_H": 760.0,
+          "final_H": 720.0,
+          "chemical_work": 527.9842309612784,
+          "heat_to_bath": 567.9842309612787,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050005-opposed-p0.json.gz",
+          "trajectory_sha256": "d2d79e12573bb39c11de41ecb375e6606c9919752f668e51bfcdf446518fd2d9",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1836,
+          "event_counts": {
+            "fuel_swap": 459,
+            "reservoir_exchange": 1237,
+            "material_swap": 83,
+            "passive": 27,
+            "copy_R": 19,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 19,
+          "internal_fuel_change": -19,
+          "initial_H": 760.0,
+          "final_H": 696.0,
+          "chemical_work": 257.22308687857173,
+          "heat_to_bath": 321.22308687857173,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050005-aligned-p1.json.gz",
+          "trajectory_sha256": "b467b1fe2c042929dacab4ce6caba82c237bf98750edc5f8bb072bba22c6e496",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2067,
+          "event_counts": {
+            "fuel_swap": 528,
+            "reservoir_exchange": 1317,
+            "produce_L": 22,
+            "material_swap": 129,
+            "copy_R": 15,
+            "passive": 45,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 39,
+          "internal_fuel_change": -37,
+          "initial_H": 760.0,
+          "final_H": 720.0,
+          "chemical_work": 527.9842309612784,
+          "heat_to_bath": 567.9842309612787,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050005-aligned-p0.json.gz",
+          "trajectory_sha256": "2429752f46826bba3b98526735f60061efe905f918404652f4d0df8c7df18540",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1879,
+          "event_counts": {
+            "fuel_swap": 476,
+            "reservoir_exchange": 1256,
+            "material_swap": 86,
+            "passive": 29,
+            "copy_R": 21,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 22,
+          "internal_fuel_change": -21,
+          "initial_H": 760.0,
+          "final_H": 708.0,
+          "chemical_work": 297.8372584909777,
+          "heat_to_bath": 349.8372584909777,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050006-opposed-p1.json.gz",
+          "trajectory_sha256": "108424555bd62ac7a587614c4bdd1fdad1156d5efb04f7e5ab4e60939be6fc89",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1920,
+          "event_counts": {
+            "reservoir_exchange": 1191,
+            "produce_L": 43,
+            "fuel_swap": 466,
+            "passive": 66,
+            "copy_R": 20,
+            "material_swap": 123,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 65,
+          "internal_fuel_change": -63,
+          "initial_H": 760.0,
+          "final_H": 759.0,
+          "chemical_work": 879.9737182687984,
+          "heat_to_bath": 880.9737182687985,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050006-opposed-p0.json.gz",
+          "trajectory_sha256": "e9286c4f52d09ea969ac95a4e934341157021c7a427e0f0618145379fc789d52",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1688,
+          "event_counts": {
+            "reservoir_exchange": 1103,
+            "copy_R": 24,
+            "material_swap": 99,
+            "fuel_swap": 419,
+            "passive": 32,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 23,
+          "internal_fuel_change": -24,
+          "initial_H": 760.0,
+          "final_H": 684.0,
+          "chemical_work": 311.37531569511304,
+          "heat_to_bath": 387.37531569511304,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050006-aligned-p1.json.gz",
+          "trajectory_sha256": "5cab4cafb3b8bc87f0b625bfd81e30f7ab760123fd5fcf8a75a53eefb2dc5709",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1874,
+          "event_counts": {
+            "reservoir_exchange": 1177,
+            "produce_L": 38,
+            "fuel_swap": 468,
+            "passive": 60,
+            "copy_R": 19,
+            "material_swap": 101,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 55,
+          "internal_fuel_change": -57,
+          "initial_H": 760.0,
+          "final_H": 707.0,
+          "chemical_work": 744.5931462274445,
+          "heat_to_bath": 797.5931462274447,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050006-aligned-p0.json.gz",
+          "trajectory_sha256": "071ae92f63fcc31183a3d2acc53ad5cdd4b2e34232a8d8545f8943a7c11afa7f",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1595,
+          "event_counts": {
+            "reservoir_exchange": 1126,
+            "copy_R": 2,
+            "material_swap": 13,
+            "fuel_swap": 433,
+            "passive": 10,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 4,
+          "internal_fuel_change": -2,
+          "initial_H": 760.0,
+          "final_H": 720.0,
+          "chemical_work": 54.15222881654141,
+          "heat_to_bath": 94.15222881654142,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050007-opposed-p1.json.gz",
+          "trajectory_sha256": "cea62e462ccd2170e80e5aaae2d9ea037036ecb23536b38a9f0ad4447e5376a2",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2069,
+          "event_counts": {
+            "gate_flip": 18,
+            "reservoir_exchange": 1247,
+            "fuel_swap": 485,
+            "material_swap": 180,
+            "produce_L": 45,
+            "copy_R": 27,
+            "passive": 67
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 73,
+          "internal_fuel_change": -72,
+          "initial_H": 760.0,
+          "final_H": 805.0,
+          "chemical_work": 988.2781759018815,
+          "heat_to_bath": 943.2781759018816,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050007-opposed-p0.json.gz",
+          "trajectory_sha256": "c2c082cf7e9222aca1f6af79fa1b87dd770630114f88d7b44d0e301af5ad5775",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2180,
+          "event_counts": {
+            "gate_flip": 18,
+            "reservoir_exchange": 1269,
+            "material_swap": 271,
+            "fuel_swap": 487,
+            "passive": 70,
+            "copy_R": 65
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 61,
+          "internal_fuel_change": -65,
+          "initial_H": 760.0,
+          "final_H": 672.0,
+          "chemical_work": 825.8214894522569,
+          "heat_to_bath": 913.821489452257,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050007-aligned-p1.json.gz",
+          "trajectory_sha256": "f5e99f3f8800d419f5f7d9a6d87bde36d452fa9ab3d2e594d7d52c1831fe04ae",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2014,
+          "event_counts": {
+            "gate_flip": 18,
+            "reservoir_exchange": 1222,
+            "fuel_swap": 471,
+            "material_swap": 168,
+            "produce_L": 41,
+            "copy_R": 24,
+            "passive": 70
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 68,
+          "internal_fuel_change": -65,
+          "initial_H": 760.0,
+          "final_H": 756.0,
+          "chemical_work": 920.5878898812045,
+          "heat_to_bath": 924.5878898812047,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050007-aligned-p0.json.gz",
+          "trajectory_sha256": "5a57b46196c9fd4050f1f9bc4382f3319e2a07190271f33e12cfa9efef52a81e",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2098,
+          "event_counts": {
+            "gate_flip": 18,
+            "reservoir_exchange": 1251,
+            "material_swap": 213,
+            "fuel_swap": 493,
+            "passive": 66,
+            "copy_R": 57
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 55,
+          "internal_fuel_change": -57,
+          "initial_H": 760.0,
+          "final_H": 680.0,
+          "chemical_work": 744.5931462274445,
+          "heat_to_bath": 824.5931462274448,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050008-opposed-p1.json.gz",
+          "trajectory_sha256": "e531235ad9bec4b2cd717df74125987b613e6d3d6d36ad71d309a4739ced22cd",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1838,
+          "event_counts": {
+            "reservoir_exchange": 1148,
+            "fuel_swap": 473,
+            "material_swap": 120,
+            "passive": 48,
+            "produce_L": 24,
+            "copy_R": 17,
+            "gate_flip": 8
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 42,
+          "internal_fuel_change": -41,
+          "initial_H": 760.0,
+          "final_H": 716.0,
+          "chemical_work": 568.5984025736846,
+          "heat_to_bath": 612.5984025736848,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050008-opposed-p0.json.gz",
+          "trajectory_sha256": "7edcde9a8a8f02f7730f3787a839ca1041f963aaab80e1e0c780ac34b2c176fb",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1942,
+          "event_counts": {
+            "reservoir_exchange": 1203,
+            "fuel_swap": 537,
+            "material_swap": 120,
+            "passive": 41,
+            "copy_R": 33,
+            "gate_flip": 8
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 35,
+          "internal_fuel_change": -33,
+          "initial_H": 760.0,
+          "final_H": 720.0,
+          "chemical_work": 473.832002144737,
+          "heat_to_bath": 513.8320021447371,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050008-aligned-p1.json.gz",
+          "trajectory_sha256": "a6479f2ea026ff3b579908851e9a3bd8fbceff8767b0de9306a4187647f81f02",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1900,
+          "event_counts": {
+            "reservoir_exchange": 1138,
+            "fuel_swap": 438,
+            "material_swap": 175,
+            "passive": 70,
+            "produce_L": 44,
+            "copy_R": 27,
+            "gate_flip": 8
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 66,
+          "internal_fuel_change": -71,
+          "initial_H": 760.0,
+          "final_H": 706.0,
+          "chemical_work": 893.5117754729338,
+          "heat_to_bath": 947.5117754729338,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.50-k0.100-s1050008-aligned-p0.json.gz",
+          "trajectory_sha256": "47ac99ef30aba3341f2764d698583b3e14b07621e194d10561b86fe51304b163",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.5,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1942,
+          "event_counts": {
+            "reservoir_exchange": 1203,
+            "fuel_swap": 537,
+            "material_swap": 120,
+            "passive": 41,
+            "copy_R": 33,
+            "gate_flip": 8
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 35,
+          "internal_fuel_change": -33,
+          "initial_H": 760.0,
+          "final_H": 720.0,
+          "chemical_work": 473.832002144737,
+          "heat_to_bath": 513.8320021447371,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050001-opposed-p1.json.gz",
+          "trajectory_sha256": "614fe8cdaafd500a5b1ec6b6475d2df14d6c92f5a92de41c3459f45d2a271067",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2756,
+          "event_counts": {
+            "copy_R": 98,
+            "fuel_swap": 649,
+            "reservoir_exchange": 1389,
+            "produce_L": 107,
+            "material_swap": 333,
+            "passive": 175,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 205,
+          "internal_fuel_change": -205,
+          "initial_H": 760.0,
+          "final_H": 960.0,
+          "chemical_work": 2775.301726847752,
+          "heat_to_bath": 2575.301726847752,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050001-opposed-p0.json.gz",
+          "trajectory_sha256": "bec92c7251ca33ba97f82f7969b0a62798634c1bf0fe1d45a77d40100f3e392a",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2382,
+          "event_counts": {
+            "copy_R": 100,
+            "fuel_swap": 499,
+            "reservoir_exchange": 1225,
+            "material_swap": 450,
+            "passive": 103,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 101,
+          "internal_fuel_change": -100,
+          "initial_H": 760.0,
+          "final_H": 748.0,
+          "chemical_work": 1367.3437776176722,
+          "heat_to_bath": 1379.343777617672,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050001-aligned-p1.json.gz",
+          "trajectory_sha256": "6a50774b3f01ad3220405c035e036d619f74ed6848b889802b4a19b4d1835a41",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2636,
+          "event_counts": {
+            "copy_R": 83,
+            "fuel_swap": 600,
+            "reservoir_exchange": 1333,
+            "passive": 160,
+            "produce_L": 107,
+            "material_swap": 348,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 187,
+          "internal_fuel_change": -190,
+          "initial_H": 760.0,
+          "final_H": 938.0,
+          "chemical_work": 2531.616697173315,
+          "heat_to_bath": 2353.616697173315,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050001-aligned-p0.json.gz",
+          "trajectory_sha256": "d260012459cb54e97a1c83ac5966c014bb062c179c6b72d0c46365d8998ef1d2",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2335,
+          "event_counts": {
+            "copy_R": 94,
+            "fuel_swap": 523,
+            "reservoir_exchange": 1227,
+            "material_swap": 393,
+            "passive": 93,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 93,
+          "internal_fuel_change": -94,
+          "initial_H": 760.0,
+          "final_H": 756.0,
+          "chemical_work": 1259.0393199845892,
+          "heat_to_bath": 1263.0393199845887,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050002-opposed-p1.json.gz",
+          "trajectory_sha256": "44be68d11d0434faecae73fc19d3d343fe95527e1fbccfe2cd6f7af8a8dcc674",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2573,
+          "event_counts": {
+            "fuel_swap": 565,
+            "reservoir_exchange": 1317,
+            "copy_R": 77,
+            "material_swap": 313,
+            "passive": 170,
+            "gate_flip": 2,
+            "produce_L": 129
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 205,
+          "internal_fuel_change": -206,
+          "initial_H": 760.0,
+          "final_H": 985.0,
+          "chemical_work": 2775.301726847752,
+          "heat_to_bath": 2550.301726847752,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050002-opposed-p0.json.gz",
+          "trajectory_sha256": "634308da712034428da0b6bca7ad0c4636d7500f0dd1482b35c5acf39767f2e0",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2423,
+          "event_counts": {
+            "material_swap": 395,
+            "reservoir_exchange": 1276,
+            "fuel_swap": 532,
+            "copy_R": 114,
+            "passive": 104,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 114,
+          "internal_fuel_change": -114,
+          "initial_H": 760.0,
+          "final_H": 840.0,
+          "chemical_work": 1543.3385212714322,
+          "heat_to_bath": 1463.3385212714315,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050002-aligned-p1.json.gz",
+          "trajectory_sha256": "0c81e594095d4a7fcf50165cc8819a744f49bd5200d6be28dbeea2a005bcbacb",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2500,
+          "event_counts": {
+            "fuel_swap": 551,
+            "reservoir_exchange": 1291,
+            "copy_R": 65,
+            "material_swap": 294,
+            "passive": 176,
+            "gate_flip": 2,
+            "produce_L": 121
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 183,
+          "internal_fuel_change": -186,
+          "initial_H": 760.0,
+          "final_H": 788.0,
+          "chemical_work": 2477.4644683567735,
+          "heat_to_bath": 2449.464468356773,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050002-aligned-p0.json.gz",
+          "trajectory_sha256": "644dd3c041411ac087227da1e9d87f6231d0b5d020c545269b37eaa2993e7b1e",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2260,
+          "event_counts": {
+            "material_swap": 467,
+            "reservoir_exchange": 1157,
+            "fuel_swap": 438,
+            "copy_R": 94,
+            "passive": 102,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 97,
+          "internal_fuel_change": -94,
+          "initial_H": 760.0,
+          "final_H": 732.0,
+          "chemical_work": 1313.1915488011307,
+          "heat_to_bath": 1341.19154880113,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050003-opposed-p1.json.gz",
+          "trajectory_sha256": "3156a0f89054588c1452941d280ae8e66810de155a22a38102a6db3196feaa1f",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2397,
+          "event_counts": {
+            "reservoir_exchange": 1221,
+            "fuel_swap": 555,
+            "material_swap": 293,
+            "passive": 149,
+            "produce_L": 93,
+            "copy_R": 84,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 173,
+          "internal_fuel_change": -177,
+          "initial_H": 760.0,
+          "final_H": 911.0,
+          "chemical_work": 2342.0838963154197,
+          "heat_to_bath": 2191.083896315419,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050003-opposed-p0.json.gz",
+          "trajectory_sha256": "0569c58a66abb3f4854dac4b029fa481a22ecea8d3c8db947e965fd0e004db6b",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2297,
+          "event_counts": {
+            "reservoir_exchange": 1140,
+            "fuel_swap": 483,
+            "material_swap": 435,
+            "passive": 119,
+            "copy_R": 118,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 114,
+          "internal_fuel_change": -118,
+          "initial_H": 760.0,
+          "final_H": 704.0,
+          "chemical_work": 1543.3385212714322,
+          "heat_to_bath": 1599.3385212714318,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050003-aligned-p1.json.gz",
+          "trajectory_sha256": "e1b4cf20cb8ee82ad19b5dd735c3e2575ae491c93082af5456318e33fca0f650",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2454,
+          "event_counts": {
+            "reservoir_exchange": 1251,
+            "fuel_swap": 562,
+            "material_swap": 313,
+            "passive": 149,
+            "produce_L": 98,
+            "copy_R": 79,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 175,
+          "internal_fuel_change": -177,
+          "initial_H": 760.0,
+          "final_H": 931.0,
+          "chemical_work": 2369.1600107236904,
+          "heat_to_bath": 2198.16001072369,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050003-aligned-p0.json.gz",
+          "trajectory_sha256": "68fc2fb20cfd87a45099edb755f9607b283e2e6b5916209a5486a7ea7a6f7469",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2197,
+          "event_counts": {
+            "reservoir_exchange": 1136,
+            "fuel_swap": 494,
+            "material_swap": 363,
+            "passive": 103,
+            "copy_R": 99,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 102,
+          "internal_fuel_change": -99,
+          "initial_H": 760.0,
+          "final_H": 764.0,
+          "chemical_work": 1380.8818348218076,
+          "heat_to_bath": 1376.8818348218072,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050004-opposed-p1.json.gz",
+          "trajectory_sha256": "dfd2c346dbb7ca6b29936ff89b55f8a6f3e8a751668d74897ee30e34a068d60e",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2199,
+          "event_counts": {
+            "material_swap": 260,
+            "reservoir_exchange": 1221,
+            "passive": 84,
+            "fuel_swap": 508,
+            "copy_R": 52,
+            "gate_flip": 1,
+            "produce_L": 73
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 119,
+          "internal_fuel_change": -125,
+          "initial_H": 760.0,
+          "final_H": 975.0,
+          "chemical_work": 1611.0288072921091,
+          "heat_to_bath": 1396.0288072921087,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050004-opposed-p0.json.gz",
+          "trajectory_sha256": "22f2c0e6be31b93907fda6a41531d7a20890ab7657f216dc2190b934810a6656",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2419,
+          "event_counts": {
+            "fuel_swap": 538,
+            "reservoir_exchange": 1189,
+            "copy_R": 113,
+            "passive": 75,
+            "material_swap": 503,
+            "gate_flip": 1
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 115,
+          "internal_fuel_change": -113,
+          "initial_H": 760.0,
+          "final_H": 1088.0,
+          "chemical_work": 1556.8765784755676,
+          "heat_to_bath": 1228.8765784755674,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050004-aligned-p1.json.gz",
+          "trajectory_sha256": "5255838135ddf988ace461796abdeaa358a0ffbffc4368207fcca7d030bc2d28",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2208,
+          "event_counts": {
+            "material_swap": 230,
+            "reservoir_exchange": 1233,
+            "passive": 82,
+            "fuel_swap": 540,
+            "copy_R": 54,
+            "gate_flip": 1,
+            "produce_L": 68
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 117,
+          "internal_fuel_change": -122,
+          "initial_H": 760.0,
+          "final_H": 993.0,
+          "chemical_work": 1583.9526928838384,
+          "heat_to_bath": 1350.952692883838,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050004-aligned-p0.json.gz",
+          "trajectory_sha256": "1759e826bf128df50a23412ee12d726c12b961a6b88e089098077b083f07200d",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2651,
+          "event_counts": {
+            "fuel_swap": 584,
+            "reservoir_exchange": 1264,
+            "copy_R": 116,
+            "passive": 78,
+            "material_swap": 608,
+            "gate_flip": 1
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 112,
+          "internal_fuel_change": -116,
+          "initial_H": 760.0,
+          "final_H": 1032.0,
+          "chemical_work": 1516.2624068631615,
+          "heat_to_bath": 1244.2624068631608,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050005-opposed-p1.json.gz",
+          "trajectory_sha256": "f0264b1eb1ac513ed11fb7ba24542ec9a92417c3ce56a7f70814f91d3d9f135a",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2313,
+          "event_counts": {
+            "fuel_swap": 506,
+            "reservoir_exchange": 1220,
+            "material_swap": 292,
+            "copy_R": 71,
+            "produce_L": 83,
+            "passive": 136,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 150,
+          "internal_fuel_change": -154,
+          "initial_H": 760.0,
+          "final_H": 837.0,
+          "chemical_work": 2030.7085806203058,
+          "heat_to_bath": 1953.7085806203056,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050005-opposed-p0.json.gz",
+          "trajectory_sha256": "f6f70a9ab751e0f701708a436ea959312f7df0937c7835641a985f973c35daf5",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1882,
+          "event_counts": {
+            "material_swap": 178,
+            "reservoir_exchange": 1166,
+            "fuel_swap": 457,
+            "copy_R": 34,
+            "passive": 42,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 32,
+          "internal_fuel_change": -34,
+          "initial_H": 760.0,
+          "final_H": 672.0,
+          "chemical_work": 433.21783053233105,
+          "heat_to_bath": 521.2178305323312,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050005-aligned-p1.json.gz",
+          "trajectory_sha256": "0f7c975bcadc90868aba701b0d853a861bb1bfc9ea4c65adeb2b495a56ce2005",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2409,
+          "event_counts": {
+            "fuel_swap": 554,
+            "reservoir_exchange": 1269,
+            "material_swap": 296,
+            "copy_R": 73,
+            "produce_L": 88,
+            "passive": 124,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 159,
+          "internal_fuel_change": -161,
+          "initial_H": 760.0,
+          "final_H": 976.0,
+          "chemical_work": 2152.5510954575243,
+          "heat_to_bath": 1936.551095457524,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050005-aligned-p0.json.gz",
+          "trajectory_sha256": "8a5b32891fdf00f00daa90685ca66d0861299ea91552247d2c359138a0a4a53f",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1812,
+          "event_counts": {
+            "material_swap": 180,
+            "reservoir_exchange": 1127,
+            "fuel_swap": 422,
+            "copy_R": 35,
+            "passive": 43,
+            "gate_flip": 5
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 37,
+          "internal_fuel_change": -35,
+          "initial_H": 760.0,
+          "final_H": 720.0,
+          "chemical_work": 500.9081165530077,
+          "heat_to_bath": 540.9081165530076,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050006-opposed-p1.json.gz",
+          "trajectory_sha256": "40de38fa92d4ec2cdfb259b54a0c5dc7de24dcff9b2d5df12135d25cf8b05a2e",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1901,
+          "event_counts": {
+            "reservoir_exchange": 1205,
+            "passive": 58,
+            "material_swap": 125,
+            "fuel_swap": 461,
+            "produce_L": 32,
+            "copy_R": 18,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 51,
+          "internal_fuel_change": -50,
+          "initial_H": 760.0,
+          "final_H": 708.0,
+          "chemical_work": 690.440917410903,
+          "heat_to_bath": 742.440917410903,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050006-opposed-p0.json.gz",
+          "trajectory_sha256": "1fcc99a159323ee6bbb5d80d95fa23afc0ffe251b6e89e5ad785c57abc2ff49a",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1645,
+          "event_counts": {
+            "reservoir_exchange": 1153,
+            "copy_R": 15,
+            "material_swap": 29,
+            "fuel_swap": 423,
+            "passive": 23,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 15,
+          "internal_fuel_change": -15,
+          "initial_H": 760.0,
+          "final_H": 696.0,
+          "chemical_work": 203.0708580620303,
+          "heat_to_bath": 267.0708580620304,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050006-aligned-p1.json.gz",
+          "trajectory_sha256": "73e8da70bb33aaeea632de319466ac4260104ed7faddd681e735df62fd90f1a8",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1901,
+          "event_counts": {
+            "reservoir_exchange": 1205,
+            "passive": 58,
+            "material_swap": 125,
+            "fuel_swap": 461,
+            "produce_L": 32,
+            "copy_R": 18,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 51,
+          "internal_fuel_change": -50,
+          "initial_H": 760.0,
+          "final_H": 708.0,
+          "chemical_work": 690.440917410903,
+          "heat_to_bath": 742.440917410903,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050006-aligned-p0.json.gz",
+          "trajectory_sha256": "dfefcda7e3564ff678c5f6a014256a8c7e3dcb11f5c0a0f8e1586ecf2d51a444",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1640,
+          "event_counts": {
+            "reservoir_exchange": 1147,
+            "copy_R": 15,
+            "material_swap": 32,
+            "fuel_swap": 421,
+            "passive": 23,
+            "gate_flip": 2
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 17,
+          "internal_fuel_change": -15,
+          "initial_H": 760.0,
+          "final_H": 720.0,
+          "chemical_work": 230.14697247030102,
+          "heat_to_bath": 270.14697247030097,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050007-opposed-p1.json.gz",
+          "trajectory_sha256": "320ad91173be6f4163085bedeb1cb1aba4c552713393a6b4ce06e6fedd6fcbed",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1746,
+          "event_counts": {
+            "fuel_swap": 451,
+            "material_swap": 42,
+            "produce_L": 14,
+            "gate_flip": 5,
+            "reservoir_exchange": 1206,
+            "passive": 25,
+            "copy_R": 3
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 18,
+          "internal_fuel_change": -17,
+          "initial_H": 760.0,
+          "final_H": 708.0,
+          "chemical_work": 243.68502967443638,
+          "heat_to_bath": 295.68502967443635,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050007-opposed-p0.json.gz",
+          "trajectory_sha256": "c7f08f2434bd48cc7ff52940766ed4a771773530c97629aec3f2dc813d9a60d3",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1557,
+          "event_counts": {
+            "reservoir_exchange": 1104,
+            "fuel_swap": 398,
+            "gate_flip": 5,
+            "material_swap": 28,
+            "copy_R": 7,
+            "passive": 15
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 4,
+          "internal_fuel_change": -7,
+          "initial_H": 760.0,
+          "final_H": 660.0,
+          "chemical_work": 54.152228816541395,
+          "heat_to_bath": 154.1522288165414,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050007-aligned-p1.json.gz",
+          "trajectory_sha256": "20d6dd1752a6a9bdcfdb99808a0ef12acb310682f7818c7a078dfbd48bde8db6",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1810,
+          "event_counts": {
+            "fuel_swap": 472,
+            "material_swap": 78,
+            "produce_L": 17,
+            "gate_flip": 5,
+            "reservoir_exchange": 1193,
+            "passive": 35,
+            "copy_R": 10
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 29,
+          "internal_fuel_change": -27,
+          "initial_H": 760.0,
+          "final_H": 720.0,
+          "chemical_work": 392.603658919925,
+          "heat_to_bath": 432.603658919925,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050007-aligned-p0.json.gz",
+          "trajectory_sha256": "e91ad376d09787471f4e1a634cd6febd09e17e6467ffa85cffaf0a91631eb872",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1557,
+          "event_counts": {
+            "reservoir_exchange": 1104,
+            "fuel_swap": 398,
+            "gate_flip": 5,
+            "material_swap": 28,
+            "copy_R": 7,
+            "passive": 15
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 4,
+          "internal_fuel_change": -7,
+          "initial_H": 760.0,
+          "final_H": 660.0,
+          "chemical_work": 54.152228816541395,
+          "heat_to_bath": 154.1522288165414,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050008-opposed-p1.json.gz",
+          "trajectory_sha256": "452b97225afee2c52d09facb5e1c8dfd45232966c5a37d1fa9381860184b54aa",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2400,
+          "event_counts": {
+            "reservoir_exchange": 1253,
+            "fuel_swap": 526,
+            "material_swap": 302,
+            "produce_L": 108,
+            "passive": 134,
+            "copy_R": 73,
+            "gate_flip": 4
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 181,
+          "internal_fuel_change": -181,
+          "initial_H": 760.0,
+          "final_H": 1075.0,
+          "chemical_work": 2450.3883539485028,
+          "heat_to_bath": 2135.3883539485028,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050008-opposed-p0.json.gz",
+          "trajectory_sha256": "eb01f8e8edc3d333adfbe68a6761d49a7142c4ac5013fbb2786a9e78f6366653",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1926,
+          "event_counts": {
+            "reservoir_exchange": 1117,
+            "material_swap": 241,
+            "fuel_swap": 444,
+            "copy_R": 62,
+            "passive": 58,
+            "gate_flip": 4
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 63,
+          "internal_fuel_change": -62,
+          "initial_H": 760.0,
+          "final_H": 804.0,
+          "chemical_work": 852.8976038605276,
+          "heat_to_bath": 808.8976038605275,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050008-aligned-p1.json.gz",
+          "trajectory_sha256": "58d3d0edebc5fa4d79e5b3b5477ff71eddb26761b582f1160c0ef4603310244a",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 2494,
+          "event_counts": {
+            "reservoir_exchange": 1305,
+            "fuel_swap": 599,
+            "material_swap": 286,
+            "produce_L": 97,
+            "passive": 137,
+            "copy_R": 66,
+            "gate_flip": 4
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 163,
+          "internal_fuel_change": -163,
+          "initial_H": 760.0,
+          "final_H": 930.0,
+          "chemical_work": 2206.703324274066,
+          "heat_to_bath": 2036.7033242740658,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.025-s1050008-aligned-p0.json.gz",
+          "trajectory_sha256": "680d43c96d22107d183e13ce1f3ee3f45e169b28fcce56eb1069b97659c1d327",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.025,
+            "initial_gate": null
+          },
+          "events_replayed": 1967,
+          "event_counts": {
+            "reservoir_exchange": 1186,
+            "material_swap": 218,
+            "fuel_swap": 471,
+            "copy_R": 47,
+            "passive": 41,
+            "gate_flip": 4
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 42,
+          "internal_fuel_change": -47,
+          "initial_H": 760.0,
+          "final_H": 748.0,
+          "chemical_work": 568.5984025736846,
+          "heat_to_bath": 580.5984025736849,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050001-opposed-p1.json.gz",
+          "trajectory_sha256": "3d0cff6644d65644c11f774bb580a612254dcf41c8218d89c2f8e461318b98fa",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2617,
+          "event_counts": {
+            "copy_R": 88,
+            "fuel_swap": 559,
+            "reservoir_exchange": 1351,
+            "produce_L": 125,
+            "material_swap": 302,
+            "passive": 179,
+            "gate_flip": 13
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 215,
+          "internal_fuel_change": -213,
+          "initial_H": 760.0,
+          "final_H": 1010.0,
+          "chemical_work": 2910.682298889106,
+          "heat_to_bath": 2660.6822988891054,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050001-opposed-p0.json.gz",
+          "trajectory_sha256": "281578859b28164cea35867a14a474ba08d4d55edea2e1ce0c80824c6abc244b",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2332,
+          "event_counts": {
+            "copy_R": 117,
+            "fuel_swap": 458,
+            "reservoir_exchange": 1204,
+            "material_swap": 422,
+            "passive": 118,
+            "gate_flip": 13
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 118,
+          "internal_fuel_change": -117,
+          "initial_H": 760.0,
+          "final_H": 764.0,
+          "chemical_work": 1597.4907500879738,
+          "heat_to_bath": 1593.4907500879733,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050001-aligned-p1.json.gz",
+          "trajectory_sha256": "4142eb13b1c5f9956e4469b9ccf726f85e61a4785c44e41db1b622c9df3198bd",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2523,
+          "event_counts": {
+            "copy_R": 69,
+            "fuel_swap": 544,
+            "reservoir_exchange": 1316,
+            "passive": 147,
+            "produce_L": 104,
+            "material_swap": 330,
+            "gate_flip": 13
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 170,
+          "internal_fuel_change": -173,
+          "initial_H": 760.0,
+          "final_H": 909.0,
+          "chemical_work": 2301.4697247030135,
+          "heat_to_bath": 2152.4697247030135,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050001-aligned-p0.json.gz",
+          "trajectory_sha256": "9eae0b4afe1895de8a0e55d59f794acb71f276bcc47b7767d873a92f69f9f73a",
+          "seed": 1050001,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2365,
+          "event_counts": {
+            "copy_R": 103,
+            "fuel_swap": 504,
+            "reservoir_exchange": 1233,
+            "material_swap": 402,
+            "passive": 110,
+            "gate_flip": 13
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 101,
+          "internal_fuel_change": -103,
+          "initial_H": 760.0,
+          "final_H": 680.0,
+          "chemical_work": 1367.3437776176722,
+          "heat_to_bath": 1447.3437776176718,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050002-opposed-p1.json.gz",
+          "trajectory_sha256": "fdf39f5184a08af462a1ba4b0a1ccf1fb6c7f42356965ee389e33b76f062aaa0",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2185,
+          "event_counts": {
+            "fuel_swap": 495,
+            "reservoir_exchange": 1218,
+            "copy_R": 53,
+            "gate_flip": 12,
+            "material_swap": 217,
+            "produce_L": 76,
+            "passive": 114
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 128,
+          "internal_fuel_change": -129,
+          "initial_H": 760.0,
+          "final_H": 842.0,
+          "chemical_work": 1732.8713221293276,
+          "heat_to_bath": 1650.8713221293276,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050002-opposed-p0.json.gz",
+          "trajectory_sha256": "5a223703a0e3fb676abc710ecfee77703acb5c523afdfc8338196f983190875a",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1695,
+          "event_counts": {
+            "material_swap": 72,
+            "reservoir_exchange": 1148,
+            "fuel_swap": 433,
+            "copy_R": 11,
+            "gate_flip": 12,
+            "passive": 19
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 12,
+          "internal_fuel_change": -11,
+          "initial_H": 760.0,
+          "final_H": 708.0,
+          "chemical_work": 162.45668644962424,
+          "heat_to_bath": 214.45668644962427,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050002-aligned-p1.json.gz",
+          "trajectory_sha256": "7f82fcfd7ea03c0604142135869c55a08ed76a932e39d31ef2ce483c72b5a613",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2444,
+          "event_counts": {
+            "fuel_swap": 531,
+            "reservoir_exchange": 1250,
+            "copy_R": 89,
+            "gate_flip": 12,
+            "material_swap": 312,
+            "produce_L": 100,
+            "passive": 150
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 192,
+          "internal_fuel_change": -189,
+          "initial_H": 760.0,
+          "final_H": 1057.0,
+          "chemical_work": 2599.306983193992,
+          "heat_to_bath": 2302.3069831939924,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050002-aligned-p0.json.gz",
+          "trajectory_sha256": "1c39e06edd499553b9e6ac4f38c906a3de1833ef5a371f3180ffd6e71694ddd9",
+          "seed": 1050002,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1761,
+          "event_counts": {
+            "material_swap": 72,
+            "reservoir_exchange": 1201,
+            "fuel_swap": 446,
+            "copy_R": 11,
+            "gate_flip": 12,
+            "passive": 19
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 11,
+          "internal_fuel_change": -11,
+          "initial_H": 760.0,
+          "final_H": 696.0,
+          "chemical_work": 148.9186292454889,
+          "heat_to_bath": 212.91862924548892,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050003-opposed-p1.json.gz",
+          "trajectory_sha256": "f4603cabc6f2282651fa627269b1994f41e4ca720928f9a926655d58ecb75886",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2203,
+          "event_counts": {
+            "reservoir_exchange": 1149,
+            "fuel_swap": 492,
+            "material_swap": 243,
+            "passive": 140,
+            "produce_L": 100,
+            "copy_R": 66,
+            "gate_flip": 13
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 169,
+          "internal_fuel_change": -166,
+          "initial_H": 760.0,
+          "final_H": 972.0,
+          "chemical_work": 2287.931667498878,
+          "heat_to_bath": 2075.9316674988786,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050003-opposed-p0.json.gz",
+          "trajectory_sha256": "5c21d7605719e9848603d30a2a253bf0e3a81ea522864a1c49c4629ba57dcc3f",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1801,
+          "event_counts": {
+            "reservoir_exchange": 1154,
+            "fuel_swap": 469,
+            "material_swap": 105,
+            "passive": 34,
+            "gate_flip": 13,
+            "copy_R": 26
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 26,
+          "internal_fuel_change": -26,
+          "initial_H": 760.0,
+          "final_H": 696.0,
+          "chemical_work": 351.989487307519,
+          "heat_to_bath": 415.9894873075192,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050003-aligned-p1.json.gz",
+          "trajectory_sha256": "9ae5471d7bf62d419abaca141177634c531a8d30311616a838d693852f87a7be",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2299,
+          "event_counts": {
+            "reservoir_exchange": 1206,
+            "fuel_swap": 532,
+            "material_swap": 252,
+            "passive": 138,
+            "produce_L": 86,
+            "copy_R": 72,
+            "gate_flip": 13
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 154,
+          "internal_fuel_change": -158,
+          "initial_H": 760.0,
+          "final_H": 848.0,
+          "chemical_work": 2084.8608094368474,
+          "heat_to_bath": 1996.8608094368476,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050003-aligned-p0.json.gz",
+          "trajectory_sha256": "76edcd7985f4a198e9833a20c315920913acfd4df8cc59e17a552391f26c3bde",
+          "seed": 1050003,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1915,
+          "event_counts": {
+            "reservoir_exchange": 1108,
+            "fuel_swap": 493,
+            "material_swap": 185,
+            "passive": 60,
+            "gate_flip": 13,
+            "copy_R": 56
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 52,
+          "internal_fuel_change": -56,
+          "initial_H": 760.0,
+          "final_H": 680.0,
+          "chemical_work": 703.9789746150384,
+          "heat_to_bath": 783.9789746150382,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050004-opposed-p1.json.gz",
+          "trajectory_sha256": "fad52cfa905f8bbc00a2d27cc79596dfa424d331e9d7854a605b8095d4e75df4",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2218,
+          "event_counts": {
+            "material_swap": 196,
+            "reservoir_exchange": 1271,
+            "passive": 91,
+            "fuel_swap": 550,
+            "gate_flip": 8,
+            "produce_L": 63,
+            "copy_R": 39
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 103,
+          "internal_fuel_change": -102,
+          "initial_H": 760.0,
+          "final_H": 840.0,
+          "chemical_work": 1394.419892025943,
+          "heat_to_bath": 1314.4198920259428,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050004-opposed-p0.json.gz",
+          "trajectory_sha256": "67c8f3311eca2064eca5292316c65047a3f03bacee7767ed3bcefec8e1e1e662",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2621,
+          "event_counts": {
+            "fuel_swap": 536,
+            "reservoir_exchange": 1256,
+            "copy_R": 138,
+            "passive": 123,
+            "gate_flip": 8,
+            "material_swap": 560
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 134,
+          "internal_fuel_change": -138,
+          "initial_H": 760.0,
+          "final_H": 832.0,
+          "chemical_work": 1814.09966535414,
+          "heat_to_bath": 1742.0996653541392,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050004-aligned-p1.json.gz",
+          "trajectory_sha256": "90cfa37b6d739e472702c402664df8feda82dd52d29c5d674ec257608bf8d8ac",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2140,
+          "event_counts": {
+            "material_swap": 138,
+            "reservoir_exchange": 1284,
+            "passive": 78,
+            "fuel_swap": 557,
+            "gate_flip": 8,
+            "produce_L": 43,
+            "copy_R": 32
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 76,
+          "internal_fuel_change": -75,
+          "initial_H": 760.0,
+          "final_H": 747.0,
+          "chemical_work": 1028.8923475142876,
+          "heat_to_bath": 1041.8923475142874,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050004-aligned-p0.json.gz",
+          "trajectory_sha256": "c95a5b4a2676d42968cd126bbe31e1f4a1cd9386c96484a40fa53cf5971bcf63",
+          "seed": 1050004,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2267,
+          "event_counts": {
+            "fuel_swap": 508,
+            "reservoir_exchange": 1224,
+            "copy_R": 77,
+            "passive": 85,
+            "gate_flip": 8,
+            "material_swap": 365
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 74,
+          "internal_fuel_change": -77,
+          "initial_H": 760.0,
+          "final_H": 660.0,
+          "chemical_work": 1001.8162331060169,
+          "heat_to_bath": 1101.8162331060162,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050005-opposed-p1.json.gz",
+          "trajectory_sha256": "c9e1e249933cd0999cb2b98fb77d344d3a8e080c1bcc664dfc5f499db9875fad",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2323,
+          "event_counts": {
+            "fuel_swap": 533,
+            "reservoir_exchange": 1290,
+            "material_swap": 245,
+            "copy_R": 54,
+            "produce_L": 75,
+            "passive": 115,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 126,
+          "internal_fuel_change": -129,
+          "initial_H": 760.0,
+          "final_H": 814.0,
+          "chemical_work": 1705.7952077210568,
+          "heat_to_bath": 1651.7952077210566,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050005-opposed-p0.json.gz",
+          "trajectory_sha256": "acf2a1767affa3c04623dcf2d2fcd47d9bc54c6909c6969d4f068050bd2ace6d",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1849,
+          "event_counts": {
+            "material_swap": 113,
+            "reservoir_exchange": 1171,
+            "fuel_swap": 504,
+            "copy_R": 21,
+            "passive": 29,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 21,
+          "internal_fuel_change": -21,
+          "initial_H": 760.0,
+          "final_H": 696.0,
+          "chemical_work": 284.2992012868424,
+          "heat_to_bath": 348.2992012868423,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050005-aligned-p1.json.gz",
+          "trajectory_sha256": "1a3b401f0b6e11cc5bea0942c85f9401a41b1ce7b817d371a408ea0a1f3182b4",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2071,
+          "event_counts": {
+            "fuel_swap": 487,
+            "reservoir_exchange": 1238,
+            "material_swap": 185,
+            "copy_R": 23,
+            "produce_L": 50,
+            "passive": 77,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 76,
+          "internal_fuel_change": -73,
+          "initial_H": 760.0,
+          "final_H": 762.0,
+          "chemical_work": 1028.8923475142876,
+          "heat_to_bath": 1026.8923475142874,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050005-aligned-p0.json.gz",
+          "trajectory_sha256": "b6454230c945c8299e29f10b1e57b0f6f15736a600ce7ac604b91ed4729dd862",
+          "seed": 1050005,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1761,
+          "event_counts": {
+            "material_swap": 88,
+            "reservoir_exchange": 1159,
+            "fuel_swap": 461,
+            "copy_R": 17,
+            "passive": 25,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 17,
+          "internal_fuel_change": -17,
+          "initial_H": 760.0,
+          "final_H": 696.0,
+          "chemical_work": 230.14697247030102,
+          "heat_to_bath": 294.14697247030097,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050006-opposed-p1.json.gz",
+          "trajectory_sha256": "79d51bb717d065b652260fb36bee462076904dd67ba44681d05187d4e930ab43",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2123,
+          "event_counts": {
+            "reservoir_exchange": 1257,
+            "passive": 77,
+            "material_swap": 173,
+            "fuel_swap": 518,
+            "produce_L": 48,
+            "copy_R": 39,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 87,
+          "internal_fuel_change": -87,
+          "initial_H": 760.0,
+          "final_H": 827.0,
+          "chemical_work": 1177.8109767597768,
+          "heat_to_bath": 1110.8109767597768,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050006-opposed-p0.json.gz",
+          "trajectory_sha256": "d9829394dfe48783af67c11054d337d17e9f26d08e2ef3779e55b2b1b8e6b14b",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1697,
+          "event_counts": {
+            "reservoir_exchange": 1113,
+            "copy_R": 34,
+            "material_swap": 84,
+            "fuel_swap": 413,
+            "passive": 42,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 33,
+          "internal_fuel_change": -34,
+          "initial_H": 760.0,
+          "final_H": 684.0,
+          "chemical_work": 446.7558877364664,
+          "heat_to_bath": 522.7558877364662,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050006-aligned-p1.json.gz",
+          "trajectory_sha256": "fece64baf3432fd5dce10348e9b8f87097ee6715a92900ce78fc4f03d64d2f05",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2026,
+          "event_counts": {
+            "reservoir_exchange": 1217,
+            "passive": 77,
+            "material_swap": 167,
+            "fuel_swap": 469,
+            "produce_L": 43,
+            "copy_R": 42,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 83,
+          "internal_fuel_change": -85,
+          "initial_H": 760.0,
+          "final_H": 792.0,
+          "chemical_work": 1123.6587479432353,
+          "heat_to_bath": 1091.658747943235,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050006-aligned-p0.json.gz",
+          "trajectory_sha256": "7c5cc1b15a930af51d4841fc908bf0236dd85f045f0cb9e791bd8aac0595d80a",
+          "seed": 1050006,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1701,
+          "event_counts": {
+            "reservoir_exchange": 1182,
+            "copy_R": 15,
+            "material_swap": 33,
+            "fuel_swap": 437,
+            "passive": 23,
+            "gate_flip": 11
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 16,
+          "internal_fuel_change": -15,
+          "initial_H": 760.0,
+          "final_H": 708.0,
+          "chemical_work": 216.60891526616567,
+          "heat_to_bath": 268.60891526616564,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050007-opposed-p1.json.gz",
+          "trajectory_sha256": "8f1c9fe702ea2af8bc57f2fccb7620b9cb403505b6b3aaa0807bcd6804af1748",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2210,
+          "event_counts": {
+            "gate_flip": 18,
+            "reservoir_exchange": 1275,
+            "material_swap": 193,
+            "fuel_swap": 538,
+            "copy_R": 40,
+            "produce_L": 58,
+            "passive": 88
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 101,
+          "internal_fuel_change": -98,
+          "initial_H": 760.0,
+          "final_H": 862.0,
+          "chemical_work": 1367.3437776176722,
+          "heat_to_bath": 1265.3437776176718,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050007-opposed-p0.json.gz",
+          "trajectory_sha256": "b19afe6077c7e22a9175bdcd4a76f8ed85983cf52fcf109be1ed756385a08771",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2053,
+          "event_counts": {
+            "gate_flip": 18,
+            "reservoir_exchange": 1279,
+            "fuel_swap": 500,
+            "material_swap": 163,
+            "passive": 50,
+            "copy_R": 43
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 41,
+          "internal_fuel_change": -43,
+          "initial_H": 760.0,
+          "final_H": 680.0,
+          "chemical_work": 555.0603453695492,
+          "heat_to_bath": 635.0603453695494,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050007-aligned-p1.json.gz",
+          "trajectory_sha256": "49f9de7feb10ff0bdd9aca8046067fbe8d302c86d2643a3474c2145f4b7e7f39",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2293,
+          "event_counts": {
+            "gate_flip": 18,
+            "reservoir_exchange": 1271,
+            "material_swap": 215,
+            "fuel_swap": 537,
+            "copy_R": 63,
+            "produce_L": 73,
+            "passive": 116
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 131,
+          "internal_fuel_change": -136,
+          "initial_H": 760.0,
+          "final_H": 836.0,
+          "chemical_work": 1773.4854937417338,
+          "heat_to_bath": 1697.4854937417335,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050007-aligned-p0.json.gz",
+          "trajectory_sha256": "e5b5f4d5a553f5119db7e0daed8a5cc4501b255bbf087af0ef9337d5ef63414c",
+          "seed": 1050007,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1790,
+          "event_counts": {
+            "gate_flip": 18,
+            "reservoir_exchange": 1211,
+            "fuel_swap": 475,
+            "material_swap": 62,
+            "passive": 16,
+            "copy_R": 8
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 7,
+          "internal_fuel_change": -8,
+          "initial_H": 760.0,
+          "final_H": 684.0,
+          "chemical_work": 94.76640042894749,
+          "heat_to_bath": 170.7664004289475,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050008-opposed-p1.json.gz",
+          "trajectory_sha256": "6638e63f719a3045498b5257f57ed24d5f027e34c12d7d82c85d4c394fc7b0ae",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1877,
+          "event_counts": {
+            "reservoir_exchange": 1170,
+            "fuel_swap": 462,
+            "material_swap": 129,
+            "produce_L": 32,
+            "passive": 58,
+            "copy_R": 18,
+            "gate_flip": 8
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 50,
+          "internal_fuel_change": -50,
+          "initial_H": 760.0,
+          "final_H": 696.0,
+          "chemical_work": 676.9028602067676,
+          "heat_to_bath": 740.9028602067673,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050008-opposed-p0.json.gz",
+          "trajectory_sha256": "d111228787678f8d7b4eab8aeb9f6ba39df146ac57eeab95efcf1c2bfe7fcff9",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "opposed",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1737,
+          "event_counts": {
+            "reservoir_exchange": 1189,
+            "material_swap": 81,
+            "fuel_swap": 429,
+            "copy_R": 11,
+            "passive": 19,
+            "gate_flip": 8
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 11,
+          "internal_fuel_change": -11,
+          "initial_H": 760.0,
+          "final_H": 696.0,
+          "chemical_work": 148.9186292454889,
+          "heat_to_bath": 212.91862924548892,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050008-aligned-p1.json.gz",
+          "trajectory_sha256": "5679eb0945e062522d43e20f6d2d359c12ad6959d744c7bce27b880b68fc2c3a",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": true,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 2358,
+          "event_counts": {
+            "reservoir_exchange": 1292,
+            "fuel_swap": 559,
+            "material_swap": 238,
+            "produce_L": 86,
+            "passive": 114,
+            "copy_R": 61,
+            "gate_flip": 8
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 148,
+          "internal_fuel_change": -147,
+          "initial_H": 760.0,
+          "final_H": 996.0,
+          "chemical_work": 2003.6324662120353,
+          "heat_to_bath": 1767.6324662120348,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        },
+        {
+          "trajectory_file": "pilot/e0.80-k0.100-s1050008-aligned-p0.json.gz",
+          "trajectory_sha256": "f635b869beadb9b759158fd68c788e7a65c5969fabbd34a390aaedf929e06f47",
+          "seed": 1050008,
+          "flags": {
+            "produce_L": false,
+            "protect_R": true,
+            "copy_R": true
+          },
+          "response_mode": "aligned",
+          "response": {
+            "asymmetry": 0.8,
+            "flip_rate": 0.1,
+            "initial_gate": null
+          },
+          "events_replayed": 1790,
+          "event_counts": {
+            "reservoir_exchange": 1207,
+            "material_swap": 81,
+            "fuel_swap": 464,
+            "copy_R": 10,
+            "passive": 20,
+            "gate_flip": 8
+          },
+          "samples_checked": 51,
+          "net_reservoir_fuel_exchange": 9,
+          "internal_fuel_change": -10,
+          "initial_H": 760.0,
+          "final_H": 684.0,
+          "chemical_work": 121.84251483721818,
+          "heat_to_bath": 197.8425148372182,
+          "maximum_record_errors": {
+            "time": 0.0,
+            "H": 0.0,
+            "heat_to_bath": 0.0,
+            "external_work": 0.0,
+            "delta_H": 0.0,
+            "fuel_standard_energy_change": 0.0,
+            "material_energy_change": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "Independent scalar full-trajectory and lifetime-graph audit. Primary records only; excludes synthetic cases and tiny preflight smokes. This verifies the finite supplied-chemistry experiment, not selection, efficacy of a particular mutant, collective individuality, global biodiversity or reduced work."
+}

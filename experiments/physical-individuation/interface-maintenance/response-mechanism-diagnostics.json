@@ -1,0 +1,168 @@
+{
+  "summary": "experiments/physical-individuation/interface-maintenance/response-ensemble-results.json",
+  "scope": "Read-only ledger reconstruction and conditional state-distribution diagnostics; no counterfactual model run.",
+  "groups": [
+    {
+      "mode": "common",
+      "varied": true,
+      "runs": 64,
+      "actual_mutation_matrix": [
+        [
+          0.8,
+          0.2
+        ],
+        [
+          0.2,
+          0.8
+        ]
+      ],
+      "first_gate0_bad_observed": 60,
+      "R_alive_then": 59,
+      "both_labels_alive_then": 40,
+      "first_gate0_bad_mean_snapshot": {
+        "time": 28.162795553868012,
+        "fuel": 28.866666666666667,
+        "R0": 7.933333333333334,
+        "R1": 1.5166666666666666,
+        "L": 9.55,
+        "paid_R_before": 14.75,
+        "paid_L_before": 20.383333333333333
+      },
+      "first_gate0_bad_R_alive_mean_snapshot": {
+        "time": 26.907304179297032,
+        "fuel": 29.271186440677965,
+        "R0": 8.067796610169491,
+        "R1": 1.5423728813559323,
+        "L": 9.64406779661017
+      },
+      "first_paid_variant_mean_snapshot": {
+        "time": 4.322729599633584,
+        "fuel": 54.36842105263158,
+        "R": 8.947368421052632,
+        "L": 4.824561403508772
+      },
+      "mean_fuel_remaining_at_first_R_extinction": 21.125,
+      "mean_paid_R_after_first_gate0_bad": 2.75,
+      "mean_paid_L_after_first_gate0_bad": 3.609375,
+      "R1_copies_gate10": 3,
+      "those_creating_R0": 0,
+      "R1_L_births_gate10": 5,
+      "R0_reintroduced_by_R1": 1,
+      "runs_with_class_loss_while_partner_alive": 57,
+      "observed_reverse_R_copies": 0,
+      "observed_reverse_L_production": 0
+    },
+    {
+      "mode": "differentiated",
+      "varied": true,
+      "runs": 64,
+      "actual_mutation_matrix": [
+        [
+          0.8,
+          0.2
+        ],
+        [
+          0.2,
+          0.8
+        ]
+      ],
+      "first_gate0_bad_observed": 60,
+      "R_alive_then": 58,
+      "both_labels_alive_then": 35,
+      "first_gate0_bad_mean_snapshot": {
+        "time": 28.162795553868012,
+        "fuel": 29.45,
+        "R0": 7.566666666666666,
+        "R1": 1.3333333333333333,
+        "L": 9.35,
+        "paid_R_before": 14.466666666666667,
+        "paid_L_before": 20.083333333333332
+      },
+      "first_gate0_bad_R_alive_mean_snapshot": {
+        "time": 26.12951698090945,
+        "fuel": 30.24137931034483,
+        "R0": 7.827586206896552,
+        "R1": 1.3793103448275863,
+        "L": 9.551724137931034
+      },
+      "first_paid_variant_mean_snapshot": {
+        "time": 4.858415416227917,
+        "fuel": 53.96551724137931,
+        "R": 8.844827586206897,
+        "L": 4.948275862068965
+      },
+      "mean_fuel_remaining_at_first_R_extinction": 18.03125,
+      "mean_paid_R_after_first_gate0_bad": 4.390625,
+      "mean_paid_L_after_first_gate0_bad": 5.515625,
+      "R1_copies_gate10": 25,
+      "those_creating_R0": 6,
+      "R1_L_births_gate10": 39,
+      "R0_reintroduced_by_R1": 10,
+      "runs_with_class_loss_while_partner_alive": 58,
+      "observed_reverse_R_copies": 0,
+      "observed_reverse_L_production": 0,
+      "healthy_R1_observed_context_diagnostic": {
+        "R1_time": 458.96228655869845,
+        "fueled_D_neighbor_time": 358.8288785647789,
+        "protected_death_exposure": 179.424931701991,
+        "mean_fueled_D_neighbors": 0.7818265009425495,
+        "mean_protection_factor": 0.3909361116516131,
+        "self_copy_hazard_per_R1": 0.03752767204524238,
+        "death_hazard_per_R1": 0.046912333398193576,
+        "copy_rate_threshold_if_context_were_frozen": 0.07500438611002136,
+        "self_copy_minus_death_at_copy_rate_012_frozen_context": 0.02814301069229118,
+        "scope": "Conditional exposure-weighted averages, not an exact invasion eigenvalue; altered kinetics must regenerate all contexts."
+      }
+    },
+    {
+      "mode": "differentiated",
+      "varied": false,
+      "runs": 64,
+      "actual_mutation_matrix": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "first_gate0_bad_observed": 60,
+      "R_alive_then": 58,
+      "both_labels_alive_then": 0,
+      "first_gate0_bad_mean_snapshot": {
+        "time": 28.162795553868012,
+        "fuel": 28.583333333333332,
+        "R0": 9.3,
+        "R1": 0,
+        "L": 9.3,
+        "paid_R_before": 15.55,
+        "paid_L_before": 19.866666666666667
+      },
+      "first_gate0_bad_R_alive_mean_snapshot": {
+        "time": 25.850451240050266,
+        "fuel": 29.482758620689655,
+        "R0": 9.620689655172415,
+        "R1": 0,
+        "L": 9.568965517241379
+      },
+      "first_paid_variant_mean_snapshot": {
+        "time": null,
+        "fuel": null,
+        "R": null,
+        "L": null
+      },
+      "mean_fuel_remaining_at_first_R_extinction": 19.65625,
+      "mean_paid_R_after_first_gate0_bad": 3.359375,
+      "mean_paid_L_after_first_gate0_bad": 4.109375,
+      "R1_copies_gate10": 0,
+      "those_creating_R0": 0,
+      "R1_L_births_gate10": 0,
+      "R0_reintroduced_by_R1": 0,
+      "runs_with_class_loss_while_partner_alive": 1,
+      "observed_reverse_R_copies": 0,
+      "observed_reverse_L_production": 0
+    }
+  ]
+}

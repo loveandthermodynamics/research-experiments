@@ -1,0 +1,2077 @@
+{
+  "checks_passed": true,
+  "model_sha256": "08c5d9948e84d62ddc77a0265e5e91e805b2badf47bc516542a36fa918201927",
+  "verifier_sha256": "ccbaac8114d5f4ad48cf1bd655de7c186ddca0f4e99197322ed3fc4e43aef0b6",
+  "model_checks": {
+    "parameter_settings": 3,
+    "random_state_flag_cases": 192,
+    "individual_propensities_compared": 89216,
+    "enabled_reverse_pairs": 2268,
+    "maximum_errors": {
+      "energy": 1.4210854715202004e-14,
+      "delta_H": 2.3092638912203256e-14,
+      "rate": 6.938893903907228e-17,
+      "LDB_log": 2.4868995751603507e-14
+    },
+    "factorial_initial_states_equal": true,
+    "instance_tags_and_age_metadata_do_not_affect_rates_or_H": true,
+    "notes": [
+      "Protection changes passive stabilization and transport retention together.",
+      "Attraction remains in H in every flag condition.",
+      "This verifies local physics, not an enclosing membrane or functional information."
+    ]
+  },
+  "trajectory_records_replayed": 64,
+  "total_events_replayed": 92973,
+  "replays": [
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81001.json.gz:$",
+      "seed": 81001,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1647,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 41,
+        "copy_R": 0,
+        "produce_L": 34,
+        "material_swap": 202,
+        "fuel_swap": 1370
+      },
+      "gross_fuel_conversions": 34,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 34,
+      "initial_H": 832.0,
+      "final_H": 382.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81002.json.gz:$",
+      "seed": 81002,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 831,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 17,
+        "copy_R": 0,
+        "produce_L": 10,
+        "material_swap": 110,
+        "fuel_swap": 694
+      },
+      "gross_fuel_conversions": 10,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 10,
+      "initial_H": 832.0,
+      "final_H": 656.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81003.json.gz:$",
+      "seed": 81003,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1704,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 33,
+        "copy_R": 0,
+        "produce_L": 27,
+        "material_swap": 181,
+        "fuel_swap": 1463
+      },
+      "gross_fuel_conversions": 27,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 27,
+      "initial_H": 832.0,
+      "final_H": 460.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81004.json.gz:$",
+      "seed": 81004,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1648,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 47,
+        "copy_R": 0,
+        "produce_L": 41,
+        "material_swap": 186,
+        "fuel_swap": 1374
+      },
+      "gross_fuel_conversions": 41,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 41,
+      "initial_H": 832.0,
+      "final_H": 292.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81005.json.gz:$",
+      "seed": 81005,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1628,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 33,
+        "copy_R": 0,
+        "produce_L": 25,
+        "material_swap": 151,
+        "fuel_swap": 1419
+      },
+      "gross_fuel_conversions": 25,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 25,
+      "initial_H": 832.0,
+      "final_H": 468.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81006.json.gz:$",
+      "seed": 81006,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1347,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 27,
+        "copy_R": 0,
+        "produce_L": 19,
+        "material_swap": 119,
+        "fuel_swap": 1182
+      },
+      "gross_fuel_conversions": 19,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 19,
+      "initial_H": 832.0,
+      "final_H": 540.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81007.json.gz:$",
+      "seed": 81007,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1593,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 35,
+        "copy_R": 0,
+        "produce_L": 28,
+        "material_swap": 170,
+        "fuel_swap": 1360
+      },
+      "gross_fuel_conversions": 28,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 28,
+      "initial_H": 832.0,
+      "final_H": 440.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81008.json.gz:$",
+      "seed": 81008,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 869,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 18,
+        "copy_R": 0,
+        "produce_L": 10,
+        "material_swap": 71,
+        "fuel_swap": 770
+      },
+      "gross_fuel_conversions": 10,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 10,
+      "initial_H": 832.0,
+      "final_H": 648.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81009.json.gz:$",
+      "seed": 81009,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1656,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 45,
+        "copy_R": 0,
+        "produce_L": 38,
+        "material_swap": 152,
+        "fuel_swap": 1421
+      },
+      "gross_fuel_conversions": 38,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 38,
+      "initial_H": 832.0,
+      "final_H": 320.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81010.json.gz:$",
+      "seed": 81010,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1705,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 44,
+        "copy_R": 0,
+        "produce_L": 37,
+        "material_swap": 182,
+        "fuel_swap": 1442
+      },
+      "gross_fuel_conversions": 37,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 37,
+      "initial_H": 832.0,
+      "final_H": 332.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81011.json.gz:$",
+      "seed": 81011,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1569,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 43,
+        "copy_R": 0,
+        "produce_L": 37,
+        "material_swap": 133,
+        "fuel_swap": 1356
+      },
+      "gross_fuel_conversions": 37,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 37,
+      "initial_H": 832.0,
+      "final_H": 340.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81012.json.gz:$",
+      "seed": 81012,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 710,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 16,
+        "copy_R": 0,
+        "produce_L": 8,
+        "material_swap": 45,
+        "fuel_swap": 641
+      },
+      "gross_fuel_conversions": 8,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 8,
+      "initial_H": 832.0,
+      "final_H": 672.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81013.json.gz:$",
+      "seed": 81013,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 691,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 16,
+        "copy_R": 0,
+        "produce_L": 8,
+        "material_swap": 33,
+        "fuel_swap": 634
+      },
+      "gross_fuel_conversions": 8,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 8,
+      "initial_H": 832.0,
+      "final_H": 672.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81014.json.gz:$",
+      "seed": 81014,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1389,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 28,
+        "copy_R": 0,
+        "produce_L": 21,
+        "material_swap": 115,
+        "fuel_swap": 1225
+      },
+      "gross_fuel_conversions": 21,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 21,
+      "initial_H": 832.0,
+      "final_H": 524.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81015.json.gz:$",
+      "seed": 81015,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1560,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 34,
+        "copy_R": 0,
+        "produce_L": 26,
+        "material_swap": 133,
+        "fuel_swap": 1367
+      },
+      "gross_fuel_conversions": 26,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 26,
+      "initial_H": 832.0,
+      "final_H": 456.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81016.json.gz:$",
+      "seed": 81016,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1468,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 34,
+        "copy_R": 0,
+        "produce_L": 26,
+        "material_swap": 105,
+        "fuel_swap": 1303
+      },
+      "gross_fuel_conversions": 26,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 26,
+      "initial_H": 832.0,
+      "final_H": 456.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81017.json.gz:$",
+      "seed": 81017,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1639,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 39,
+        "copy_R": 0,
+        "produce_L": 43,
+        "material_swap": 193,
+        "fuel_swap": 1364
+      },
+      "gross_fuel_conversions": 43,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 43,
+      "initial_H": 832.0,
+      "final_H": 338.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81018.json.gz:$",
+      "seed": 81018,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1659,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 42,
+        "copy_R": 0,
+        "produce_L": 34,
+        "material_swap": 149,
+        "fuel_swap": 1434
+      },
+      "gross_fuel_conversions": 34,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 34,
+      "initial_H": 832.0,
+      "final_H": 360.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81019.json.gz:$",
+      "seed": 81019,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1151,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 28,
+        "copy_R": 0,
+        "produce_L": 22,
+        "material_swap": 109,
+        "fuel_swap": 992
+      },
+      "gross_fuel_conversions": 22,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 22,
+      "initial_H": 832.0,
+      "final_H": 520.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81020.json.gz:$",
+      "seed": 81020,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1395,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 30,
+        "copy_R": 0,
+        "produce_L": 21,
+        "material_swap": 105,
+        "fuel_swap": 1239
+      },
+      "gross_fuel_conversions": 21,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 21,
+      "initial_H": 832.0,
+      "final_H": 524.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81021.json.gz:$",
+      "seed": 81021,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 831,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 17,
+        "copy_R": 0,
+        "produce_L": 9,
+        "material_swap": 70,
+        "fuel_swap": 735
+      },
+      "gross_fuel_conversions": 9,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 9,
+      "initial_H": 832.0,
+      "final_H": 660.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81022.json.gz:$",
+      "seed": 81022,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1106,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 25,
+        "copy_R": 0,
+        "produce_L": 20,
+        "material_swap": 92,
+        "fuel_swap": 969
+      },
+      "gross_fuel_conversions": 20,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 20,
+      "initial_H": 832.0,
+      "final_H": 551.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81023.json.gz:$",
+      "seed": 81023,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1053,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 21,
+        "copy_R": 0,
+        "produce_L": 13,
+        "material_swap": 74,
+        "fuel_swap": 945
+      },
+      "gross_fuel_conversions": 13,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 13,
+      "initial_H": 832.0,
+      "final_H": 612.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81024.json.gz:$",
+      "seed": 81024,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1566,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 32,
+        "copy_R": 0,
+        "produce_L": 25,
+        "material_swap": 136,
+        "fuel_swap": 1373
+      },
+      "gross_fuel_conversions": 25,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 25,
+      "initial_H": 832.0,
+      "final_H": 476.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81025.json.gz:$",
+      "seed": 81025,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1597,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 35,
+        "copy_R": 0,
+        "produce_L": 27,
+        "material_swap": 124,
+        "fuel_swap": 1411
+      },
+      "gross_fuel_conversions": 27,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 27,
+      "initial_H": 832.0,
+      "final_H": 444.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81026.json.gz:$",
+      "seed": 81026,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1563,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 35,
+        "copy_R": 0,
+        "produce_L": 27,
+        "material_swap": 132,
+        "fuel_swap": 1369
+      },
+      "gross_fuel_conversions": 27,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 27,
+      "initial_H": 832.0,
+      "final_H": 444.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81027.json.gz:$",
+      "seed": 81027,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1538,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 38,
+        "copy_R": 0,
+        "produce_L": 30,
+        "material_swap": 116,
+        "fuel_swap": 1354
+      },
+      "gross_fuel_conversions": 30,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 30,
+      "initial_H": 832.0,
+      "final_H": 408.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81028.json.gz:$",
+      "seed": 81028,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1385,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 29,
+        "copy_R": 0,
+        "produce_L": 22,
+        "material_swap": 144,
+        "fuel_swap": 1190
+      },
+      "gross_fuel_conversions": 22,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 22,
+      "initial_H": 832.0,
+      "final_H": 512.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81029.json.gz:$",
+      "seed": 81029,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1769,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 40,
+        "copy_R": 0,
+        "produce_L": 33,
+        "material_swap": 180,
+        "fuel_swap": 1516
+      },
+      "gross_fuel_conversions": 33,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 33,
+      "initial_H": 832.0,
+      "final_H": 380.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81030.json.gz:$",
+      "seed": 81030,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1584,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 33,
+        "copy_R": 0,
+        "produce_L": 25,
+        "material_swap": 90,
+        "fuel_swap": 1436
+      },
+      "gross_fuel_conversions": 25,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 25,
+      "initial_H": 832.0,
+      "final_H": 468.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81031.json.gz:$",
+      "seed": 81031,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1332,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 26,
+        "copy_R": 0,
+        "produce_L": 18,
+        "material_swap": 108,
+        "fuel_swap": 1180
+      },
+      "gross_fuel_conversions": 18,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 18,
+      "initial_H": 832.0,
+      "final_H": 552.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81032.json.gz:$",
+      "seed": 81032,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1455,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 30,
+        "copy_R": 0,
+        "produce_L": 23,
+        "material_swap": 126,
+        "fuel_swap": 1276
+      },
+      "gross_fuel_conversions": 23,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 23,
+      "initial_H": 832.0,
+      "final_H": 500.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81033.json.gz:$",
+      "seed": 81033,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1743,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 41,
+        "copy_R": 0,
+        "produce_L": 33,
+        "material_swap": 168,
+        "fuel_swap": 1501
+      },
+      "gross_fuel_conversions": 33,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 33,
+      "initial_H": 832.0,
+      "final_H": 372.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81034.json.gz:$",
+      "seed": 81034,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1359,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 29,
+        "copy_R": 0,
+        "produce_L": 21,
+        "material_swap": 126,
+        "fuel_swap": 1183
+      },
+      "gross_fuel_conversions": 21,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 21,
+      "initial_H": 832.0,
+      "final_H": 516.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81035.json.gz:$",
+      "seed": 81035,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1428,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 38,
+        "copy_R": 0,
+        "produce_L": 28,
+        "material_swap": 128,
+        "fuel_swap": 1234
+      },
+      "gross_fuel_conversions": 28,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 28,
+      "initial_H": 832.0,
+      "final_H": 432.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81036.json.gz:$",
+      "seed": 81036,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1548,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 33,
+        "copy_R": 0,
+        "produce_L": 25,
+        "material_swap": 183,
+        "fuel_swap": 1307
+      },
+      "gross_fuel_conversions": 25,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 25,
+      "initial_H": 832.0,
+      "final_H": 468.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81037.json.gz:$",
+      "seed": 81037,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1539,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 38,
+        "copy_R": 0,
+        "produce_L": 30,
+        "material_swap": 151,
+        "fuel_swap": 1320
+      },
+      "gross_fuel_conversions": 30,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 30,
+      "initial_H": 832.0,
+      "final_H": 408.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81038.json.gz:$",
+      "seed": 81038,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1704,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 41,
+        "copy_R": 0,
+        "produce_L": 36,
+        "material_swap": 163,
+        "fuel_swap": 1464
+      },
+      "gross_fuel_conversions": 36,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 36,
+      "initial_H": 832.0,
+      "final_H": 374.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81039.json.gz:$",
+      "seed": 81039,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1404,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 30,
+        "copy_R": 0,
+        "produce_L": 22,
+        "material_swap": 112,
+        "fuel_swap": 1240
+      },
+      "gross_fuel_conversions": 22,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 22,
+      "initial_H": 832.0,
+      "final_H": 504.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81040.json.gz:$",
+      "seed": 81040,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1531,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 40,
+        "copy_R": 0,
+        "produce_L": 37,
+        "material_swap": 167,
+        "fuel_swap": 1287
+      },
+      "gross_fuel_conversions": 37,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 37,
+      "initial_H": 832.0,
+      "final_H": 361.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81041.json.gz:$",
+      "seed": 81041,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1362,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 26,
+        "copy_R": 0,
+        "produce_L": 19,
+        "material_swap": 134,
+        "fuel_swap": 1183
+      },
+      "gross_fuel_conversions": 19,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 19,
+      "initial_H": 832.0,
+      "final_H": 548.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81042.json.gz:$",
+      "seed": 81042,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1563,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 39,
+        "copy_R": 0,
+        "produce_L": 31,
+        "material_swap": 124,
+        "fuel_swap": 1369
+      },
+      "gross_fuel_conversions": 31,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 31,
+      "initial_H": 832.0,
+      "final_H": 396.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81043.json.gz:$",
+      "seed": 81043,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1634,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 40,
+        "copy_R": 0,
+        "produce_L": 33,
+        "material_swap": 168,
+        "fuel_swap": 1393
+      },
+      "gross_fuel_conversions": 33,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 33,
+      "initial_H": 832.0,
+      "final_H": 380.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81044.json.gz:$",
+      "seed": 81044,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1648,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 44,
+        "copy_R": 0,
+        "produce_L": 40,
+        "material_swap": 190,
+        "fuel_swap": 1374
+      },
+      "gross_fuel_conversions": 40,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 40,
+      "initial_H": 832.0,
+      "final_H": 318.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81045.json.gz:$",
+      "seed": 81045,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1598,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 39,
+        "copy_R": 0,
+        "produce_L": 32,
+        "material_swap": 126,
+        "fuel_swap": 1401
+      },
+      "gross_fuel_conversions": 32,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 32,
+      "initial_H": 832.0,
+      "final_H": 392.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81046.json.gz:$",
+      "seed": 81046,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 854,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 19,
+        "copy_R": 0,
+        "produce_L": 11,
+        "material_swap": 66,
+        "fuel_swap": 758
+      },
+      "gross_fuel_conversions": 11,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 11,
+      "initial_H": 832.0,
+      "final_H": 636.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81047.json.gz:$",
+      "seed": 81047,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1570,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 33,
+        "copy_R": 0,
+        "produce_L": 26,
+        "material_swap": 128,
+        "fuel_swap": 1383
+      },
+      "gross_fuel_conversions": 26,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 26,
+      "initial_H": 832.0,
+      "final_H": 464.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81048.json.gz:$",
+      "seed": 81048,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1321,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 27,
+        "copy_R": 0,
+        "produce_L": 19,
+        "material_swap": 143,
+        "fuel_swap": 1132
+      },
+      "gross_fuel_conversions": 19,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 19,
+      "initial_H": 832.0,
+      "final_H": 540.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81049.json.gz:$",
+      "seed": 81049,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1263,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 25,
+        "copy_R": 0,
+        "produce_L": 17,
+        "material_swap": 78,
+        "fuel_swap": 1143
+      },
+      "gross_fuel_conversions": 17,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 17,
+      "initial_H": 832.0,
+      "final_H": 564.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81050.json.gz:$",
+      "seed": 81050,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1593,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 40,
+        "copy_R": 0,
+        "produce_L": 34,
+        "material_swap": 141,
+        "fuel_swap": 1378
+      },
+      "gross_fuel_conversions": 34,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 34,
+      "initial_H": 832.0,
+      "final_H": 375.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81051.json.gz:$",
+      "seed": 81051,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1505,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 32,
+        "copy_R": 0,
+        "produce_L": 24,
+        "material_swap": 67,
+        "fuel_swap": 1382
+      },
+      "gross_fuel_conversions": 24,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 24,
+      "initial_H": 832.0,
+      "final_H": 480.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81052.json.gz:$",
+      "seed": 81052,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1593,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 33,
+        "copy_R": 0,
+        "produce_L": 25,
+        "material_swap": 119,
+        "fuel_swap": 1416
+      },
+      "gross_fuel_conversions": 25,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 25,
+      "initial_H": 832.0,
+      "final_H": 468.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81053.json.gz:$",
+      "seed": 81053,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1715,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 46,
+        "copy_R": 0,
+        "produce_L": 39,
+        "material_swap": 158,
+        "fuel_swap": 1472
+      },
+      "gross_fuel_conversions": 39,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 39,
+      "initial_H": 832.0,
+      "final_H": 308.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81054.json.gz:$",
+      "seed": 81054,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1578,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 41,
+        "copy_R": 0,
+        "produce_L": 37,
+        "material_swap": 138,
+        "fuel_swap": 1362
+      },
+      "gross_fuel_conversions": 37,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 37,
+      "initial_H": 832.0,
+      "final_H": 356.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81055.json.gz:$",
+      "seed": 81055,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1410,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 29,
+        "copy_R": 0,
+        "produce_L": 21,
+        "material_swap": 118,
+        "fuel_swap": 1242
+      },
+      "gross_fuel_conversions": 21,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 21,
+      "initial_H": 832.0,
+      "final_H": 516.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81056.json.gz:$",
+      "seed": 81056,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1656,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 40,
+        "copy_R": 0,
+        "produce_L": 33,
+        "material_swap": 173,
+        "fuel_swap": 1410
+      },
+      "gross_fuel_conversions": 33,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 33,
+      "initial_H": 832.0,
+      "final_H": 380.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81057.json.gz:$",
+      "seed": 81057,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1596,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 46,
+        "copy_R": 0,
+        "produce_L": 39,
+        "material_swap": 163,
+        "fuel_swap": 1348
+      },
+      "gross_fuel_conversions": 39,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 39,
+      "initial_H": 832.0,
+      "final_H": 308.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81058.json.gz:$",
+      "seed": 81058,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1686,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 41,
+        "copy_R": 0,
+        "produce_L": 34,
+        "material_swap": 188,
+        "fuel_swap": 1423
+      },
+      "gross_fuel_conversions": 34,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 34,
+      "initial_H": 832.0,
+      "final_H": 368.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81059.json.gz:$",
+      "seed": 81059,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1455,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 35,
+        "copy_R": 0,
+        "produce_L": 28,
+        "material_swap": 123,
+        "fuel_swap": 1269
+      },
+      "gross_fuel_conversions": 28,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 28,
+      "initial_H": 832.0,
+      "final_H": 440.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81060.json.gz:$",
+      "seed": 81060,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1029,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 20,
+        "copy_R": 0,
+        "produce_L": 12,
+        "material_swap": 63,
+        "fuel_swap": 934
+      },
+      "gross_fuel_conversions": 12,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 12,
+      "initial_H": 832.0,
+      "final_H": 624.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81061.json.gz:$",
+      "seed": 81061,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1549,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 35,
+        "copy_R": 0,
+        "produce_L": 31,
+        "material_swap": 140,
+        "fuel_swap": 1343
+      },
+      "gross_fuel_conversions": 31,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 31,
+      "initial_H": 832.0,
+      "final_H": 425.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81062.json.gz:$",
+      "seed": 81062,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1624,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 36,
+        "copy_R": 0,
+        "produce_L": 30,
+        "material_swap": 183,
+        "fuel_swap": 1375
+      },
+      "gross_fuel_conversions": 30,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 30,
+      "initial_H": 832.0,
+      "final_H": 424.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81063.json.gz:$",
+      "seed": 81063,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1615,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 43,
+        "copy_R": 0,
+        "produce_L": 40,
+        "material_swap": 177,
+        "fuel_swap": 1355
+      },
+      "gross_fuel_conversions": 40,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 40,
+      "initial_H": 832.0,
+      "final_H": 327.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    },
+    {
+      "record": "experiments/physical-individuation/interface-maintenance/copy-ablation/s81064.json.gz:$",
+      "seed": 81064,
+      "flags": {
+        "produce_L": true,
+        "protect_R": true,
+        "copy_R": false
+      },
+      "events_replayed": 1662,
+      "samples_checked": 61,
+      "event_counts": {
+        "passive": 41,
+        "copy_R": 0,
+        "produce_L": 33,
+        "material_swap": 152,
+        "fuel_swap": 1436
+      },
+      "gross_fuel_conversions": 33,
+      "gross_reverse_fuel_conversions": 0,
+      "net_fuel_consumed": 33,
+      "initial_H": 832.0,
+      "final_H": 372.0,
+      "maximum_record_errors": {
+        "time": 0.0,
+        "H": 0.0,
+        "heat_to_bath": 0.0,
+        "external_work": 0.0,
+        "delta_H": 0.0,
+        "fuel_standard_energy_change": 0.0,
+        "material_energy_change": 0.0
+      }
+    }
+  ],
+  "scope": "Independent local-energy/rate/replay audit; not a demonstration of collective individuality, aging, agency, membrane integrity or useful information."
+}

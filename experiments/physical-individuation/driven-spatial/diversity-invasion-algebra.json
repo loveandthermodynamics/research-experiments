@@ -1,0 +1,66 @@
+{
+  "checks_passed": true,
+  "calculations": "Deterministic scalar roots and 2x2 resolvent only",
+  "cases": [
+    {
+      "M": 0.95,
+      "alpha": 4.0,
+      "kappa": 0.25,
+      "R": 0.23284761106459406,
+      "L": 0.13544838716009538,
+      "D": 0.5817040017753106,
+      "h": 0.5817040017753106,
+      "paid_copy_flux": 0.13544838716009544,
+      "jacobian": [
+        [
+          -0.23284761106459406,
+          0.30894593757578775
+        ],
+        [
+          0.3488563907107165,
+          -1.232847611064594
+        ]
+      ],
+      "trace": -1.4656952221291881,
+      "determinant": 0.1792878563356549,
+      "telegraph_resolvent_denominator": 1.1621354674002489,
+      "first_order_covariance_R_gate": -0.20196562336917914,
+      "first_order_covariance_L_gate": -0.04065966214589738,
+      "covariance_equation_residual": 0.0,
+      "opposite_response_invasion_coefficient": 0.1892151054488049,
+      "general_continuous_trait_coefficient": 0.09460755272440245,
+      "sign": "positive"
+    },
+    {
+      "M": 1.5,
+      "alpha": 4.0,
+      "kappa": 0.25,
+      "R": 0.8953560623157057,
+      "L": 0.28563056088080685,
+      "D": 0.31901337680348735,
+      "h": 0.31901337680348735,
+      "paid_copy_flux": 0.28563056088080696,
+      "jacobian": [
+        [
+          -0.8953560623157057,
+          0.24716618120752198
+        ],
+        [
+          -0.5763426855122185,
+          -1.8953560623157057
+        ]
+      ],
+      "trace": -2.7907121246314115,
+      "determinant": 1.8394709612861346,
+      "telegraph_resolvent_denominator": 3.4848270236018406,
+      "first_order_covariance_R_gate": -0.19633310088410524,
+      "first_order_covariance_L_gate": 0.04723938474061096,
+      "covariance_equation_residual": 5.551115123125783e-17,
+      "opposite_response_invasion_coefficient": -0.12055996515377147,
+      "general_continuous_trait_coefficient": -0.060279982576885736,
+      "sign": "negative"
+    }
+  ],
+  "conclusion": "The weak-forcing coefficient changes sign with D-R. No diversity reward enters.",
+  "scope": "Negligible-source concentration model near a stable renewing high state. Positive coefficient is an asymptotic invasion result conditional on resident persistence and a regular small-amplitude stationary expansion. No finite-amplitude simulation, global stochastic coexistence, finite-copy-number survival, spatial localization, or availability advantage is established by this script."
+}

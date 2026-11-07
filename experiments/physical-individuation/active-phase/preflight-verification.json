@@ -1,0 +1,104 @@
+{
+  "checks_passed": true,
+  "verifier_sha256": "f36d96c2b6243c8b1e5833fde8ebc943c87e37e01a4bee9c09ffce180788de69",
+  "model_sha256": "45dc452a1ecf4e8558382786d9203f788e074985a4b0d6a8276d2859823f648f",
+  "morphology_sha256": "ba042a840e7ad6b084e537db9a050f5d738317d0c24b3b5e286a6c1524ebe64b",
+  "physics": {
+    "cases": 9,
+    "scalar_rates_checked": 18432,
+    "enabled_reverse_pairs_checked": 3189,
+    "maximum_errors": {
+      "H": 0.0,
+      "delta_H": 0.0,
+      "rate": 0.0,
+      "LDB_log": 1.1102230246251565e-16,
+      "cycle_affinity_log": 0.0
+    },
+    "zero_mu_control": true,
+    "no_enzyme_affinity_control": true,
+    "tags_nonfunctional": true,
+    "scope": "Conditional specified-generator thermodynamics. Heat/theta is medium entropy flow; system Shannon entropy is not supplied by an individual-path heat ledger. No phase formation, size selection or individuation is proved by this check."
+  },
+  "morphology": {
+    "cases": 24,
+    "cluster_algorithm": "independent union-find",
+    "spectrum_algorithm": "independent real half-spectrum with explicit conjugate multiplicities",
+    "maximum_absolute_error": 1.7763568394002505e-15,
+    "scope": "Software observables only; the low-k cutoff and cluster>=9 threshold are declared analysis choices, not generated physical regulation."
+  },
+  "software_traces": [
+    {
+      "file": "software-smoke/side6-mu12-s745001.json.gz",
+      "sha256": "1d20f624113ad03bb6102d042c2a28b384bd2642920962bb25e5117a23d2c6e3",
+      "seed": 745001,
+      "accepted_events_replayed": 37,
+      "proposals": 123,
+      "rejected_proposals": 86,
+      "exact_all_proposals_regenerated": true,
+      "samples_checked": 2,
+      "event_counts": {
+        "material_swap": 33,
+        "enzyme_swap": 4
+      },
+      "initial_H": 0.0,
+      "final_H": 0.0,
+      "chemical_work": 0.0,
+      "heat_to_bath": 0.0,
+      "net_fuel_to_waste": 0,
+      "maximum_running_first_law_error": 0.0,
+      "final_first_law_error": 0.0,
+      "conserved_material_tags": true,
+      "scope": "Complete accepted physical ledger replay; exact rejected-clock replay is stated separately. Signed fuel counts refer to supplied ideal chemostats, not a finite closed fuel inventory."
+    },
+    {
+      "file": "software-smoke/side6-mu0-s745002.json.gz",
+      "sha256": "fa099d3ab72b0e9940e0db321e267ca452a3fe61b6d0bfa7683f39564f15711f",
+      "seed": 745002,
+      "accepted_events_replayed": 39,
+      "proposals": 120,
+      "rejected_proposals": 81,
+      "exact_all_proposals_regenerated": true,
+      "samples_checked": 2,
+      "event_counts": {
+        "material_swap": 34,
+        "enzyme_swap": 4,
+        "catalyzed": 1
+      },
+      "initial_H": 0.0,
+      "final_H": 2.0,
+      "chemical_work": 0.0,
+      "heat_to_bath": -2.0,
+      "net_fuel_to_waste": -1,
+      "maximum_running_first_law_error": 0.0,
+      "final_first_law_error": 0.0,
+      "conserved_material_tags": true,
+      "scope": "Complete accepted physical ledger replay; exact rejected-clock replay is stated separately. Signed fuel counts refer to supplied ideal chemostats, not a finite closed fuel inventory."
+    },
+    {
+      "file": "software-smoke/side16-mu12-s745003.json.gz",
+      "sha256": "3841d954e2ce4d763e14074ca01f0175ab66bd76760692292307449c743da0b7",
+      "seed": 745003,
+      "accepted_events_replayed": 233,
+      "proposals": 901,
+      "rejected_proposals": 668,
+      "exact_all_proposals_regenerated": true,
+      "samples_checked": 2,
+      "event_counts": {
+        "material_swap": 212,
+        "enzyme_swap": 21
+      },
+      "initial_H": 0.0,
+      "final_H": 0.0,
+      "chemical_work": 0.0,
+      "heat_to_bath": 0.0,
+      "net_fuel_to_waste": 0,
+      "maximum_running_first_law_error": 0.0,
+      "final_first_law_error": 0.0,
+      "conserved_material_tags": true,
+      "scope": "Complete accepted physical ledger replay; exact rejected-clock replay is stated separately. Signed fuel counts refer to supplied ideal chemostats, not a finite closed fuel inventory."
+    }
+  ],
+  "software_events": 309,
+  "software_proposals": 1144,
+  "scope": "Independent software preflight only; not phase-formation or finite-size evidence. Exclude these smokes from any morphology experiment totals."
+}

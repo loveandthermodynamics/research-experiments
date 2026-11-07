@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "tail_convention": "Omit both Gamma tails and renormalize; agent_tail_numerics.py separately checks folding into endpoint bins.",
+  "gate_states": 193,
+  "parameters": {
+    "alpha": 1.5,
+    "tau": 1.0,
+    "entry_rate": 0.2,
+    "thermal": 0.05,
+    "paid_hazard_per_healthy_site": 1.0,
+    "sites_and_gates": 3
+  },
+  "pi_healthy": 0.7141450211687953,
+  "mean_entry_duration": 2.001379064180579,
+  "expected_gate_energy_one_unit": 0.0713960337739771,
+  "expected_gate_energy_both_matched_comparisons": 0.2141881013219313,
+  "omitted_gamma_probability_before_renormalization": 2.375877272697835e-14,
+  "detailed_balance_log_residual": 1.4210854715202004e-14,
+  "stationarity_residual": 6.938893903907228e-17,
+  "rows": [
+    {
+      "time": 100.0,
+      "single_activation_survival": 0.028863731344147096,
+      "independent_three_activation_survival": 2.404680716664189e-05,
+      "common_three_activation_survival": 0.02859163021974959,
+      "finite_residual_vs_ideal_relative_error": 0.0005689125278429685
+    },
+    {
+      "time": 1000.0,
+      "single_activation_survival": 0.009045982764394327,
+      "independent_three_activation_survival": 7.40230998169227e-07,
+      "common_three_activation_survival": 0.00903752062852979,
+      "finite_residual_vs_ideal_relative_error": -0.0001891401790027336
+    },
+    {
+      "time": 10000.0,
+      "single_activation_survival": 0.0028512923423681252,
+      "independent_three_activation_survival": 2.3180630434585906e-08,
+      "common_three_activation_survival": 0.0028510251886255406,
+      "finite_residual_vs_ideal_relative_error": -0.0026291630420791634
+    }
+  ],
+  "apparent_tail_exponents_1000_to_10000": {
+    "single": 0.5014140082265206,
+    "independent_three": 1.5042420246795616,
+    "common_three": 0.5010482473091312
+  },
+  "eventual_smallest_decay_rate_single": 1.0681831954601879e-09,
+  "jensen_order_checked_at_200_times": true,
+  "passive_thermal_rate_per_site": 3.3760552415777733e-09,
+  "passive_factor_at_time_10000": 0.9998987234715666,
+  "scope": "First-activation latency only; separate retained-template activation model, finite-mixture cutoff, no post-activation exergy result."
+}

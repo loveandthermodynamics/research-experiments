@@ -1,0 +1,41 @@
+{
+  "founder_R": [
+    0.01,
+    0.03,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    0.9
+  ],
+  "initial_L": 0.0,
+  "M": 0.95,
+  "alpha": 4.0,
+  "eta": 2.061153622438558e-09,
+  "fuel_affinity": 40.0,
+  "arms": [
+    {
+      "produce": true,
+      "protect": true
+    },
+    {
+      "produce": false,
+      "protect": true
+    },
+    {
+      "produce": true,
+      "protect": false
+    },
+    {
+      "produce": false,
+      "protect": false
+    }
+  ],
+  "horizon": 500.0,
+  "sample_dt": 0.5,
+  "terminal_high_tolerance": 1e-07,
+  "benchmark_source_sha256": "33706140e7b5df3214343066b1c24bfea185857eb1fe018b3eb04ebb04ee8732",
+  "interval_certificate_sha256": "8da2afbc5aa7fbe72e7f8cfe8601b2993be2db3ca5da50f25b6ff5399f1d52a2",
+  "runner_sha256": "6b0ded3ef79e6ee5094ccf34365fc6f4015ba7dc7dda593c6160761265fd6066",
+  "scope": "Numerical zero-L formation examples in the supplied open wellmixed benchmark, without founder-budget optimization or spatial-individuality inference."
+}

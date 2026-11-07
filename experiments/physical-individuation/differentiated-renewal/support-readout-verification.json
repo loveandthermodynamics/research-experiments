@@ -1,0 +1,628 @@
+{
+  "checks_passed": true,
+  "source_hashes": {
+    "cohort_support_readouts.py": "77849872b811dea43d94f174d9436dbfbd549beac9bd0a851d9471db6ecac491",
+    "causal-support-design.md": "47a6615e5d8e24a26baccd3bafb4272d0c29c3068ac64c378afa4d23bcea6e55",
+    "lineage_readouts.py": "da2c372cef52ad102fc13559009074cc0ad9084570083494e591d97d8b4e937f"
+  },
+  "verifier_sha256": "ec20c32a96eea92d9a581bbe4f214c0f5215850c101fe07d8632457be03c5cb5",
+  "synthetic_fixtures": [
+    {
+      "name": "leaving_region_is_not_lineage_extinction",
+      "explicit_expected": {
+        "outcome_integral_local_R": 2.0,
+        "integral_global_R": 7.0,
+        "integral_global_cohort_R": 7.0,
+        "integral_local_cohort_R": 2.0,
+        "integral_global_cohort_R1": 3.0,
+        "original_cohort_clearance_time": 4.0,
+        "final_cohort_size": 1,
+        "final_cohort_R1": 1,
+        "final_local_R": 0,
+        "final_global_R": 1,
+        "cohort_outward_crossings": 1,
+        "cohort_inward_crossings": 0,
+        "integral_local_R_after_original_cohort_clearance": 0.0,
+        "integral_cohort_R_after_original_cohort_clearance": 2.0
+      },
+      "checks_passed": true,
+      "measurements": {
+        "outcome_integral_local_R": 2.0,
+        "integral_global_R": 7.0,
+        "integral_local_L": 0.0,
+        "integral_global_cohort_R": 7.0,
+        "integral_local_cohort_R": 2.0,
+        "integral_global_cohort_R1": 3.0,
+        "integral_local_R_after_original_cohort_clearance": 0.0,
+        "integral_cohort_R_after_original_cohort_clearance": 2.0,
+        "original_cohort_clearance_time": 4.0,
+        "initial_cohort_size": 1,
+        "original_cohort_present": true,
+        "original_cohort_cleared_after_presence": true,
+        "final_cohort_size": 1,
+        "final_cohort_R1": 1,
+        "final_local_R": 0,
+        "final_global_R": 1,
+        "cohort_forward_L": 0,
+        "cohort_reverse_L": 0,
+        "cohort_net_L": 0,
+        "near_site_forward_L": 0,
+        "near_site_reverse_L": 0,
+        "cohort_copies": 1,
+        "cohort_copies_after_original_clearance": 0,
+        "cohort_outward_crossings": 1,
+        "cohort_inward_crossings": 0,
+        "fixed_core_sites": [
+          0
+        ],
+        "fixed_readout_region": [
+          0,
+          1,
+          4,
+          5,
+          20
+        ]
+      },
+      "diagnostics": {
+        "ledger_events": 4,
+        "balance_errors": {
+          "global_cohort": 0,
+          "local_cohort": 0,
+          "global_R": 0,
+          "local_R": 0,
+          "local_L": 0
+        },
+        "per_original_final_R_descendants": {
+          "1": 1
+        },
+        "original_instance_deaths": {
+          "1": 4.0
+        },
+        "cohort_R_losses": 1,
+        "local_cohort_R_births": 0,
+        "local_cohort_R_losses": 0,
+        "all_R_inward_crossings": 0,
+        "all_R_outward_crossings": 1,
+        "L_inward_crossings": 0,
+        "L_outward_crossings": 0,
+        "near_site_net_L": 0
+      }
+    },
+    {
+      "name": "thermal_replacement_does_not_restore_descent",
+      "explicit_expected": {
+        "outcome_integral_local_R": 4.0,
+        "integral_global_cohort_R": 1.0,
+        "final_cohort_size": 0,
+        "final_global_R": 1,
+        "original_cohort_clearance_time": 1.0,
+        "integral_local_R_after_original_cohort_clearance": 3.0,
+        "integral_cohort_R_after_original_cohort_clearance": 0.0
+      },
+      "checks_passed": true,
+      "measurements": {
+        "outcome_integral_local_R": 4.0,
+        "integral_global_R": 4.0,
+        "integral_local_L": 0.0,
+        "integral_global_cohort_R": 1.0,
+        "integral_local_cohort_R": 1.0,
+        "integral_global_cohort_R1": 1.0,
+        "integral_local_R_after_original_cohort_clearance": 3.0,
+        "integral_cohort_R_after_original_cohort_clearance": 0.0,
+        "original_cohort_clearance_time": 1.0,
+        "initial_cohort_size": 1,
+        "original_cohort_present": true,
+        "original_cohort_cleared_after_presence": true,
+        "final_cohort_size": 0,
+        "final_cohort_R1": 0,
+        "final_local_R": 1,
+        "final_global_R": 1,
+        "cohort_forward_L": 0,
+        "cohort_reverse_L": 0,
+        "cohort_net_L": 0,
+        "near_site_forward_L": 0,
+        "near_site_reverse_L": 0,
+        "cohort_copies": 0,
+        "cohort_copies_after_original_clearance": 0,
+        "cohort_outward_crossings": 0,
+        "cohort_inward_crossings": 0,
+        "fixed_core_sites": [
+          0
+        ],
+        "fixed_readout_region": [
+          0,
+          1,
+          4,
+          5,
+          20
+        ]
+      },
+      "diagnostics": {
+        "ledger_events": 2,
+        "balance_errors": {
+          "global_cohort": 0,
+          "local_cohort": 0,
+          "global_R": 0,
+          "local_R": 0,
+          "local_L": 0
+        },
+        "per_original_final_R_descendants": {
+          "1": 0
+        },
+        "original_instance_deaths": {
+          "1": 1.0
+        },
+        "cohort_R_losses": 1,
+        "local_cohort_R_births": 0,
+        "local_cohort_R_losses": 1,
+        "all_R_inward_crossings": 0,
+        "all_R_outward_crossings": 0,
+        "L_inward_crossings": 0,
+        "L_outward_crossings": 0,
+        "near_site_net_L": 0
+      }
+    },
+    {
+      "name": "moving_helper_and_pre_event_reverse_production",
+      "explicit_expected": {
+        "outcome_integral_local_R": 6.0,
+        "integral_global_R": 16.0,
+        "integral_local_L": 6.0,
+        "integral_global_cohort_R": 8.0,
+        "integral_local_cohort_R": 6.0,
+        "cohort_forward_L": 2,
+        "cohort_reverse_L": 1,
+        "cohort_net_L": 1,
+        "near_site_forward_L": 0,
+        "near_site_reverse_L": 1,
+        "cohort_outward_crossings": 1,
+        "cohort_inward_crossings": 1,
+        "original_cohort_clearance_time": null,
+        "final_cohort_size": 1
+      },
+      "checks_passed": true,
+      "measurements": {
+        "outcome_integral_local_R": 6.0,
+        "integral_global_R": 16.0,
+        "integral_local_L": 6.0,
+        "integral_global_cohort_R": 8.0,
+        "integral_local_cohort_R": 6.0,
+        "integral_global_cohort_R1": 0.0,
+        "integral_local_R_after_original_cohort_clearance": 0.0,
+        "integral_cohort_R_after_original_cohort_clearance": 0.0,
+        "original_cohort_clearance_time": null,
+        "initial_cohort_size": 1,
+        "original_cohort_present": true,
+        "original_cohort_cleared_after_presence": false,
+        "final_cohort_size": 1,
+        "final_cohort_R1": 0,
+        "final_local_R": 1,
+        "final_global_R": 2,
+        "cohort_forward_L": 2,
+        "cohort_reverse_L": 1,
+        "cohort_net_L": 1,
+        "near_site_forward_L": 0,
+        "near_site_reverse_L": 1,
+        "cohort_copies": 0,
+        "cohort_copies_after_original_clearance": 0,
+        "cohort_outward_crossings": 1,
+        "cohort_inward_crossings": 1,
+        "fixed_core_sites": [
+          0
+        ],
+        "fixed_readout_region": [
+          0,
+          1,
+          4,
+          5,
+          20
+        ]
+      },
+      "diagnostics": {
+        "ledger_events": 7,
+        "balance_errors": {
+          "global_cohort": 0,
+          "local_cohort": 0,
+          "global_R": 0,
+          "local_R": 0,
+          "local_L": 0
+        },
+        "per_original_final_R_descendants": {
+          "1": 1
+        },
+        "original_instance_deaths": {},
+        "cohort_R_losses": 0,
+        "local_cohort_R_births": 0,
+        "local_cohort_R_losses": 0,
+        "all_R_inward_crossings": 1,
+        "all_R_outward_crossings": 1,
+        "L_inward_crossings": 1,
+        "L_outward_crossings": 0,
+        "near_site_net_L": -1
+      }
+    },
+    {
+      "name": "gross_counterflow_is_not_net_flow",
+      "explicit_expected": {
+        "integral_global_R": 16.0,
+        "outcome_integral_local_R": 11.0,
+        "integral_local_cohort_R": 11.0,
+        "cohort_outward_crossings": 2,
+        "cohort_inward_crossings": 1,
+        "final_cohort_size": 2,
+        "integral_global_cohort_R1": 8.0,
+        "final_local_R": 1
+      },
+      "checks_passed": true,
+      "measurements": {
+        "outcome_integral_local_R": 11.0,
+        "integral_global_R": 16.0,
+        "integral_local_L": 0.0,
+        "integral_global_cohort_R": 16.0,
+        "integral_local_cohort_R": 11.0,
+        "integral_global_cohort_R1": 8.0,
+        "integral_local_R_after_original_cohort_clearance": 0.0,
+        "integral_cohort_R_after_original_cohort_clearance": 0.0,
+        "original_cohort_clearance_time": null,
+        "initial_cohort_size": 2,
+        "original_cohort_present": true,
+        "original_cohort_cleared_after_presence": false,
+        "final_cohort_size": 2,
+        "final_cohort_R1": 1,
+        "final_local_R": 1,
+        "final_global_R": 2,
+        "cohort_forward_L": 0,
+        "cohort_reverse_L": 0,
+        "cohort_net_L": 0,
+        "near_site_forward_L": 0,
+        "near_site_reverse_L": 0,
+        "cohort_copies": 0,
+        "cohort_copies_after_original_clearance": 0,
+        "cohort_outward_crossings": 2,
+        "cohort_inward_crossings": 1,
+        "fixed_core_sites": [
+          0,
+          1
+        ],
+        "fixed_readout_region": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          20,
+          21
+        ]
+      },
+      "diagnostics": {
+        "ledger_events": 6,
+        "balance_errors": {
+          "global_cohort": 0,
+          "local_cohort": 0,
+          "global_R": 0,
+          "local_R": 0,
+          "local_L": 0
+        },
+        "per_original_final_R_descendants": {
+          "1": 1,
+          "2": 1
+        },
+        "original_instance_deaths": {},
+        "cohort_R_losses": 0,
+        "local_cohort_R_births": 0,
+        "local_cohort_R_losses": 0,
+        "all_R_inward_crossings": 1,
+        "all_R_outward_crossings": 2,
+        "L_inward_crossings": 0,
+        "L_outward_crossings": 0,
+        "near_site_net_L": 0
+      }
+    },
+    {
+      "name": "backmutation_turnover_and_birth_outside_region",
+      "explicit_expected": {
+        "integral_global_R": 8.0,
+        "outcome_integral_local_R": 6.0,
+        "integral_global_cohort_R1": 4.0,
+        "original_cohort_clearance_time": 2.0,
+        "cohort_copies": 2,
+        "cohort_copies_after_original_clearance": 1,
+        "integral_local_R_after_original_cohort_clearance": 3.0,
+        "integral_cohort_R_after_original_cohort_clearance": 5.0,
+        "cohort_outward_crossings": 0,
+        "cohort_inward_crossings": 0,
+        "final_cohort_size": 2,
+        "final_cohort_R1": 1
+      },
+      "checks_passed": true,
+      "measurements": {
+        "outcome_integral_local_R": 6.0,
+        "integral_global_R": 8.0,
+        "integral_local_L": 0.0,
+        "integral_global_cohort_R": 8.0,
+        "integral_local_cohort_R": 6.0,
+        "integral_global_cohort_R1": 4.0,
+        "integral_local_R_after_original_cohort_clearance": 3.0,
+        "integral_cohort_R_after_original_cohort_clearance": 5.0,
+        "original_cohort_clearance_time": 2.0,
+        "initial_cohort_size": 1,
+        "original_cohort_present": true,
+        "original_cohort_cleared_after_presence": true,
+        "final_cohort_size": 2,
+        "final_cohort_R1": 1,
+        "final_local_R": 1,
+        "final_global_R": 2,
+        "cohort_forward_L": 0,
+        "cohort_reverse_L": 0,
+        "cohort_net_L": 0,
+        "near_site_forward_L": 0,
+        "near_site_reverse_L": 0,
+        "cohort_copies": 2,
+        "cohort_copies_after_original_clearance": 1,
+        "cohort_outward_crossings": 0,
+        "cohort_inward_crossings": 0,
+        "fixed_core_sites": [
+          0
+        ],
+        "fixed_readout_region": [
+          0,
+          1,
+          4,
+          5,
+          20
+        ]
+      },
+      "diagnostics": {
+        "ledger_events": 3,
+        "balance_errors": {
+          "global_cohort": 0,
+          "local_cohort": 0,
+          "global_R": 0,
+          "local_R": 0,
+          "local_L": 0
+        },
+        "per_original_final_R_descendants": {
+          "1": 2
+        },
+        "original_instance_deaths": {
+          "1": 2.0
+        },
+        "cohort_R_losses": 1,
+        "local_cohort_R_births": 1,
+        "local_cohort_R_losses": 1,
+        "all_R_inward_crossings": 0,
+        "all_R_outward_crossings": 0,
+        "L_inward_crossings": 0,
+        "L_outward_crossings": 0,
+        "near_site_net_L": 0
+      }
+    },
+    {
+      "name": "periodic_boundary_shell",
+      "explicit_expected": {
+        "outcome_integral_local_R": 2.0,
+        "integral_global_cohort_R": 4.0,
+        "fixed_readout_region": [
+          0,
+          1,
+          4,
+          5,
+          20
+        ],
+        "cohort_outward_crossings": 1,
+        "final_cohort_size": 1
+      },
+      "checks_passed": true,
+      "measurements": {
+        "outcome_integral_local_R": 2.0,
+        "integral_global_R": 4.0,
+        "integral_local_L": 0.0,
+        "integral_global_cohort_R": 4.0,
+        "integral_local_cohort_R": 2.0,
+        "integral_global_cohort_R1": 0.0,
+        "integral_local_R_after_original_cohort_clearance": 0.0,
+        "integral_cohort_R_after_original_cohort_clearance": 0.0,
+        "original_cohort_clearance_time": null,
+        "initial_cohort_size": 1,
+        "original_cohort_present": true,
+        "original_cohort_cleared_after_presence": false,
+        "final_cohort_size": 1,
+        "final_cohort_R1": 0,
+        "final_local_R": 0,
+        "final_global_R": 1,
+        "cohort_forward_L": 0,
+        "cohort_reverse_L": 0,
+        "cohort_net_L": 0,
+        "near_site_forward_L": 0,
+        "near_site_reverse_L": 0,
+        "cohort_copies": 0,
+        "cohort_copies_after_original_clearance": 0,
+        "cohort_outward_crossings": 1,
+        "cohort_inward_crossings": 0,
+        "fixed_core_sites": [
+          0
+        ],
+        "fixed_readout_region": [
+          0,
+          1,
+          4,
+          5,
+          20
+        ]
+      },
+      "diagnostics": {
+        "ledger_events": 2,
+        "balance_errors": {
+          "global_cohort": 0,
+          "local_cohort": 0,
+          "global_R": 0,
+          "local_R": 0,
+          "local_L": 0
+        },
+        "per_original_final_R_descendants": {
+          "1": 1
+        },
+        "original_instance_deaths": {},
+        "cohort_R_losses": 0,
+        "local_cohort_R_births": 0,
+        "local_cohort_R_losses": 0,
+        "all_R_inward_crossings": 0,
+        "all_R_outward_crossings": 1,
+        "L_inward_crossings": 0,
+        "L_outward_crossings": 0,
+        "near_site_net_L": 0
+      }
+    },
+    {
+      "name": "empty_initial_cohort_has_no_turnover_event",
+      "explicit_expected": {
+        "initial_cohort_size": 0,
+        "original_cohort_present": false,
+        "original_cohort_cleared_after_presence": false,
+        "original_cohort_clearance_time": 0.0,
+        "outcome_integral_local_R": 5.0,
+        "integral_global_cohort_R": 0.0,
+        "integral_local_R_after_original_cohort_clearance": 0.0,
+        "integral_cohort_R_after_original_cohort_clearance": 0.0,
+        "final_cohort_size": 0
+      },
+      "checks_passed": true,
+      "measurements": {
+        "outcome_integral_local_R": 5.0,
+        "integral_global_R": 5.0,
+        "integral_local_L": 0.0,
+        "integral_global_cohort_R": 0.0,
+        "integral_local_cohort_R": 0.0,
+        "integral_global_cohort_R1": 0.0,
+        "integral_local_R_after_original_cohort_clearance": 0.0,
+        "integral_cohort_R_after_original_cohort_clearance": 0.0,
+        "original_cohort_clearance_time": 0.0,
+        "initial_cohort_size": 0,
+        "original_cohort_present": false,
+        "original_cohort_cleared_after_presence": false,
+        "final_cohort_size": 0,
+        "final_cohort_R1": 0,
+        "final_local_R": 2,
+        "final_global_R": 2,
+        "cohort_forward_L": 0,
+        "cohort_reverse_L": 0,
+        "cohort_net_L": 0,
+        "near_site_forward_L": 0,
+        "near_site_reverse_L": 0,
+        "cohort_copies": 0,
+        "cohort_copies_after_original_clearance": 0,
+        "cohort_outward_crossings": 0,
+        "cohort_inward_crossings": 0,
+        "fixed_core_sites": [
+          0
+        ],
+        "fixed_readout_region": [
+          0,
+          1,
+          4,
+          5,
+          20
+        ]
+      },
+      "diagnostics": {
+        "ledger_events": 1,
+        "balance_errors": {
+          "global_cohort": 0,
+          "local_cohort": 0,
+          "global_R": 0,
+          "local_R": 0,
+          "local_L": 0
+        },
+        "per_original_final_R_descendants": {},
+        "original_instance_deaths": {},
+        "cohort_R_losses": 0,
+        "local_cohort_R_births": 0,
+        "local_cohort_R_losses": 0,
+        "all_R_inward_crossings": 0,
+        "all_R_outward_crossings": 0,
+        "L_inward_crossings": 0,
+        "L_outward_crossings": 0,
+        "near_site_net_L": 0
+      }
+    },
+    {
+      "name": "reverse_copy_loss_and_unrelated_sources",
+      "explicit_expected": {
+        "outcome_integral_local_R": 9.0,
+        "integral_global_R": 11.0,
+        "integral_global_cohort_R": 1.0,
+        "original_cohort_clearance_time": 1.0,
+        "final_cohort_size": 0,
+        "final_global_R": 3,
+        "cohort_copies": 0,
+        "integral_local_R_after_original_cohort_clearance": 7.0
+      },
+      "checks_passed": true,
+      "measurements": {
+        "outcome_integral_local_R": 9.0,
+        "integral_global_R": 11.0,
+        "integral_local_L": 0.0,
+        "integral_global_cohort_R": 1.0,
+        "integral_local_cohort_R": 1.0,
+        "integral_global_cohort_R1": 0.0,
+        "integral_local_R_after_original_cohort_clearance": 7.0,
+        "integral_cohort_R_after_original_cohort_clearance": 0.0,
+        "original_cohort_clearance_time": 1.0,
+        "initial_cohort_size": 1,
+        "original_cohort_present": true,
+        "original_cohort_cleared_after_presence": true,
+        "final_cohort_size": 0,
+        "final_cohort_R1": 0,
+        "final_local_R": 2,
+        "final_global_R": 3,
+        "cohort_forward_L": 0,
+        "cohort_reverse_L": 0,
+        "cohort_net_L": 0,
+        "near_site_forward_L": 0,
+        "near_site_reverse_L": 0,
+        "cohort_copies": 0,
+        "cohort_copies_after_original_clearance": 0,
+        "cohort_outward_crossings": 0,
+        "cohort_inward_crossings": 0,
+        "fixed_core_sites": [
+          0
+        ],
+        "fixed_readout_region": [
+          0,
+          1,
+          4,
+          5,
+          20
+        ]
+      },
+      "diagnostics": {
+        "ledger_events": 3,
+        "balance_errors": {
+          "global_cohort": 0,
+          "local_cohort": 0,
+          "global_R": 0,
+          "local_R": 0,
+          "local_L": 0
+        },
+        "per_original_final_R_descendants": {
+          "1": 0
+        },
+        "original_instance_deaths": {
+          "1": 1.0
+        },
+        "cohort_R_losses": 1,
+        "local_cohort_R_births": 0,
+        "local_cohort_R_losses": 1,
+        "all_R_inward_crossings": 0,
+        "all_R_outward_crossings": 0,
+        "L_inward_crossings": 0,
+        "L_outward_crossings": 0,
+        "near_site_net_L": 0
+      }
+    }
+  ],
+  "physical_raw_runs_checked": 0,
+  "raw_runs": [],
+  "scope": "Independent offline readout reconstruction. Synthetic histories are bookkeeping fixtures, not physical simulations. No rate, thermodynamic-feasibility, apparatus-cost or individual-boundary claim is made by this verifier."
+}

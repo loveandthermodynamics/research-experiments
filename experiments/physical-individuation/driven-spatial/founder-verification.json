@@ -1,0 +1,18 @@
+{
+  "checks_passed": true,
+  "source_sha256": "8012a2ee9ceed0fa87522d503c0878e6e10c37ba86b35a1c3a9b220b011ac70c",
+  "trajectories": 28,
+  "initial_L": 0,
+  "high_full_founders": [
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    0.9
+  ],
+  "high_ablations": 0,
+  "maximum_state_difference": 2.2185608002184357e-10,
+  "maximum_scaled_work_difference": 1.1834895639462135e-10,
+  "method": "Directly reconstructed currents; DOP853 versus recorded RK45; all sampled states and work compared",
+  "scope": "Numerical reachability examples, not rigorous threshold-founder optimization, spatial formation or a biodiversity proof."
+}

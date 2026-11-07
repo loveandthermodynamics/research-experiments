@@ -1,0 +1,268 @@
+{
+  "arms": [
+    "specialist",
+    "generalist",
+    "X_only",
+    "Y_only"
+  ],
+  "configurations": {
+    "16-X_only": {
+      "activity_mode": "specialist",
+      "flags": {
+        "enable_X": true,
+        "enable_Y": false
+      },
+      "params": {
+        "E_X": 6.0,
+        "E_Y": 6.0,
+        "J_BB": 2.4,
+        "background_AB_rate": 0.0,
+        "copy_rate": 0.1,
+        "epsilon_B": 2.0,
+        "g_X": -2.5,
+        "g_Y": 2.5,
+        "initial_X": 8,
+        "initial_Y": 0,
+        "loss_rate": 0.02,
+        "material_count": 77,
+        "material_mobility": 1.0,
+        "mu": 12.0,
+        "mutation_error": 0.05,
+        "side": 16,
+        "template_mobility": 0.5,
+        "theta": 1.0
+      }
+    },
+    "16-Y_only": {
+      "activity_mode": "specialist",
+      "flags": {
+        "enable_X": false,
+        "enable_Y": true
+      },
+      "params": {
+        "E_X": 6.0,
+        "E_Y": 6.0,
+        "J_BB": 2.4,
+        "background_AB_rate": 0.0,
+        "copy_rate": 0.1,
+        "epsilon_B": 2.0,
+        "g_X": -2.5,
+        "g_Y": 2.5,
+        "initial_X": 8,
+        "initial_Y": 0,
+        "loss_rate": 0.02,
+        "material_count": 77,
+        "material_mobility": 1.0,
+        "mu": 12.0,
+        "mutation_error": 0.05,
+        "side": 16,
+        "template_mobility": 0.5,
+        "theta": 1.0
+      }
+    },
+    "16-generalist": {
+      "activity_mode": "generalist",
+      "flags": {
+        "enable_X": true,
+        "enable_Y": true
+      },
+      "params": {
+        "E_X": 6.0,
+        "E_Y": 6.0,
+        "J_BB": 2.4,
+        "background_AB_rate": 0.0,
+        "copy_rate": 0.1,
+        "epsilon_B": 2.0,
+        "g_X": -2.5,
+        "g_Y": 2.5,
+        "initial_X": 8,
+        "initial_Y": 0,
+        "loss_rate": 0.02,
+        "material_count": 77,
+        "material_mobility": 1.0,
+        "mu": 12.0,
+        "mutation_error": 0.05,
+        "side": 16,
+        "template_mobility": 0.5,
+        "theta": 1.0
+      }
+    },
+    "16-specialist": {
+      "activity_mode": "specialist",
+      "flags": {
+        "enable_X": true,
+        "enable_Y": true
+      },
+      "params": {
+        "E_X": 6.0,
+        "E_Y": 6.0,
+        "J_BB": 2.4,
+        "background_AB_rate": 0.0,
+        "copy_rate": 0.1,
+        "epsilon_B": 2.0,
+        "g_X": -2.5,
+        "g_Y": 2.5,
+        "initial_X": 8,
+        "initial_Y": 0,
+        "loss_rate": 0.02,
+        "material_count": 77,
+        "material_mobility": 1.0,
+        "mu": 12.0,
+        "mutation_error": 0.05,
+        "side": 16,
+        "template_mobility": 0.5,
+        "theta": 1.0
+      }
+    },
+    "32-X_only": {
+      "activity_mode": "specialist",
+      "flags": {
+        "enable_X": true,
+        "enable_Y": false
+      },
+      "params": {
+        "E_X": 6.0,
+        "E_Y": 6.0,
+        "J_BB": 2.4,
+        "background_AB_rate": 0.0,
+        "copy_rate": 0.1,
+        "epsilon_B": 2.0,
+        "g_X": -2.5,
+        "g_Y": 2.5,
+        "initial_X": 32,
+        "initial_Y": 0,
+        "loss_rate": 0.02,
+        "material_count": 308,
+        "material_mobility": 1.0,
+        "mu": 12.0,
+        "mutation_error": 0.05,
+        "side": 32,
+        "template_mobility": 0.5,
+        "theta": 1.0
+      }
+    },
+    "32-Y_only": {
+      "activity_mode": "specialist",
+      "flags": {
+        "enable_X": false,
+        "enable_Y": true
+      },
+      "params": {
+        "E_X": 6.0,
+        "E_Y": 6.0,
+        "J_BB": 2.4,
+        "background_AB_rate": 0.0,
+        "copy_rate": 0.1,
+        "epsilon_B": 2.0,
+        "g_X": -2.5,
+        "g_Y": 2.5,
+        "initial_X": 32,
+        "initial_Y": 0,
+        "loss_rate": 0.02,
+        "material_count": 308,
+        "material_mobility": 1.0,
+        "mu": 12.0,
+        "mutation_error": 0.05,
+        "side": 32,
+        "template_mobility": 0.5,
+        "theta": 1.0
+      }
+    },
+    "32-generalist": {
+      "activity_mode": "generalist",
+      "flags": {
+        "enable_X": true,
+        "enable_Y": true
+      },
+      "params": {
+        "E_X": 6.0,
+        "E_Y": 6.0,
+        "J_BB": 2.4,
+        "background_AB_rate": 0.0,
+        "copy_rate": 0.1,
+        "epsilon_B": 2.0,
+        "g_X": -2.5,
+        "g_Y": 2.5,
+        "initial_X": 32,
+        "initial_Y": 0,
+        "loss_rate": 0.02,
+        "material_count": 308,
+        "material_mobility": 1.0,
+        "mu": 12.0,
+        "mutation_error": 0.05,
+        "side": 32,
+        "template_mobility": 0.5,
+        "theta": 1.0
+      }
+    },
+    "32-specialist": {
+      "activity_mode": "specialist",
+      "flags": {
+        "enable_X": true,
+        "enable_Y": true
+      },
+      "params": {
+        "E_X": 6.0,
+        "E_Y": 6.0,
+        "J_BB": 2.4,
+        "background_AB_rate": 0.0,
+        "copy_rate": 0.1,
+        "epsilon_B": 2.0,
+        "g_X": -2.5,
+        "g_Y": 2.5,
+        "initial_X": 32,
+        "initial_Y": 0,
+        "loss_rate": 0.02,
+        "material_count": 308,
+        "material_mobility": 1.0,
+        "mu": 12.0,
+        "mutation_error": 0.05,
+        "side": 32,
+        "template_mobility": 0.5,
+        "theta": 1.0
+      }
+    }
+  },
+  "early_window": [
+    100.0,
+    200.0
+  ],
+  "horizon": 400.0,
+  "independent_preflight_sha256": "3cc60de348b435fcc61d10f049ae4e08cf7ef104f8321457178f5bfc2f5cd44d",
+  "late_window": [
+    300.0,
+    400.0
+  ],
+  "no_outcome_parameter_selection": true,
+  "no_rescue_or_optional_extension": true,
+  "required_claim_A_gates": 20,
+  "required_claim_B_gates": 2,
+  "sample_dt": 5.0,
+  "seeds": [
+    730100,
+    730101,
+    730102,
+    730103,
+    730104,
+    730105,
+    730106,
+    730107
+  ],
+  "sides": [
+    16,
+    32
+  ],
+  "source_sha256": {
+    "analyze_study.py": "673a1f127310b711a74629345c3f2a7af65a9ded6673b1dd6ae666845878118d",
+    "balance-and-cost.md": "e246ba4910049c1d663372511142410fd192f855c8b73699f731d9f78ccf9ee1",
+    "dependencies/morphology.py": "ba042a840e7ad6b084e537db9a050f5d738317d0c24b3b5e286a6c1524ebe64b",
+    "generalist-comparison.md": "502c86c1ee5526a90c14d4babbb58e1b60a41c71a89a1c6fca4519e46fc3e131",
+    "model-spec.md": "217fa9077d39d5361833ed04c526621108c66a3c3288a6d7c497ef837e64d043",
+    "productive_model.py": "6c122c8d4e19d59225acc00082b90bc5bcac537a4177272142984295176b8375",
+    "renewal_readouts.py": "ccdc76c4000f738a18fa3f67de5cca6ebd9e9febac50d37b47551d9bac073bb2",
+    "run_study.py": "ed0c3270dd8a2bbb1e9d71f5ae7c794321ea483af5c8bd188f06ee1fc53800bb",
+    "spatial_readouts.py": "caf5aca7c3a0552ab84a3154464d0ab9a6848703e0d2f550ecdc8528c340dc1b",
+    "study-design.md": "af61c723f94c0d23b0c12ba46ee051ef3423bd3cbd274726888f4f4b84d76321"
+  },
+  "study": "Joined productive copying and molecular phase: bounded prospective test"
+}

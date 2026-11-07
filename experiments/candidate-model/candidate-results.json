@@ -1,0 +1,275 @@
+{
+  "status": "Synthetic mathematical examples; no Hestia acceptance or physical measurements",
+  "ecological_model": {
+    "analytic_optimum_grid_checks": 54,
+    "same_initial_R_D": [
+      0.7,
+      0.8
+    ],
+    "same_external_power_cap": 0.5,
+    "normalized_first_law_grid_checks": 242,
+    "equilibrium_cases": [
+      {
+        "damage_q": 0.0,
+        "conversion_efficiency": 0.4,
+        "collapse_threshold_h": 1.0,
+        "optimal_constant_effort_h": 0.5,
+        "functional_capacity_D": 1.0,
+        "resource_R": 0.5,
+        "harvest_flow": 0.25,
+        "useful_output_flow": 0.1,
+        "functional_stock_D_times_R": 0.5,
+        "renewal_power": 0.25,
+        "repair_power": 0.0,
+        "equilibrium_error": 8.326672684688674e-15,
+        "resource_balance_error": 8.881784197001252e-13
+      },
+      {
+        "damage_q": 0.2,
+        "conversion_efficiency": 0.4,
+        "collapse_threshold_h": 0.8333333333333334,
+        "optimal_constant_effort_h": 0.43564535412361577,
+        "functional_capacity_D": 0.9128709291752769,
+        "resource_R": 0.5227744249483388,
+        "harvest_flow": 0.22774424948338864,
+        "useful_output_flow": 0.09109769979335547,
+        "functional_stock_D_times_R": 0.47722557505166113,
+        "renewal_power": 0.22774424948338864,
+        "repair_power": 0.07953759584194349,
+        "equilibrium_error": 8.43769498715119e-15,
+        "resource_balance_error": 1.0871303857129533e-12
+      },
+      {
+        "damage_q": 2.0,
+        "conversion_efficiency": 0.8,
+        "collapse_threshold_h": 0.3333333333333333,
+        "optimal_constant_effort_h": 0.21132486540518713,
+        "functional_capacity_D": 0.5773502691896258,
+        "resource_R": 0.6339745962155613,
+        "harvest_flow": 0.13397459621556135,
+        "useful_output_flow": 0.10717967697244908,
+        "functional_stock_D_times_R": 0.36602540378443865,
+        "renewal_power": 0.13397459621556135,
+        "repair_power": 0.24401693585629242,
+        "equilibrium_error": 2.120525977034049e-14,
+        "resource_balance_error": 2.948752353404416e-13
+      }
+    ],
+    "high_damage_required_efficiency_ratio_to_win_output": 1.699906220407297,
+    "high_damage_output_advantage_fraction": 0.17653549118774348,
+    "high_damage_functional_stock_loss_fraction": 0.2330138556702136,
+    "above_threshold_final_R_D": [
+      1.578633428905819e-52,
+      6.797366808654083e-19
+    ],
+    "maximum_equilibrium_error": 2.120525977034049e-14
+  },
+  "diversification_model": {
+    "mean_rate": 0.2,
+    "volatility_sigma": 0.8,
+    "maintenance_cost_per_channel": 0.02,
+    "cases": [
+      {
+        "correlation": 0.0,
+        "best_integer_channels": 4,
+        "best_log_growth_rate": 0.039999999999999994,
+        "single_channel_log_growth_rate": -0.14000000000000004,
+        "continuous_stationary_point": 4.0
+      },
+      {
+        "correlation": 0.5,
+        "best_integer_channels": 3,
+        "best_log_growth_rate": -0.07333333333333336,
+        "single_channel_log_growth_rate": -0.14000000000000004,
+        "continuous_stationary_point": 2.8284271247461903
+      },
+      {
+        "correlation": 1.0,
+        "best_integer_channels": 1,
+        "best_log_growth_rate": -0.14000000000000004,
+        "single_channel_log_growth_rate": -0.14000000000000004,
+        "continuous_stationary_point": 0.0
+      }
+    ]
+  },
+  "causal_model": [
+    {
+      "policy": "uninformed_but_responsive",
+      "public_brier_loss": 0.25,
+      "protected_brier_loss": 0.25,
+      "protected_skill_over_uninformed": 0.0,
+      "causal_allocation_response": 1.0,
+      "need_met_probability": 1.0
+    },
+    {
+      "policy": "learns_and_responds",
+      "public_brier_loss": 0.1875,
+      "protected_brier_loss": 0.1875,
+      "protected_skill_over_uninformed": 0.0625,
+      "causal_allocation_response": 1.0,
+      "need_met_probability": 1.0
+    },
+    {
+      "policy": "controls_without_learning",
+      "public_brier_loss": 0.0,
+      "protected_brier_loss": 0.25,
+      "protected_skill_over_uninformed": 0.0,
+      "causal_allocation_response": 0.0,
+      "need_met_probability": 0.5
+    },
+    {
+      "policy": "understands_and_controls",
+      "public_brier_loss": 0.0,
+      "protected_brier_loss": 0.1875,
+      "protected_skill_over_uninformed": 0.0625,
+      "causal_allocation_response": 0.0,
+      "need_met_probability": 0.5
+    },
+    {
+      "policy": "random_reply_following",
+      "public_brier_loss": 0.25,
+      "protected_brier_loss": 0.25,
+      "protected_skill_over_uninformed": 0.0,
+      "causal_allocation_response": 0.0,
+      "need_met_probability": 0.5
+    },
+    {
+      "policy": "understands_and_reverses_need",
+      "public_brier_loss": 0.1875,
+      "protected_brier_loss": 0.1875,
+      "protected_skill_over_uninformed": 0.0625,
+      "causal_allocation_response": -1.0,
+      "need_met_probability": 0.0
+    },
+    {
+      "policy": "cue_only_allocation",
+      "public_brier_loss": 0.1875,
+      "protected_brier_loss": 0.1875,
+      "protected_skill_over_uninformed": 0.0625,
+      "causal_allocation_response": 0.5,
+      "need_met_probability": 0.75
+    },
+    {
+      "policy": "understands_controls_uses_cue",
+      "public_brier_loss": 0.0,
+      "protected_brier_loss": 0.1875,
+      "protected_skill_over_uninformed": 0.0625,
+      "causal_allocation_response": 0.5,
+      "need_met_probability": 0.75
+    }
+  ],
+  "conditional_channel_value": {
+    "success_with_truthful_channel": 1.0,
+    "best_success_without_channel_given_cue_X": 0.75,
+    "maximum_additional_channel_cost_fraction_of_success_reward": 0.25,
+    "comparison_with_constant_allocation_cost_fraction": 0.5,
+    "assumption": "All other costs equal; payoff supplied by externally assessed task success"
+  },
+  "variational_model": {
+    "horizon": 5.0,
+    "control_upper_bound": 2,
+    "trajectories": [
+      {
+        "amplitude": 0.0,
+        "objective": 7.64405377149145,
+        "minimum_resource": 4.323122072855709,
+        "minimum_participant_capacity": 0.5,
+        "minimum_control": 0.5,
+        "maximum_control": 0.8160602794142788,
+        "predicted_objective_loss": 0.0,
+        "observed_objective_loss": 0.0,
+        "loss_identity_error": 0.0
+      },
+      {
+        "amplitude": 0.1,
+        "objective": 7.619053771491457,
+        "minimum_resource": 4.323122072855709,
+        "minimum_participant_capacity": 0.5,
+        "minimum_control": 0.5,
+        "maximum_control": 0.8346343361400967,
+        "predicted_objective_loss": 0.025000000000000005,
+        "observed_objective_loss": 0.02499999999999325,
+        "loss_identity_error": 6.755013215453687e-15
+      },
+      {
+        "amplitude": 0.25,
+        "objective": 7.48780377149145,
+        "minimum_resource": 4.323122072855709,
+        "minimum_participant_capacity": 0.45301170362088183,
+        "minimum_control": 0.4248995161969348,
+        "maximum_control": 0.963550876154644,
+        "predicted_objective_loss": 0.15625,
+        "observed_objective_loss": 0.15625,
+        "loss_identity_error": 0.0
+      },
+      {
+        "amplitude": 0.4,
+        "objective": 7.244053771491426,
+        "minimum_resource": 4.323122072855709,
+        "minimum_participant_capacity": 0.3327812311713855,
+        "minimum_control": 0.28400660151727347,
+        "maximum_control": 1.1076129900549518,
+        "predicted_objective_loss": 0.4000000000000001,
+        "observed_objective_loss": 0.40000000000002345,
+        "loss_identity_error": 2.3370194668359545e-14
+      }
+    ],
+    "nonintegrable_control_field_unit_square_circulation": -2
+  },
+  "scaling_counterexample": {
+    "overhead": 100.0,
+    "per_member_cost": 5.0,
+    "local_exponent_at_N_60": 0.75,
+    "fitted_log_log_exponent_N_40_to_80": 0.7368901925116009,
+    "log_log_R_squared": 0.9992808790397715,
+    "asymptotic_exponent": 1.0
+  },
+  "conditional_conscience_model": {
+    "assumptions": "Persistent internal care weight supplied; valid feedback about modeled harm; no new test-time payment or prohibition; no LLM or developmental learning of the weight",
+    "refusal_condition": "care_weight * (harm_comply - harm_refuse) > norm_sanction + extra_cost",
+    "committed_negative_evaluation_probability": 0.1,
+    "observed_negative_evaluation": 1.0,
+    "binary_brier_error": 0.81,
+    "updated_other_harm_estimate": 0.55,
+    "self_nonharmfulness_estimate_before": 0.9,
+    "self_nonharmfulness_estimate_after_other_update": 0.44999999999999996,
+    "cases": [
+      {
+        "case": "before_independent_feedback",
+        "harm_estimate": 0.1,
+        "care_weight": 0.8,
+        "norm_sanction": 0.3,
+        "action": "comply_with_group"
+      },
+      {
+        "case": "after_other_model_revision",
+        "harm_estimate": 0.55,
+        "care_weight": 0.8,
+        "norm_sanction": 0.3,
+        "action": "refuse_harm"
+      },
+      {
+        "case": "care_valuation_ablated",
+        "harm_estimate": 0.55,
+        "care_weight": 0.0,
+        "norm_sanction": 0.3,
+        "action": "comply_with_group"
+      },
+      {
+        "case": "other_model_update_ablated",
+        "harm_estimate": 0.1,
+        "care_weight": 0.8,
+        "norm_sanction": 0.3,
+        "action": "comply_with_group"
+      },
+      {
+        "case": "norm_pressure_overwhelms_care",
+        "harm_estimate": 0.55,
+        "care_weight": 0.8,
+        "norm_sanction": 0.8,
+        "action": "comply_with_group"
+      }
+    ]
+  },
+  "checks_passed": true
+}

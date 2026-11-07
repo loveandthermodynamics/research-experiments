@@ -1,0 +1,47 @@
+{
+  "title": "Research Agenda for the Entropy Paradox and Hestia",
+  "date": "2026-10-19",
+  "local_file": "research-agenda.md",
+  "words": 6391,
+  "local_sha256": "420fac6732ac89fc40cb4e8677056cbfc14172851015cdf45780d77c9144cc4f",
+  "page_id": "[private publication identifier omitted]",
+  "page_url": "[private publication reference omitted]",
+  "page_drive_scope": "personal",
+  "page_title_matches": true,
+  "page_complete_body_matches_after_whitespace_normalization": true,
+  "page_blocks": 138,
+  "page_main_headings": 10,
+  "page_tables": 3,
+  "page_code_blocks": 3,
+  "integration_edit": {
+    "operations": 21,
+    "applied": 21,
+    "ignored": 0,
+    "rejected": 0,
+    "unchanged_blocks_preserved": 67,
+    "new_sequence": 1
+  },
+  "original_snapshot": "pre-solutions-research-agenda.md",
+  "independent_reviews": {
+    "social_prediction_and_development": "Pass; preserved other-model-before-self-model and pre-LLM feelings; supplied concern and noncausal toy self-estimate explicitly qualified",
+    "regeneration_and_philosophical_cases": "Pass; added ecological state domain and standing without a universal veto",
+    "variational_and_physical_claims": "Pass; exact model calculations rerun; removed ambiguous MVC numbering"
+  },
+  "model_file": "candidate_model.py",
+  "results_file": "candidate-results.json",
+  "synthetic_checks": {
+    "passed": true,
+    "ecological_parameter_cases": 54,
+    "energy_states": 242,
+    "causal_policies": 8,
+    "conditional_conscience": true,
+    "global_variational_loss_identity": true,
+    "overhead_scaling_counterexample": true
+  },
+  "browser_visual_preview": "Not verified; ChatGPT browser preview required sign-in",
+  "source_essays_modified": false,
+  "hestia_runtime_modified": false,
+  "actual_hestia_acceptance_experiments_performed": false,
+  "physical_entropy_measured": false,
+  "resolution_scope": "Argument repairs, explicit ethical commitments, exact conditional reduced models, and falsifiable Hestia acceptance agenda; no claim of demonstrated conscience, collective consciousness, or subjective continuity"
+}

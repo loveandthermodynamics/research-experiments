@@ -1,0 +1,47 @@
+{
+  "record_type": "historical_synthetic_characterization_results",
+  "date": "2026-10-22",
+  "interpretation": "Passing probes characterize defects; not scientific acceptance or proof of participant benefit. Message changes are recorded database values; the UI was not tested.",
+  "historical_suite": {
+    "tests": 255,
+    "passed": 255,
+    "seconds": 19.898,
+    "successful_log": "backend-tests-placeholder.log"
+  },
+  "probes": [
+    {
+      "http_status": 200,
+      "learned_state_unchanged": true,
+      "message_feedback": "negative",
+      "message_score": 0.2,
+      "probe": "late_manual_correction",
+      "resolve_calls": 0,
+      "retained_prediction_actual": 0.9
+    },
+    {
+      "beta": -1.0000000000000002,
+      "compliant": true,
+      "first_mean_fitness": 100,
+      "last_mean_fitness": 12.5,
+      "n_epochs": 8,
+      "p_value": 2.4999999999999995e-60,
+      "probe": "life_l6_fitness_decline",
+      "r_squared": 1,
+      "size_or_cost_observations": 0,
+      "status": "compliant",
+      "supplied_fields": [
+        "epoch_number",
+        "mean_fitness"
+      ],
+      "t1": 100.00000000000004
+    },
+    {
+      "current_responder": "B",
+      "evaluation_calls": 0,
+      "prediction_owner": "A",
+      "prediction_still_pending": true,
+      "probe": "alternating_agent_resolution",
+      "returned_none": true
+    }
+  ]
+}
