@@ -1,5 +1,7 @@
 # Individuation & Regeneration
 
+This is the physical part of Love & Thermodynamics: how can the work that sustains life make further life and new organization possible? The current [physical-study guide](../../experiments/physical-individuation/README.md) introduces each stage. The dated technical notes preserve the original hypotheses and outcomes; [the interpretation guide](../interpreting-results.md) explains which negative results constrain particular mechanisms and which larger developmental questions remain untested.
+
 *What the preserved models establish about forming and renewing an organization, and where the proposed individual is still missing.*
 
 The physical question behind this program is constructive. Can processes produce the structures that sustain those processes, continue through constituent replacement, and generate further organized units? Identifying a persistent cluster is easier than demonstrating that it renews the conditions of its own continuity.

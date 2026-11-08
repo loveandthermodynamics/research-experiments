@@ -1,6 +1,10 @@
-# Hestia: offline characterization of the research harness
+# Does feedback change what Hestia learns?
 
-These October 22, 2026 probes exercise real Hestia services against an isolated test database with synthetic scores and agents. A passing probe records a defect. It does not pass a scientific claim about selfhood, morality, thermodynamic scaling or human benefit.
+For another participant's answer to matter, it has to change the state from which an agent later acts. Hestia proposes that learning about others also changes its account of itself, with costs and feelings shaping conduct. These checks ask whether the reviewed software carries out some necessary steps of that proposal.
+
+The October 22, 2026 probes exercise real Hestia services with synthetic scores and agents. All three are **characterization tests**: they assert the observed defective behavior. A pass therefore reproduces a defect, rather than showing that the mechanism works as intended. The November 7 replay reproduced the three saved outputs; it did not rerun the separate historical 255-test suite.
+
+## Findings and the claims they constrain
 
 The saved findings are:
 
@@ -8,7 +12,15 @@ The saved findings are:
 2. Eight epochs containing only `mean_fitness = 100 / epoch` produce a LIFE-L6 compliance label despite containing no group-size or resource-cost observations. That label is not evidence of negentropic scaling.
 3. When agent B handles the next turn, agent A's pending peer prediction remains unresolved at the tested resolver gate.
 
+The first and third results show failures in the tested learning path. The second shows that the scaling acceptance label is not a valid measurement of the proposed resource–group-size relation. These are substantive problems to repair before using this implementation to test developmental claims. They do not measure human benefit, emergent collective identity or reciprocal development, and do not constitute a comparison of the full reflexive loop against another learning architecture.
+
+The wider ambition concerns what new capacities agents and people could develop together, while remaining answerable for care and costs. See [what the negative results test](../../docs/interpreting-results.md), including why the historical fictional adversaries are conceptual cases rather than results of these software probes.
+
 [results.json](results.json) preserves the three synthetic outputs and the separate historical 255-test suite summary. [manifest.json](manifest.json) identifies the reviewed working-tree bytes as well as the repository's then-current commit. A commit ID alone does not identify a dirty working tree. The initial blank-key test failure and later successful placeholder-key suite are separate historical attempts; the raw logs remain outside this public snapshot.
+
+## Method: what “offline” means
+
+“Offline” describes the execution conditions, not the subject, maturity or availability of the project. The probes use an isolated in-memory test database and supplied feedback. Network and DNS access are blocked, so no model provider or human participant generates the answers. They check specified service and state transitions in the matching runtime, not a live conversation or population experiment.
 
 ## Reproduction requires the Hestia runtime
 

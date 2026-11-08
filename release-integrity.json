@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-07",
-  "scope": "Delivered bytes; excludes this manifest and Git/cache internals.",
+  "as_of": "2026-11-08",
+  "scope": "Delivered current bytes; excludes this manifest and Git/cache internals. Historical scientific bindings remain separate.",
   "files": [
     {
       "path": ".gitignore",
@@ -10,8 +10,8 @@
     },
     {
       "path": "CATALOGUE.md",
-      "bytes": 100097,
-      "sha256": "472817cee9923009644ed865657b54e704559d7dc1d5f7f0b1e7318d2b6cf463"
+      "bytes": 101631,
+      "sha256": "006f4ac9f10f02d7452cf94296805a6b76327cfd5067c1e9b411175356d3e3df"
     },
     {
       "path": "NOTICE.md",
@@ -20,53 +20,58 @@
     },
     {
       "path": "README.md",
-      "bytes": 5354,
-      "sha256": "8e4e0ba8d64b3fdea85229dcb5e908a493f9f271fd29c1c73cd30f3d78a855b0"
+      "bytes": 7043,
+      "sha256": "40da1430df7512e62ffb0651ede8abba556b44bcf9d933817757242b5ad63d31"
     },
     {
       "path": "REPRODUCING.md",
-      "bytes": 7947,
-      "sha256": "4d8b300a28b6506a2a99bc043d89b506383e532ab3481f6f644325874d3af63b"
+      "bytes": 8403,
+      "sha256": "fc45570870ad3e7897051c2fbd8e076207517c8dd4167d18138b18d5a6c1403a"
     },
     {
       "path": "catalogue.json",
-      "bytes": 206827,
-      "sha256": "c49cb9522c67ef28daf682d5ce7c22dea8695cb9aa15b989c6c88939f7a726eb"
+      "bytes": 208413,
+      "sha256": "ca39354ed64127cca13c116adb05f17509ec2e5c50e2886d6a8d71e9e476e4cb"
     },
     {
       "path": "docs/coverage.md",
-      "bytes": 6419,
-      "sha256": "69307d4403cf0913b8a79557aa7c59a3dd412ba626e90a52b1170fe40f10b6ce"
+      "bytes": 6835,
+      "sha256": "945f119b1d0b239a4bb44626be10f31dcc332c3bbdee8c5154d55aa9a67ff673"
+    },
+    {
+      "path": "docs/interpreting-results.md",
+      "bytes": 7691,
+      "sha256": "9e19c58c526769b73d007459d66c74232170f54d0e51f848c8faaf034732724f"
     },
     {
       "path": "docs/topics/collective-agency-care.md",
-      "bytes": 6223,
-      "sha256": "f2ac9945a33441d7eea0f00a440df3a4532870aa0d28f2d4c4b324330e662bfc"
+      "bytes": 6979,
+      "sha256": "3d163742c4d52940094f30dd81081dc633c990f583f9944eee7ef69d947b76ce"
     },
     {
       "path": "docs/topics/diversity-history-aging.md",
-      "bytes": 13147,
-      "sha256": "c3a8bd5e6ba17c9d75d0574b34433cf7a9a3d4eec664492a209d12597e0248f2"
+      "bytes": 13589,
+      "sha256": "6e8df5b2f31990cc82b27591270c10794cea6e6fd201bb49c68569bb64666cc8"
     },
     {
       "path": "docs/topics/independence-infrastructure.md",
-      "bytes": 6281,
-      "sha256": "61feb19b7a37df15f6615ceec88be84cda9905f31866d117b5ea975b0b07cb21"
+      "bytes": 6905,
+      "sha256": "69fceb67460feaa0c98a9444b3ea8166c871e7586aa6477d00a7bcb1d1fc43b6"
     },
     {
       "path": "docs/topics/individuation-regeneration.md",
-      "bytes": 13093,
-      "sha256": "0259695584b6ff2c34431d976d83e241eb81cb4342378c597fb641c90ecee5bc"
+      "bytes": 13591,
+      "sha256": "7e178c07c2e517f14239f537e58131b5d434b7599eb8544edea8c62b079163e7"
     },
     {
       "path": "docs/topics/social-learning-moral-agency.md",
-      "bytes": 5883,
-      "sha256": "52878dd985de80216fbd177030ad6e26e1302adf08108b36cec7fae1bdda19e6"
+      "bytes": 6430,
+      "sha256": "ee195aaf8ba89f00a368c7657be2fe9110a5238e99dd8b73e3800162e59ae999"
     },
     {
       "path": "experiments/candidate-model/README.md",
-      "bytes": 2939,
-      "sha256": "31cf40329d30131d5f2adea858461c266b66de16f6595bc395d3527a20f80e7a"
+      "bytes": 3881,
+      "sha256": "cbef98cffba80d4280b3cb870c28d9ce190fd6fecb8c9680fd2587d67ac82ca3"
     },
     {
       "path": "experiments/candidate-model/candidate-results.json",
@@ -85,8 +90,8 @@
     },
     {
       "path": "experiments/diversity-persistence/README.md",
-      "bytes": 2167,
-      "sha256": "6fe51852ab35907ec191cb0389e8e9a87f011a55cafa38b7f2857533f04d9fcb"
+      "bytes": 2852,
+      "sha256": "3d7d0426d0a9b02beb336f21fa425f25fff36d22a3f120f9ae21dc9cdcccf2de"
     },
     {
       "path": "experiments/diversity-persistence/diversity-persistence-results.json",
@@ -100,8 +105,8 @@
     },
     {
       "path": "experiments/generative-chemistry/README.md",
-      "bytes": 2199,
-      "sha256": "29f9b111053d95500290e1486ff6ae179cb927795b915ca8148ba3025d3ffaa3"
+      "bytes": 2785,
+      "sha256": "438cd1a0ede0ce5261916a49eb4ca580b95784b22b2ef57386c8362ae8053aa6"
     },
     {
       "path": "experiments/generative-chemistry/generative-dynamics.png",
@@ -122,6 +127,16 @@
       "path": "experiments/generative-chemistry/verification.json",
       "bytes": 1935,
       "sha256": "20b686edf7028c40657ac24f7a77af8667289364fc501503b42f2daac1c08000"
+    },
+    {
+      "path": "experiments/physical-individuation/README.md",
+      "bytes": 4447,
+      "sha256": "0166566da573aa2619d16aa5ac45f09545e650943e2ed198118dae9098493706"
+    },
+    {
+      "path": "experiments/physical-individuation/active-phase/README.md",
+      "bytes": 2150,
+      "sha256": "12d6265d2bfcb0d5f888656e05d28801eabbbe723af5ce134055dd6639f4ec0c"
     },
     {
       "path": "experiments/physical-individuation/active-phase/active_phase_model.py",
@@ -229,6 +244,11 @@
       "sha256": "bf6d2057a32b3541397ecfcac3cff17b601a6b62b79d529cc5d176b8b7e3c599"
     },
     {
+      "path": "experiments/physical-individuation/active-phase/software-smoke.json",
+      "bytes": 4016,
+      "sha256": "7e717910ec021349219161b7e27aea7db91f3fac412849800fe450c73908f5f5"
+    },
+    {
       "path": "experiments/physical-individuation/active-phase/software-smoke/side16-mu12-s745003.json.gz",
       "bytes": 10090,
       "sha256": "3841d954e2ce4d763e14074ca01f0175ab66bd76760692292307449c743da0b7"
@@ -242,11 +262,6 @@
       "path": "experiments/physical-individuation/active-phase/software-smoke/side6-mu12-s745001.json.gz",
       "bytes": 2481,
       "sha256": "1d20f624113ad03bb6102d042c2a28b384bd2642920962bb25e5117a23d2c6e3"
-    },
-    {
-      "path": "experiments/physical-individuation/active-phase/software-smoke.json",
-      "bytes": 4016,
-      "sha256": "7e717910ec021349219161b7e27aea7db91f3fac412849800fe450c73908f5f5"
     },
     {
       "path": "experiments/physical-individuation/active-phase/software_smoke.py",
@@ -379,6 +394,11 @@
       "sha256": "d53211d41ef66446db3caeb2ba8d4ced6df778e40b83cde0b3cef624fab96f07"
     },
     {
+      "path": "experiments/physical-individuation/capacity-bridge/README.md",
+      "bytes": 2084,
+      "sha256": "9f513fcbfb81be7df4419e427402a189aa976d953fe4f72dfbaf9f1faa0d2898"
+    },
+    {
       "path": "experiments/physical-individuation/capacity-bridge/capacity-certificate.json",
       "bytes": 1183,
       "sha256": "29a97d1bb0dfd31f1dd82ee539cc3da6f767591dc3260629c8bf6ea7304d5aa2"
@@ -412,6 +432,11 @@
       "path": "experiments/physical-individuation/derivation.md",
       "bytes": 22275,
       "sha256": "b4126938d3edcb21ce4103ce97d019df519352f1a7e6077e86f2d39963d94cf4"
+    },
+    {
+      "path": "experiments/physical-individuation/differentiated-renewal/README.md",
+      "bytes": 2359,
+      "sha256": "15ad50929eff286326d7349d3f58e1a78a824cfe3e287791e12a5e5305eae1d7"
     },
     {
       "path": "experiments/physical-individuation/differentiated-renewal/active-droplet-bridge.md",
@@ -609,6 +634,11 @@
       "sha256": "ec20c32a96eea92d9a581bbe4f214c0f5215850c101fe07d8632457be03c5cb5"
     },
     {
+      "path": "experiments/physical-individuation/driven-spatial/README.md",
+      "bytes": 2080,
+      "sha256": "5c74d422da5e584bb0777dd063c6b951b7e52046412deb6a531d9dcb27bf233f"
+    },
+    {
       "path": "experiments/physical-individuation/driven-spatial/certify_diversity_coefficient.py",
       "bytes": 2009,
       "sha256": "825652a410ee80548be8f505ae84ba0e04c384373d6207e4d6edde9f14fc14a0"
@@ -797,6 +827,11 @@
       "path": "experiments/physical-individuation/integrity-verification.json",
       "bytes": 1153,
       "sha256": "23eb1b6a505e09bf5e0ab04437f940543c3f3624eb60625027d6a3d37e9b0d4c"
+    },
+    {
+      "path": "experiments/physical-individuation/interface-maintenance/README.md",
+      "bytes": 2037,
+      "sha256": "d10915849f0ae3aebb565d38b712c471dbc9498acf3a84df66bfe559a9a29950"
     },
     {
       "path": "experiments/physical-individuation/interface-maintenance/analyze_interface.py",
@@ -1049,6 +1084,11 @@
       "sha256": "58167d4c2e88f8c809bc9282e713134fca481aad0fb511ba6e9f8c5695050976"
     },
     {
+      "path": "experiments/physical-individuation/productive-phase/README.md",
+      "bytes": 3006,
+      "sha256": "669c4a7108253064bcb370964f63a5b5c3d37e0b49af81cb43dbbea5018cd488"
+    },
+    {
       "path": "experiments/physical-individuation/productive-phase/analysis.json",
       "bytes": 8885111,
       "sha256": "f9f7e82dbf809f3daef9b94f2f6b2f75f9f164b2d86c32c07581137d1cd1c3da"
@@ -1179,6 +1219,11 @@
       "sha256": "ed0c3270dd8a2bbb1e9d71f5ae7c794321ea483af5c8bd188f06ee1fc53800bb"
     },
     {
+      "path": "experiments/physical-individuation/productive-phase/software-preflight.json",
+      "bytes": 5733,
+      "sha256": "f490340698c3f93a90f9b3717ebd1fcbec3734fd7be6bb378ea82de3d2dd4ee9"
+    },
+    {
       "path": "experiments/physical-individuation/productive-phase/software-preflight/side6-generalist-x1y1-mu12.json.gz",
       "bytes": 2990,
       "sha256": "a94e0598fe3671a7ecfa63edcabad7e8b1c34b8f9d355b1c1f4602135443aa72"
@@ -1202,11 +1247,6 @@
       "path": "experiments/physical-individuation/productive-phase/software-preflight/side6-specialist-x1y1-mu12.json.gz",
       "bytes": 2990,
       "sha256": "d22130ec772bf468f2eb736dd795554f4acabe83104e6fdfd4c999177fe1ec0d"
-    },
-    {
-      "path": "experiments/physical-individuation/productive-phase/software-preflight.json",
-      "bytes": 5733,
-      "sha256": "f490340698c3f93a90f9b3717ebd1fcbec3734fd7be6bb378ea82de3d2dd4ee9"
     },
     {
       "path": "experiments/physical-individuation/productive-phase/software_preflight.py",
@@ -1257,6 +1297,11 @@
       "path": "experiments/physical-individuation/renewal-results.json",
       "bytes": 4942,
       "sha256": "0806d1eb49312705e068070af297909670a8acaf36cc52ef8112e5dd5fac8d03"
+    },
+    {
+      "path": "experiments/physical-individuation/renewal-turnover/README.md",
+      "bytes": 2359,
+      "sha256": "c1a1b06b2dceea9779f69bcaf05fbe428d82e4b2a481f9c58beaf4bd7c8fdef9"
     },
     {
       "path": "experiments/physical-individuation/renewal-turnover/confirmation-protocol.json",
@@ -1400,8 +1445,8 @@
     },
     {
       "path": "experiments/software-correctness/README.md",
-      "bytes": 2832,
-      "sha256": "2ceec3fdbf05b1433b8eef8dc060cbe216881b72374b290f29962c7380cae67e"
+      "bytes": 4578,
+      "sha256": "cf89c222afb0f2d284bdf97f2243f6f7b13d1b47e309077269b3ae7f9faaabea"
     },
     {
       "path": "experiments/software-correctness/audit_probes.py",
@@ -1429,14 +1474,19 @@
       "sha256": "634caf692196ed9975db350abbdc6531f501a8ef6626975e0e63a33a191cd787"
     },
     {
+      "path": "provenance.json",
+      "bytes": 4215,
+      "sha256": "5b21fbf118ed98a77f3542388de81db6707cc4509daf4951d482208e75d6bd8b"
+    },
+    {
+      "path": "provenance/editorial-revision-2026-11-08.json",
+      "bytes": 8113,
+      "sha256": "3f7453e1a01135683f98742bb5609e77ea4f0d211c5cfd802df0091b5d45c04e"
+    },
+    {
       "path": "provenance/physical-snapshot.json",
       "bytes": 192371,
       "sha256": "7b46488b83c9eb812624b5f1f25b65d3473ac3e849b70176b0f757e58a23d794"
-    },
-    {
-      "path": "provenance.json",
-      "bytes": 3727,
-      "sha256": "3600f03756b3b19a7c19420062dfe1364b762517d59c049499506761ee7adbb3"
     },
     {
       "path": "scripts/replay_quick.py",

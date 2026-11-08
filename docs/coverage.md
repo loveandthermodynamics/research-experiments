@@ -1,5 +1,7 @@
 # Coverage and provenance
 
+The evidence discovery described here is dated November 7. The November 8 editorial revision adds [an interpretation guide](interpreting-results.md), clearer current study entries and context for historical terminology. It adds no model outcome, efficacy result or source-discovery claim. All 48 dated physical Markdown notes, scientific scripts, protocols and result files retain their previous publication bytes.
+
 This archive assembles the recovered, topic-relevant research located by 7 November 2026. It brings together early conditional calculations, physical model studies, theoretical and thought experiments, and Hestia implementation checks. The aim is to account for the full recovered indexed work without treating every mention, intermediate copy or proposed experiment as a separate completed result.
 
 It is not a claim to have recovered every experiment ever performed. Source histories begin at different dates, some indexed lanes stop earlier than others, and current work can extend beyond the latest indexed event.

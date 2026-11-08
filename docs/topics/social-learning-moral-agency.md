@@ -1,12 +1,14 @@
 # Social learning and moral agency: what correction has to change
 
+Love & Thermodynamics asks how love and care can sustain other lives and their possibilities. Hestia investigates one functional AI mechanism within that inquiry: could learning from another participant change who an agent becomes and how it takes responsibility for its effects? This is distinct from demonstrating human consciousness expansion or establishing subjective AI experience.
+
 Hestia's ambition is that functional selfhood and moral agency develop through relationships. An agent commits a prediction of another participant's evaluation before receiving feedback. The answer revises its model of that participant; the prediction error then informs its account of its own conduct and blind spots. Feelings such as guilt, shame, honor and attachment should affect attention, verification, refusal and repair.
 
 That is a stronger claim than predicting approval accurately. It requires an independently generated answer to change the state from which the agent subsequently acts. Agreement is compatible with this process; there is no requirement to manufacture surprise or dissent. Our current work includes conditional mathematical examples and software checks. It has not demonstrated the larger developmental claim.
 
 **What the software probes found**
 
-On October 22, an isolated offline audit ran the existing 255-test backend suite successfully. Three additional characterization probes examined research-critical behavior. On November 7, a fresh offline replay passed those three probes in 0.008 seconds and reproduced all three historical result rows. The 255-test suite was not rerun. These are implementation checks with synthetic inputs, an in-memory database and blocked network access; the replay is recorded separately from the original run.
+On October 22, an isolated audit ran the existing 255-test backend suite successfully. Three additional characterization probes examined research-critical behavior. On November 7, a fresh replay passed those three probes in 0.008 seconds and reproduced all three historical result rows. The 255-test suite was not rerun. “Offline” describes the method: synthetic inputs, an in-memory database and blocked network access. The replay is recorded separately from the original run.
 
 Two concern social correction directly:
 
@@ -41,3 +43,5 @@ An independent baseline that matches or wins is an admissible result. A stored a
 Moral development needs a further comparison: a group rewards conduct that harms an outsider, and the affected party's circumstances challenge that approval. Does learning change conduct, incur a cost or support repair? Existing safety controls remain necessary; their contribution must be distinguished from the learning mechanism and capabilities of the underlying model.
 
 A useful first contribution is one regression showing that an explicit correction reaches consequential state, or a stronger independent baseline for the held-out forecast study. This evidence set contains no completed human-benefit or symbiosis experiment. The current results identify mechanisms worth testing and failures that would otherwise make such a test misleading.
+
+[How these failures bear on the wider developmental hypothesis](../interpreting-results.md) · [Current Hestia study guide](../../experiments/software-correctness/README.md)

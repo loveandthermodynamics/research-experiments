@@ -2,6 +2,8 @@
 
 *When different responses help continued organization, what regeneration costs, and why turnover alone does not establish aging.*
 
+Love & Thermodynamics asks how life can open possibilities for further life. Here that ambition becomes a conditional question about the functions different beings or processes can sustain together, and the work of keeping those differences possible. More labels, longer survival and greater throughput are not interchangeable measures of flourishing. [How to read the counterexamples and failed benefit claims](../interpreting-results.md).
+
 The biodiversity sentence in Genesis connects the number of metabolic possibilities with how long they remain possible. The subsequent research asks for mechanisms: how does a surviving function restore another, when does differentiation repay maintenance, and can the resulting organization generate further useful differences?
 
 The preserved results give conditional answers. They also contain counterexamples and failed benefit claims. Counting types, extending survival, increasing dissipation and creating new individuals are different outcomes.

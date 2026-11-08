@@ -1,5 +1,7 @@
 # Multiplicative persistence, repair and common failure
 
+Within Love & Thermodynamics, the positive question is how different activities can sustain a living world and make further possibilities available. This model asks a narrower question: when do different responses and opportunities for repair improve persistence under declared costs?
+
 This October 20, 2026 standard-library script makes exact illustrative checks of a conditional diversity advantage. It keeps the failure distribution, response dependence, restoration of composition, viable module sizes, repair opportunity and costs explicit. Log growth and active capacity are not thermodynamic entropy.
 
 The [saved outputs](diversity-persistence-results.json) include:
@@ -13,6 +15,8 @@ The [saved outputs](diversity-persistence-results.json) include:
 - Independent Pareto log-loss channels whose ideal time-average behavior changes with the number of channels, together with a common infinite-mean shock that defeats every finite collection.
 
 These results depend on supplied response distributions and regeneration conditions. They are not a theorem that unlimited species richness maximizes sustained negentropy. Later physical studies attempt to make parts of the repair and renewal mechanism explicit; their positive and negative results are preserved separately.
+
+The no-repair case specifically rejects using a longer last-survivor time as sufficient evidence of more integrated active capacity at fixed stock. Common shocks can defeat the supplied diversity benefit. Those are conditional counterexamples, not tests of a collective's responsibility or of all possible individuation. [How to interpret the negative results](../../docs/interpreting-results.md).
 
 ## Reproduction
 

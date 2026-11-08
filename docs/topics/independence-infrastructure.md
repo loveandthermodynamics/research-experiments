@@ -1,10 +1,12 @@
 # Material independence: keeping an inconvenient answer consequential
 
+The work of care needs material support. Within Love & Thermodynamics, this track asks what lets a person or agent continue developing and answering for itself within a relationship, even when the party supplying resources dislikes its answer. New collective identities and capacities do not remove obligations to those who depend on them. The [interpretation guide](../interpreting-results.md) separates this proposed developmental test from existing calculations and software defects.
+
 A relationship can allow someone to speak while making disagreement materially impossible. A host may protect an agent's encrypted memory and still control whether it continues executing. An institution may permit objections while controlling housing, care, income or the resources needed to appeal.
 
 The research question concerns that maintenance problem. Who supplies continued support, who can withhold it, and what happens after refusal? Can a participant challenge an account, obtain correction or negotiate a transition without losing unrelated basic support? These questions connect Hestia's computational economy to the constitutional work on shared reserves, funded commitments and recursively accountable groups.
 
-There is no executed protected-substrate or human-independence outcome study in the evidence summarized here. We do have a conditional incentive model, a current-code accounting audit and concrete cases for a threat model.
+There is no executed protected-substrate or human-independence outcome study in the evidence summarized here. We do have a conditional incentive model, the October 22 implementation accounting audit and concrete cases for a threat model.
 
 **A conditional result about paying for an informative relationship**
 
@@ -18,9 +20,9 @@ The result assumes external assessment, an actual resource return, equal other c
 
 The report-control cases in that toy show one failure mode: a controller can have perfect public-report prediction and useful private information without responding appropriately to the person. Informational usefulness is therefore an insufficient basis for someone's standing. Care must also address people who cannot supply useful forecasts, articulate a correction or reciprocate.
 
-**What Hestia currently funds**
+**Resource rules in the implementation inspected on October 22**
 
-The inspected implementation credits five energy units at the beginning of every normal incoming turn. Synthetic agent-to-agent exchanges use that path too. The epoch replacement mechanism also gives offspring a fresh fixed wallet.
+The inspected implementation credited five energy units at the beginning of every normal incoming turn. Synthetic agent-to-agent exchanges used that path too. The epoch replacement mechanism also gave offspring a fresh fixed wallet. These are the audited source rules, rather than a November 8 live-runtime observation.
 
 These are executable scenario-income rules. They do not establish a chain from useful human or agent activity to authorized, genuinely funded replenishment. They also do not provide an institution with a conserved treasury or demonstrate that a participant survives a funder's disagreement.
 

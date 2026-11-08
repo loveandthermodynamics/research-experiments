@@ -1,6 +1,6 @@
 # Collective agency and care: testing what the whole makes possible
 
-The program asks whether cooperation can develop its participants, whether their development changes what the collective can do, and whether those new capacities enable further relationships and forms of organization. This allows the subjects and boundaries to change. It does not assume that a successful collective automatically benefits everyone incorporated into it.
+Within Love & Thermodynamics, care means helping lives and possibilities continue, including when someone cannot repay that care. The collective question is whether cooperation can create an organization with new capacities and an identity of its own, while widening its participants' possibilities for development. Their development might then enable further relationships and organization. Members and wholes can change through that process; responsibility for care, burdens and objections must remain consequential.
 
 Our Group Mind proposal extends prediction and correction to the collective level. A group commits to an expectation about members' evaluations, acts, receives their answers, revises its account of them and of itself, and changes a subsequent decision. Its history contains commitments, mistakes and repairs for which others can hold it answerable.
 
@@ -36,6 +36,8 @@ Information, authority, action opportunities, resource ceilings and constitution
 
 Outcomes include care delivered, unequal burden, correction effort, privacy exposure, refusal consequences and newly enabled capabilities. An independent scorer must inspect actual allocations and changes. Increased engagement, reputation or internal fitness cannot replace those outcomes.
 
+Before running the comparison, specify what people and the collective could undertake before and after the proposed development. Track those possibilities through changes of membership, role or identity, alongside continuing obligations to dependent people. A matching ordinary coordinator, absent new capacities, or gains bought by shifting burdens onto others must count against the specified developmental claim. The claim cannot be rescued simply by renaming coordination as an emergent identity.
+
 A warranted correction should propagate into obligations that depended on the mistake. Some cost of creating or preserving an incorrect attribution should return to the responsible part of the collective; Jo should not repeatedly pay to establish the same burden. Records need purposes and expiry. An accurate fact can still be harmful when retained or disclosed outside its justified use.
 
 **The recursive question**
@@ -45,3 +47,5 @@ A cooperative may join an association and make promises of its own. The parent n
 We need to test whether an affected outsider's objection survives composition, whether a correction changes the parent's decision, and what happens when membership, authority or personnel changes. Constituting a group by assigning it a label would not demonstrate that a new individual had formed.
 
 A useful contribution is one failure remaining after an apparently successful correction, together with a specific relief or new capacity that would count as improvement. Another is a minimal scenario and independent scorer for the three-arm comparison. These are proposed experiments. Human participation would require a separate agreed protocol for consent, data and review after the simulated mechanics are reliable.
+
+[The positive hypothesis, fictional adversaries and scope of negative tests](../interpreting-results.md)

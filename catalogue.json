@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "as_of": "2026-11-07",
-  "scope": "Recovered Hestia / Entropy Paradox research, with explicit coverage limits; not a lifetime-complete claim.",
+  "scope": "Recovered Love & Thermodynamics research, including earlier work under The Entropy Paradox title, with explicit coverage limits; not a lifetime-complete claim.",
   "record_count": 49,
   "adjacent_record_count": 5,
   "counting_rule": "Records are heterogeneous evidence/design units, not a count of independent successful experiments. Paired continuations, reused prefixes, pilot subsets and repeated verifications must not be added as independent sample sizes.",
@@ -3737,13 +3737,13 @@
       "topic": "Hestia software correctness",
       "status": "executed_saved_evidence_current_bytes_verified",
       "date": "2026-10-22",
-      "question": "Does the existing backend suite pass in an isolated offline test environment?",
+      "question": "Does the existing backend test suite pass in the isolated audit environment?",
       "result": {
         "tests": 255,
         "passed": 255,
         "seconds": 19.898
       },
-      "title": "Does the existing backend suite pass in an isolated offline test environment?",
+      "title": "Does the existing backend test suite pass in the isolated audit environment?",
       "evidence_kind": "offline_implementation_test_suite",
       "limitations": [
         "The successful log is backend-tests-placeholder.log; backend-tests.log is the initial blank-key attempt with 15 constructor errors and one failed assertion.",
@@ -3759,7 +3759,8 @@
         "experiments/software-correctness/README.md",
         "experiments/software-correctness/manifest.json",
         "experiments/software-correctness/results.json"
-      ]
+      ],
+      "method_note": "Offline describes synthetic inputs, in-memory storage and blocked network/DNS, not project maturity or a live-provider study."
     },
     {
       "id": "SW-02",
@@ -3924,7 +3925,12 @@
       "tracks": [
         4
       ],
-      "evidence_access": "Private implementation/source records; public summaries do not imply access."
+      "evidence_access": "Private implementation/source records; public summaries do not imply access.",
+      "developmental_acceptance": [
+        "Predeclare what participants and the collective can undertake before and after the proposed development, including changes in role, membership or identity.",
+        "Compare a capable ordinary coordinator under matched resources, information, authority and protections; retain care for dependent participants and costs displaced onto others.",
+        "Absent capacity gains, a matching or better baseline, displaced harm, or correction that fails to change action must count against the specified developmental mechanism."
+      ]
     },
     {
       "id": "C-02",
@@ -3946,7 +3952,7 @@
     },
     {
       "id": "TT-01",
-      "title": "Unitology, Borg and Resident Evil as adversarial thought experiments",
+      "title": "Can a collective flourish while erasing its participants’ possibilities?",
       "tracks": [
         3,
         4,
@@ -3962,7 +3968,9 @@
         "Voluntary informed irreversible fusion remains an open ethical boundary case.",
         "Neither monism nor unfamiliar substrate is rejected by thermodynamics alone."
       ],
-      "evidence_access": "Conceptual source corpus; summarized here without raw sessions or unpublished case text."
+      "evidence_access": "Conceptual source corpus; summarized here without raw sessions or unpublished case text.",
+      "context": "Unitology is the fictional religion in Dead Space; the Borg are from Star Trek, and Resident Evil supplies transformation scenarios. These are adversarial images of a successful successor that extinguishes incorporated participants’ needs, perspectives or possibilities, not experimental subjects.",
+      "interpretation": "The cases challenge inferring moral legitimacy from collective persistence, intelligence or efficiency. They do not rule out new collective and member identities developing wider capacities while remaining answerable for care, costs and consequential objections. The stronger universal claim that destructive strategies necessarily lose is withdrawn."
     },
     {
       "id": "CT-01",
@@ -4140,5 +4148,7 @@
         "Fixed two-type alphabets and genealogical succession alone do not establish open-ended biodiversity."
       ]
     }
-  ]
+  ],
+  "editorial_revision_as_of": "2026-11-08",
+  "interpretation_guide": "docs/interpreting-results.md"
 }

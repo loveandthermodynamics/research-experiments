@@ -65,5 +65,15 @@
     "Old packaging tools and full-archive manifests whose listed raw data are not in the proposed package",
     "Original RUN.txt files contain local environment paths; use portable generated reproduction documentation instead."
   ],
-  "record_count_rule": "49 primary evidence/design records plus five adjacent-method records; not 54 successful or independent experiments."
+  "record_count_rule": "49 primary evidence/design records plus five adjacent-method records; not 54 successful or independent experiments.",
+  "editorial_revisions": [
+    {
+      "as_of": "2026-11-08",
+      "manifest": "provenance/editorial-revision-2026-11-08.json",
+      "manifest_sha256": "3f7453e1a01135683f98742bb5609e77ea4f0d211c5cfd802df0091b5d45c04e",
+      "base_commit": "93fa6b02fd0a78dc9afe4fcf6673df1114e39448",
+      "scope": "Reader-facing framing, test targets, fictional context and current reading guides; no new experimental outcome.",
+      "historical_physical_source_bindings_unchanged": true
+    }
+  ]
 }

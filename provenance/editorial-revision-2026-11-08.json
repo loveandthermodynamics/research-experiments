@@ -1,0 +1,204 @@
+{
+  "as_of": "2026-11-08",
+  "base_commit": "93fa6b02fd0a78dc9afe4fcf6673df1114e39448",
+  "scope": "Reader-facing framing, test targets, fictional context and current reading guides; no new experimental outcome.",
+  "documents": [
+    {
+      "path": "CATALOGUE.md",
+      "change": "edited",
+      "previous_sha256": "472817cee9923009644ed865657b54e704559d7dc1d5f7f0b1e7318d2b6cf463",
+      "sha256": "006f4ac9f10f02d7452cf94296805a6b76327cfd5067c1e9b411175356d3e3df",
+      "bytes": 101631
+    },
+    {
+      "path": "README.md",
+      "change": "edited",
+      "previous_sha256": "31ec3f50c2c58d32a69e0aecb984b87786465ccc1b48a0f773569fa0cb42b2d0",
+      "sha256": "40da1430df7512e62ffb0651ede8abba556b44bcf9d933817757242b5ad63d31",
+      "bytes": 7043
+    },
+    {
+      "path": "REPRODUCING.md",
+      "change": "edited",
+      "previous_sha256": "e2718e7f8764d657508bdfb4c55e32653dbab71f0d6ceb7be85142c583d73e31",
+      "sha256": "fc45570870ad3e7897051c2fbd8e076207517c8dd4167d18138b18d5a6c1403a",
+      "bytes": 8403
+    },
+    {
+      "path": "catalogue.json",
+      "change": "edited",
+      "previous_sha256": "c49cb9522c67ef28daf682d5ce7c22dea8695cb9aa15b989c6c88939f7a726eb",
+      "sha256": "ca39354ed64127cca13c116adb05f17509ec2e5c50e2886d6a8d71e9e476e4cb",
+      "bytes": 208413
+    },
+    {
+      "path": "docs/coverage.md",
+      "change": "edited",
+      "previous_sha256": "69307d4403cf0913b8a79557aa7c59a3dd412ba626e90a52b1170fe40f10b6ce",
+      "sha256": "945f119b1d0b239a4bb44626be10f31dcc332c3bbdee8c5154d55aa9a67ff673",
+      "bytes": 6835
+    },
+    {
+      "path": "docs/interpreting-results.md",
+      "change": "new",
+      "previous_sha256": null,
+      "sha256": "9e19c58c526769b73d007459d66c74232170f54d0e51f848c8faaf034732724f",
+      "bytes": 7691
+    },
+    {
+      "path": "docs/topics/collective-agency-care.md",
+      "change": "edited",
+      "previous_sha256": "f2ac9945a33441d7eea0f00a440df3a4532870aa0d28f2d4c4b324330e662bfc",
+      "sha256": "3d163742c4d52940094f30dd81081dc633c990f583f9944eee7ef69d947b76ce",
+      "bytes": 6979
+    },
+    {
+      "path": "docs/topics/diversity-history-aging.md",
+      "change": "edited",
+      "previous_sha256": "c3a8bd5e6ba17c9d75d0574b34433cf7a9a3d4eec664492a209d12597e0248f2",
+      "sha256": "6e8df5b2f31990cc82b27591270c10794cea6e6fd201bb49c68569bb64666cc8",
+      "bytes": 13589
+    },
+    {
+      "path": "docs/topics/independence-infrastructure.md",
+      "change": "edited",
+      "previous_sha256": "61feb19b7a37df15f6615ceec88be84cda9905f31866d117b5ea975b0b07cb21",
+      "sha256": "69fceb67460feaa0c98a9444b3ea8166c871e7586aa6477d00a7bcb1d1fc43b6",
+      "bytes": 6905
+    },
+    {
+      "path": "docs/topics/individuation-regeneration.md",
+      "change": "edited",
+      "previous_sha256": "0259695584b6ff2c34431d976d83e241eb81cb4342378c597fb641c90ecee5bc",
+      "sha256": "7e178c07c2e517f14239f537e58131b5d434b7599eb8544edea8c62b079163e7",
+      "bytes": 13591
+    },
+    {
+      "path": "docs/topics/social-learning-moral-agency.md",
+      "change": "edited",
+      "previous_sha256": "52878dd985de80216fbd177030ad6e26e1302adf08108b36cec7fae1bdda19e6",
+      "sha256": "ee195aaf8ba89f00a368c7657be2fe9110a5238e99dd8b73e3800162e59ae999",
+      "bytes": 6430
+    },
+    {
+      "path": "experiments/candidate-model/README.md",
+      "change": "edited",
+      "previous_sha256": "31cf40329d30131d5f2adea858461c266b66de16f6595bc395d3527a20f80e7a",
+      "sha256": "cbef98cffba80d4280b3cb870c28d9ce190fd6fecb8c9680fd2587d67ac82ca3",
+      "bytes": 3881
+    },
+    {
+      "path": "experiments/diversity-persistence/README.md",
+      "change": "edited",
+      "previous_sha256": "6fe51852ab35907ec191cb0389e8e9a87f011a55cafa38b7f2857533f04d9fcb",
+      "sha256": "3d7d0426d0a9b02beb336f21fa425f25fff36d22a3f120f9ae21dc9cdcccf2de",
+      "bytes": 2852
+    },
+    {
+      "path": "experiments/generative-chemistry/README.md",
+      "change": "edited",
+      "previous_sha256": "29f9b111053d95500290e1486ff6ae179cb927795b915ca8148ba3025d3ffaa3",
+      "sha256": "438cd1a0ede0ce5261916a49eb4ca580b95784b22b2ef57386c8362ae8053aa6",
+      "bytes": 2785
+    },
+    {
+      "path": "experiments/physical-individuation/README.md",
+      "change": "new",
+      "previous_sha256": null,
+      "sha256": "0166566da573aa2619d16aa5ac45f09545e650943e2ed198118dae9098493706",
+      "bytes": 4447
+    },
+    {
+      "path": "experiments/physical-individuation/active-phase/README.md",
+      "change": "new",
+      "previous_sha256": null,
+      "sha256": "12d6265d2bfcb0d5f888656e05d28801eabbbe723af5ce134055dd6639f4ec0c",
+      "bytes": 2150
+    },
+    {
+      "path": "experiments/physical-individuation/capacity-bridge/README.md",
+      "change": "new",
+      "previous_sha256": null,
+      "sha256": "9f513fcbfb81be7df4419e427402a189aa976d953fe4f72dfbaf9f1faa0d2898",
+      "bytes": 2084
+    },
+    {
+      "path": "experiments/physical-individuation/differentiated-renewal/README.md",
+      "change": "new",
+      "previous_sha256": null,
+      "sha256": "15ad50929eff286326d7349d3f58e1a78a824cfe3e287791e12a5e5305eae1d7",
+      "bytes": 2359
+    },
+    {
+      "path": "experiments/physical-individuation/driven-spatial/README.md",
+      "change": "new",
+      "previous_sha256": null,
+      "sha256": "5c74d422da5e584bb0777dd063c6b951b7e52046412deb6a531d9dcb27bf233f",
+      "bytes": 2080
+    },
+    {
+      "path": "experiments/physical-individuation/interface-maintenance/README.md",
+      "change": "new",
+      "previous_sha256": null,
+      "sha256": "d10915849f0ae3aebb565d38b712c471dbc9498acf3a84df66bfe559a9a29950",
+      "bytes": 2037
+    },
+    {
+      "path": "experiments/physical-individuation/productive-phase/README.md",
+      "change": "new",
+      "previous_sha256": null,
+      "sha256": "669c4a7108253064bcb370964f63a5b5c3d37e0b49af81cb43dbbea5018cd488",
+      "bytes": 3006
+    },
+    {
+      "path": "experiments/physical-individuation/renewal-turnover/README.md",
+      "change": "new",
+      "previous_sha256": null,
+      "sha256": "c1a1b06b2dceea9779f69bcaf05fbe428d82e4b2a481f9c58beaf4bd7c8fdef9",
+      "bytes": 2359
+    },
+    {
+      "path": "experiments/software-correctness/README.md",
+      "change": "edited",
+      "previous_sha256": "2ceec3fdbf05b1433b8eef8dc060cbe216881b72374b290f29962c7380cae67e",
+      "sha256": "cf89c222afb0f2d284bdf97f2243f6f7b13d1b47e309077269b3ae7f9faaabea",
+      "bytes": 4578
+    }
+  ],
+  "preserved": {
+    "physical_snapshot_files": 264,
+    "historical_physical_markdown": 48,
+    "scientific_python_in_physical_snapshot": 89,
+    "all_experimental_code_data_protocols_and_result_reports_unchanged": true,
+    "all_catalogue_evidence_parameters_findings_limits_and_statuses_unchanged": true,
+    "reuse_notice_unchanged": true
+  },
+  "title_changes": {
+    "$.records[39].title": {
+      "previous": "Does the existing backend suite pass in an isolated offline test environment?",
+      "current": "Does the existing backend test suite pass in the isolated audit environment?"
+    },
+    "$.records[47].title": {
+      "previous": "Unitology, Borg and Resident Evil as adversarial thought experiments",
+      "current": "Can a collective flourish while erasing its participants’ possibilities?"
+    }
+  },
+  "baseline_integrity_repair": [
+    {
+      "path": "README.md",
+      "manifest_sha256": "8e4e0ba8d64b3fdea85229dcb5e908a493f9f271fd29c1c73cd30f3d78a855b0",
+      "current_sha256": "31ec3f50c2c58d32a69e0aecb984b87786465ccc1b48a0f773569fa0cb42b2d0",
+      "manifest_bytes": 5354,
+      "current_bytes": 5350
+    },
+    {
+      "path": "REPRODUCING.md",
+      "manifest_sha256": "4d8b300a28b6506a2a99bc043d89b506383e532ab3481f6f644325874d3af63b",
+      "current_sha256": "e2718e7f8764d657508bdfb4c55e32653dbab71f0d6ceb7be85142c583d73e31",
+      "manifest_bytes": 7947,
+      "current_bytes": 7943
+    }
+  ],
+  "integrity_limit": "Hashes identify these editorial bytes; not scientific validation or an independent signature.",
+  "historical_bindings": "Original source/protocol/certificate bindings remain historical; none was rebound to new reader prose."
+}

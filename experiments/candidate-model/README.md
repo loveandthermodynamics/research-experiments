@@ -1,6 +1,8 @@
-# Early candidate models and counterexamples
+# Can prediction, persistence or throughput stand in for care?
 
-This October 19, 2026 script contains synthetic calculations used to repair the Entropy Paradox research argument. It does not invoke Hestia, an LLM, a participant, or a physical entropy measurement. Its parameters, welfare criteria and normative objectives are supplied modeling choices.
+Love & Thermodynamics connects materially sustained life with questions of love, care and further flourishing. These early calculations ask which shortcuts that connection cannot rely on: useful throughput, accurate prediction and a durable whole can each leave important questions unanswered.
+
+The October 19, 2026 script was written during work under the earlier title *The Entropy Paradox*. It contains synthetic calculations, without invoking Hestia, an LLM, a participant, or a physical entropy measurement. Its parameters, welfare criteria and normative objectives are supplied modeling choices.
 
 [candidate-results.json](candidate-results.json) retains seven related families of checks:
 
@@ -15,6 +17,8 @@ This October 19, 2026 script contains synthetic calculations used to repair the 
 | `scaling_counterexample` | Shared fixed overhead plus linear cost can imitate a three-quarter power law over a limited range. The asymptotic exponent is one. |
 
 The [catalogue entry E01](../../CATALOGUE.md#e01) preserves each conditional result, adverse comparison and assumption. These calculations help specify later tests; they do not establish the theory's full claims.
+
+In the causal-policy check, equal protected prediction accuracy accompanies either meeting all the model's needs or deliberately meeting none. That counterexample rejects prediction accuracy as a sufficient criterion for care. It does not show an empirical learner failing to learn, and the supplied care weight in another check does not demonstrate learned morality. No calculation here tests the full proposal that new collective identities expand participants' possibilities while remaining responsible for them. [Exact targets and a discriminating developmental study](../../docs/interpreting-results.md).
 
 ## Reproduction
 

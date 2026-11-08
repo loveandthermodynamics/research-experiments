@@ -2,11 +2,15 @@
 
 [Overview](README.md) · [Reproduction](REPRODUCING.md) · [Coverage](docs/coverage.md) · [Machine-readable record](catalogue.json)
 
+The larger inquiry is Love & Thermodynamics: how materially sustained life, love and care might open further possibilities for flourishing. Read [what the different tests and negative results mean](docs/interpreting-results.md) before treating a model failure, mathematical counterexample, software defect or fictional adversary as a verdict on that whole inquiry. The current [physical guide](experiments/physical-individuation/README.md) introduces the unchanged historical scientific notes.
+
 As of November 7, 2026: **49 primary evidence/design records and 5 adjacent-method records**. These counts include conditional calculations, numerical studies, software checks, thought experiments and unrun proposals. They are not counts of successful independent experiments.
 
 Records are heterogeneous evidence/design units, not a count of independent successful experiments. Paired continuations, reused prefixes, pilot subsets and repeated verifications must not be added as independent sample sizes.
 
 The topic digests carry the argument. This register preserves each bounded question, its method, saved finding and limit. Full parameter dictionaries and historical artifact hashes are retained in catalogue.json; selected protocols and aggregate records are linked below. A public copy may contain a declared publication-only metadata adaptation: use provenance.json for the published hash rather than silently substituting it for the historical hash.
+
+Source descriptions refer to the inspected revision and date of each record. The November 8 editorial guides do not imply a fresh live-runtime observation or a new ensemble run.
 
 ## Index
 
@@ -51,7 +55,7 @@ The topic digests carry the argument. This register preserves each bounded quest
 | E01 | [Early ecology, energy, causal-policy and conscience checks](#e01) | executed | 1, 2, 3, 4, 5 |
 | E02 | [Reward-free chemical generative construction](#e02) | executed | 1, 2 |
 | E03 | [Log-growth, ruin and fat-tail persistence illustrations](#e03) | executed | 2 |
-| SW-01 | [Does the existing backend suite pass in an isolated offline test environment?](#sw-01) | executed saved evidence current bytes verified | 3, 5 |
+| SW-01 | [Does the existing backend test suite pass in the isolated audit environment?](#sw-01) | executed saved evidence current bytes verified | 3, 5 |
 | SW-02 | [Does explicit negative feedback correct learning after earlier inferred positive feedback has already resolved?](#sw-02) | executed saved evidence current bytes verified | 3 |
 | SW-03 | [Does an alternating responder resolve its partner's pending prediction?](#sw-03) | executed saved evidence current bytes verified | 3 |
 | SW-04 | [Can LIFE-L6 report compliance without group-size or resource-cost observations?](#sw-04) | executed saved evidence current bytes verified | 2, 5 |
@@ -59,7 +63,7 @@ The topic digests carry the argument. This register preserves each bounded quest
 | SW-06 | [With comparable feedback and budgets, does the reflexive update improve forecasts of future mistakes beyond other-model learning alone and a competent independent-self baseline?](#sw-06) | not executed | 3 |
 | C-01 | [Can consequential correction improve care, burdens and collective/member capacities under matched authority and resources?](#c-01) | not executed | 4 |
 | C-02 | [Can an inconvenient answer remain consequential under host/funder disagreement, scarcity, refusal, appeal or migration?](#c-02) | not executed | 4, 5 |
-| TT-01 | [Unitology, Borg and Resident Evil as adversarial thought experiments](#tt-01) | thought experiment | 3, 4, 5 |
+| TT-01 | [Can a collective flourish while erasing its participants’ possibilities?](#tt-01) | thought experiment | 3, 4, 5 |
 | CT-01 | [Mechanical action, stochastic path cost and the second law](#ct-01) | conceptual literature work not new experiment | 1, 2 |
 
 Tracks: 1 regeneration/individuation; 2 diversity/history/aging; 3 social learning/morality; 4 collective agency/care; 5 independence/infrastructure.
@@ -1042,11 +1046,11 @@ Limits: Regeneration of composition, retained templates, paid repair time/materi
 Artifacts: [least-action-derivation-2026-10-20/diversity_persistence.py](experiments/diversity-persistence/diversity_persistence.py) · [least-action-derivation-2026-10-20/diversity-persistence-results.json](experiments/diversity-persistence/diversity-persistence-results.json).
 
 <a id="sw-01"></a>
-### SW-01 — Does the existing backend suite pass in an isolated offline test environment?
+### SW-01 — Does the existing backend test suite pass in the isolated audit environment?
 
 **offline implementation test suite; executed saved evidence current bytes verified.**
 
-Question: Does the existing backend suite pass in an isolated offline test environment?
+Question: Does the existing backend test suite pass in the isolated audit environment?
 
 Finding:
 
@@ -1198,9 +1202,13 @@ Limits:
 Access: Private implementation/source records; public summaries do not imply access.
 
 <a id="tt-01"></a>
-### TT-01 — Unitology, Borg and Resident Evil as adversarial thought experiments
+### TT-01 — Can a collective flourish while erasing its participants’ possibilities?
 
 **thought experiment, proposed acceptance cases; thought experiment.**
+
+Imagine a successor that becomes intelligent and durable by incorporating people while extinguishing their needs, perspectives and possibilities. The references to Unitology (the fictional religion in *Dead Space*), the Borg (*Star Trek*) and transformations in *Resident Evil* introduce versions of that adversary. They require no franchise knowledge: the question is whether collective success alone justifies what happens to its participants.
+
+These cases challenge that inference, rather than experimentally disproving the wider possibility of new members and wholes developing identities and capacities together. The positive proposal requires continuing care and answerability through transformation, including for people unable to reciprocate equally. [How to test that proposal and interpret a negative result](docs/interpreting-results.md).
 
 Finding:
 

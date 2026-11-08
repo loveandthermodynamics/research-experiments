@@ -2,6 +2,8 @@
 
 [Overview](README.md) · [Catalogue](CATALOGUE.md) · [Provenance and reuse](NOTICE.md)
 
+First identify [what the result tests](docs/interpreting-results.md). Reproducing a failed formation criterion or a software defect confirms that finding; it does not turn the failed claim into a success. The November 8 reader guides interpret the existing record. Original October physical notes, code, protocols, data and historical hash bindings remain unchanged. Commit-pinned links retain their older text; the current branch carries the revised guides.
+
 There are four different operations here: checking the delivered bytes, rerunning a small calculation, replaying a saved event ledger, and regenerating a full ensemble. A successful operation supports its own scope. It does not establish that the model describes organisms, that the interpretation is novel, or that participants benefit.
 
 To check delivered bytes against [release-integrity.json](release-integrity.json), run `python scripts/verify_archive.py` from the repository root. That manifest intentionally excludes its own bytes and Git internals. It is a corruption/change check, not an independent signature or a scientific acceptance test.

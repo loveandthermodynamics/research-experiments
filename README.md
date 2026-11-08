@@ -1,8 +1,16 @@
 # Love & Thermodynamics: experiments to date
 
-This is the research record behind the [Love & Thermodynamics program](https://github.com/loveandthermodynamics/research-program). It asks how productive organization can renew the conditions that sustain it, how differentiation and further individuals might arise through that activity, and how human–AI collectives could develop through the continuing development of their participants.
+This is the experimental record of [Love & Thermodynamics](https://loveandthermodynamics.com/): an inquiry into what connects love and the physics of life. Living organization needs matter, energy and continuing renewal. The essays ask how love, care and moral courage take part in sustaining other lives and opening possibilities for further flourishing.
+
+The research tries to make parts of that argument testable. Chemical models investigate regeneration, differentiation and the formation of new individuals. Hestia investigates socially learned selfhood and moral agency in resource-constrained AI. Proposed collective studies ask whether cooperation can create new capacities and identities while developing its participants and remaining answerable for their care. These are connected questions with different kinds of evidence.
 
 The archive collects exploratory models, saved numerical studies, conditional mathematical results, software audits and proposed comparisons. It preserves failures as well as favorable outcomes. Conditional maintenance and renewal results do not yet establish reliable formation, a specialist advantage, a universal least-action derivation, open-ended biodiversity, or mutual flourishing.
+
+## What do the negative results mean?
+
+Some reject a particular inference, such as treating accurate prediction as care or complementary functions as proof of separate species. Others show that a declared chemical model failed its formation or benefit criteria. The Hestia checks reproduce implementation defects. Fictional cases ask what a proposed standard would permit; they are not experiments on collective development.
+
+Start with [what each kind of result tests](docs/interpreting-results.md). It explains the historical Unitology references, the positive developmental hypothesis, and what evidence would count against a specified realization. An open larger question does not turn a failed prediction into a success.
 
 ## Read by question
 
@@ -20,11 +28,13 @@ The [full catalogue](CATALOGUE.md) retains individual records and their evidence
 
 Selected historical research scripts, declared protocols, compact result summaries and supporting checks are versioned here with provenance. The original physical-study corpus contains thousands of traces and duplicate bundles. The [reproduction guide](REPRODUCING.md) states which evidence is included, which checks can run from this repository, and which full ensembles or private dependencies are omitted.
 
-The [Hestia audit probes](experiments/software-correctness/README.md) require a separately accessible, matching Hestia runtime. Its backend is not included in this archive. Their November 7 offline replay reproduced the three saved implementation defects; the historical 255-test suite is a separate conventional software check.
+The [Hestia feedback and measurement checks](experiments/software-correctness/README.md) require a separately accessible, matching Hestia runtime. Its backend is not included in this archive. Their November 7 replay reproduced the three saved implementation defects. “Offline” describes the method—synthetic inputs, isolated storage and blocked network access. The historical 255-test suite is a separate conventional software check.
 
 The fresh small physical checks include two replays that match saved numeric results but retain library warnings. In particular, a NumPy matrix-multiplication warning in the tail calculation remains a compatibility question for investigation. The [per-check report](verification/physical-small-replays-2026-11-07.json) retains the strict attempts, supplementary runs and their limits; this release is not labeled an all-clean replay of the physical archive.
 
 The [provenance manifest](provenance.json) identifies retained source bytes and publication adaptations. Raw conversations, participant records, provider traces, workstation logs, environment files and third-party papers are outside this snapshot. [Discovery coverage](docs/coverage.md) states the searched sources and limits on completeness.
+
+The November 8 reader guides clarify the existing evidence; they add no new experimental outcome. The [physical-study guide](experiments/physical-individuation/README.md) introduces the preserved October notes. Those dated notes, code, protocols and results retain their bytes. Links pinned to commit `97e283c` still show the original publication; use this repository's current branch for the revised guides.
 
 ## How to use the findings
 
