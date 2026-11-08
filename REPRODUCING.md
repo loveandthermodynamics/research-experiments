@@ -90,4 +90,4 @@ These scripts require separately agreed access to a matching private Hestia impl
 
 Name the record ID, source revision and actual environment. Link the command, input/protocol, output and what matched or differed. State whether the check was a mathematical calculation, numerical recomputation, event replay, conventional software test or a new scientific comparison. Preserve failed runs and distinguish an internal review from external scientific validation.
 
-Use the [research forum](https://love-and-thermodynamics.discourse.group/) for interpretation and the [program tracker](https://github.com/loveandthermodynamics/research-program/issues) for an agreed bounded contribution. Read [NOTICE.md](NOTICE.md) and agree any necessary access and reuse terms before substantial work.
+Use the [research forum](https://community.loveandthermodynamics.com/) for interpretation and the [program tracker](https://github.com/loveandthermodynamics/research-program/issues) for an agreed bounded contribution. Read [NOTICE.md](NOTICE.md) and agree any necessary access and reuse terms before substantial work.

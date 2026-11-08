@@ -32,6 +32,6 @@ An executed numerical model establishes what happened under its supplied equatio
 
 Useful next contributions include reconstructing an existing reference result, checking a declared comparator, reproducing a negative outcome, repairing a measurement, or specifying a resource-limited care comparison. Begin with one bounded question and say what would reject the claim. Further parameter searches should follow an explicit claim and prior-art comparison.
 
-Discuss interpretations in the [research forum](https://love-and-thermodynamics.discourse.group/). Use the [program issues](https://github.com/loveandthermodynamics/research-program/issues) and [work board](https://github.com/orgs/loveandthermodynamics/projects/1/views/2) for agreed deliverables. Link a correction to the record it changes, and retain the earlier finding as history rather than silently replacing it.
+Discuss interpretations in the [research forum](https://community.loveandthermodynamics.com/). Use the [program issues](https://github.com/loveandthermodynamics/research-program/issues) and [work board](https://github.com/orgs/loveandthermodynamics/projects/1/views/2) for agreed deliverables. Link a correction to the record it changes, and retain the earlier finding as history rather than silently replacing it.
 
 Read the [provenance and reuse notice](NOTICE.md). Public visibility does not settle a software license, access to private implementations, credit, compensation or contributor terms.
