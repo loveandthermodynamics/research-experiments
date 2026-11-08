@@ -21,6 +21,8 @@ The [full topic digest](../../docs/topics/individuation-regeneration.md) connect
 
 ## How this bears on the larger hypothesis
 
+For the human–AI constitutional part of the inquiry, [COSSHAIC](https://github.com/loveandthermodynamics/research-program/blob/main/docs/cosshaic.md) connects developing individual and collective cognition to authority, independent challenge and material support. The chemistry below supplies no constitutional permission or participant-care outcome; those claims need their own proposed studies.
+
 These failures constrain the tested mechanisms. A failed formation criterion cannot be replaced after the result by a favorable renewal count; an inconclusive benefit does not establish its absence. Exact counterexamples can reject a broader inference within their stated model class—for example, complementary roles do not require separate taxa when a generalist or one genotype can realize them.
 
 The proposed developmental sequence would require an organization that acquires new capacities, consequential relations among its participants, and further possibilities created by their interaction. No completed study here demonstrates that whole sequence. Human or AI care, changing identities and responsibility require additional evidence and moral argument beyond chemical performance.

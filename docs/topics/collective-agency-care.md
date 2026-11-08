@@ -4,6 +4,8 @@ Within Love & Thermodynamics, care means helping lives and possibilities continu
 
 Our Group Mind proposal extends prediction and correction to the collective level. A group commits to an expectation about members' evaluations, acts, receives their answers, revises its account of them and of itself, and changes a subsequent decision. Its history contains commitments, mistakes and repairs for which others can hold it answerable.
 
+**COSSHAIC** is the constitutional proposal connecting that collective cognition to legitimate, revisable authority and material support. Its [founding account](https://medium.com/love-and-thermodynamics/a-constitutional-operating-system-for-a-symbiotic-human-ai-civilization-48b1a99bf826) and [appendix](https://metalaureate.medium.com/appendix-to-a-constitutional-operating-system-for-a-symbiotic-human-ai-civilization-116d158ecedc) supply these commitments; the [study guide](https://github.com/loveandthermodynamics/research-program/blob/main/docs/cosshaic.md) connects them to open work. This names the architecture already behind the case, rather than declaring a new completed system.
+
 This digest brings together completed conceptual checks and the proposed care study. No human-benefit or collective-AI efficacy experiment has been completed in this evidence set.
 
 **The care case**
@@ -26,6 +28,8 @@ The software audit supplies another caution. Explicit feedback can alter a messa
 
 **The proposed comparison**
 
+Before the comparison, declare the cooperative's care rule, mandate and authority to act. Sam can authorize a bounded witness examination without authorizing general disclosure. Leila and Jo need a challenge route independent of the controller of the disputed account. The warranted correction must reach an authorized change to Leila's obligation, relief for Jo and continuity for Sam, with the cost of repair counted. The experiment must identify who may amend the rule or revoke representation. A recommendation, signed attestation or saved objection is not that whole chain.
+
 A bounded care-and-work environment would compare three arrangements:
 
 1. Ordinary coordination with an adequate record of the situation and the same constitutional protections.
@@ -45,6 +49,8 @@ A warranted correction should propagate into obligations that depended on the mi
 A cooperative may join an association and make promises of its own. The parent needs an authorized account of those commitments, with relevant challenges and qualifications intact. It need not inherit unrestricted access to each member's interior. Fair Witness names the proposed responsibility for that account, rather than an automatic guarantee of truth.
 
 We need to test whether an affected outsider's objection survives composition, whether a correction changes the parent's decision, and what happens when membership, authority or personnel changes. Constituting a group by assigning it a label would not demonstrate that a new individual had formed.
+
+COSSHAIC also asks whether experience changes the collective's purposes and what it can promise. Trace the authority for a revised commitment, the qualifications sent upward and the resources that make continuing care possible. Group and member identities may develop together; the proposed test concerns that new capacity and continuing answerability, not merely administration of an unchanged roster.
 
 A useful contribution is one failure remaining after an apparently successful correction, together with a specific relief or new capacity that would count as improvement. Another is a minimal scenario and independent scorer for the three-arm comparison. These are proposed experiments. Human participation would require a separate agreed protocol for consent, data and review after the simulated mechanics are reliable.
 

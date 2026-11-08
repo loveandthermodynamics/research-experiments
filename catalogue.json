@@ -4150,5 +4150,12 @@
     }
   ],
   "editorial_revision_as_of": "2026-11-08",
-  "interpretation_guide": "docs/interpreting-results.md"
+  "interpretation_guide": "docs/interpreting-results.md",
+  "constitutional_context": {
+    "framework": "COSSHAIC",
+    "source_guide": "https://github.com/loveandthermodynamics/research-program/blob/main/docs/cosshaic.md",
+    "status": "Published constitutional proposal with experimental components; no completed constitutional efficacy or reciprocal-development outcome is added.",
+    "relationship": "Hestia agent cognition, Group Mind collective cognition, and legitimate revisable authority/material support are distinct parts of the proposal.",
+    "evidence_limit": "Historical records and proposed C-01/C-02 retain their existing statuses, findings and limitations."
+  }
 }

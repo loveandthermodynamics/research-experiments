@@ -74,6 +74,14 @@
       "base_commit": "93fa6b02fd0a78dc9afe4fcf6673df1114e39448",
       "scope": "Reader-facing framing, test targets, fictional context and current reading guides; no new experimental outcome.",
       "historical_physical_source_bindings_unchanged": true
+    },
+    {
+      "as_of": "2026-11-08",
+      "manifest": "provenance/cosshaic-integration-2026-11-08.json",
+      "manifest_sha256": "14e2a6c72d71f60a78963b94e117905adc0691932c466a4a5197da9fb53c42d4",
+      "base_commit": "bc8aa2a6236973c77f5ff164af9ec2f4f816975a",
+      "scope": "COSSHAIC source attribution and constitutional integration in current reader guides; no experimental or status change.",
+      "historical_physical_source_bindings_unchanged": true
     }
   ]
 }

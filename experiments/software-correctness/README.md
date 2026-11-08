@@ -16,6 +16,8 @@ The first and third results show failures in the tested learning path. The secon
 
 The wider ambition concerns what new capacities agents and people could develop together, while remaining answerable for care and costs. See [what the negative results test](../../docs/interpreting-results.md), including why the historical fictional adversaries are conceptual cases rather than results of these software probes.
 
+[COSSHAIC](https://github.com/loveandthermodynamics/research-program/blob/main/docs/cosshaic.md) connects that developmental proposal to constitutional authority and material support. A corrected agent state is one prerequisite; a mandate, bounded witness evidence, independent challenge and an authorized changed act are separate parts of the proposed collective test. None is established by the three probes below.
+
 [results.json](results.json) preserves the three synthetic outputs and the separate historical 255-test suite summary. [manifest.json](manifest.json) identifies the reviewed working-tree bytes as well as the repository's then-current commit. A commit ID alone does not identify a dirty working tree. The initial blank-key test failure and later successful placeholder-key suite are separate historical attempts; the raw logs remain outside this public snapshot.
 
 ## Method: what “offline” means

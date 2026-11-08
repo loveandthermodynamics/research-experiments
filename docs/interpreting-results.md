@@ -4,6 +4,8 @@
 
 ## The positive hypothesis
 
+The human–AI constitutional proposal is named **COSSHAIC** in its [founding account](https://medium.com/love-and-thermodynamics/a-constitutional-operating-system-for-a-symbiotic-human-ai-civilization-48b1a99bf826) and [protected-selves appendix](https://metalaureate.medium.com/appendix-to-a-constitutional-operating-system-for-a-symbiotic-human-ai-civilization-116d158ecedc). It connects Hestia's agent cognition and Group Mind's collective cognition to legitimate authority, independent challenge and material support. The [current architecture/study guide](https://github.com/loveandthermodynamics/research-program/blob/main/docs/cosshaic.md) maps those existing commitments to the proposed comparisons.
+
 One proposal is that mutually sustaining activity can generate a new individual with capacities and an identity of its own. Its organization could, in turn, widen the possibilities of its participants: what they can perceive, learn, undertake and become. Their development could make further organization possible.
 
 For human–AI groups, the standard also asks who bears the costs, whether affected people can change collective action, and whether care continues for those unable to reciprocate equally. Members and wholes may change identity. Voluntary integration, dependence and sacrifice are possible; neither permanent separation nor a fixed membership roster is the criterion.
@@ -44,5 +46,7 @@ No completed study here measures new collective capacities, participants' develo
 2. Compare a capable ordinary arrangement and the proposed mechanisms under matched resources, information and authority. Retain care for dependent people, costs displaced onto others and changes in identity or membership.
 3. Follow objections into subsequent learning, allocations and action. Record whose circumstances can change a decision, including affected outsiders.
 4. State in advance what would reject the proposed mechanism: absent capacity gains, a matching or better baseline, benefits bought by displaced harms, or correction that never changes action.
+
+For a COSSHAIC case, also name whose mandate authorizes the act, what a witness may examine or attest, how a challenge can bypass the disputed account's controller, and which funded repair or subsequent commitment changes. Follow qualifications and corrections into a parent association's account without granting access to every member's interior. Purposes and authority may change through the process; measure that development rather than assuming a fixed collective identity. These are proposed causal tests, not new outcomes added to the historical record.
 
 Such an outcome must count against the specified developmental claim. It can motivate a different hypothesis, which needs a new comparison. The existing chemical and software findings help define prerequisites and exclude shortcuts; they have not yet demonstrated reciprocal development or derived flourishing from physics.

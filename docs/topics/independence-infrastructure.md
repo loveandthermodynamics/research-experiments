@@ -2,6 +2,8 @@
 
 The work of care needs material support. Within Love & Thermodynamics, this track asks what lets a person or agent continue developing and answering for itself within a relationship, even when the party supplying resources dislikes its answer. New collective identities and capacities do not remove obligations to those who depend on them. The [interpretation guide](../interpreting-results.md) separates this proposed developmental test from existing calculations and software defects.
 
+This is a material part of **COSSHAIC**, the proposed constitutional architecture for symbiotic human–AI collectives. Its [founding account](https://medium.com/love-and-thermodynamics/a-constitutional-operating-system-for-a-symbiotic-human-ai-civilization-48b1a99bf826) and [protected-selves appendix](https://metalaureate.medium.com/appendix-to-a-constitutional-operating-system-for-a-symbiotic-human-ai-civilization-116d158ecedc) connect authority, independent answers and replenishment. The [architecture/study guide](https://github.com/loveandthermodynamics/research-program/blob/main/docs/cosshaic.md) distinguishes the source commitments from their still-unexecuted institutional tests.
+
 A relationship can allow someone to speak while making disagreement materially impossible. A host may protect an agent's encrypted memory and still control whether it continues executing. An institution may permit objections while controlling housing, care, income or the resources needed to appeal.
 
 The research question concerns that maintenance problem. Who supplies continued support, who can withhold it, and what happens after refusal? Can a participant challenge an account, obtain correction or negotiate a transition without losing unrelated basic support? These questions connect Hestia's computational economy to the constitutional work on shared reserves, funded commitments and recursively accountable groups.
@@ -29,6 +31,8 @@ These are executable scenario-income rules. They do not establish a chain from u
 The [software evidence record](../../experiments/software-correctness/README.md) keeps these facts separate from costed cognition and from resource-policy proposals. Before interpreting population survival, we need to declare who pays, what counts as earned income, what is a research subsidy, and which actual costs are charged. A script that creates credits cannot by itself supply the external resources those credits represent.
 
 **The next bounded test**
+
+The constitutional encounter should name the mandate, who can change it, and an appeal that does not depend on the disputed witness's permission. Test privileged access that supplies an answer early separately from power to rewrite or suppress the respondent. Then trace a warranted challenge into the authorized act, funded support and qualifications passed to a parent. State the resource ceiling and obligations that remain through refusal or transition; neither an interface nor a ledger makes that continuity automatic.
 
 One useful starting point is a single host-agent-human relationship with a fixed reserve and an explicit controller of replenishment. Commit the authorized purpose and resource obligations before introducing a conflict. Then present a correction the funder dislikes.
 

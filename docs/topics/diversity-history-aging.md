@@ -1,5 +1,7 @@
 # Diversity, History & Aging
 
+The [COSSHAIC architecture guide](https://github.com/loveandthermodynamics/research-program/blob/main/docs/cosshaic.md) connects the wider developmental question to proposed human–AI constitutions. The physical results here retain their own targets; none measures collective authority, moral permission or achieved participant flourishing.
+
 *When different responses help continued organization, what regeneration costs, and why turnover alone does not establish aging.*
 
 Love & Thermodynamics asks how life can open possibilities for further life. Here that ambition becomes a conditional question about the functions different beings or processes can sustain together, and the work of keeping those differences possible. More labels, longer survival and greater throughput are not interchangeable measures of flourishing. [How to read the counterexamples and failed benefit claims](../interpreting-results.md).

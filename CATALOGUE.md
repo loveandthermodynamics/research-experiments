@@ -1,5 +1,7 @@
 # Experiment and evidence catalogue
 
+The human–AI constitutional proposal is [COSSHAIC](https://github.com/loveandthermodynamics/research-program/blob/main/docs/cosshaic.md). Its guide connects agent/collective cognition to authority, independent challenge, care and funded commitments. This is current architectural context, not a reclassification of the historical records as constitutional validation.
+
 [Overview](README.md) · [Reproduction](REPRODUCING.md) · [Coverage](docs/coverage.md) · [Machine-readable record](catalogue.json)
 
 The larger inquiry is Love & Thermodynamics: how materially sustained life, love and care might open further possibilities for flourishing. Read [what the different tests and negative results mean](docs/interpreting-results.md) before treating a model failure, mathematical counterexample, software defect or fictional adversary as a verdict on that whole inquiry. The current [physical guide](experiments/physical-individuation/README.md) introduces the unchanged historical scientific notes.

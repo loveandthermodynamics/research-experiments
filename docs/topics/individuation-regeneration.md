@@ -95,3 +95,5 @@ A maintained candidate would also need consequential damage history, inherited c
 This is the physical part of the larger inquiry. A durable whole may still consume its participants' possibilities. Chemical integration cannot decide the ethics of sacrifice or fusion, and these studies do not demonstrate Hestia moral development. Their contribution is a more precise account of which generative mechanisms work, which failed, and what the next organization must be shown to do.
 
 [Browse the physical archive](../../experiments/physical-individuation/) · [Diversity, History & Aging](diversity-history-aging.md)
+
+For the human–AI constitutional part of this inquiry, read [COSSHAIC's role and proposed tests](https://github.com/loveandthermodynamics/research-program/blob/main/docs/cosshaic.md). These physical results do not establish its authority, care or participant-development claims.

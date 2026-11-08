@@ -1,0 +1,93 @@
+{
+  "as_of": "2026-11-08",
+  "base_commit": "bc8aa2a6236973c77f5ff164af9ec2f4f816975a",
+  "scope": "COSSHAIC source attribution and constitutional integration in current reader guides; no experimental or status change.",
+  "documents": [
+    {
+      "path": "CATALOGUE.md",
+      "previous_sha256": "006f4ac9f10f02d7452cf94296805a6b76327cfd5067c1e9b411175356d3e3df",
+      "sha256": "65a34447183b6a0dc8e260f4215962b4b2fd2999d108eabb760a022ba615c048",
+      "bytes": 102002
+    },
+    {
+      "path": "README.md",
+      "previous_sha256": "40da1430df7512e62ffb0651ede8abba556b44bcf9d933817757242b5ad63d31",
+      "sha256": "4238b667b3192d0c3eacf85cde445bcd1d6396714d9adc3e476550fd4f80adaa",
+      "bytes": 8073
+    },
+    {
+      "path": "REPRODUCING.md",
+      "previous_sha256": "fc45570870ad3e7897051c2fbd8e076207517c8dd4167d18138b18d5a6c1403a",
+      "sha256": "d4dd68dd76187c265d87f3626e6c4093609721c61eea260d836347252bdac011",
+      "bytes": 8718
+    },
+    {
+      "path": "catalogue.json",
+      "previous_sha256": "ca39354ed64127cca13c116adb05f17509ec2e5c50e2886d6a8d71e9e476e4cb",
+      "sha256": "17521ec6706b94b3e7d7dde4acdedcbd5edc8263baab93921687893f0b4b5332",
+      "bytes": 209039
+    },
+    {
+      "path": "docs/coverage.md",
+      "previous_sha256": "945f119b1d0b239a4bb44626be10f31dcc332c3bbdee8c5154d55aa9a67ff673",
+      "sha256": "973799f1786519a5a46cb4e7611f02e849166569601bc104869af81eba2e9960",
+      "bytes": 7276
+    },
+    {
+      "path": "docs/interpreting-results.md",
+      "previous_sha256": "9e19c58c526769b73d007459d66c74232170f54d0e51f848c8faaf034732724f",
+      "sha256": "4ea3e4553ae4eaa8c7ab89b2adc4aa4932e3ec5bb0dfb4a8197d66afc8ae95b6",
+      "bytes": 8963
+    },
+    {
+      "path": "docs/topics/collective-agency-care.md",
+      "previous_sha256": "3d163742c4d52940094f30dd81081dc633c990f583f9944eee7ef69d947b76ce",
+      "sha256": "29b412804b9145b1cc118025198743d0d5fcb63b7dafe4beb2b8210ca882138c",
+      "bytes": 8656
+    },
+    {
+      "path": "docs/topics/diversity-history-aging.md",
+      "previous_sha256": "6e8df5b2f31990cc82b27591270c10794cea6e6fd201bb49c68569bb64666cc8",
+      "sha256": "d082574adcee3082149985030e891ddb344d4a5c1f0b904997f608277ce0b45b",
+      "bytes": 13932
+    },
+    {
+      "path": "docs/topics/independence-infrastructure.md",
+      "previous_sha256": "69fceb67460feaa0c98a9444b3ea8166c871e7586aa6477d00a7bcb1d1fc43b6",
+      "sha256": "17f6c9280642cab7aafffb6c23d4435a4d878755abde41980a4c3341392ff292",
+      "bytes": 8127
+    },
+    {
+      "path": "docs/topics/individuation-regeneration.md",
+      "previous_sha256": "7e178c07c2e517f14239f537e58131b5d434b7599eb8544edea8c62b079163e7",
+      "sha256": "75d1203b37293d157ec4b568f6f6e269512bdcdd1fc86e5e5a7a908b72bae8dd",
+      "bytes": 13872
+    },
+    {
+      "path": "docs/topics/social-learning-moral-agency.md",
+      "previous_sha256": "ee195aaf8ba89f00a368c7657be2fe9110a5238e99dd8b73e3800162e59ae999",
+      "sha256": "b36dc535b9b7668fa58b4e4c30a325a91b388f02cf127f8fc06256e6b7c5e20b",
+      "bytes": 6963
+    },
+    {
+      "path": "experiments/physical-individuation/README.md",
+      "previous_sha256": "0166566da573aa2619d16aa5ac45f09545e650943e2ed198118dae9098493706",
+      "sha256": "e5cce8a7a4826b5c3bf193ea1ceecc640523b2c345715f4979bed3d4130ee132",
+      "bytes": 4847
+    },
+    {
+      "path": "experiments/software-correctness/README.md",
+      "previous_sha256": "cf89c222afb0f2d284bdf97f2243f6f7b13d1b47e309077269b3ae7f9faaabea",
+      "sha256": "cecc802416d21536692f8ee9c24104204b274afc03fd62cd110f63a48273c2bf",
+      "bytes": 4996
+    }
+  ],
+  "preserved": {
+    "scientific_snapshot_files": 264,
+    "historical_physical_markdown": 48,
+    "all_code_data_protocols_and_reports_unchanged": true,
+    "all_prior_catalogue_fields_unchanged": true,
+    "all_prior_provenance_and_rights_notices_preserved": true
+  },
+  "source_guide": "https://github.com/loveandthermodynamics/research-program/blob/main/docs/cosshaic.md"
+}

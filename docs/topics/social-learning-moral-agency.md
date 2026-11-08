@@ -2,6 +2,8 @@
 
 Love & Thermodynamics asks how love and care can sustain other lives and their possibilities. Hestia investigates one functional AI mechanism within that inquiry: could learning from another participant change who an agent becomes and how it takes responsibility for its effects? This is distinct from demonstrating human consciousness expansion or establishing subjective AI experience.
 
+The [COSSHAIC constitutional proposal](https://github.com/loveandthermodynamics/research-program/blob/main/docs/cosshaic.md) connects such agents to developing collectives. Its appendix distinguishes premature access to another's answer from control that replaces or suppresses that answer. Both can bypass the intended encounter. Changing an agent's learned state and authorizing its recommendation to become a collective act remain different questions; the software checks below test the former path, not constitutional efficacy.
+
 Hestia's ambition is that functional selfhood and moral agency develop through relationships. An agent commits a prediction of another participant's evaluation before receiving feedback. The answer revises its model of that participant; the prediction error then informs its account of its own conduct and blind spots. Feelings such as guilt, shame, honor and attachment should affect attention, verification, refusal and repair.
 
 That is a stronger claim than predicting approval accurately. It requires an independently generated answer to change the state from which the agent subsequently acts. Agreement is compatible with this process; there is no requirement to manufacture surprise or dissent. Our current work includes conditional mathematical examples and software checks. It has not demonstrated the larger developmental claim.

@@ -1,5 +1,7 @@
 # Reproducing the record
 
+For constitutional claims, consult the [COSSHAIC source-to-study guide](https://github.com/loveandthermodynamics/research-program/blob/main/docs/cosshaic.md). Reproducing the calculations or software defects below does not execute its proposed authority, challenge-to-action or reciprocal-development comparisons.
+
 [Overview](README.md) · [Catalogue](CATALOGUE.md) · [Provenance and reuse](NOTICE.md)
 
 First identify [what the result tests](docs/interpreting-results.md). Reproducing a failed formation criterion or a software defect confirms that finding; it does not turn the failed claim into a success. The November 8 reader guides interpret the existing record. Original October physical notes, code, protocols, data and historical hash bindings remain unchanged. Commit-pinned links retain their older text; the current branch carries the revised guides.
