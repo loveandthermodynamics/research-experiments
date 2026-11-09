@@ -46,4 +46,4 @@ Useful next contributions include reconstructing an existing reference result, c
 
 Discuss interpretations in the [research forum](https://community.loveandthermodynamics.com/). Use the [program issues](https://github.com/loveandthermodynamics/research-program/issues) and [work board](https://github.com/orgs/loveandthermodynamics/projects/1/views/2) for agreed deliverables. Link a correction to the record it changes, and retain the earlier finding as history rather than silently replacing it.
 
-Read the [provenance and reuse notice](NOTICE.md). Public visibility does not settle a software license, access to private implementations, credit, compensation or contributor terms.
+Read the [provenance and reuse notice](NOTICE.md). Public visibility does not settle a software license, access to private implementations, credit or contributor terms. [Contributions to the program are voluntary and unfunded](https://github.com/loveandthermodynamics/research-program#funding-and-control).

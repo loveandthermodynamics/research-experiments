@@ -32,11 +32,11 @@ Before the comparison, declare the cooperative's care rule, mandate and authorit
 
 A bounded care-and-work environment would compare three arrangements:
 
-1. Ordinary coordination with an adequate record of the situation and the same constitutional protections.
-2. Coordination with a contestable account, consequential corrections and stated constitutional protections.
+1. Competent human coordination using the adopted care-leave rule, an ordinary rota and hours ledger, and the same available relief resources. [C-01 ordinary coordination comparator](https://github.com/loveandthermodynamics/research-program/blob/main/docs/experiments.md#c-01-ordinary-coordination-comparator)
+2. Coordination with a structured contestable account and consequential corrections.
 3. The same arrangement with Hestia's additional prediction, self-model and feeling mechanisms.
 
-Information, authority, action opportunities, resource ceilings and constitutional protections must match. An ordinary coordinator should not be deliberately deprived of context to make Hestia appear helpful. The comparison should distinguish the value of a contestable account from any additional value of agent cognition.
+The adopted care rule, relevant information, mandate, authority, opportunities to act, resource ceilings and constitutional protections must match. The comparison should distinguish the value of a structured contestable account from any additional value of agent cognition.
 
 Outcomes include care delivered, unequal burden, correction effort, privacy exposure, refusal consequences and newly enabled capabilities. An independent scorer must inspect actual allocations and changes. Increased engagement, reputation or internal fitness cannot replace those outcomes.
 
