@@ -35,8 +35,8 @@
     },
     {
       "path": "REPRODUCING.md",
-      "bytes": 11017,
-      "sha256": "3ddc4b8e368b2be08e769ff2823ee57b0238b413f57398fb684076214ea0d513"
+      "bytes": 11052,
+      "sha256": "4880fa8296fb5d3a31ed8e8e77e17913992b5ba085df6f619027f89f7297b88e"
     },
     {
       "path": "catalogue.json",
@@ -115,8 +115,8 @@
     },
     {
       "path": "experiments/generative-chemistry/README.md",
-      "bytes": 2785,
-      "sha256": "438cd1a0ede0ce5261916a49eb4ca580b95784b22b2ef57386c8362ae8053aa6"
+      "bytes": 2935,
+      "sha256": "9cc3af4adce1b138790f66c563172c8839753016d197ad0410c42f932b2ffc39"
     },
     {
       "path": "experiments/generative-chemistry/generative-dynamics.png",
