@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-08",
+  "as_of": "2026-11-25",
   "scope": "Current delivered bytes; excludes this manifest and Git/cache internals. Historical scientific bindings remain separate.",
   "files": [
     {
@@ -14,19 +14,29 @@
       "sha256": "65a34447183b6a0dc8e260f4215962b4b2fd2999d108eabb760a022ba615c048"
     },
     {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18656,
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    },
+    {
+      "path": "LICENSES/MIT.txt",
+      "bytes": 1070,
+      "sha256": "555d4d5c6aa08d315d4ce002dd24889f115d7286261704f5d014e2e1e38b73a2"
+    },
+    {
       "path": "NOTICE.md",
-      "bytes": 1546,
-      "sha256": "b78c4f3e78d237224d8f02f325ec847c33141033f8268b5a8b29e9cae857dae3"
+      "bytes": 3073,
+      "sha256": "2e0ad6894725da2bf3d7b33de5f7772a2a358c0b4562e9ec46d45ada7944b300"
     },
     {
       "path": "README.md",
-      "bytes": 8073,
-      "sha256": "4238b667b3192d0c3eacf85cde445bcd1d6396714d9adc3e476550fd4f80adaa"
+      "bytes": 8389,
+      "sha256": "8bf72e35243bf66a1a1101d9f08b53b29abde50315f0b01ac92a7d2b3e813522"
     },
     {
       "path": "REPRODUCING.md",
-      "bytes": 8718,
-      "sha256": "d4dd68dd76187c265d87f3626e6c4093609721c61eea260d836347252bdac011"
+      "bytes": 11052,
+      "sha256": "4880fa8296fb5d3a31ed8e8e77e17913992b5ba085df6f619027f89f7297b88e"
     },
     {
       "path": "catalogue.json",
@@ -45,8 +55,8 @@
     },
     {
       "path": "docs/topics/collective-agency-care.md",
-      "bytes": 8656,
-      "sha256": "29b412804b9145b1cc118025198743d0d5fcb63b7dafe4beb2b8210ca882138c"
+      "bytes": 8785,
+      "sha256": "b91616a36bfc10d2c073baedd8949b089ba693fc9526fe7430279cd6563fb59a"
     },
     {
       "path": "docs/topics/diversity-history-aging.md",
@@ -105,8 +115,8 @@
     },
     {
       "path": "experiments/generative-chemistry/README.md",
-      "bytes": 2785,
-      "sha256": "438cd1a0ede0ce5261916a49eb4ca580b95784b22b2ef57386c8362ae8053aa6"
+      "bytes": 2935,
+      "sha256": "9cc3af4adce1b138790f66c563172c8839753016d197ad0410c42f932b2ffc39"
     },
     {
       "path": "experiments/generative-chemistry/generative-dynamics.png",
@@ -1445,8 +1455,8 @@
     },
     {
       "path": "experiments/software-correctness/README.md",
-      "bytes": 4996,
-      "sha256": "cecc802416d21536692f8ee9c24104204b274afc03fd62cd110f63a48273c2bf"
+      "bytes": 5092,
+      "sha256": "bf64ae962abcf306d80d45eef11611c65e650650a847b57762c2355f8c1a8ab8"
     },
     {
       "path": "experiments/software-correctness/audit_probes.py",
@@ -1475,8 +1485,8 @@
     },
     {
       "path": "provenance.json",
-      "bytes": 4681,
-      "sha256": "08b6e1c1bf0edb5ea5d625fb8b444d3685e4ece62e963fec6b04a12be25233aa"
+      "bytes": 4768,
+      "sha256": "93cb085bee77f17965aaa466f5337cecf8102d83aee842ed679d81d9eb0243da"
     },
     {
       "path": "provenance/cosshaic-integration-2026-11-08.json",

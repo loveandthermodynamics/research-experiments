@@ -18,6 +18,6 @@ The source declares NumPy, SciPy and Matplotlib dependencies and requires Python
 uv run --no-project generative_model.py
 ```
 
-For controlled comparisons, use the pinned reference dependencies in [REPRODUCING.md](../../REPRODUCING.md) and record the versions actually used. The [November 7 physical check](../../verification/physical-small-replays-2026-11-07.json) matched all 260 saved numeric values in this suite. Its ordinary-mode execution also retained plotting deprecation warnings; the strict warning-as-error attempt is recorded separately. The original scientific source was not edited to suppress them.
+For controlled comparisons, use the pinned reference dependencies in [REPRODUCING.md](../../REPRODUCING.md) and record the versions actually used. The [November 7 physical check](../../verification/physical-small-replays-2026-11-07.json) reported 260 matching numeric values, counting three Boolean results. A November 25 public rerun matched every saved field, including the 257 numbers, three Boolean results and 24 text or null entries. Its ordinary-mode execution also retained plotting deprecation warnings; the strict warning-as-error attempt is recorded separately. The original scientific source was not edited to suppress them.
 
 No new stochastic ensemble or biological experiment is implied by that replay. Read [NOTICE.md](../../NOTICE.md) for provenance and reuse status.

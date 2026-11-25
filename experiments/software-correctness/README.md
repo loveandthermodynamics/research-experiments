@@ -39,4 +39,4 @@ The runner forces in-memory SQLite, channels and Celery configuration, supplies 
 
 The proposed next scientific study compares the full reflexive loop, an ablation and a competent independent-self baseline under matched feedback and resources. These characterization probes do not run that comparison. See the [social-learning digest](../../docs/topics/social-learning-moral-agency.md) for its role in the wider program.
 
-Read the repository's [reuse notice](../../NOTICE.md) before treating public visibility as a software license.
+The two public probe scripts carry the MIT License. Their published synthetic results carry CC BY 4.0. A rerun still requires access to the matching private runtime. [Archive reuse notice](../../NOTICE.md).
