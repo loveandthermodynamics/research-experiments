@@ -10,6 +10,16 @@ There are four different operations here: checking the delivered bytes, rerunnin
 
 To check delivered bytes against [release-integrity.json](release-integrity.json), run `python scripts/verify_archive.py` from the repository root. That manifest intentionally excludes its own bytes and Git internals. It is a corruption/change check, not an independent signature or a scientific acceptance test.
 
+## What you can reproduce from the public archive
+
+| Question | What you can check |
+| --- | --- |
+| Can two policies make equally accurate forecasts and make opposite choices about care? When does diversity help a population persist through losses? | **Full public rerun.** The [candidate model](experiments/candidate-model/) and [persistence model](experiments/diversity-persistence/) include their inputs, code and expected outputs. Run `python scripts/replay_quick.py` from the repository root. It compares every saved field within the stated tolerances. |
+| Does a supplied reaction system produce the succession reported in E02? | **Full public numerical rerun.** Follow the [model instructions](experiments/generative-chemistry/#reproduction). The recorded replay matched all 260 saved numeric values. Plotting raised a deprecation warning. |
+| Do the early lattice and wound runs add up event by event? | **Full replay of the saved ledgers.** The [lattice verifier](experiments/physical-individuation/verify_lattice_replay.py) and [wound verifier](experiments/physical-individuation/verify_integrity.py) use the public event files. The [small-check report](verification/physical-small-replays-2026-11-07.json) also identifies the individual mathematical certificates checked and the warnings recorded. |
+| Can I reconstruct every trajectory behind the later formation and maintenance tables? | The public summaries, protocols and code let you inspect the reported comparisons. A full historical replay needs the omitted trajectories and original protocol bindings. Generating fresh trajectories is a new run, even if you reuse a seed. [Full stochastic ensembles](#full-stochastic-ensembles). |
+| Can I rerun the three Hestia defects or check whether independent challenges change a group's decisions? | The three defect reports and their probe code are public. Rerunning them needs the matching private Hestia runtime. The [held-out learning and collective studies (H-02, C-01 and C-02)](https://github.com/loveandthermodynamics/research-program/blob/main/docs/experiments.md#proposed-starting-points) are proposals. You can critique their designs from the public texts. They have no outcomes to reproduce. |
+
 ## Preserve the historical outputs
 
 Many original scripts write result JSON, certificates or figures beside themselves. Use disposable copies. Do not run an output-producing script in the original research corpus or overwrite a frozen protocol in order to make a check pass. The quick replay helper below creates temporary copies automatically.
@@ -94,4 +104,4 @@ These scripts require separately agreed access to a matching private Hestia impl
 
 Name the record ID, source revision and actual environment. Link the command, input/protocol, output and what matched or differed. State whether the check was a mathematical calculation, numerical recomputation, event replay, conventional software test or a new scientific comparison. Preserve failed runs and distinguish an internal review from external scientific validation.
 
-Use the [research forum](https://community.loveandthermodynamics.com/) for interpretation and the [program tracker](https://github.com/loveandthermodynamics/research-program/issues) for an agreed bounded contribution. Read [NOTICE.md](NOTICE.md) and agree any necessary access and reuse terms before substantial work.
+Use the [research forum](https://community.loveandthermodynamics.com/) for interpretation and the [program tracker](https://github.com/loveandthermodynamics/research-program/issues) for an agreed bounded contribution. Use the [archive licenses](NOTICE.md) when sharing public code or results. Agree credit and scope for a new collaboration, or access to private materials, with the people involved.

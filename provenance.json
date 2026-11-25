@@ -54,7 +54,7 @@
     "verification/physical-small-replays-2026-11-07.json",
     "experiments/software-correctness/replay-verification.json"
   ],
-  "reuse_status": "No new software/data license selected. Existing notices retained; terms must be agreed separately. Specification CC BY-NC terms are not silently applied to all code.",
+  "reuse_status": "The 2026-11-07 snapshot recorded no new license. As of 2026-11-25 project-owned public experiment and verification code is MIT, and project-owned public research data and result tables are CC BY 4.0. See NOTICE.md for scope, attribution and exclusions.",
   "omissions": [
     "Full pilot/confirmation/ensemble/preparation/continuation .json.gz histories",
     "Per-record audit caches",
